@@ -1,0 +1,38 @@
+[2026-04-11 01:33:32] Fine-grained ablation starts
+Project=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master
+DataRoot=/root/autodl-tmp/dataset/cottonweed
+Model=deeplabv3plus_mobilenet, TotalItrs=40, ValInterval=40
+[2026-04-11 01:33:32] START baseline
+[2026-04-11 01:33:32] EXP=cottonweed_deeplabv3plus_mobilenet_baseline_itr40_20260411_013332
+[2026-04-11 01:33:32] LOG=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_mobilenet_baseline_itr40_20260411_013332.log
+[2026-04-11 01:33:32] ARGS=--aspp_variant standard
+[2026-04-11 01:33:32] PID=17182
+[2026-04-11 01:36:00] FINISH baseline
+[2026-04-11 01:36:00] START fg_fusion
+[2026-04-11 01:36:00] EXP=cottonweed_deeplabv3plus_mobilenet_fg_fusion_itr40_20260411_013332
+[2026-04-11 01:36:00] LOG=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_mobilenet_fg_fusion_itr40_20260411_013332.log
+[2026-04-11 01:36:00] ARGS=--aspp_variant standard --enable_fg_fusion
+[2026-04-11 01:36:00] PID=17870
+[2026-04-11 01:38:38] FINISH fg_fusion
+[2026-04-11 01:38:38] START improved_aspp_dense
+[2026-04-11 01:38:38] EXP=cottonweed_deeplabv3plus_mobilenet_improved_aspp_dense_itr40_20260411_013332
+[2026-04-11 01:38:38] LOG=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_mobilenet_improved_aspp_dense_itr40_20260411_013332.log
+[2026-04-11 01:38:38] ARGS=--aspp_variant dense --dense_aspp_rates 1,3,6,12,18
+[2026-04-11 01:38:38] PID=18551
+[2026-04-11 01:41:09] FINISH improved_aspp_dense
+[2026-04-11 01:41:09] START texture_enhance
+[2026-04-11 01:41:09] EXP=cottonweed_deeplabv3plus_mobilenet_texture_enhance_itr40_20260411_013332
+[2026-04-11 01:41:09] LOG=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_mobilenet_texture_enhance_itr40_20260411_013332.log
+[2026-04-11 01:41:09] ARGS=--aspp_variant standard --enable_texture_enhance
+[2026-04-11 01:41:09] PID=19207
+[2026-04-11 01:43:36] FINISH texture_enhance
+[2026-04-11 01:43:36] START full_model
+[2026-04-11 01:43:36] EXP=cottonweed_deeplabv3plus_mobilenet_full_model_itr40_20260411_013332
+[2026-04-11 01:43:36] LOG=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_mobilenet_full_model_itr40_20260411_013332.log
+[2026-04-11 01:43:36] ARGS=--aspp_variant deform --enable_fg_fusion --enable_texture_enhance --enable_decoder_detail
+[2026-04-11 01:43:36] PID=19862
+[2026-04-11 01:46:12] FINISH full_model
+Report generated: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/finegrained_report_20260411_013332.md
+Experiments summarized: 5
+[2026-04-11 01:46:12] All runs finished
+Master log: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/nohup_finegrained_ablation_20260411_013332.log

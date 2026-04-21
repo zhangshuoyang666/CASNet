@@ -1,0 +1,425 @@
+Run directory: ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] attention_type=spatial_cbam, fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False, use_saff=True, saff_f1_source=mid, saff_f2_source=aspp
+/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py:581: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(opts.ckpt, map_location=torch.device('cpu'))
+Model restored from ./workdirs/exp_spatial_cbam_saff_boundaryaux_itr1600/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 1, Itrs 10/1600, total_loss=0.077910, seg_loss=0.072951, edge_loss=0.049582, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 20/1600, total_loss=0.089848, seg_loss=0.085252, edge_loss=0.045961, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 30/1600, total_loss=0.067959, seg_loss=0.062774, edge_loss=0.051853, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.47s/it]2it [00:12,  5.91s/it]3it [00:17,  5.23s/it]4it [00:21,  4.83s/it]5it [00:25,  4.80s/it]6it [00:30,  4.61s/it]7it [00:34,  4.55s/it]8it [00:39,  4.50s/it]9it [00:43,  4.55s/it]10it [00:47,  4.41s/it]11it [00:52,  4.40s/it]12it [00:56,  4.32s/it]13it [01:01,  4.49s/it]14it [01:05,  4.45s/it]15it [01:10,  4.63s/it]16it [01:14,  4.52s/it]17it [01:19,  4.54s/it]18it [01:23,  4.47s/it]19it [01:28,  4.51s/it]20it [01:32,  4.47s/it]21it [01:37,  4.60s/it]22it [01:42,  4.71s/it]23it [01:47,  4.86s/it]24it [01:52,  4.69s/it]25it [01:57,  4.76s/it]26it [02:01,  4.69s/it]27it [02:05,  4.61s/it]28it [02:10,  4.48s/it]29it [02:14,  4.57s/it]30it [02:19,  4.46s/it]31it [02:23,  4.45s/it]32it [02:27,  4.36s/it]33it [02:32,  4.39s/it]34it [02:36,  4.37s/it]35it [02:41,  4.50s/it]36it [02:45,  4.41s/it]37it [02:47,  3.81s/it]37it [02:47,  4.54s/it]
+
+Overall Acc: 0.988671
+Mean Acc: 0.969649
+FreqW Acc: 0.977959
+Mean IoU: 0.937998
+Class IoU:
+	class 0: 0.987507
+	class 1: 0.925958
+	class 2: 0.900529
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.75     99.26     99.37     98.87     93.80     96.96     96.76     32        1       
+abuth         92.60     97.41     96.16                                                               
+cotton        90.05     94.22     94.77                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 1.01%
+  abuth -> cotton confusion: 0.05%
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.937998 best=0.937998 no_improve=0/5 min_delta=0.000100
+Epoch 2, Itrs 40/1600, total_loss=0.102017, seg_loss=0.096969, edge_loss=0.050474, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 50/1600, total_loss=0.118590, seg_loss=0.113794, edge_loss=0.047958, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 60/1600, total_loss=0.077054, seg_loss=0.072295, edge_loss=0.047590, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.10s/it]2it [00:12,  5.75s/it]3it [00:16,  5.17s/it]4it [00:21,  4.85s/it]5it [00:25,  4.75s/it]6it [00:29,  4.53s/it]7it [00:34,  4.47s/it]8it [00:38,  4.42s/it]9it [00:43,  4.49s/it]10it [00:47,  4.52s/it]11it [00:52,  4.55s/it]12it [00:56,  4.44s/it]13it [01:01,  4.56s/it]14it [01:05,  4.42s/it]15it [01:09,  4.43s/it]16it [01:14,  4.37s/it]17it [01:18,  4.40s/it]18it [01:22,  4.37s/it]19it [01:27,  4.56s/it]20it [01:32,  4.45s/it]21it [01:36,  4.54s/it]22it [01:40,  4.41s/it]23it [01:45,  4.53s/it]24it [01:49,  4.42s/it]25it [01:54,  4.53s/it]26it [01:59,  4.49s/it]27it [02:03,  4.46s/it]28it [02:07,  4.38s/it]29it [02:12,  4.52s/it]30it [02:16,  4.52s/it]31it [02:21,  4.59s/it]32it [02:25,  4.46s/it]33it [02:30,  4.44s/it]34it [02:34,  4.44s/it]35it [02:39,  4.51s/it]36it [02:43,  4.46s/it]37it [02:46,  3.83s/it]37it [02:46,  4.49s/it]
+
+Overall Acc: 0.989433
+Mean Acc: 0.971052
+FreqW Acc: 0.979382
+Mean IoU: 0.942087
+Class IoU:
+	class 0: 0.988154
+	class 1: 0.933165
+	class 2: 0.904941
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.82     99.33     99.40     98.94     94.21     97.11     96.99     64        2       
+abuth         93.32     97.46     96.54                                                               
+cotton        90.49     94.53     95.01                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.45%
+  abuth -> cotton confusion: 0.10%
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.942087 best=0.942087 no_improve=0/5 min_delta=0.000100
+Epoch 3, Itrs 70/1600, total_loss=0.075823, seg_loss=0.070822, edge_loss=0.050005, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 3, Itrs 80/1600, total_loss=0.105078, seg_loss=0.099213, edge_loss=0.058650, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 3, Itrs 90/1600, total_loss=0.060913, seg_loss=0.055350, edge_loss=0.055631, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.26s/it]2it [00:12,  5.91s/it]3it [00:17,  5.31s/it]4it [00:21,  4.90s/it]5it [00:26,  4.83s/it]6it [00:30,  4.65s/it]7it [00:34,  4.58s/it]8it [00:38,  4.45s/it]9it [00:43,  4.47s/it]10it [00:47,  4.42s/it]11it [00:52,  4.54s/it]12it [00:57,  4.54s/it]13it [01:01,  4.58s/it]14it [01:06,  4.49s/it]15it [01:10,  4.49s/it]16it [01:14,  4.42s/it]17it [01:19,  4.55s/it]18it [01:24,  4.48s/it]19it [01:28,  4.55s/it]20it [01:33,  4.48s/it]21it [01:37,  4.53s/it]22it [01:41,  4.43s/it]23it [01:46,  4.49s/it]24it [01:50,  4.44s/it]25it [01:55,  4.46s/it]26it [01:59,  4.49s/it]27it [02:04,  4.56s/it]28it [02:08,  4.46s/it]29it [02:13,  4.54s/it]30it [02:17,  4.44s/it]31it [02:22,  4.54s/it]32it [02:26,  4.46s/it]33it [02:31,  4.49s/it]34it [02:35,  4.47s/it]35it [02:40,  4.52s/it]36it [02:44,  4.46s/it]37it [02:47,  3.85s/it]37it [02:47,  4.52s/it]
+
+Overall Acc: 0.989187
+Mean Acc: 0.972277
+FreqW Acc: 0.978933
+Mean IoU: 0.941348
+Class IoU:
+	class 0: 0.987881
+	class 1: 0.930574
+	class 2: 0.905590
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.79     99.28     99.39     98.92     94.13     97.23     96.95     96        3       
+abuth         93.06     97.51     96.40                                                               
+cotton        90.56     94.90     95.05                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.30%
+  abuth -> cotton confusion: 0.18%
+[EarlyStop] metric=Mean IoU current=0.941348 best=0.942087 no_improve=1/5 min_delta=0.000100
+Epoch 4, Itrs 100/1600, total_loss=0.105675, seg_loss=0.100928, edge_loss=0.047466, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 4, Itrs 110/1600, total_loss=0.087078, seg_loss=0.082346, edge_loss=0.047319, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 4, Itrs 120/1600, total_loss=0.070110, seg_loss=0.065984, edge_loss=0.041262, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:07,  7.92s/it]2it [00:12,  5.72s/it]3it [00:16,  5.12s/it]4it [00:20,  4.72s/it]5it [00:25,  4.65s/it]6it [00:29,  4.50s/it]7it [00:33,  4.46s/it]8it [00:37,  4.36s/it]9it [00:42,  4.48s/it]10it [00:46,  4.37s/it]11it [00:51,  4.43s/it]12it [00:55,  4.34s/it]13it [00:59,  4.35s/it]14it [01:03,  4.28s/it]15it [01:08,  4.32s/it]16it [01:12,  4.35s/it]17it [01:17,  4.38s/it]18it [01:21,  4.35s/it]19it [01:26,  4.48s/it]20it [01:30,  4.50s/it]21it [01:35,  4.56s/it]22it [01:39,  4.45s/it]23it [01:44,  4.44s/it]24it [01:48,  4.36s/it]25it [01:52,  4.38s/it]26it [01:56,  4.34s/it]27it [02:01,  4.38s/it]28it [02:05,  4.33s/it]29it [02:10,  4.35s/it]30it [02:14,  4.40s/it]31it [02:19,  4.43s/it]32it [02:23,  4.42s/it]33it [02:27,  4.45s/it]34it [02:32,  4.38s/it]35it [02:36,  4.44s/it]36it [02:41,  4.38s/it]37it [02:43,  3.78s/it]37it [02:43,  4.42s/it]
+
+Overall Acc: 0.988269
+Mean Acc: 0.976394
+FreqW Acc: 0.977308
+Mean IoU: 0.936249
+Class IoU:
+	class 0: 0.987209
+	class 1: 0.922387
+	class 2: 0.899151
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.72     99.10     99.36     98.83     93.62     97.64     96.67     128       4       
+abuth         92.24     97.48     95.96                                                               
+cotton        89.92     96.34     94.69                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.12%
+  abuth -> cotton confusion: 0.64%
+[EarlyStop] metric=Mean IoU current=0.936249 best=0.942087 no_improve=2/5 min_delta=0.000100
+Epoch 5, Itrs 130/1600, total_loss=0.077992, seg_loss=0.073932, edge_loss=0.040598, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 5, Itrs 140/1600, total_loss=0.073600, seg_loss=0.067968, edge_loss=0.056320, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 5, Itrs 150/1600, total_loss=0.049050, seg_loss=0.045034, edge_loss=0.040157, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 5, Itrs 160/1600, total_loss=0.059510, seg_loss=0.054412, edge_loss=0.050980, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.00s/it]2it [00:12,  5.78s/it]3it [00:17,  5.33s/it]4it [00:21,  4.94s/it]5it [00:25,  4.77s/it]6it [00:29,  4.54s/it]7it [00:34,  4.60s/it]8it [00:38,  4.49s/it]9it [00:43,  4.47s/it]10it [00:47,  4.43s/it]11it [00:52,  4.48s/it]12it [00:56,  4.40s/it]13it [01:01,  4.51s/it]14it [01:05,  4.42s/it]15it [01:10,  4.49s/it]16it [01:14,  4.41s/it]17it [01:18,  4.41s/it]18it [01:22,  4.34s/it]19it [01:27,  4.37s/it]20it [01:31,  4.31s/it]21it [01:36,  4.44s/it]22it [01:40,  4.38s/it]23it [01:45,  4.48s/it]24it [01:49,  4.38s/it]25it [01:54,  4.47s/it]26it [01:58,  4.41s/it]27it [02:02,  4.45s/it]28it [02:07,  4.48s/it]29it [02:12,  4.53s/it]30it [02:16,  4.45s/it]31it [02:20,  4.47s/it]32it [02:25,  4.48s/it]33it [02:29,  4.43s/it]34it [02:34,  4.43s/it]35it [02:38,  4.46s/it]36it [02:42,  4.37s/it]37it [02:45,  3.81s/it]37it [02:45,  4.47s/it]
+
+Overall Acc: 0.989755
+Mean Acc: 0.975598
+FreqW Acc: 0.980029
+Mean IoU: 0.944119
+Class IoU:
+	class 0: 0.988467
+	class 1: 0.935671
+	class 2: 0.908220
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.85     99.30     99.42     98.98     94.41     97.56     97.10     160       5       
+abuth         93.57     97.41     96.68                                                               
+cotton        90.82     95.97     95.19                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.20%
+  abuth -> cotton confusion: 0.17%
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.944119 best=0.944119 no_improve=0/5 min_delta=0.000100
+Epoch 6, Itrs 170/1600, total_loss=0.069008, seg_loss=0.063639, edge_loss=0.053689, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 6, Itrs 180/1600, total_loss=0.070230, seg_loss=0.065516, edge_loss=0.047143, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 6, Itrs 190/1600, total_loss=0.062725, seg_loss=0.058226, edge_loss=0.044996, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.15s/it]2it [00:12,  5.98s/it]3it [00:17,  5.53s/it]4it [00:22,  5.10s/it]5it [00:26,  5.04s/it]6it [00:31,  4.77s/it]7it [00:35,  4.72s/it]8it [00:40,  4.76s/it]9it [00:45,  4.81s/it]10it [00:50,  4.74s/it]11it [00:55,  4.80s/it]12it [00:59,  4.77s/it]13it [01:04,  4.81s/it]14it [01:09,  4.82s/it]15it [01:14,  4.79s/it]16it [01:19,  4.83s/it]17it [01:24,  4.90s/it]18it [01:29,  4.90s/it]19it [01:34,  4.97s/it]20it [01:39,  4.89s/it]21it [01:44,  4.93s/it]22it [01:48,  4.83s/it]23it [01:53,  4.83s/it]24it [01:58,  4.85s/it]25it [02:03,  4.84s/it]26it [02:07,  4.79s/it]27it [02:12,  4.88s/it]28it [02:17,  4.88s/it]29it [02:22,  4.93s/it]30it [02:27,  4.85s/it]31it [02:32,  4.89s/it]32it [02:37,  4.80s/it]33it [02:41,  4.79s/it]34it [02:46,  4.84s/it]35it [02:51,  4.84s/it]36it [02:56,  4.71s/it]37it [02:58,  4.03s/it]37it [02:58,  4.83s/it]
+
+Overall Acc: 0.990037
+Mean Acc: 0.971997
+FreqW Acc: 0.980537
+Mean IoU: 0.944091
+Class IoU:
+	class 0: 0.988929
+	class 1: 0.938369
+	class 2: 0.904976
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.89     99.40     99.44     99.00     94.41     97.20     97.09     192       6       
+abuth         93.84     97.27     96.82                                                               
+cotton        90.50     94.93     95.01                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.49%
+  abuth -> cotton confusion: 0.15%
+[EarlyStop] metric=Mean IoU current=0.944091 best=0.944119 no_improve=1/5 min_delta=0.000100
+Epoch 7, Itrs 200/1600, total_loss=0.068036, seg_loss=0.062856, edge_loss=0.051807, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 7, Itrs 210/1600, total_loss=0.121569, seg_loss=0.117179, edge_loss=0.043901, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 7, Itrs 220/1600, total_loss=0.091766, seg_loss=0.086793, edge_loss=0.049731, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:07,  7.96s/it]2it [00:12,  5.91s/it]3it [00:17,  5.34s/it]4it [00:21,  4.99s/it]5it [00:25,  4.79s/it]6it [00:30,  4.65s/it]7it [00:34,  4.61s/it]8it [00:39,  4.55s/it]9it [00:44,  4.60s/it]10it [00:48,  4.54s/it]11it [00:52,  4.53s/it]12it [00:57,  4.40s/it]13it [01:02,  4.57s/it]14it [01:06,  4.55s/it]15it [01:11,  4.58s/it]16it [01:15,  4.56s/it]17it [01:20,  4.58s/it]18it [01:24,  4.52s/it]19it [01:29,  4.55s/it]20it [01:33,  4.44s/it]21it [01:37,  4.46s/it]22it [01:42,  4.37s/it]23it [01:46,  4.40s/it]24it [01:50,  4.36s/it]25it [01:55,  4.54s/it]26it [02:00,  4.48s/it]27it [02:04,  4.50s/it]28it [02:08,  4.43s/it]29it [02:13,  4.55s/it]30it [02:18,  4.46s/it]31it [02:22,  4.51s/it]32it [02:26,  4.42s/it]33it [02:31,  4.41s/it]34it [02:35,  4.33s/it]35it [02:39,  4.35s/it]36it [02:44,  4.33s/it]37it [02:46,  3.78s/it]37it [02:46,  4.50s/it]
+
+Overall Acc: 0.990409
+Mean Acc: 0.970515
+FreqW Acc: 0.981219
+Mean IoU: 0.945738
+Class IoU:
+	class 0: 0.989189
+	class 1: 0.943478
+	class 2: 0.904547
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.92     99.45     99.46     99.04     94.57     97.05     97.18     224       7       
+abuth         94.35     97.50     97.09                                                               
+cotton        90.45     94.20     94.99                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.23%
+  abuth -> cotton confusion: 0.12%
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.945738 best=0.945738 no_improve=0/5 min_delta=0.000100
+Epoch 8, Itrs 230/1600, total_loss=0.059849, seg_loss=0.054953, edge_loss=0.048963, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 8, Itrs 240/1600, total_loss=0.094878, seg_loss=0.089706, edge_loss=0.051720, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 8, Itrs 250/1600, total_loss=0.098216, seg_loss=0.092652, edge_loss=0.055642, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:07,  7.93s/it]2it [00:12,  5.67s/it]3it [00:16,  5.12s/it]4it [00:20,  4.77s/it]5it [00:25,  4.74s/it]6it [00:29,  4.59s/it]7it [00:34,  4.65s/it]8it [00:39,  4.64s/it]9it [00:43,  4.57s/it]10it [00:48,  4.56s/it]11it [00:52,  4.65s/it]12it [00:57,  4.61s/it]13it [01:01,  4.53s/it]14it [01:06,  4.47s/it]15it [01:10,  4.47s/it]16it [01:14,  4.41s/it]17it [01:19,  4.51s/it]18it [01:24,  4.54s/it]19it [01:28,  4.58s/it]20it [01:33,  4.60s/it]21it [01:38,  4.67s/it]22it [01:42,  4.57s/it]23it [01:47,  4.62s/it]24it [01:51,  4.50s/it]25it [01:56,  4.51s/it]26it [02:00,  4.51s/it]27it [02:05,  4.52s/it]28it [02:09,  4.45s/it]29it [02:14,  4.61s/it]30it [02:19,  4.58s/it]31it [02:23,  4.65s/it]32it [02:28,  4.58s/it]33it [02:32,  4.58s/it]34it [02:37,  4.52s/it]35it [02:41,  4.54s/it]36it [02:45,  4.43s/it]37it [02:48,  3.85s/it]37it [02:48,  4.55s/it]
+
+Overall Acc: 0.990690
+Mean Acc: 0.974192
+FreqW Acc: 0.981788
+Mean IoU: 0.947591
+Class IoU:
+	class 0: 0.989519
+	class 1: 0.944581
+	class 2: 0.908672
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.95     99.43     99.47     99.07     94.76     97.42     97.28     256       8       
+abuth         94.46     97.54     97.15                                                               
+cotton        90.87     95.29     95.22                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.13%
+  abuth -> cotton confusion: 0.18%
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.947591 best=0.947591 no_improve=0/5 min_delta=0.000100
+Epoch 9, Itrs 260/1600, total_loss=0.058717, seg_loss=0.053743, edge_loss=0.049748, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 9, Itrs 270/1600, total_loss=0.055700, seg_loss=0.050649, edge_loss=0.050512, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 9, Itrs 280/1600, total_loss=0.054710, seg_loss=0.049908, edge_loss=0.048024, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:07,  7.96s/it]2it [00:12,  5.74s/it]3it [00:16,  5.10s/it]4it [00:20,  4.76s/it]5it [00:25,  4.67s/it]6it [00:29,  4.50s/it]7it [00:33,  4.45s/it]8it [00:37,  4.34s/it]9it [00:42,  4.34s/it]10it [00:46,  4.26s/it]11it [00:50,  4.38s/it]12it [00:55,  4.30s/it]13it [00:59,  4.33s/it]14it [01:03,  4.29s/it]15it [01:08,  4.34s/it]16it [01:12,  4.37s/it]17it [01:17,  4.46s/it]18it [01:21,  4.39s/it]19it [01:25,  4.41s/it]20it [01:30,  4.35s/it]21it [01:34,  4.40s/it]22it [01:38,  4.33s/it]23it [01:43,  4.46s/it]24it [01:47,  4.39s/it]25it [01:52,  4.49s/it]26it [01:56,  4.39s/it]27it [02:01,  4.56s/it]28it [02:05,  4.44s/it]29it [02:10,  4.41s/it]30it [02:14,  4.32s/it]31it [02:18,  4.34s/it]32it [02:22,  4.27s/it]33it [02:27,  4.31s/it]34it [02:31,  4.27s/it]35it [02:36,  4.46s/it]36it [02:40,  4.42s/it]37it [02:43,  3.87s/it]37it [02:43,  4.41s/it]
+
+Overall Acc: 0.990448
+Mean Acc: 0.971849
+FreqW Acc: 0.981315
+Mean IoU: 0.945662
+Class IoU:
+	class 0: 0.989394
+	class 1: 0.942223
+	class 2: 0.905369
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.94     99.45     99.47     99.04     94.57     97.18     97.18     288       9       
+abuth         94.22     97.22     97.03                                                               
+cotton        90.54     94.88     95.03                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.32%
+  abuth -> cotton confusion: 0.22%
+[EarlyStop] metric=Mean IoU current=0.945662 best=0.947591 no_improve=1/5 min_delta=0.000100
+Epoch 10, Itrs 290/1600, total_loss=0.060942, seg_loss=0.056088, edge_loss=0.048545, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 10, Itrs 300/1600, total_loss=0.072931, seg_loss=0.068197, edge_loss=0.047332, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 10, Itrs 310/1600, total_loss=0.080365, seg_loss=0.075253, edge_loss=0.051120, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 10, Itrs 320/1600, total_loss=0.090248, seg_loss=0.085388, edge_loss=0.048597, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.08s/it]2it [00:12,  5.91s/it]3it [00:16,  5.27s/it]4it [00:21,  4.84s/it]5it [00:25,  4.65s/it]6it [00:29,  4.58s/it]7it [00:34,  4.62s/it]8it [00:38,  4.45s/it]9it [00:43,  4.54s/it]10it [00:47,  4.54s/it]11it [00:52,  4.56s/it]12it [00:57,  4.54s/it]13it [01:01,  4.55s/it]14it [01:06,  4.52s/it]15it [01:11,  4.83s/it]16it [01:15,  4.65s/it]17it [01:20,  4.69s/it]18it [01:24,  4.58s/it]19it [01:29,  4.63s/it]20it [01:33,  4.52s/it]21it [01:38,  4.58s/it]22it [01:43,  4.56s/it]23it [01:47,  4.53s/it]24it [01:52,  4.47s/it]25it [01:56,  4.56s/it]26it [02:01,  4.59s/it]27it [02:06,  4.60s/it]28it [02:10,  4.55s/it]29it [02:15,  4.60s/it]30it [02:19,  4.53s/it]31it [02:24,  4.51s/it]32it [02:28,  4.39s/it]33it [02:32,  4.43s/it]34it [02:37,  4.45s/it]35it [02:41,  4.49s/it]36it [02:45,  4.41s/it]37it [02:48,  3.80s/it]37it [02:48,  4.55s/it]
+
+Overall Acc: 0.990403
+Mean Acc: 0.974336
+FreqW Acc: 0.981237
+Mean IoU: 0.946796
+Class IoU:
+	class 0: 0.989177
+	class 1: 0.941216
+	class 2: 0.909994
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.92     99.40     99.46     99.04     94.68     97.43     97.24     320       10      
+abuth         94.12     97.42     96.97                                                               
+cotton        91.00     95.49     95.29                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.28%
+  abuth -> cotton confusion: 0.10%
+[EarlyStop] metric=Mean IoU current=0.946796 best=0.947591 no_improve=2/5 min_delta=0.000100
+Epoch 11, Itrs 330/1600, total_loss=0.071873, seg_loss=0.066924, edge_loss=0.049495, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 11, Itrs 340/1600, total_loss=0.073245, seg_loss=0.068420, edge_loss=0.048249, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 11, Itrs 350/1600, total_loss=0.069046, seg_loss=0.065031, edge_loss=0.040147, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.10s/it]2it [00:12,  5.85s/it]3it [00:17,  5.47s/it]4it [00:21,  5.00s/it]5it [00:26,  4.81s/it]6it [00:30,  4.64s/it]7it [00:35,  4.62s/it]8it [00:39,  4.65s/it]9it [00:44,  4.66s/it]10it [00:49,  4.67s/it]11it [00:53,  4.63s/it]12it [00:58,  4.66s/it]13it [01:03,  4.66s/it]14it [01:07,  4.54s/it]15it [01:12,  4.61s/it]16it [01:16,  4.57s/it]17it [01:21,  4.60s/it]18it [01:26,  4.70s/it]19it [01:31,  4.81s/it]20it [01:36,  4.85s/it]21it [01:41,  4.90s/it]22it [01:45,  4.78s/it]23it [01:50,  4.83s/it]24it [01:55,  4.73s/it]25it [02:00,  4.81s/it]26it [02:04,  4.71s/it]27it [02:09,  4.76s/it]28it [02:14,  4.69s/it]29it [02:18,  4.75s/it]30it [02:23,  4.77s/it]31it [02:28,  4.79s/it]32it [02:33,  4.81s/it]33it [02:38,  4.80s/it]34it [02:42,  4.75s/it]35it [02:47,  4.70s/it]36it [02:52,  4.72s/it]37it [02:54,  4.07s/it]37it [02:54,  4.72s/it]
+
+Overall Acc: 0.990365
+Mean Acc: 0.975495
+FreqW Acc: 0.981179
+Mean IoU: 0.946772
+Class IoU:
+	class 0: 0.989134
+	class 1: 0.940832
+	class 2: 0.910349
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.91     99.37     99.45     99.04     94.68     97.55     97.24     352       11      
+abuth         94.08     97.48     96.95                                                               
+cotton        91.03     95.80     95.31                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.23%
+  abuth -> cotton confusion: 0.12%
+[EarlyStop] metric=Mean IoU current=0.946772 best=0.947591 no_improve=3/5 min_delta=0.000100
+Epoch 12, Itrs 360/1600, total_loss=0.107762, seg_loss=0.102900, edge_loss=0.048614, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 12, Itrs 370/1600, total_loss=0.048882, seg_loss=0.044696, edge_loss=0.041862, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 12, Itrs 380/1600, total_loss=0.062166, seg_loss=0.057699, edge_loss=0.044665, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.06s/it]2it [00:12,  5.95s/it]3it [00:17,  5.43s/it]4it [00:21,  4.96s/it]5it [00:26,  4.89s/it]6it [00:30,  4.65s/it]7it [00:34,  4.58s/it]8it [00:39,  4.52s/it]9it [00:43,  4.50s/it]10it [00:48,  4.42s/it]11it [00:52,  4.45s/it]12it [00:56,  4.37s/it]13it [01:01,  4.40s/it]14it [01:05,  4.35s/it]15it [01:10,  4.50s/it]16it [01:14,  4.47s/it]17it [01:19,  4.55s/it]18it [01:23,  4.54s/it]19it [01:28,  4.63s/it]20it [01:33,  4.59s/it]21it [01:38,  4.69s/it]22it [01:42,  4.62s/it]23it [01:47,  4.60s/it]24it [01:51,  4.52s/it]25it [01:56,  4.53s/it]26it [02:00,  4.46s/it]27it [02:05,  4.57s/it]28it [02:09,  4.53s/it]29it [02:14,  4.54s/it]30it [02:18,  4.51s/it]31it [02:23,  4.61s/it]32it [02:27,  4.54s/it]33it [02:32,  4.67s/it]34it [02:37,  4.59s/it]35it [02:42,  4.65s/it]36it [02:46,  4.64s/it]37it [02:49,  4.04s/it]37it [02:49,  4.58s/it]
+
+Overall Acc: 0.990624
+Mean Acc: 0.975116
+FreqW Acc: 0.981665
+Mean IoU: 0.947726
+Class IoU:
+	class 0: 0.989427
+	class 1: 0.943264
+	class 2: 0.910487
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.94     99.41     99.47     99.06     94.77     97.51     97.29     384       12      
+abuth         94.33     97.36     97.08                                                               
+cotton        91.05     95.76     95.31                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.23%
+  abuth -> cotton confusion: 0.11%
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.947726 best=0.947726 no_improve=0/5 min_delta=0.000100
+Epoch 13, Itrs 390/1600, total_loss=0.057557, seg_loss=0.053054, edge_loss=0.045026, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 13, Itrs 400/1600, total_loss=0.071686, seg_loss=0.067022, edge_loss=0.046632, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 13, Itrs 410/1600, total_loss=0.062448, seg_loss=0.057372, edge_loss=0.050762, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.37s/it]2it [00:13,  6.30s/it]3it [00:18,  5.67s/it]4it [00:22,  5.13s/it]5it [00:27,  4.98s/it]6it [00:31,  4.79s/it]7it [00:36,  4.76s/it]8it [00:40,  4.66s/it]9it [00:45,  4.65s/it]10it [00:49,  4.50s/it]11it [00:53,  4.48s/it]12it [00:58,  4.43s/it]13it [01:02,  4.47s/it]14it [01:07,  4.46s/it]15it [01:11,  4.52s/it]16it [01:16,  4.42s/it]17it [01:20,  4.43s/it]18it [01:24,  4.38s/it]19it [01:29,  4.41s/it]20it [01:33,  4.39s/it]21it [01:38,  4.53s/it]22it [01:42,  4.51s/it]23it [01:47,  4.55s/it]24it [01:51,  4.50s/it]25it [01:56,  4.59s/it]26it [02:01,  4.61s/it]27it [02:06,  4.67s/it]28it [02:10,  4.64s/it]29it [02:15,  4.70s/it]30it [02:20,  4.64s/it]31it [02:25,  4.73s/it]32it [02:29,  4.69s/it]33it [02:34,  4.73s/it]34it [02:38,  4.61s/it]35it [02:43,  4.67s/it]36it [02:48,  4.62s/it]37it [02:50,  4.02s/it]37it [02:50,  4.62s/it]
+
+Overall Acc: 0.990294
+Mean Acc: 0.973030
+FreqW Acc: 0.981017
+Mean IoU: 0.946120
+Class IoU:
+	class 0: 0.989091
+	class 1: 0.940015
+	class 2: 0.909253
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.91     99.41     99.45     99.03     94.61     97.30     97.20     416       13      
+abuth         94.00     97.26     96.91                                                               
+cotton        90.93     95.23     95.25                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.39%
+  abuth -> cotton confusion: 0.08%
+[EarlyStop] metric=Mean IoU current=0.946120 best=0.947726 no_improve=1/5 min_delta=0.000100
+Epoch 14, Itrs 420/1600, total_loss=0.057093, seg_loss=0.052560, edge_loss=0.045330, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 14, Itrs 430/1600, total_loss=0.092085, seg_loss=0.086939, edge_loss=0.051464, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 14, Itrs 440/1600, total_loss=0.086619, seg_loss=0.081897, edge_loss=0.047223, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.67s/it]2it [00:13,  6.28s/it]3it [00:18,  5.79s/it]4it [00:22,  5.20s/it]5it [00:27,  5.01s/it]6it [00:31,  4.79s/it]7it [00:36,  4.90s/it]8it [00:41,  4.69s/it]9it [00:46,  4.80s/it]10it [00:50,  4.62s/it]11it [00:55,  4.76s/it]12it [00:59,  4.61s/it]13it [01:04,  4.69s/it]14it [01:08,  4.58s/it]15it [01:14,  4.72s/it]16it [01:18,  4.64s/it]17it [01:23,  4.63s/it]18it [01:27,  4.56s/it]19it [01:32,  4.60s/it]20it [01:36,  4.62s/it]21it [01:41,  4.67s/it]22it [01:46,  4.58s/it]23it [01:51,  4.77s/it]24it [01:55,  4.74s/it]25it [02:00,  4.78s/it]26it [02:05,  4.74s/it]27it [02:10,  4.75s/it]28it [02:14,  4.65s/it]29it [02:19,  4.59s/it]30it [02:23,  4.62s/it]31it [02:28,  4.71s/it]32it [02:33,  4.76s/it]33it [02:38,  4.73s/it]34it [02:42,  4.65s/it]35it [02:47,  4.70s/it]36it [02:52,  4.66s/it]37it [02:54,  3.99s/it]37it [02:54,  4.72s/it]
+
+Overall Acc: 0.990364
+Mean Acc: 0.975121
+FreqW Acc: 0.981171
+Mean IoU: 0.946723
+Class IoU:
+	class 0: 0.989137
+	class 1: 0.940752
+	class 2: 0.910280
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.91     99.38     99.45     99.04     94.67     97.51     97.23     448       14      
+abuth         94.08     97.37     96.95                                                               
+cotton        91.03     95.78     95.30                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.24%
+  abuth -> cotton confusion: 0.12%
+[EarlyStop] metric=Mean IoU current=0.946723 best=0.947726 no_improve=2/5 min_delta=0.000100
+Epoch 15, Itrs 450/1600, total_loss=0.104586, seg_loss=0.099547, edge_loss=0.050391, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 15, Itrs 460/1600, total_loss=0.056820, seg_loss=0.052821, edge_loss=0.039984, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 15, Itrs 470/1600, total_loss=0.050377, seg_loss=0.046207, edge_loss=0.041699, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 15, Itrs 480/1600, total_loss=0.089026, seg_loss=0.083991, edge_loss=0.050344, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.71s/it]2it [00:13,  6.51s/it]3it [00:18,  5.85s/it]4it [00:23,  5.41s/it]5it [00:28,  5.27s/it]6it [00:33,  5.04s/it]7it [00:38,  5.09s/it]8it [00:42,  4.90s/it]9it [00:47,  4.91s/it]10it [00:52,  4.80s/it]11it [00:56,  4.76s/it]12it [01:01,  4.60s/it]13it [01:05,  4.62s/it]14it [01:10,  4.54s/it]15it [01:15,  4.63s/it]16it [01:19,  4.65s/it]17it [01:24,  4.63s/it]18it [01:28,  4.54s/it]19it [01:33,  4.59s/it]20it [01:37,  4.57s/it]21it [01:42,  4.64s/it]22it [01:47,  4.60s/it]23it [01:52,  4.74s/it]24it [01:56,  4.63s/it]25it [02:01,  4.74s/it]26it [02:06,  4.79s/it]27it [02:11,  4.89s/it]28it [02:16,  4.78s/it]29it [02:20,  4.76s/it]30it [02:25,  4.71s/it]31it [02:30,  4.85s/it]32it [02:35,  4.77s/it]33it [02:39,  4.74s/it]34it [02:44,  4.63s/it]35it [02:48,  4.64s/it]36it [02:53,  4.64s/it]37it [02:55,  3.97s/it]37it [02:56,  4.76s/it]
+
+Overall Acc: 0.990536
+Mean Acc: 0.975535
+FreqW Acc: 0.981501
+Mean IoU: 0.947476
+Class IoU:
+	class 0: 0.989313
+	class 1: 0.942501
+	class 2: 0.910614
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.93     99.40     99.46     99.05     94.75     97.55     97.27     480       15      
+abuth         94.25     97.37     97.04                                                               
+cotton        91.06     95.89     95.32                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.19%
+  abuth -> cotton confusion: 0.12%
+[EarlyStop] metric=Mean IoU current=0.947476 best=0.947726 no_improve=3/5 min_delta=0.000100
+Epoch 16, Itrs 490/1600, total_loss=0.054332, seg_loss=0.049133, edge_loss=0.051994, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 16, Itrs 500/1600, total_loss=0.055451, seg_loss=0.051265, edge_loss=0.041865, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 16, Itrs 510/1600, total_loss=0.052061, seg_loss=0.047721, edge_loss=0.043405, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.14s/it]2it [00:12,  5.99s/it]3it [00:17,  5.40s/it]4it [00:21,  4.94s/it]5it [00:26,  4.97s/it]6it [00:31,  4.79s/it]7it [00:35,  4.69s/it]8it [00:40,  4.73s/it]9it [00:44,  4.69s/it]10it [00:49,  4.56s/it]11it [00:53,  4.56s/it]12it [00:58,  4.49s/it]13it [01:02,  4.46s/it]14it [01:06,  4.39s/it]15it [01:11,  4.47s/it]16it [01:15,  4.39s/it]17it [01:20,  4.44s/it]18it [01:24,  4.36s/it]19it [01:29,  4.47s/it]20it [01:33,  4.50s/it]21it [01:38,  4.58s/it]22it [01:42,  4.51s/it]23it [01:47,  4.57s/it]24it [01:51,  4.50s/it]25it [01:56,  4.58s/it]26it [02:01,  4.59s/it]27it [02:05,  4.65s/it]28it [02:10,  4.63s/it]29it [02:15,  4.65s/it]30it [02:19,  4.54s/it]31it [02:24,  4.56s/it]32it [02:28,  4.48s/it]33it [02:32,  4.49s/it]34it [02:37,  4.41s/it]35it [02:41,  4.44s/it]36it [02:45,  4.41s/it]37it [02:48,  3.80s/it]37it [02:48,  4.55s/it]
+
+Overall Acc: 0.990424
+Mean Acc: 0.975723
+FreqW Acc: 0.981292
+Mean IoU: 0.947045
+Class IoU:
+	class 0: 0.989190
+	class 1: 0.941464
+	class 2: 0.910481
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.92     99.37     99.46     99.04     94.70     97.57     97.25     512       16      
+abuth         94.15     97.50     96.98                                                               
+cotton        91.05     95.85     95.31                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.22%
+  abuth -> cotton confusion: 0.11%
+[EarlyStop] metric=Mean IoU current=0.947045 best=0.947726 no_improve=4/5 min_delta=0.000100
+Epoch 17, Itrs 520/1600, total_loss=0.067796, seg_loss=0.062656, edge_loss=0.051397, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 17, Itrs 530/1600, total_loss=0.075561, seg_loss=0.070485, edge_loss=0.050761, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 17, Itrs 540/1600, total_loss=0.071811, seg_loss=0.066714, edge_loss=0.050963, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:08,  8.02s/it]2it [00:12,  5.91s/it]3it [00:17,  5.51s/it]4it [00:21,  5.11s/it]5it [00:26,  4.95s/it]6it [00:30,  4.73s/it]7it [00:35,  4.71s/it]8it [00:39,  4.56s/it]9it [00:44,  4.59s/it]10it [00:49,  4.56s/it]11it [00:54,  4.71s/it]12it [00:58,  4.65s/it]13it [01:03,  4.71s/it]14it [01:08,  4.68s/it]15it [01:12,  4.64s/it]16it [01:17,  4.69s/it]17it [01:22,  4.69s/it]18it [01:26,  4.72s/it]19it [01:31,  4.75s/it]20it [01:36,  4.71s/it]21it [01:41,  4.88s/it]22it [01:46,  4.80s/it]23it [01:51,  4.83s/it]24it [01:55,  4.65s/it]25it [02:00,  4.85s/it]26it [02:05,  4.79s/it]27it [02:10,  4.81s/it]28it [02:14,  4.65s/it]29it [02:19,  4.75s/it]30it [02:23,  4.66s/it]31it [02:28,  4.81s/it]32it [02:33,  4.72s/it]33it [02:38,  4.85s/it]34it [02:43,  4.70s/it]35it [02:47,  4.72s/it]36it [02:52,  4.59s/it]37it [02:54,  3.94s/it]37it [02:54,  4.72s/it]
+
+Overall Acc: 0.990520
+Mean Acc: 0.974087
+FreqW Acc: 0.981457
+Mean IoU: 0.947292
+Class IoU:
+	class 0: 0.989295
+	class 1: 0.942406
+	class 2: 0.910177
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.93     99.41     99.46     99.05     94.73     97.41     97.26     544       17      
+abuth         94.24     97.47     97.03                                                               
+cotton        91.02     95.35     95.30                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.28%
+  abuth -> cotton confusion: 0.08%
+[EarlyStop] metric=Mean IoU current=0.947292 best=0.947726 no_improve=5/5 min_delta=0.000100
+[EarlyStop] Triggered at iter 544, epoch 17. Stop training.

@@ -1,0 +1,4 @@
+[Queue] waiting keyword cottonweedv4_deeplabv3plus_mobilenet_bs16_lr0.01_20260420_111834 ...
+[Queue] wait keyword cleared at 2026-04-20 23:53:36
+[Queue] start ablation_A_spatial_cbam_20260420_174227 (attempt=1/3) at 2026-04-20 23:53:36
+[Queue] args: 

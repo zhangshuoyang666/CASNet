@@ -1,0 +1,6 @@
+[2026-04-11 00:39:47] Start backbone ablation training
+Project: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master
+Data root: /root/autodl-tmp/dataset/cottonweed
+Logs dir: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs
+[2026-04-11 00:39:47] Running deeplabv3plus_convnext_tiny
+[2026-04-11 00:39:47] Log: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_convnext_tiny_itr10000.log

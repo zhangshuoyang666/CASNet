@@ -1,0 +1,5 @@
+[INFO] precheck start: precheck_bs16_lr0p010000_20260419_191648
+HEALTH_CHECK_PASS
+[INFO] full training start: fulltrain_bs16_lr0p010000_wu0_es8_20260419_191648
+done: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/report.md
+[DONE] run completed: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648

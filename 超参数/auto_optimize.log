@@ -1,0 +1,121 @@
+[2026-04-15 12:42:07] ================================================================
+[2026-04-15 12:42:07]   STEP 1: Learning Rate Screening  (bs=32)
+[2026-04-15 12:42:07] ================================================================
+[2026-04-15 12:42:07] ★ Step 1 已完成，复用已有结果
+[2026-04-15 12:42:07]   [cached] lr=0.001 → mIoU=74.95% abuth=52.61% cotton=74.37% @iter=800
+[2026-04-15 12:42:07]   [cached] lr=0.005 → mIoU=90.68% abuth=82.52% cotton=90.75% @iter=800
+[2026-04-15 12:42:07]   [cached] lr=0.01 → mIoU=92.4% abuth=85.64% cotton=92.67% @iter=600
+[2026-04-15 12:42:07]   [cached] lr=0.02 → mIoU=93.05% abuth=86.79% cotton=93.42% @iter=500
+[2026-04-15 12:42:07] ★ Best LR from screen: 0.02 (mIoU=93.05%)
+Saved comparison to /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/step1_lr_comparison.png
+
+=== Summary ===
+01_lr_0p001_bs32: mIoU=74.95% @iter800 abuth=52.61% cotton=74.37%
+01_lr_0p005_bs32: mIoU=90.68% @iter800 abuth=82.52% cotton=90.75%
+01_lr_0p01_bs32: mIoU=92.40% @iter600 abuth=85.64% cotton=92.67%
+01_lr_0p02_bs32: mIoU=93.05% @iter500 abuth=86.79% cotton=93.42%
+[2026-04-15 12:42:09] ========== STEP 1 CONFIRM: lr=0.02 ==========
+[2026-04-15 12:42:09] ▶ START 01_confirm_lr_0p02_bs32
+Parsed: 80 loss records, 16 val records
+Best mIoU: 93.69% @ iter 450 (epoch 29)
+  Abuth IoU: 87.93%
+  Cotton IoU: 94.15%
+[2026-04-15 15:54:16] ✓ DONE  01_confirm_lr_0p02_bs32 (exit=0)
+[2026-04-15 15:54:16]   Confirm lr=0.02 → mIoU=93.69% (gain=3.69 vs best=90%)
+[2026-04-15 15:54:16] ★ Best updated: lr=0.02 mIoU=93.69%
+[2026-04-15 15:54:16] ================================================================
+[2026-04-15 15:54:16]   STEP 2: Warmup=300  (lr=0.02)
+[2026-04-15 15:54:16] ================================================================
+[2026-04-15 15:54:16] ▶ START 02_warmup_300
+Parsed: 40 loss records, 8 val records
+Best mIoU: 90.26% @ iter 400 (epoch 25)
+  Abuth IoU: 80.72%
+  Cotton IoU: 91.27%
+[2026-04-15 17:29:57] ✓ DONE  02_warmup_300 (exit=0)
+[2026-04-15 17:29:57]   Warmup=300 → mIoU=90.26% (gain=-3.43)
+[2026-04-15 17:29:57]   Warmup rejected.
+[2026-04-15 17:29:57] ================================================================
+[2026-04-15 17:29:57]   STEP 3.1: Vertical Flip
+[2026-04-15 17:29:57] ================================================================
+[2026-04-15 17:29:57] ▶ START 03_aug_vflip
+Parsed: 40 loss records, 8 val records
+Best mIoU: 92.03% @ iter 300 (epoch 19)
+  Abuth IoU: 86.47%
+  Cotton IoU: 90.91%
+[2026-04-15 19:07:46] ✓ DONE  03_aug_vflip (exit=0)
+[2026-04-15 19:07:46]   VFlip → mIoU=92.03% (gain=-1.66)
+[2026-04-15 19:07:46]   VFlip rejected.
+[2026-04-15 19:07:46] ================================================================
+[2026-04-15 19:07:46]   STEP 3.2: Rotation ±30°
+[2026-04-15 19:07:46] ================================================================
+[2026-04-15 19:07:46] ▶ START 04_aug_rot30
+Parsed: 40 loss records, 8 val records
+Best mIoU: 90.54% @ iter 400 (epoch 25)
+  Abuth IoU: 82.37%
+  Cotton IoU: 90.47%
+[2026-04-15 20:44:23] ✓ DONE  04_aug_rot30 (exit=0)
+[2026-04-15 20:44:23]   Rot30 → mIoU=90.54% (gain=-3.15)
+[2026-04-15 20:44:23]   Rotation rejected.
+[2026-04-15 20:44:23] ================================================================
+[2026-04-15 20:44:23]   STEP 4: λ_edge  (candidates: 0.2, 0.3, 0.4)
+[2026-04-15 20:44:23] ================================================================
+[2026-04-15 20:44:23] ▶ START 05_lambda_0p2
+Parsed: 40 loss records, 8 val records
+Best mIoU: 92.01% @ iter 250 (epoch 16)
+  Abuth IoU: 84.72%
+  Cotton IoU: 92.46%
+[2026-04-15 22:21:32] ✓ DONE  05_lambda_0p2 (exit=0)
+[2026-04-15 22:21:32]   λ=0.2 → mIoU=92.01%
+[2026-04-15 22:21:32] ▶ START 05_lambda_0p3
+Parsed: 40 loss records, 8 val records
+Best mIoU: 91.70% @ iter 250 (epoch 16)
+  Abuth IoU: 84.08%
+  Cotton IoU: 92.15%
+[2026-04-15 23:57:16] ✓ DONE  05_lambda_0p3 (exit=0)
+[2026-04-15 23:57:16]   λ=0.3 → mIoU=91.7%
+[2026-04-15 23:57:16] ▶ START 05_lambda_0p4
+Parsed: 40 loss records, 8 val records
+Best mIoU: 91.73% @ iter 250 (epoch 16)
+  Abuth IoU: 84.15%
+  Cotton IoU: 92.18%
+[2026-04-16 01:33:01] ✓ DONE  05_lambda_0p4 (exit=0)
+[2026-04-16 01:33:01]   λ=0.4 → mIoU=91.73%
+[2026-04-16 01:33:01]   Best λ candidate: 0.2 mIoU=92.01% (gain=-1.68)
+[2026-04-16 01:33:01]   No λ_edge candidate improved. Keeping 0.1.
+[2026-04-16 01:33:01] ================================================================
+[2026-04-16 01:33:01]   STEP 5: weight_decay=5e-4
+[2026-04-16 01:33:01] ================================================================
+[2026-04-16 01:33:02] ▶ START 06_wd_5e4
+Parsed: 40 loss records, 8 val records
+Best mIoU: 92.52% @ iter 250 (epoch 16)
+  Abuth IoU: 85.73%
+  Cotton IoU: 92.96%
+[2026-04-16 03:06:55] ✓ DONE  06_wd_5e4 (exit=0)
+[2026-04-16 03:06:55]   WD=5e-4 → mIoU=92.52% (gain=-1.17)
+[2026-04-16 03:06:55]   WD=5e-4 rejected.
+[2026-04-16 03:06:55] ================================================================
+[2026-04-16 03:06:55]   STEP 6: ASPP rates
+[2026-04-16 03:06:55] ================================================================
+[2026-04-16 03:06:55] ▶ START 07_aspp_1_6_12_18_24
+Parsed: 40 loss records, 8 val records
+Best mIoU: 93.69% @ iter 400 (epoch 25)
+  Abuth IoU: 88.36%
+  Cotton IoU: 93.84%
+[2026-04-16 04:41:38] ✓ DONE  07_aspp_1_6_12_18_24 (exit=0)
+[2026-04-16 04:41:38]   DenseASPP=(1,6,12,18,24) → mIoU=93.69%
+[2026-04-16 04:41:38] ▶ START 07_aspp_1_2_4_8_16
+Parsed: 40 loss records, 8 val records
+Best mIoU: 93.83% @ iter 400 (epoch 25)
+  Abuth IoU: 88.71%
+  Cotton IoU: 93.87%
+[2026-04-16 06:17:08] ✓ DONE  07_aspp_1_2_4_8_16 (exit=0)
+[2026-04-16 06:17:08]   DenseASPP=(1,2,4,8,16) → mIoU=93.83%
+[2026-04-16 06:17:09] ★ Best updated: aspp=1,2,4,8,16 (dense variant)
+[2026-04-16 06:17:09] ================================================================
+[2026-04-16 06:17:09]   Generating final_report.md
+[2026-04-16 06:17:09] ================================================================
+[2026-04-16 06:17:09] ★★★ ALL STEPS COMPLETE ★★★
+[2026-04-16 06:17:09] Final best: mIoU=93.83% lr=0.02 wd=1e-4 λ=0.1 warmup=0 vflip=N rot=0 aspp=1,2,4,8,16 bs=32
+[2026-04-16 06:17:09] Report: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/final_report.md
+[2026-04-16 06:17:09] Tracker: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/experiment_tracker.csv
+[2026-04-16 06:17:09] Config: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/best_config.json

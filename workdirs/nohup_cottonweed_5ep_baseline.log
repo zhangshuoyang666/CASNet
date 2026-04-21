@@ -1,0 +1,42 @@
+Run directory: ./workdirs/cottonweed_5ep_baseline_20260412_191759
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False
+[!] Retrain
+Epoch 1, Itrs 20/320, total_loss=0.639055, seg_loss=0.639055, edge_loss=0.000000
+Epoch 1, Itrs 40/320, total_loss=0.338893, seg_loss=0.338893, edge_loss=0.000000
+Epoch 1, Itrs 60/320, total_loss=0.268703, seg_loss=0.268703, edge_loss=0.000000
+Epoch 2, Itrs 80/320, total_loss=0.344350, seg_loss=0.344350, edge_loss=0.000000
+Epoch 2, Itrs 100/320, total_loss=0.311234, seg_loss=0.311234, edge_loss=0.000000
+Epoch 2, Itrs 120/320, total_loss=0.282993, seg_loss=0.282993, edge_loss=0.000000
+Epoch 3, Itrs 140/320, total_loss=0.208253, seg_loss=0.208253, edge_loss=0.000000
+Epoch 3, Itrs 160/320, total_loss=0.182189, seg_loss=0.182189, edge_loss=0.000000
+Epoch 3, Itrs 180/320, total_loss=0.171731, seg_loss=0.171731, edge_loss=0.000000
+Epoch 4, Itrs 200/320, total_loss=0.239738, seg_loss=0.239738, edge_loss=0.000000
+Epoch 4, Itrs 220/320, total_loss=0.186012, seg_loss=0.186012, edge_loss=0.000000
+Epoch 4, Itrs 240/320, total_loss=0.200398, seg_loss=0.200398, edge_loss=0.000000
+Epoch 5, Itrs 260/320, total_loss=0.167847, seg_loss=0.167847, edge_loss=0.000000
+Epoch 5, Itrs 280/320, total_loss=0.144013, seg_loss=0.144013, edge_loss=0.000000
+Epoch 5, Itrs 300/320, total_loss=0.249859, seg_loss=0.249859, edge_loss=0.000000
+Epoch 5, Itrs 320/320, total_loss=0.194736, seg_loss=0.194736, edge_loss=0.000000
+Model saved as ./workdirs/cottonweed_5ep_baseline_20260412_191759/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:01,  1.93s/it]2it [00:02,  1.39s/it]3it [00:03,  1.23s/it]4it [00:05,  1.15s/it]5it [00:06,  1.12s/it]6it [00:07,  1.07s/it]7it [00:08,  1.06s/it]8it [00:08,  1.01s/it]9it [00:09,  1.00s/it]10it [00:10,  1.00s/it]11it [00:12,  1.02s/it]12it [00:12,  1.01it/s]13it [00:13,  1.01it/s]14it [00:14,  1.03it/s]15it [00:15,  1.02it/s]16it [00:16,  1.04it/s]17it [00:17,  1.03it/s]18it [00:18,  1.04it/s]19it [00:19,  1.04it/s]20it [00:20,  1.05it/s]21it [00:21,  1.03it/s]22it [00:22,  1.04it/s]23it [00:23,  1.03it/s]24it [00:24,  1.05it/s]25it [00:25,  1.04it/s]26it [00:26,  1.05it/s]27it [00:27,  1.04it/s]28it [00:28,  1.04it/s]29it [00:29,  1.03it/s]30it [00:30,  1.04it/s]31it [00:31,  1.03it/s]32it [00:32,  1.04it/s]33it [00:33,  1.03it/s]34it [00:34,  1.04it/s]35it [00:35,  1.03it/s]36it [00:36,  1.04it/s]37it [00:37,  1.03it/s]38it [00:38,  1.03it/s]39it [00:39,  1.02it/s]40it [00:39,  1.04it/s]41it [00:40,  1.03it/s]42it [00:41,  1.04it/s]43it [00:42,  1.03it/s]44it [00:43,  1.04it/s]45it [00:44,  1.01it/s]46it [00:45,  1.00it/s]47it [00:46,  1.01it/s]48it [00:47,  1.02it/s]49it [00:48,  1.02it/s]50it [00:49,  1.03it/s]51it [00:50,  1.01it/s]52it [00:51,  1.03it/s]53it [00:52,  1.03it/s]54it [00:53,  1.04it/s]55it [00:54,  1.03it/s]56it [00:55,  1.04it/s]57it [00:56,  1.03it/s]58it [00:57,  1.04it/s]59it [00:58,  1.03it/s]60it [00:59,  1.04it/s]61it [01:00,  1.02it/s]62it [01:01,  1.03it/s]63it [01:02,  1.02it/s]64it [01:03,  1.04it/s]65it [01:04,  1.03it/s]66it [01:05,  1.04it/s]67it [01:06,  1.02it/s]68it [01:07,  1.03it/s]69it [01:08,  1.02it/s]70it [01:09,  1.03it/s]71it [01:10,  1.03it/s]72it [01:11,  1.03it/s]73it [01:12,  1.03it/s]74it [01:13,  1.04it/s]75it [01:14,  1.03it/s]76it [01:14,  1.04it/s]77it [01:15,  1.03it/s]78it [01:16,  1.04it/s]79it [01:17,  1.03it/s]80it [01:18,  1.04it/s]81it [01:19,  1.03it/s]82it [01:20,  1.04it/s]83it [01:21,  1.03it/s]84it [01:22,  1.04it/s]85it [01:23,  1.03it/s]86it [01:24,  1.04it/s]87it [01:25,  1.01it/s]88it [01:26,  1.03it/s]89it [01:27,  1.02it/s]90it [01:28,  1.04it/s]91it [01:29,  1.03it/s]92it [01:30,  1.04it/s]93it [01:31,  1.03it/s]94it [01:32,  1.04it/s]95it [01:33,  1.03it/s]96it [01:34,  1.04it/s]97it [01:35,  1.03it/s]98it [01:36,  1.04it/s]99it [01:37,  1.03it/s]100it [01:38,  1.04it/s]101it [01:39,  1.04it/s]102it [01:40,  1.05it/s]103it [01:41,  1.02it/s]104it [01:42,  1.04it/s]105it [01:43,  1.03it/s]106it [01:43,  1.04it/s]107it [01:44,  1.03it/s]108it [01:45,  1.04it/s]109it [01:46,  1.03it/s]110it [01:47,  1.04it/s]111it [01:48,  1.03it/s]112it [01:49,  1.04it/s]113it [01:50,  1.02it/s]114it [01:51,  1.04it/s]115it [01:52,  1.03it/s]116it [01:53,  1.04it/s]117it [01:54,  1.03it/s]118it [01:55,  1.04it/s]119it [01:56,  1.02it/s]120it [01:57,  1.04it/s]121it [01:58,  1.03it/s]122it [01:59,  1.04it/s]123it [02:00,  1.02it/s]124it [02:01,  1.03it/s]125it [02:02,  1.02it/s]126it [02:03,  1.04it/s]127it [02:04,  1.03it/s]128it [02:05,  1.04it/s]129it [02:06,  1.03it/s]130it [02:07,  1.04it/s]131it [02:08,  1.03it/s]132it [02:09,  1.05it/s]133it [02:10,  1.04it/s]134it [02:11,  1.04it/s]135it [02:12,  1.03it/s]136it [02:13,  1.04it/s]137it [02:14,  1.03it/s]138it [02:14,  1.04it/s]139it [02:15,  1.02it/s]140it [02:16,  1.03it/s]141it [02:17,  1.03it/s]142it [02:18,  1.04it/s]143it [02:19,  1.04it/s]144it [02:20,  1.05it/s]145it [02:21,  1.04it/s]146it [02:22,  1.04it/s]146it [02:22,  1.02it/s]
+
+Overall Acc: 0.977239
+Mean Acc: 0.895529
+FreqW Acc: 0.956928
+Mean IoU: 0.847813
+Class IoU:
+	class 0: 0.981360
+	class 1: 0.842186
+	class 2: 0.719893
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.14     99.57     99.06     97.72     84.78     89.55     91.40     320       5       
+abuth         84.22     88.85     91.43                                                               
+cotton        71.99     80.24     83.71                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 6.86%
+  abuth -> cotton confusion: 3.68%
+Model saved as ./workdirs/cottonweed_5ep_baseline_20260412_191759/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth

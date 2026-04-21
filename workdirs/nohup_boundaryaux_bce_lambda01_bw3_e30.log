@@ -1,0 +1,122 @@
+Run directory: ./workdirs/boundaryaux_bce_lambda01_bw3_e30
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False
+[!] Retrain
+Epoch 1, Itrs 20/1920, total_loss=0.879699, seg_loss=0.825201, edge_loss=0.544976, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 1, Itrs 40/1920, total_loss=0.409725, seg_loss=0.377081, edge_loss=0.326442, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 1, Itrs 60/1920, total_loss=0.323810, seg_loss=0.303095, edge_loss=0.207149, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 2, Itrs 80/1920, total_loss=0.317787, seg_loss=0.302381, edge_loss=0.154054, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 2, Itrs 100/1920, total_loss=0.213290, seg_loss=0.200871, edge_loss=0.124189, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 2, Itrs 120/1920, total_loss=0.227195, seg_loss=0.216907, edge_loss=0.102882, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 3, Itrs 140/1920, total_loss=0.246454, seg_loss=0.236880, edge_loss=0.095745, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 3, Itrs 160/1920, total_loss=0.300403, seg_loss=0.292161, edge_loss=0.082421, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 3, Itrs 180/1920, total_loss=0.219823, seg_loss=0.211505, edge_loss=0.083180, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 4, Itrs 200/1920, total_loss=0.191791, seg_loss=0.184253, edge_loss=0.075385, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 4, Itrs 220/1920, total_loss=0.223634, seg_loss=0.216361, edge_loss=0.072723, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 4, Itrs 240/1920, total_loss=0.237085, seg_loss=0.230861, edge_loss=0.062244, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 5, Itrs 260/1920, total_loss=0.237980, seg_loss=0.231505, edge_loss=0.064749, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 5, Itrs 280/1920, total_loss=0.202902, seg_loss=0.197063, edge_loss=0.058392, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 5, Itrs 300/1920, total_loss=0.152382, seg_loss=0.146837, edge_loss=0.055458, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 5, Itrs 320/1920, total_loss=0.276743, seg_loss=0.271021, edge_loss=0.057214, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 6, Itrs 340/1920, total_loss=0.175754, seg_loss=0.170562, edge_loss=0.051921, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 6, Itrs 360/1920, total_loss=0.183999, seg_loss=0.178203, edge_loss=0.057961, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 6, Itrs 380/1920, total_loss=0.207856, seg_loss=0.202257, edge_loss=0.055988, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 7, Itrs 400/1920, total_loss=0.235314, seg_loss=0.230306, edge_loss=0.050082, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 7, Itrs 420/1920, total_loss=0.167147, seg_loss=0.162103, edge_loss=0.050436, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 7, Itrs 440/1920, total_loss=0.133252, seg_loss=0.128572, edge_loss=0.046802, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 8, Itrs 460/1920, total_loss=0.222438, seg_loss=0.216912, edge_loss=0.055266, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 8, Itrs 480/1920, total_loss=0.119227, seg_loss=0.114100, edge_loss=0.051270, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 8, Itrs 500/1920, total_loss=0.169103, seg_loss=0.164307, edge_loss=0.047962, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 9, Itrs 520/1920, total_loss=0.169580, seg_loss=0.165105, edge_loss=0.044747, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 9, Itrs 540/1920, total_loss=0.178485, seg_loss=0.173706, edge_loss=0.047786, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 9, Itrs 560/1920, total_loss=0.168835, seg_loss=0.164019, edge_loss=0.048161, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 10, Itrs 580/1920, total_loss=0.157503, seg_loss=0.152641, edge_loss=0.048624, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 10, Itrs 600/1920, total_loss=0.143715, seg_loss=0.139065, edge_loss=0.046492, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 10, Itrs 620/1920, total_loss=0.098348, seg_loss=0.094358, edge_loss=0.039901, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 10, Itrs 640/1920, total_loss=0.162865, seg_loss=0.158380, edge_loss=0.044849, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 11, Itrs 660/1920, total_loss=0.179509, seg_loss=0.174803, edge_loss=0.047061, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 11, Itrs 680/1920, total_loss=0.103936, seg_loss=0.099711, edge_loss=0.042258, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 11, Itrs 700/1920, total_loss=0.197828, seg_loss=0.193057, edge_loss=0.047710, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 12, Itrs 720/1920, total_loss=0.142147, seg_loss=0.138170, edge_loss=0.039769, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 12, Itrs 740/1920, total_loss=0.167125, seg_loss=0.162542, edge_loss=0.045835, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 12, Itrs 760/1920, total_loss=0.114547, seg_loss=0.110619, edge_loss=0.039279, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 13, Itrs 780/1920, total_loss=0.177892, seg_loss=0.173784, edge_loss=0.041080, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 13, Itrs 800/1920, total_loss=0.128042, seg_loss=0.124227, edge_loss=0.038153, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 13, Itrs 820/1920, total_loss=0.140683, seg_loss=0.136418, edge_loss=0.042647, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 14, Itrs 840/1920, total_loss=0.124469, seg_loss=0.120884, edge_loss=0.035847, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 14, Itrs 860/1920, total_loss=0.142407, seg_loss=0.138348, edge_loss=0.040590, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 14, Itrs 880/1920, total_loss=0.169888, seg_loss=0.165773, edge_loss=0.041153, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 15, Itrs 900/1920, total_loss=0.132801, seg_loss=0.129087, edge_loss=0.037133, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 15, Itrs 920/1920, total_loss=0.125948, seg_loss=0.122197, edge_loss=0.037509, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 15, Itrs 940/1920, total_loss=0.155619, seg_loss=0.151345, edge_loss=0.042743, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 15, Itrs 960/1920, total_loss=0.112722, seg_loss=0.108978, edge_loss=0.037447, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 16, Itrs 980/1920, total_loss=0.107250, seg_loss=0.103255, edge_loss=0.039954, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 16, Itrs 1000/1920, total_loss=0.110412, seg_loss=0.106331, edge_loss=0.040810, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 16, Itrs 1020/1920, total_loss=0.172761, seg_loss=0.168679, edge_loss=0.040820, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 17, Itrs 1040/1920, total_loss=0.203705, seg_loss=0.199036, edge_loss=0.046692, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 17, Itrs 1060/1920, total_loss=0.172286, seg_loss=0.168759, edge_loss=0.035263, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 17, Itrs 1080/1920, total_loss=0.136114, seg_loss=0.132116, edge_loss=0.039975, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 18, Itrs 1100/1920, total_loss=0.140014, seg_loss=0.136085, edge_loss=0.039294, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 18, Itrs 1120/1920, total_loss=0.097098, seg_loss=0.093519, edge_loss=0.035790, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 18, Itrs 1140/1920, total_loss=0.067676, seg_loss=0.064102, edge_loss=0.035742, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 19, Itrs 1160/1920, total_loss=0.134763, seg_loss=0.131024, edge_loss=0.037396, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 19, Itrs 1180/1920, total_loss=0.140599, seg_loss=0.136497, edge_loss=0.041023, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 19, Itrs 1200/1920, total_loss=0.097913, seg_loss=0.094185, edge_loss=0.037283, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 20, Itrs 1220/1920, total_loss=0.129064, seg_loss=0.125617, edge_loss=0.034473, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 20, Itrs 1240/1920, total_loss=0.105547, seg_loss=0.102064, edge_loss=0.034826, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 20, Itrs 1260/1920, total_loss=0.064918, seg_loss=0.061706, edge_loss=0.032129, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 20, Itrs 1280/1920, total_loss=0.134623, seg_loss=0.130233, edge_loss=0.043904, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 21, Itrs 1300/1920, total_loss=0.134297, seg_loss=0.130247, edge_loss=0.040495, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 21, Itrs 1320/1920, total_loss=0.154906, seg_loss=0.150692, edge_loss=0.042139, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 21, Itrs 1340/1920, total_loss=0.123486, seg_loss=0.119892, edge_loss=0.035939, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 22, Itrs 1360/1920, total_loss=0.106309, seg_loss=0.102813, edge_loss=0.034958, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 22, Itrs 1380/1920, total_loss=0.131832, seg_loss=0.127989, edge_loss=0.038424, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 22, Itrs 1400/1920, total_loss=0.104472, seg_loss=0.100598, edge_loss=0.038742, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 23, Itrs 1420/1920, total_loss=0.185687, seg_loss=0.182237, edge_loss=0.034499, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 23, Itrs 1440/1920, total_loss=0.100519, seg_loss=0.096824, edge_loss=0.036944, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 23, Itrs 1460/1920, total_loss=0.121684, seg_loss=0.117964, edge_loss=0.037200, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 24, Itrs 1480/1920, total_loss=0.134686, seg_loss=0.130910, edge_loss=0.037763, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 24, Itrs 1500/1920, total_loss=0.135058, seg_loss=0.131650, edge_loss=0.034078, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 24, Itrs 1520/1920, total_loss=0.069488, seg_loss=0.066274, edge_loss=0.032138, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 25, Itrs 1540/1920, total_loss=0.111754, seg_loss=0.108071, edge_loss=0.036830, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 25, Itrs 1560/1920, total_loss=0.132778, seg_loss=0.128528, edge_loss=0.042492, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 25, Itrs 1580/1920, total_loss=0.137419, seg_loss=0.133507, edge_loss=0.039124, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 25, Itrs 1600/1920, total_loss=0.090242, seg_loss=0.086336, edge_loss=0.039066, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 26, Itrs 1620/1920, total_loss=0.119180, seg_loss=0.115039, edge_loss=0.041418, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 26, Itrs 1640/1920, total_loss=0.136904, seg_loss=0.132644, edge_loss=0.042597, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 26, Itrs 1660/1920, total_loss=0.087198, seg_loss=0.083315, edge_loss=0.038829, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 27, Itrs 1680/1920, total_loss=0.113766, seg_loss=0.110604, edge_loss=0.031623, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 27, Itrs 1700/1920, total_loss=0.100493, seg_loss=0.096380, edge_loss=0.041135, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 27, Itrs 1720/1920, total_loss=0.113672, seg_loss=0.110228, edge_loss=0.034438, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 28, Itrs 1740/1920, total_loss=0.109617, seg_loss=0.105979, edge_loss=0.036375, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 28, Itrs 1760/1920, total_loss=0.164913, seg_loss=0.161698, edge_loss=0.032150, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 28, Itrs 1780/1920, total_loss=0.142946, seg_loss=0.139277, edge_loss=0.036690, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 29, Itrs 1800/1920, total_loss=0.148058, seg_loss=0.143752, edge_loss=0.043053, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 29, Itrs 1820/1920, total_loss=0.087653, seg_loss=0.084145, edge_loss=0.035086, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 29, Itrs 1840/1920, total_loss=0.123072, seg_loss=0.119341, edge_loss=0.037306, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 30, Itrs 1860/1920, total_loss=0.218597, seg_loss=0.214643, edge_loss=0.039540, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 30, Itrs 1880/1920, total_loss=0.145677, seg_loss=0.141601, edge_loss=0.040762, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 30, Itrs 1900/1920, total_loss=0.109503, seg_loss=0.105925, edge_loss=0.035783, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Epoch 30, Itrs 1920/1920, total_loss=0.078683, seg_loss=0.075345, edge_loss=0.033372, lambda_edge=0.1, boundary_width=3, edge_loss_type=bce
+Model saved as ./workdirs/boundaryaux_bce_lambda01_bw3_e30/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:01,  1.91s/it]2it [00:02,  1.36s/it]3it [00:03,  1.23s/it]4it [00:04,  1.13s/it]5it [00:05,  1.09s/it]6it [00:06,  1.03s/it]7it [00:07,  1.02s/it]8it [00:08,  1.00it/s]9it [00:09,  1.01it/s]10it [00:10,  1.02it/s]11it [00:11,  1.02it/s]12it [00:12,  1.03it/s]13it [00:13,  1.03it/s]14it [00:14,  1.04it/s]15it [00:15,  1.03it/s]16it [00:16,  1.04it/s]17it [00:17,  1.03it/s]18it [00:18,  1.04it/s]19it [00:19,  1.02it/s]20it [00:20,  1.04it/s]21it [00:21,  1.03it/s]22it [00:22,  1.04it/s]23it [00:23,  1.04it/s]24it [00:24,  1.04it/s]25it [00:25,  1.04it/s]26it [00:26,  1.05it/s]27it [00:27,  1.04it/s]28it [00:28,  1.06it/s]29it [00:29,  1.04it/s]30it [00:29,  1.05it/s]31it [00:30,  1.04it/s]32it [00:31,  1.05it/s]33it [00:32,  1.04it/s]34it [00:33,  1.05it/s]35it [00:34,  1.04it/s]36it [00:35,  1.05it/s]37it [00:36,  1.04it/s]38it [00:37,  1.06it/s]39it [00:38,  1.05it/s]40it [00:39,  1.05it/s]41it [00:40,  1.04it/s]42it [00:41,  1.05it/s]43it [00:42,  1.04it/s]44it [00:43,  1.05it/s]45it [00:44,  1.04it/s]46it [00:45,  1.05it/s]47it [00:46,  1.04it/s]48it [00:47,  1.05it/s]49it [00:48,  1.04it/s]50it [00:49,  1.04it/s]51it [00:50,  1.04it/s]52it [00:50,  1.05it/s]53it [00:51,  1.05it/s]54it [00:52,  1.05it/s]55it [00:53,  1.04it/s]56it [00:54,  1.05it/s]57it [00:55,  1.05it/s]58it [00:56,  1.06it/s]59it [00:57,  1.05it/s]60it [00:58,  1.06it/s]61it [00:59,  1.05it/s]62it [01:00,  1.05it/s]63it [01:01,  1.05it/s]64it [01:02,  1.05it/s]65it [01:03,  1.04it/s]66it [01:04,  1.02it/s]67it [01:05,  1.01it/s]68it [01:06,  1.02it/s]69it [01:07,  1.01it/s]70it [01:08,  1.01it/s]71it [01:09,  1.01it/s]72it [01:10,  1.03it/s]73it [01:11,  1.02it/s]74it [01:12,  1.04it/s]75it [01:13,  1.03it/s]76it [01:14,  1.03it/s]77it [01:15,  1.02it/s]78it [01:16,  1.04it/s]79it [01:17,  1.03it/s]80it [01:18,  1.04it/s]81it [01:19,  1.03it/s]82it [01:20,  1.04it/s]83it [01:20,  1.03it/s]84it [01:21,  1.04it/s]85it [01:22,  1.03it/s]86it [01:23,  1.04it/s]87it [01:24,  1.03it/s]88it [01:25,  1.04it/s]89it [01:26,  1.03it/s]90it [01:27,  1.04it/s]91it [01:28,  1.02it/s]92it [01:29,  1.03it/s]93it [01:30,  1.02it/s]94it [01:31,  1.04it/s]95it [01:32,  1.00s/it]96it [01:33,  1.01s/it]97it [01:34,  1.01s/it]98it [01:35,  1.01it/s]99it [01:36,  1.00it/s]100it [01:37,  1.02it/s]101it [01:38,  1.00it/s]102it [01:39,  1.01it/s]103it [01:40,  1.01it/s]104it [01:41,  1.01it/s]105it [01:42,  1.00it/s]106it [01:43,  1.01it/s]107it [01:44,  1.00it/s]108it [01:45,  1.01it/s]109it [01:46,  1.01it/s]110it [01:47,  1.02it/s]111it [01:48,  1.01it/s]112it [01:49,  1.02it/s]113it [01:50,  1.01it/s]114it [01:51,  1.02it/s]115it [01:52,  1.00it/s]116it [01:53,  1.01it/s]117it [01:54,  1.00it/s]118it [01:55,  1.02it/s]119it [01:56,  1.01it/s]120it [01:57,  1.02it/s]121it [01:58,  1.00it/s]122it [01:59,  1.01it/s]123it [02:00,  1.00it/s]124it [02:01,  1.01it/s]125it [02:02,  1.00it/s]126it [02:03,  1.01it/s]127it [02:04,  1.00s/it]128it [02:05,  1.01it/s]129it [02:06,  1.01it/s]130it [02:07,  1.02it/s]131it [02:08,  1.01it/s]132it [02:09,  1.02it/s]133it [02:10,  1.01it/s]134it [02:11,  1.02it/s]135it [02:12,  1.01it/s]136it [02:13,  1.02it/s]137it [02:14,  1.01it/s]138it [02:15,  1.02it/s]139it [02:16,  1.01it/s]140it [02:17,  1.02it/s]141it [02:18,  1.01it/s]142it [02:19,  1.01it/s]143it [02:20,  1.01it/s]144it [02:21,  1.03it/s]145it [02:22,  1.03it/s]146it [02:23,  1.04it/s]146it [02:23,  1.02it/s]
+
+Overall Acc: 0.988113
+Mean Acc: 0.950231
+FreqW Acc: 0.976758
+Mean IoU: 0.926227
+Class IoU:
+	class 0: 0.987569
+	class 1: 0.931976
+	class 2: 0.859135
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.76     99.54     99.37     98.81     92.62     95.02     96.09     1920      30      
+abuth         93.20     96.85     96.48                                                               
+cotton        85.91     88.69     92.42                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 2.35%
+  abuth -> cotton confusion: 0.05%
+Model saved as ./workdirs/boundaryaux_bce_lambda01_bw3_e30/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth

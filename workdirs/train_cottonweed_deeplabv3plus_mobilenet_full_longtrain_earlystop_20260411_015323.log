@@ -1,0 +1,1875 @@
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] fg_fusion=True, texture_enhance=True, aspp_variant=deform, dense_rates=(1, 3, 6, 12, 18), decoder_detail=True
+[!] Retrain
+Epoch 1, Itrs 10/-1, Loss=0.938402
+Epoch 1, Itrs 20/-1, Loss=0.344806
+Epoch 1, Itrs 30/-1, Loss=0.569332
+Epoch 1, Itrs 40/-1, Loss=0.679004
+Epoch 1, Itrs 50/-1, Loss=0.560490
+Epoch 1, Itrs 60/-1, Loss=0.392177
+Epoch 1, Itrs 70/-1, Loss=0.993066
+Epoch 1, Itrs 80/-1, Loss=0.420931
+Epoch 1, Itrs 90/-1, Loss=0.471904
+Epoch 1, Itrs 100/-1, Loss=0.531457
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.80s/it]2it [00:04,  2.09s/it]3it [00:06,  1.90s/it]4it [00:07,  1.77s/it]5it [00:09,  1.75s/it]6it [00:10,  1.71s/it]7it [00:12,  1.72s/it]8it [00:14,  1.69s/it]9it [00:16,  1.72s/it]10it [00:17,  1.69s/it]11it [00:19,  1.70s/it]12it [00:21,  1.69s/it]13it [00:22,  1.71s/it]14it [00:24,  1.70s/it]15it [00:26,  1.73s/it]16it [00:28,  1.72s/it]17it [00:29,  1.75s/it]18it [00:31,  1.72s/it]19it [00:33,  1.72s/it]20it [00:34,  1.69s/it]21it [00:36,  1.69s/it]22it [00:38,  1.66s/it]23it [00:39,  1.67s/it]24it [00:41,  1.68s/it]25it [00:43,  1.71s/it]26it [00:44,  1.68s/it]27it [00:46,  1.67s/it]28it [00:48,  1.63s/it]29it [00:49,  1.62s/it]30it [00:51,  1.60s/it]31it [00:52,  1.61s/it]32it [00:54,  1.58s/it]33it [00:56,  1.59s/it]34it [00:57,  1.59s/it]35it [00:59,  1.61s/it]36it [01:00,  1.59s/it]37it [01:02,  1.61s/it]38it [01:04,  1.61s/it]39it [01:05,  1.62s/it]40it [01:07,  1.60s/it]41it [01:08,  1.62s/it]42it [01:10,  1.60s/it]43it [01:12,  1.61s/it]44it [01:13,  1.60s/it]45it [01:15,  1.62s/it]46it [01:16,  1.60s/it]47it [01:18,  1.61s/it]48it [01:20,  1.61s/it]49it [01:21,  1.62s/it]50it [01:23,  1.61s/it]51it [01:25,  1.63s/it]52it [01:26,  1.63s/it]53it [01:28,  1.64s/it]54it [01:29,  1.61s/it]55it [01:31,  1.63s/it]56it [01:33,  1.63s/it]57it [01:34,  1.66s/it]58it [01:36,  1.65s/it]59it [01:38,  1.65s/it]60it [01:39,  1.62s/it]61it [01:41,  1.62s/it]62it [01:43,  1.62s/it]63it [01:44,  1.61s/it]64it [01:46,  1.59s/it]65it [01:47,  1.61s/it]66it [01:49,  1.59s/it]67it [01:51,  1.62s/it]68it [01:52,  1.61s/it]69it [01:54,  1.62s/it]70it [01:55,  1.60s/it]71it [01:57,  1.61s/it]72it [01:59,  1.61s/it]73it [02:00,  1.61s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.926431
+Mean Acc: 0.567578
+FreqW Acc: 0.867080
+Mean IoU: 0.501722
+Class IoU:
+	class 0: 0.945505
+	class 1: 0.538990
+	class 2: 0.020670
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    94.55     99.87     97.20     92.64     50.17     56.76     57.10     100       1       
+abuth         53.90     68.33     70.04                                                               
+cotton        2.07      2.07      4.05                                                                
+[Similarity-Focus]
+  cotton -> abuth confusion: 54.41%
+  abuth -> cotton confusion: 0.05%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.501722 best=0.501722 no_improve=0/10 min_delta=0.010000
+Epoch 1, Itrs 110/-1, Loss=0.364109
+Epoch 1, Itrs 120/-1, Loss=0.306971
+Epoch 2, Itrs 130/-1, Loss=0.212580
+Epoch 2, Itrs 140/-1, Loss=0.233389
+Epoch 2, Itrs 150/-1, Loss=0.344968
+Epoch 2, Itrs 160/-1, Loss=0.350391
+Epoch 2, Itrs 170/-1, Loss=0.442560
+Epoch 2, Itrs 180/-1, Loss=0.580234
+Epoch 2, Itrs 190/-1, Loss=0.456011
+Epoch 2, Itrs 200/-1, Loss=0.395765
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.81s/it]2it [00:04,  2.06s/it]3it [00:05,  1.85s/it]4it [00:07,  1.72s/it]5it [00:09,  1.67s/it]6it [00:10,  1.62s/it]7it [00:12,  1.60s/it]8it [00:13,  1.56s/it]9it [00:15,  1.57s/it]10it [00:16,  1.54s/it]11it [00:18,  1.56s/it]12it [00:19,  1.53s/it]13it [00:21,  1.54s/it]14it [00:22,  1.52s/it]15it [00:24,  1.56s/it]16it [00:25,  1.54s/it]17it [00:27,  1.57s/it]18it [00:29,  1.59s/it]19it [00:30,  1.63s/it]20it [00:32,  1.63s/it]21it [00:34,  1.63s/it]22it [00:35,  1.60s/it]23it [00:37,  1.59s/it]24it [00:38,  1.56s/it]25it [00:40,  1.57s/it]26it [00:41,  1.55s/it]27it [00:43,  1.56s/it]28it [00:44,  1.54s/it]29it [00:46,  1.57s/it]30it [00:48,  1.55s/it]31it [00:49,  1.56s/it]32it [00:51,  1.55s/it]33it [00:52,  1.57s/it]34it [00:54,  1.56s/it]35it [00:55,  1.57s/it]36it [00:57,  1.55s/it]37it [00:59,  1.56s/it]38it [01:00,  1.55s/it]39it [01:02,  1.56s/it]40it [01:03,  1.55s/it]41it [01:05,  1.57s/it]42it [01:06,  1.55s/it]43it [01:08,  1.58s/it]44it [01:09,  1.57s/it]45it [01:11,  1.58s/it]46it [01:13,  1.57s/it]47it [01:14,  1.58s/it]48it [01:16,  1.57s/it]49it [01:17,  1.57s/it]50it [01:19,  1.55s/it]51it [01:20,  1.56s/it]52it [01:22,  1.54s/it]53it [01:24,  1.56s/it]54it [01:25,  1.54s/it]55it [01:27,  1.56s/it]56it [01:28,  1.54s/it]57it [01:30,  1.56s/it]58it [01:31,  1.55s/it]59it [01:33,  1.57s/it]60it [01:34,  1.56s/it]61it [01:36,  1.61s/it]62it [01:38,  1.62s/it]63it [01:40,  1.65s/it]64it [01:41,  1.66s/it]65it [01:43,  1.66s/it]66it [01:44,  1.64s/it]67it [01:46,  1.64s/it]68it [01:48,  1.63s/it]69it [01:49,  1.64s/it]70it [01:51,  1.62s/it]71it [01:53,  1.63s/it]72it [01:54,  1.63s/it]73it [01:56,  1.64s/it]73it [01:56,  1.59s/it]
+
+Overall Acc: 0.936727
+Mean Acc: 0.605128
+FreqW Acc: 0.883440
+Mean IoU: 0.539839
+Class IoU:
+	class 0: 0.953405
+	class 1: 0.637804
+	class 2: 0.028308
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    95.34     99.89     97.61     93.67     53.98     60.51     60.34     200       2       
+abuth         63.78     78.81     77.89                                                               
+cotton        2.83      2.84      5.51                                                                
+[Similarity-Focus]
+  cotton -> abuth confusion: 47.97%
+  abuth -> cotton confusion: 0.12%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.539839 best=0.539839 no_improve=0/10 min_delta=0.010000
+Epoch 2, Itrs 210/-1, Loss=0.325174
+Epoch 2, Itrs 220/-1, Loss=0.290287
+Epoch 2, Itrs 230/-1, Loss=0.302267
+Epoch 2, Itrs 240/-1, Loss=0.607545
+Epoch 2, Itrs 250/-1, Loss=0.463863
+Epoch 3, Itrs 260/-1, Loss=0.493509
+Epoch 3, Itrs 270/-1, Loss=0.274879
+Epoch 3, Itrs 280/-1, Loss=0.202064
+Epoch 3, Itrs 290/-1, Loss=0.472699
+Epoch 3, Itrs 300/-1, Loss=0.406117
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.74s/it]2it [00:04,  2.00s/it]3it [00:05,  1.81s/it]4it [00:07,  1.69s/it]5it [00:08,  1.66s/it]6it [00:10,  1.60s/it]7it [00:11,  1.59s/it]8it [00:13,  1.57s/it]9it [00:15,  1.58s/it]10it [00:16,  1.57s/it]11it [00:18,  1.59s/it]12it [00:19,  1.57s/it]13it [00:21,  1.59s/it]14it [00:23,  1.58s/it]15it [00:24,  1.58s/it]16it [00:26,  1.56s/it]17it [00:27,  1.57s/it]18it [00:29,  1.54s/it]19it [00:30,  1.55s/it]20it [00:32,  1.54s/it]21it [00:33,  1.56s/it]22it [00:35,  1.57s/it]23it [00:37,  1.62s/it]24it [00:38,  1.61s/it]25it [00:40,  1.63s/it]26it [00:41,  1.59s/it]27it [00:43,  1.61s/it]28it [00:45,  1.60s/it]29it [00:46,  1.62s/it]30it [00:48,  1.60s/it]31it [00:50,  1.62s/it]32it [00:51,  1.60s/it]33it [00:53,  1.62s/it]34it [00:54,  1.62s/it]35it [00:56,  1.63s/it]36it [00:58,  1.61s/it]37it [00:59,  1.63s/it]38it [01:01,  1.62s/it]39it [01:03,  1.65s/it]40it [01:04,  1.63s/it]41it [01:06,  1.65s/it]42it [01:08,  1.64s/it]43it [01:09,  1.64s/it]44it [01:11,  1.62s/it]45it [01:12,  1.63s/it]46it [01:14,  1.61s/it]47it [01:16,  1.63s/it]48it [01:17,  1.60s/it]49it [01:19,  1.59s/it]50it [01:20,  1.57s/it]51it [01:22,  1.58s/it]52it [01:23,  1.55s/it]53it [01:25,  1.56s/it]54it [01:26,  1.55s/it]55it [01:28,  1.56s/it]56it [01:30,  1.56s/it]57it [01:31,  1.57s/it]58it [01:33,  1.55s/it]59it [01:34,  1.56s/it]60it [01:36,  1.56s/it]61it [01:37,  1.58s/it]62it [01:39,  1.56s/it]63it [01:41,  1.57s/it]64it [01:42,  1.58s/it]65it [01:44,  1.60s/it]66it [01:45,  1.60s/it]67it [01:47,  1.61s/it]68it [01:49,  1.57s/it]69it [01:50,  1.57s/it]70it [01:52,  1.57s/it]71it [01:53,  1.57s/it]72it [01:55,  1.55s/it]73it [01:56,  1.57s/it]73it [01:56,  1.60s/it]
+
+Overall Acc: 0.901156
+Mean Acc: 0.747713
+FreqW Acc: 0.851559
+Mean IoU: 0.583558
+Class IoU:
+	class 0: 0.917099
+	class 1: 0.477912
+	class 2: 0.355664
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    91.71     92.40     95.68     90.12     58.36     74.77     70.94     300       3       
+abuth         47.79     93.11     64.67                                                               
+cotton        35.57     38.80     52.47                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 54.12%
+  abuth -> cotton confusion: 3.26%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.583558 best=0.583558 no_improve=0/10 min_delta=0.010000
+Epoch 3, Itrs 310/-1, Loss=0.465339
+Epoch 3, Itrs 320/-1, Loss=0.443238
+Epoch 3, Itrs 330/-1, Loss=0.555861
+Epoch 3, Itrs 340/-1, Loss=0.370663
+Epoch 3, Itrs 350/-1, Loss=0.260256
+Epoch 3, Itrs 360/-1, Loss=0.495592
+Epoch 3, Itrs 370/-1, Loss=0.368576
+Epoch 3, Itrs 380/-1, Loss=0.352739
+Epoch 4, Itrs 390/-1, Loss=0.282063
+Epoch 4, Itrs 400/-1, Loss=0.356754
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.85s/it]2it [00:04,  2.11s/it]3it [00:06,  1.92s/it]4it [00:07,  1.79s/it]5it [00:09,  1.75s/it]6it [00:10,  1.69s/it]7it [00:12,  1.67s/it]8it [00:14,  1.63s/it]9it [00:15,  1.63s/it]10it [00:17,  1.62s/it]11it [00:19,  1.64s/it]12it [00:20,  1.62s/it]13it [00:22,  1.61s/it]14it [00:23,  1.58s/it]15it [00:25,  1.59s/it]16it [00:26,  1.56s/it]17it [00:28,  1.57s/it]18it [00:29,  1.55s/it]19it [00:31,  1.56s/it]20it [00:33,  1.54s/it]21it [00:34,  1.57s/it]22it [00:36,  1.55s/it]23it [00:37,  1.58s/it]24it [00:39,  1.59s/it]25it [00:41,  1.62s/it]26it [00:42,  1.62s/it]27it [00:44,  1.63s/it]28it [00:45,  1.60s/it]29it [00:47,  1.60s/it]30it [00:49,  1.58s/it]31it [00:50,  1.59s/it]32it [00:52,  1.57s/it]33it [00:53,  1.58s/it]34it [00:55,  1.56s/it]35it [00:56,  1.58s/it]36it [00:58,  1.56s/it]37it [01:00,  1.58s/it]38it [01:01,  1.57s/it]39it [01:03,  1.59s/it]40it [01:04,  1.58s/it]41it [01:06,  1.59s/it]42it [01:07,  1.58s/it]43it [01:09,  1.58s/it]44it [01:11,  1.56s/it]45it [01:12,  1.57s/it]46it [01:14,  1.55s/it]47it [01:15,  1.57s/it]48it [01:17,  1.55s/it]49it [01:18,  1.57s/it]50it [01:20,  1.56s/it]51it [01:22,  1.58s/it]52it [01:23,  1.57s/it]53it [01:25,  1.58s/it]54it [01:26,  1.58s/it]55it [01:28,  1.58s/it]56it [01:29,  1.56s/it]57it [01:31,  1.57s/it]58it [01:32,  1.56s/it]59it [01:34,  1.57s/it]60it [01:36,  1.56s/it]61it [01:37,  1.58s/it]62it [01:39,  1.56s/it]63it [01:40,  1.59s/it]64it [01:42,  1.58s/it]65it [01:44,  1.58s/it]66it [01:45,  1.59s/it]67it [01:47,  1.63s/it]68it [01:49,  1.63s/it]69it [01:50,  1.65s/it]70it [01:52,  1.62s/it]71it [01:53,  1.61s/it]72it [01:55,  1.58s/it]73it [01:56,  1.58s/it]73it [01:57,  1.60s/it]
+
+Overall Acc: 0.968862
+Mean Acc: 0.835215
+FreqW Acc: 0.942716
+Mean IoU: 0.776187
+Class IoU:
+	class 0: 0.979584
+	class 1: 0.774544
+	class 2: 0.574433
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.96     99.62     98.97     96.89     77.62     83.52     86.41     400       4       
+abuth         77.45     87.13     87.29                                                               
+cotton        57.44     63.81     72.97                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 22.16%
+  abuth -> cotton confusion: 3.76%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.776187 best=0.776187 no_improve=0/10 min_delta=0.010000
+Epoch 4, Itrs 410/-1, Loss=0.411568
+Epoch 4, Itrs 420/-1, Loss=0.335637
+Epoch 4, Itrs 430/-1, Loss=0.260672
+Epoch 4, Itrs 440/-1, Loss=0.268466
+Epoch 4, Itrs 450/-1, Loss=0.749943
+Epoch 4, Itrs 460/-1, Loss=0.315283
+Epoch 4, Itrs 470/-1, Loss=0.185098
+Epoch 4, Itrs 480/-1, Loss=0.299264
+Epoch 4, Itrs 490/-1, Loss=0.345362
+Epoch 4, Itrs 500/-1, Loss=0.527151
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.79s/it]2it [00:04,  2.04s/it]3it [00:05,  1.86s/it]4it [00:07,  1.73s/it]5it [00:09,  1.69s/it]6it [00:10,  1.64s/it]7it [00:12,  1.64s/it]8it [00:13,  1.60s/it]9it [00:15,  1.60s/it]10it [00:16,  1.58s/it]11it [00:18,  1.58s/it]12it [00:20,  1.57s/it]13it [00:21,  1.57s/it]14it [00:23,  1.57s/it]15it [00:24,  1.57s/it]16it [00:26,  1.57s/it]17it [00:27,  1.58s/it]18it [00:29,  1.57s/it]19it [00:31,  1.58s/it]20it [00:32,  1.57s/it]21it [00:34,  1.57s/it]22it [00:35,  1.55s/it]23it [00:37,  1.56s/it]24it [00:38,  1.54s/it]25it [00:40,  1.56s/it]26it [00:41,  1.54s/it]27it [00:43,  1.57s/it]28it [00:45,  1.58s/it]29it [00:46,  1.61s/it]30it [00:48,  1.61s/it]31it [00:50,  1.61s/it]32it [00:51,  1.60s/it]33it [00:53,  1.60s/it]34it [00:54,  1.58s/it]35it [00:56,  1.59s/it]36it [00:57,  1.57s/it]37it [00:59,  1.58s/it]38it [01:01,  1.57s/it]39it [01:02,  1.58s/it]40it [01:04,  1.56s/it]41it [01:05,  1.58s/it]42it [01:07,  1.58s/it]43it [01:08,  1.60s/it]44it [01:10,  1.58s/it]45it [01:12,  1.59s/it]46it [01:13,  1.60s/it]47it [01:15,  1.63s/it]48it [01:17,  1.63s/it]49it [01:18,  1.64s/it]50it [01:20,  1.64s/it]51it [01:22,  1.65s/it]52it [01:23,  1.67s/it]53it [01:25,  1.68s/it]54it [01:27,  1.66s/it]55it [01:28,  1.67s/it]56it [01:30,  1.65s/it]57it [01:32,  1.65s/it]58it [01:33,  1.63s/it]59it [01:35,  1.64s/it]60it [01:36,  1.64s/it]61it [01:38,  1.65s/it]62it [01:40,  1.62s/it]63it [01:41,  1.64s/it]64it [01:43,  1.63s/it]65it [01:45,  1.64s/it]66it [01:46,  1.62s/it]67it [01:48,  1.62s/it]68it [01:49,  1.59s/it]69it [01:51,  1.62s/it]70it [01:53,  1.62s/it]71it [01:54,  1.64s/it]72it [01:56,  1.61s/it]73it [01:57,  1.60s/it]73it [01:57,  1.62s/it]
+
+Overall Acc: 0.958488
+Mean Acc: 0.792731
+FreqW Acc: 0.928884
+Mean IoU: 0.703132
+Class IoU:
+	class 0: 0.979550
+	class 1: 0.689509
+	class 2: 0.440337
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.96     98.95     98.97     95.85     70.31     79.27     80.58     500       4       
+abuth         68.95     88.54     81.62                                                               
+cotton        44.03     50.33     61.14                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 42.85%
+  abuth -> cotton confusion: 5.26%
+[EarlyStop] metric=Mean IoU current=0.703132 best=0.776187 no_improve=1/10 min_delta=0.010000
+Epoch 4, Itrs 510/-1, Loss=0.407507
+Epoch 5, Itrs 520/-1, Loss=0.372977
+Epoch 5, Itrs 530/-1, Loss=0.310910
+Epoch 5, Itrs 540/-1, Loss=0.357182
+Epoch 5, Itrs 550/-1, Loss=0.305185
+Epoch 5, Itrs 560/-1, Loss=0.307783
+Epoch 5, Itrs 570/-1, Loss=0.489879
+Epoch 5, Itrs 580/-1, Loss=0.463949
+Epoch 5, Itrs 590/-1, Loss=0.346862
+Epoch 5, Itrs 600/-1, Loss=0.203358
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.71s/it]2it [00:04,  2.02s/it]3it [00:05,  1.82s/it]4it [00:07,  1.70s/it]5it [00:08,  1.66s/it]6it [00:10,  1.63s/it]7it [00:12,  1.62s/it]8it [00:13,  1.60s/it]9it [00:15,  1.60s/it]10it [00:16,  1.60s/it]11it [00:18,  1.62s/it]12it [00:20,  1.61s/it]13it [00:21,  1.63s/it]14it [00:23,  1.61s/it]15it [00:25,  1.63s/it]16it [00:26,  1.61s/it]17it [00:28,  1.63s/it]18it [00:29,  1.61s/it]19it [00:31,  1.62s/it]20it [00:33,  1.61s/it]21it [00:34,  1.64s/it]22it [00:36,  1.63s/it]23it [00:38,  1.64s/it]24it [00:39,  1.62s/it]25it [00:41,  1.64s/it]26it [00:42,  1.62s/it]27it [00:44,  1.63s/it]28it [00:46,  1.62s/it]29it [00:47,  1.66s/it]30it [00:49,  1.67s/it]31it [00:51,  1.68s/it]32it [00:52,  1.65s/it]33it [00:54,  1.64s/it]34it [00:55,  1.60s/it]35it [00:57,  1.59s/it]36it [00:59,  1.57s/it]37it [01:00,  1.58s/it]38it [01:02,  1.55s/it]39it [01:03,  1.57s/it]40it [01:05,  1.55s/it]41it [01:06,  1.57s/it]42it [01:08,  1.55s/it]43it [01:09,  1.56s/it]44it [01:11,  1.55s/it]45it [01:13,  1.56s/it]46it [01:14,  1.57s/it]47it [01:16,  1.57s/it]48it [01:17,  1.56s/it]49it [01:19,  1.57s/it]50it [01:20,  1.55s/it]51it [01:22,  1.57s/it]52it [01:24,  1.55s/it]53it [01:25,  1.57s/it]54it [01:27,  1.55s/it]55it [01:28,  1.58s/it]56it [01:30,  1.56s/it]57it [01:31,  1.57s/it]58it [01:33,  1.56s/it]59it [01:35,  1.58s/it]60it [01:36,  1.57s/it]61it [01:38,  1.57s/it]62it [01:39,  1.56s/it]63it [01:41,  1.57s/it]64it [01:42,  1.55s/it]65it [01:44,  1.56s/it]66it [01:45,  1.55s/it]67it [01:47,  1.57s/it]68it [01:49,  1.55s/it]69it [01:50,  1.59s/it]70it [01:52,  1.57s/it]71it [01:53,  1.58s/it]72it [01:55,  1.59s/it]73it [01:57,  1.62s/it]73it [01:57,  1.61s/it]
+
+Overall Acc: 0.953250
+Mean Acc: 0.769774
+FreqW Acc: 0.920976
+Mean IoU: 0.666302
+Class IoU:
+	class 0: 0.976561
+	class 1: 0.677035
+	class 2: 0.345309
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.66     98.23     98.81     95.33     66.63     76.98     76.96     600       5       
+abuth         67.70     96.08     80.74                                                               
+cotton        34.53     36.63     51.34                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 56.55%
+  abuth -> cotton confusion: 1.73%
+[EarlyStop] metric=Mean IoU current=0.666302 best=0.776187 no_improve=2/10 min_delta=0.010000
+Epoch 5, Itrs 610/-1, Loss=0.269907
+Epoch 5, Itrs 620/-1, Loss=0.378195
+Epoch 5, Itrs 630/-1, Loss=0.275755
+Epoch 5, Itrs 640/-1, Loss=0.216608
+Epoch 6, Itrs 650/-1, Loss=0.302181
+Epoch 6, Itrs 660/-1, Loss=0.193848
+Epoch 6, Itrs 670/-1, Loss=0.191806
+Epoch 6, Itrs 680/-1, Loss=0.228976
+Epoch 6, Itrs 690/-1, Loss=0.466157
+Epoch 6, Itrs 700/-1, Loss=0.344982
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.68s/it]2it [00:04,  1.99s/it]3it [00:05,  1.80s/it]4it [00:07,  1.68s/it]5it [00:08,  1.64s/it]6it [00:10,  1.60s/it]7it [00:11,  1.61s/it]8it [00:13,  1.58s/it]9it [00:15,  1.58s/it]10it [00:16,  1.57s/it]11it [00:18,  1.58s/it]12it [00:19,  1.57s/it]13it [00:21,  1.58s/it]14it [00:22,  1.56s/it]15it [00:24,  1.57s/it]16it [00:25,  1.55s/it]17it [00:27,  1.56s/it]18it [00:29,  1.55s/it]19it [00:30,  1.56s/it]20it [00:32,  1.54s/it]21it [00:33,  1.57s/it]22it [00:35,  1.55s/it]23it [00:36,  1.56s/it]24it [00:38,  1.55s/it]25it [00:40,  1.58s/it]26it [00:41,  1.56s/it]27it [00:43,  1.57s/it]28it [00:44,  1.56s/it]29it [00:46,  1.56s/it]30it [00:47,  1.55s/it]31it [00:49,  1.56s/it]32it [00:50,  1.54s/it]33it [00:52,  1.57s/it]34it [00:54,  1.58s/it]35it [00:55,  1.62s/it]36it [00:57,  1.61s/it]37it [00:59,  1.62s/it]38it [01:00,  1.59s/it]39it [01:02,  1.60s/it]40it [01:03,  1.59s/it]41it [01:05,  1.59s/it]42it [01:06,  1.56s/it]43it [01:08,  1.57s/it]44it [01:09,  1.55s/it]45it [01:11,  1.56s/it]46it [01:13,  1.54s/it]47it [01:14,  1.55s/it]48it [01:16,  1.53s/it]49it [01:17,  1.55s/it]50it [01:19,  1.55s/it]51it [01:20,  1.57s/it]52it [01:22,  1.55s/it]53it [01:23,  1.58s/it]54it [01:25,  1.56s/it]55it [01:27,  1.57s/it]56it [01:28,  1.56s/it]57it [01:30,  1.58s/it]58it [01:31,  1.56s/it]59it [01:33,  1.57s/it]60it [01:34,  1.55s/it]61it [01:36,  1.56s/it]62it [01:37,  1.53s/it]63it [01:39,  1.56s/it]64it [01:41,  1.57s/it]65it [01:42,  1.58s/it]66it [01:44,  1.56s/it]67it [01:45,  1.60s/it]68it [01:47,  1.60s/it]69it [01:49,  1.62s/it]70it [01:50,  1.62s/it]71it [01:52,  1.63s/it]72it [01:54,  1.61s/it]73it [01:55,  1.62s/it]73it [01:55,  1.59s/it]
+
+Overall Acc: 0.691283
+Mean Acc: 0.759092
+FreqW Acc: 0.617717
+Mean IoU: 0.496663
+Class IoU:
+	class 0: 0.660466
+	class 1: 0.230745
+	class 2: 0.598779
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    66.05     66.30     79.55     69.13     49.67     75.91     63.98     700       6       
+abuth         23.07     98.08     37.50                                                               
+cotton        59.88     63.35     74.90                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 30.36%
+  abuth -> cotton confusion: 1.39%
+[EarlyStop] metric=Mean IoU current=0.496663 best=0.776187 no_improve=3/10 min_delta=0.010000
+Epoch 6, Itrs 710/-1, Loss=0.221322
+Epoch 6, Itrs 720/-1, Loss=0.333720
+Epoch 6, Itrs 730/-1, Loss=0.197799
+Epoch 6, Itrs 740/-1, Loss=0.201133
+Epoch 6, Itrs 750/-1, Loss=0.392625
+Epoch 6, Itrs 760/-1, Loss=0.329743
+Epoch 7, Itrs 770/-1, Loss=0.329225
+Epoch 7, Itrs 780/-1, Loss=0.239193
+Epoch 7, Itrs 790/-1, Loss=0.296218
+Epoch 7, Itrs 800/-1, Loss=0.248326
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.73s/it]2it [00:04,  2.00s/it]3it [00:05,  1.82s/it]4it [00:07,  1.71s/it]5it [00:09,  1.70s/it]6it [00:10,  1.64s/it]7it [00:12,  1.64s/it]8it [00:13,  1.60s/it]9it [00:15,  1.60s/it]10it [00:16,  1.58s/it]11it [00:18,  1.59s/it]12it [00:19,  1.57s/it]13it [00:21,  1.58s/it]14it [00:23,  1.56s/it]15it [00:24,  1.59s/it]16it [00:26,  1.58s/it]17it [00:27,  1.60s/it]18it [00:29,  1.57s/it]19it [00:31,  1.60s/it]20it [00:32,  1.58s/it]21it [00:34,  1.60s/it]22it [00:35,  1.57s/it]23it [00:37,  1.58s/it]24it [00:38,  1.57s/it]25it [00:40,  1.57s/it]26it [00:42,  1.56s/it]27it [00:43,  1.57s/it]28it [00:45,  1.55s/it]29it [00:46,  1.57s/it]30it [00:48,  1.57s/it]31it [00:49,  1.59s/it]32it [00:51,  1.57s/it]33it [00:53,  1.59s/it]34it [00:54,  1.59s/it]35it [00:56,  1.61s/it]36it [00:58,  1.61s/it]37it [00:59,  1.65s/it]38it [01:01,  1.64s/it]39it [01:03,  1.67s/it]40it [01:04,  1.66s/it]41it [01:06,  1.66s/it]42it [01:07,  1.63s/it]43it [01:09,  1.63s/it]44it [01:11,  1.61s/it]45it [01:12,  1.63s/it]46it [01:14,  1.62s/it]47it [01:16,  1.64s/it]48it [01:17,  1.63s/it]49it [01:19,  1.65s/it]50it [01:20,  1.63s/it]51it [01:22,  1.63s/it]52it [01:24,  1.62s/it]53it [01:25,  1.63s/it]54it [01:27,  1.62s/it]55it [01:29,  1.61s/it]56it [01:30,  1.59s/it]57it [01:32,  1.59s/it]58it [01:33,  1.56s/it]59it [01:35,  1.56s/it]60it [01:36,  1.55s/it]61it [01:38,  1.56s/it]62it [01:39,  1.54s/it]63it [01:41,  1.55s/it]64it [01:42,  1.54s/it]65it [01:44,  1.56s/it]66it [01:46,  1.54s/it]67it [01:47,  1.57s/it]68it [01:49,  1.55s/it]69it [01:50,  1.57s/it]70it [01:52,  1.55s/it]71it [01:53,  1.56s/it]72it [01:55,  1.55s/it]73it [01:56,  1.56s/it]73it [01:57,  1.60s/it]
+
+Overall Acc: 0.950145
+Mean Acc: 0.728018
+FreqW Acc: 0.912545
+Mean IoU: 0.642682
+Class IoU:
+	class 0: 0.971294
+	class 1: 0.656553
+	class 2: 0.300200
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.13     98.94     98.54     95.01     64.27     72.80     74.66     800       7       
+abuth         65.66     89.08     79.27                                                               
+cotton        30.02     30.39     46.18                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 55.83%
+  abuth -> cotton confusion: 0.16%
+[EarlyStop] metric=Mean IoU current=0.642682 best=0.776187 no_improve=4/10 min_delta=0.010000
+Epoch 7, Itrs 810/-1, Loss=0.221944
+Epoch 7, Itrs 820/-1, Loss=0.212790
+Epoch 7, Itrs 830/-1, Loss=0.207271
+Epoch 7, Itrs 840/-1, Loss=0.252519
+Epoch 7, Itrs 850/-1, Loss=0.191542
+Epoch 7, Itrs 860/-1, Loss=0.408285
+Epoch 7, Itrs 870/-1, Loss=0.203102
+Epoch 7, Itrs 880/-1, Loss=0.193020
+Epoch 7, Itrs 890/-1, Loss=0.284885
+Epoch 8, Itrs 900/-1, Loss=0.192690
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.84s/it]2it [00:04,  2.10s/it]3it [00:06,  1.92s/it]4it [00:07,  1.80s/it]5it [00:09,  1.76s/it]6it [00:11,  1.71s/it]7it [00:12,  1.70s/it]8it [00:14,  1.67s/it]9it [00:16,  1.67s/it]10it [00:17,  1.66s/it]11it [00:19,  1.66s/it]12it [00:20,  1.65s/it]13it [00:22,  1.66s/it]14it [00:24,  1.64s/it]15it [00:25,  1.64s/it]16it [00:27,  1.62s/it]17it [00:29,  1.64s/it]18it [00:30,  1.61s/it]19it [00:32,  1.64s/it]20it [00:33,  1.63s/it]21it [00:35,  1.65s/it]22it [00:37,  1.63s/it]23it [00:38,  1.62s/it]24it [00:40,  1.60s/it]25it [00:41,  1.59s/it]26it [00:43,  1.57s/it]27it [00:45,  1.58s/it]28it [00:46,  1.56s/it]29it [00:48,  1.56s/it]30it [00:49,  1.55s/it]31it [00:51,  1.56s/it]32it [00:52,  1.53s/it]33it [00:54,  1.55s/it]34it [00:55,  1.53s/it]35it [00:57,  1.54s/it]36it [00:58,  1.54s/it]37it [01:00,  1.55s/it]38it [01:01,  1.52s/it]39it [01:03,  1.54s/it]40it [01:05,  1.54s/it]41it [01:06,  1.57s/it]42it [01:08,  1.56s/it]43it [01:09,  1.58s/it]44it [01:11,  1.55s/it]45it [01:12,  1.56s/it]46it [01:14,  1.54s/it]47it [01:16,  1.55s/it]48it [01:17,  1.56s/it]49it [01:19,  1.56s/it]50it [01:20,  1.54s/it]51it [01:22,  1.56s/it]52it [01:23,  1.54s/it]53it [01:25,  1.55s/it]54it [01:26,  1.53s/it]55it [01:28,  1.55s/it]56it [01:29,  1.54s/it]57it [01:31,  1.55s/it]58it [01:32,  1.54s/it]59it [01:34,  1.55s/it]60it [01:36,  1.54s/it]61it [01:37,  1.55s/it]62it [01:39,  1.54s/it]63it [01:40,  1.55s/it]64it [01:42,  1.54s/it]65it [01:43,  1.55s/it]66it [01:45,  1.54s/it]67it [01:46,  1.55s/it]68it [01:48,  1.54s/it]69it [01:50,  1.55s/it]70it [01:51,  1.54s/it]71it [01:53,  1.55s/it]72it [01:54,  1.54s/it]73it [01:56,  1.55s/it]73it [01:56,  1.59s/it]
+
+Overall Acc: 0.927560
+Mean Acc: 0.722160
+FreqW Acc: 0.884297
+Mean IoU: 0.584394
+Class IoU:
+	class 0: 0.951207
+	class 1: 0.572913
+	class 2: 0.229061
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    95.12     95.79     97.50     92.76     58.44     72.22     69.21     900       8       
+abuth         57.29     97.14     72.85                                                               
+cotton        22.91     23.72     37.27                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 68.49%
+  abuth -> cotton confusion: 0.01%
+[EarlyStop] metric=Mean IoU current=0.584394 best=0.776187 no_improve=5/10 min_delta=0.010000
+Epoch 8, Itrs 910/-1, Loss=0.535736
+Epoch 8, Itrs 920/-1, Loss=0.248772
+Epoch 8, Itrs 930/-1, Loss=0.441797
+Epoch 8, Itrs 940/-1, Loss=0.198553
+Epoch 8, Itrs 950/-1, Loss=0.144325
+Epoch 8, Itrs 960/-1, Loss=0.304537
+Epoch 8, Itrs 970/-1, Loss=0.181169
+Epoch 8, Itrs 980/-1, Loss=0.345901
+Epoch 8, Itrs 990/-1, Loss=0.376533
+Epoch 8, Itrs 1000/-1, Loss=0.297688
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.68s/it]2it [00:04,  1.97s/it]3it [00:05,  1.81s/it]4it [00:07,  1.71s/it]5it [00:08,  1.69s/it]6it [00:10,  1.66s/it]7it [00:12,  1.63s/it]8it [00:13,  1.58s/it]9it [00:15,  1.59s/it]10it [00:16,  1.56s/it]11it [00:18,  1.56s/it]12it [00:19,  1.54s/it]13it [00:21,  1.54s/it]14it [00:22,  1.53s/it]15it [00:24,  1.54s/it]16it [00:25,  1.53s/it]17it [00:27,  1.54s/it]18it [00:28,  1.53s/it]19it [00:30,  1.54s/it]20it [00:32,  1.53s/it]21it [00:33,  1.55s/it]22it [00:35,  1.53s/it]23it [00:36,  1.54s/it]24it [00:38,  1.52s/it]25it [00:39,  1.53s/it]26it [00:41,  1.51s/it]27it [00:42,  1.52s/it]28it [00:44,  1.51s/it]29it [00:45,  1.54s/it]30it [00:47,  1.53s/it]31it [00:48,  1.56s/it]32it [00:50,  1.54s/it]33it [00:52,  1.55s/it]34it [00:53,  1.54s/it]35it [00:55,  1.56s/it]36it [00:56,  1.55s/it]37it [00:58,  1.55s/it]38it [00:59,  1.54s/it]39it [01:01,  1.55s/it]40it [01:02,  1.53s/it]41it [01:04,  1.54s/it]42it [01:05,  1.52s/it]43it [01:07,  1.53s/it]44it [01:08,  1.52s/it]45it [01:10,  1.53s/it]46it [01:11,  1.53s/it]47it [01:13,  1.56s/it]48it [01:15,  1.56s/it]49it [01:16,  1.59s/it]50it [01:18,  1.58s/it]51it [01:19,  1.58s/it]52it [01:21,  1.55s/it]53it [01:22,  1.55s/it]54it [01:24,  1.53s/it]55it [01:25,  1.53s/it]56it [01:27,  1.52s/it]57it [01:29,  1.53s/it]58it [01:30,  1.52s/it]59it [01:32,  1.53s/it]60it [01:33,  1.52s/it]61it [01:35,  1.54s/it]62it [01:36,  1.53s/it]63it [01:38,  1.55s/it]64it [01:39,  1.54s/it]65it [01:41,  1.57s/it]66it [01:42,  1.57s/it]67it [01:44,  1.59s/it]68it [01:46,  1.57s/it]69it [01:47,  1.59s/it]70it [01:49,  1.58s/it]71it [01:50,  1.60s/it]72it [01:52,  1.58s/it]73it [01:54,  1.60s/it]73it [01:54,  1.56s/it]
+
+Overall Acc: 0.970848
+Mean Acc: 0.868866
+FreqW Acc: 0.947664
+Mean IoU: 0.792763
+Class IoU:
+	class 0: 0.982597
+	class 1: 0.780630
+	class 2: 0.615063
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.26     98.70     99.12     97.08     79.28     86.89     87.66     1000      8       
+abuth         78.06     97.47     87.68                                                               
+cotton        61.51     64.49     76.17                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 30.57%
+  abuth -> cotton confusion: 0.71%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.792763 best=0.792763 no_improve=0/10 min_delta=0.010000
+Epoch 8, Itrs 1010/-1, Loss=0.266668
+Epoch 8, Itrs 1020/-1, Loss=0.240368
+Epoch 9, Itrs 1030/-1, Loss=0.278455
+Epoch 9, Itrs 1040/-1, Loss=0.327336
+Epoch 9, Itrs 1050/-1, Loss=0.321847
+Epoch 9, Itrs 1060/-1, Loss=0.194278
+Epoch 9, Itrs 1070/-1, Loss=0.077262
+Epoch 9, Itrs 1080/-1, Loss=0.260166
+Epoch 9, Itrs 1090/-1, Loss=0.221051
+Epoch 9, Itrs 1100/-1, Loss=0.110722
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.67s/it]2it [00:04,  1.97s/it]3it [00:05,  1.79s/it]4it [00:07,  1.68s/it]5it [00:08,  1.63s/it]6it [00:10,  1.58s/it]7it [00:11,  1.59s/it]8it [00:13,  1.57s/it]9it [00:15,  1.59s/it]10it [00:16,  1.58s/it]11it [00:18,  1.57s/it]12it [00:19,  1.56s/it]13it [00:21,  1.56s/it]14it [00:22,  1.54s/it]15it [00:24,  1.55s/it]16it [00:25,  1.53s/it]17it [00:27,  1.54s/it]18it [00:28,  1.53s/it]19it [00:30,  1.55s/it]20it [00:31,  1.54s/it]21it [00:33,  1.54s/it]22it [00:35,  1.53s/it]23it [00:36,  1.54s/it]24it [00:38,  1.53s/it]25it [00:39,  1.54s/it]26it [00:41,  1.53s/it]27it [00:42,  1.54s/it]28it [00:44,  1.52s/it]29it [00:45,  1.55s/it]30it [00:47,  1.54s/it]31it [00:48,  1.54s/it]32it [00:50,  1.53s/it]33it [00:51,  1.56s/it]34it [00:53,  1.55s/it]35it [00:55,  1.57s/it]36it [00:56,  1.55s/it]37it [00:58,  1.58s/it]38it [00:59,  1.58s/it]39it [01:01,  1.60s/it]40it [01:03,  1.59s/it]41it [01:04,  1.62s/it]42it [01:06,  1.61s/it]43it [01:08,  1.63s/it]44it [01:09,  1.61s/it]45it [01:11,  1.63s/it]46it [01:12,  1.60s/it]47it [01:14,  1.61s/it]48it [01:16,  1.61s/it]49it [01:17,  1.62s/it]50it [01:19,  1.60s/it]51it [01:20,  1.63s/it]52it [01:22,  1.64s/it]53it [01:24,  1.65s/it]54it [01:25,  1.62s/it]55it [01:27,  1.62s/it]56it [01:29,  1.59s/it]57it [01:30,  1.58s/it]58it [01:32,  1.55s/it]59it [01:33,  1.56s/it]60it [01:35,  1.54s/it]61it [01:36,  1.54s/it]62it [01:38,  1.52s/it]63it [01:39,  1.53s/it]64it [01:41,  1.51s/it]65it [01:42,  1.53s/it]66it [01:44,  1.52s/it]67it [01:45,  1.53s/it]68it [01:47,  1.52s/it]69it [01:48,  1.55s/it]70it [01:50,  1.53s/it]71it [01:51,  1.54s/it]72it [01:53,  1.52s/it]73it [01:54,  1.52s/it]73it [01:54,  1.57s/it]
+
+Overall Acc: 0.951038
+Mean Acc: 0.824046
+FreqW Acc: 0.917515
+Mean IoU: 0.710753
+Class IoU:
+	class 0: 0.965560
+	class 1: 0.671042
+	class 2: 0.495655
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.56     96.96     98.25     95.10     71.08     82.40     81.61     1100      9       
+abuth         67.10     98.10     80.31                                                               
+cotton        49.57     52.15     66.28                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 43.10%
+  abuth -> cotton confusion: 0.24%
+[EarlyStop] metric=Mean IoU current=0.710753 best=0.792763 no_improve=1/10 min_delta=0.010000
+Epoch 9, Itrs 1110/-1, Loss=0.175729
+Epoch 9, Itrs 1120/-1, Loss=0.107886
+Epoch 9, Itrs 1130/-1, Loss=0.290759
+Epoch 9, Itrs 1140/-1, Loss=0.218260
+Epoch 9, Itrs 1150/-1, Loss=0.205735
+Epoch 10, Itrs 1160/-1, Loss=0.291295
+Epoch 10, Itrs 1170/-1, Loss=0.156059
+Epoch 10, Itrs 1180/-1, Loss=0.192814
+Epoch 10, Itrs 1190/-1, Loss=0.194922
+Epoch 10, Itrs 1200/-1, Loss=0.175377
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.77s/it]2it [00:04,  2.01s/it]3it [00:05,  1.82s/it]4it [00:07,  1.72s/it]5it [00:09,  1.68s/it]6it [00:10,  1.63s/it]7it [00:12,  1.61s/it]8it [00:13,  1.58s/it]9it [00:15,  1.58s/it]10it [00:16,  1.56s/it]11it [00:18,  1.57s/it]12it [00:19,  1.56s/it]13it [00:21,  1.59s/it]14it [00:23,  1.58s/it]15it [00:24,  1.59s/it]16it [00:26,  1.59s/it]17it [00:27,  1.60s/it]18it [00:29,  1.58s/it]19it [00:31,  1.60s/it]20it [00:32,  1.58s/it]21it [00:34,  1.59s/it]22it [00:35,  1.56s/it]23it [00:37,  1.58s/it]24it [00:38,  1.57s/it]25it [00:40,  1.58s/it]26it [00:42,  1.57s/it]27it [00:43,  1.57s/it]28it [00:45,  1.54s/it]29it [00:46,  1.54s/it]30it [00:48,  1.52s/it]31it [00:49,  1.53s/it]32it [00:51,  1.51s/it]33it [00:52,  1.52s/it]34it [00:54,  1.51s/it]35it [00:55,  1.53s/it]36it [00:57,  1.51s/it]37it [00:58,  1.55s/it]38it [01:00,  1.53s/it]39it [01:01,  1.55s/it]40it [01:03,  1.54s/it]41it [01:04,  1.55s/it]42it [01:06,  1.53s/it]43it [01:08,  1.53s/it]44it [01:09,  1.52s/it]45it [01:11,  1.53s/it]46it [01:12,  1.51s/it]47it [01:14,  1.52s/it]48it [01:15,  1.51s/it]49it [01:17,  1.53s/it]50it [01:18,  1.53s/it]51it [01:20,  1.54s/it]52it [01:21,  1.53s/it]53it [01:23,  1.54s/it]54it [01:24,  1.54s/it]55it [01:26,  1.55s/it]56it [01:27,  1.53s/it]57it [01:29,  1.56s/it]58it [01:31,  1.55s/it]59it [01:32,  1.58s/it]60it [01:34,  1.57s/it]61it [01:35,  1.57s/it]62it [01:37,  1.55s/it]63it [01:38,  1.55s/it]64it [01:40,  1.52s/it]65it [01:41,  1.55s/it]66it [01:43,  1.54s/it]67it [01:45,  1.55s/it]68it [01:46,  1.53s/it]69it [01:48,  1.57s/it]70it [01:49,  1.54s/it]71it [01:51,  1.56s/it]72it [01:52,  1.55s/it]73it [01:54,  1.56s/it]73it [01:54,  1.57s/it]
+
+Overall Acc: 0.954892
+Mean Acc: 0.725589
+FreqW Acc: 0.921232
+Mean IoU: 0.631379
+Class IoU:
+	class 0: 0.981296
+	class 1: 0.696676
+	class 2: 0.216164
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.13     99.09     99.06     95.49     63.14     72.56     72.24     1200      10      
+abuth         69.67     96.79     82.12                                                               
+cotton        21.62     21.80     35.55                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 65.72%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.631379 best=0.792763 no_improve=2/10 min_delta=0.010000
+Epoch 10, Itrs 1210/-1, Loss=0.205725
+Epoch 10, Itrs 1220/-1, Loss=0.270704
+Epoch 10, Itrs 1230/-1, Loss=0.200819
+Epoch 10, Itrs 1240/-1, Loss=0.143772
+Epoch 10, Itrs 1250/-1, Loss=0.327190
+Epoch 10, Itrs 1260/-1, Loss=0.236249
+Epoch 10, Itrs 1270/-1, Loss=0.114967
+Epoch 10, Itrs 1280/-1, Loss=0.270807
+Epoch 11, Itrs 1290/-1, Loss=0.163211
+Epoch 11, Itrs 1300/-1, Loss=0.143156
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.63s/it]2it [00:04,  1.96s/it]3it [00:05,  1.78s/it]4it [00:07,  1.66s/it]5it [00:08,  1.62s/it]6it [00:10,  1.58s/it]7it [00:11,  1.57s/it]8it [00:13,  1.54s/it]9it [00:14,  1.55s/it]10it [00:16,  1.53s/it]11it [00:17,  1.55s/it]12it [00:19,  1.53s/it]13it [00:20,  1.53s/it]14it [00:22,  1.51s/it]15it [00:23,  1.52s/it]16it [00:25,  1.51s/it]17it [00:26,  1.52s/it]18it [00:28,  1.51s/it]19it [00:29,  1.52s/it]20it [00:31,  1.52s/it]21it [00:33,  1.55s/it]22it [00:34,  1.55s/it]23it [00:36,  1.58s/it]24it [00:37,  1.56s/it]25it [00:39,  1.57s/it]26it [00:40,  1.55s/it]27it [00:42,  1.56s/it]28it [00:44,  1.54s/it]29it [00:45,  1.55s/it]30it [00:47,  1.54s/it]31it [00:48,  1.54s/it]32it [00:50,  1.52s/it]33it [00:51,  1.53s/it]34it [00:53,  1.51s/it]35it [00:54,  1.51s/it]36it [00:56,  1.51s/it]37it [00:57,  1.52s/it]38it [00:59,  1.51s/it]39it [01:00,  1.53s/it]40it [01:02,  1.54s/it]41it [01:03,  1.55s/it]42it [01:05,  1.54s/it]43it [01:06,  1.54s/it]44it [01:08,  1.53s/it]45it [01:10,  1.54s/it]46it [01:11,  1.52s/it]47it [01:13,  1.53s/it]48it [01:14,  1.52s/it]49it [01:16,  1.53s/it]50it [01:17,  1.52s/it]51it [01:19,  1.54s/it]52it [01:20,  1.52s/it]53it [01:22,  1.54s/it]54it [01:23,  1.52s/it]55it [01:25,  1.53s/it]56it [01:26,  1.52s/it]57it [01:28,  1.54s/it]58it [01:29,  1.52s/it]59it [01:31,  1.53s/it]60it [01:32,  1.52s/it]61it [01:34,  1.53s/it]62it [01:35,  1.51s/it]63it [01:37,  1.52s/it]64it [01:39,  1.53s/it]65it [01:40,  1.55s/it]66it [01:42,  1.55s/it]67it [01:43,  1.58s/it]68it [01:45,  1.56s/it]69it [01:46,  1.57s/it]70it [01:48,  1.55s/it]71it [01:50,  1.57s/it]72it [01:51,  1.56s/it]73it [01:53,  1.58s/it]73it [01:53,  1.55s/it]
+
+Overall Acc: 0.967982
+Mean Acc: 0.825292
+FreqW Acc: 0.942929
+Mean IoU: 0.748029
+Class IoU:
+	class 0: 0.984940
+	class 1: 0.764992
+	class 2: 0.494156
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.49     99.11     99.24     96.80     74.80     82.53     84.02     1300      11      
+abuth         76.50     96.45     86.69                                                               
+cotton        49.42     52.03     66.15                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 43.21%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.748029 best=0.792763 no_improve=3/10 min_delta=0.010000
+Epoch 11, Itrs 1310/-1, Loss=0.238522
+Epoch 11, Itrs 1320/-1, Loss=0.207781
+Epoch 11, Itrs 1330/-1, Loss=0.303209
+Epoch 11, Itrs 1340/-1, Loss=0.171008
+Epoch 11, Itrs 1350/-1, Loss=0.099373
+Epoch 11, Itrs 1360/-1, Loss=0.148825
+Epoch 11, Itrs 1370/-1, Loss=0.127863
+Epoch 11, Itrs 1380/-1, Loss=0.167464
+Epoch 11, Itrs 1390/-1, Loss=0.162151
+Epoch 11, Itrs 1400/-1, Loss=0.138422
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.62s/it]2it [00:04,  1.96s/it]3it [00:05,  1.78s/it]4it [00:07,  1.66s/it]5it [00:08,  1.62s/it]6it [00:10,  1.57s/it]7it [00:11,  1.58s/it]8it [00:13,  1.55s/it]9it [00:14,  1.55s/it]10it [00:16,  1.54s/it]11it [00:17,  1.57s/it]12it [00:19,  1.55s/it]13it [00:21,  1.56s/it]14it [00:22,  1.53s/it]15it [00:24,  1.54s/it]16it [00:25,  1.52s/it]17it [00:27,  1.53s/it]18it [00:28,  1.51s/it]19it [00:30,  1.52s/it]20it [00:31,  1.51s/it]21it [00:33,  1.52s/it]22it [00:34,  1.52s/it]23it [00:36,  1.53s/it]24it [00:37,  1.52s/it]25it [00:39,  1.53s/it]26it [00:40,  1.53s/it]27it [00:42,  1.57s/it]28it [00:43,  1.56s/it]29it [00:45,  1.58s/it]30it [00:47,  1.57s/it]31it [00:48,  1.58s/it]32it [00:50,  1.54s/it]33it [00:51,  1.55s/it]34it [00:53,  1.52s/it]35it [00:54,  1.53s/it]36it [00:56,  1.52s/it]37it [00:57,  1.54s/it]38it [00:59,  1.52s/it]39it [01:00,  1.54s/it]40it [01:02,  1.52s/it]41it [01:04,  1.55s/it]42it [01:05,  1.55s/it]43it [01:07,  1.58s/it]44it [01:08,  1.57s/it]45it [01:10,  1.61s/it]46it [01:12,  1.59s/it]47it [01:13,  1.59s/it]48it [01:15,  1.58s/it]49it [01:16,  1.58s/it]50it [01:18,  1.55s/it]51it [01:19,  1.57s/it]52it [01:21,  1.56s/it]53it [01:22,  1.58s/it]54it [01:24,  1.56s/it]55it [01:26,  1.57s/it]56it [01:27,  1.56s/it]57it [01:29,  1.58s/it]58it [01:30,  1.56s/it]59it [01:32,  1.58s/it]60it [01:33,  1.56s/it]61it [01:35,  1.58s/it]62it [01:37,  1.57s/it]63it [01:38,  1.57s/it]64it [01:40,  1.55s/it]65it [01:41,  1.56s/it]66it [01:43,  1.54s/it]67it [01:44,  1.55s/it]68it [01:46,  1.53s/it]69it [01:47,  1.54s/it]70it [01:49,  1.53s/it]71it [01:51,  1.57s/it]72it [01:52,  1.57s/it]73it [01:54,  1.61s/it]73it [01:54,  1.57s/it]
+
+Overall Acc: 0.970560
+Mean Acc: 0.834639
+FreqW Acc: 0.946876
+Mean IoU: 0.763495
+Class IoU:
+	class 0: 0.985964
+	class 1: 0.786752
+	class 2: 0.517770
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.60     99.28     99.29     97.06     76.35     83.46     85.20     1400      11      
+abuth         78.68     96.44     88.07                                                               
+cotton        51.78     54.68     68.23                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 38.53%
+  abuth -> cotton confusion: 0.38%
+[EarlyStop] metric=Mean IoU current=0.763495 best=0.792763 no_improve=4/10 min_delta=0.010000
+Epoch 12, Itrs 1410/-1, Loss=0.168135
+Epoch 12, Itrs 1420/-1, Loss=0.547545
+Epoch 12, Itrs 1430/-1, Loss=0.270349
+Epoch 12, Itrs 1440/-1, Loss=0.238266
+Epoch 12, Itrs 1450/-1, Loss=0.259216
+Epoch 12, Itrs 1460/-1, Loss=0.185668
+Epoch 12, Itrs 1470/-1, Loss=0.205160
+Epoch 12, Itrs 1480/-1, Loss=0.136759
+Epoch 12, Itrs 1490/-1, Loss=0.194196
+Epoch 12, Itrs 1500/-1, Loss=0.073857
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.68s/it]2it [00:04,  1.96s/it]3it [00:05,  1.77s/it]4it [00:07,  1.67s/it]5it [00:08,  1.64s/it]6it [00:10,  1.59s/it]7it [00:11,  1.60s/it]8it [00:13,  1.57s/it]9it [00:15,  1.58s/it]10it [00:16,  1.57s/it]11it [00:18,  1.57s/it]12it [00:19,  1.56s/it]13it [00:21,  1.56s/it]14it [00:22,  1.55s/it]15it [00:24,  1.57s/it]16it [00:25,  1.55s/it]17it [00:27,  1.56s/it]18it [00:28,  1.55s/it]19it [00:30,  1.56s/it]20it [00:32,  1.56s/it]21it [00:33,  1.58s/it]22it [00:35,  1.56s/it]23it [00:36,  1.58s/it]24it [00:38,  1.55s/it]25it [00:39,  1.56s/it]26it [00:41,  1.57s/it]27it [00:43,  1.59s/it]28it [00:44,  1.58s/it]29it [00:46,  1.58s/it]30it [00:47,  1.55s/it]31it [00:49,  1.55s/it]32it [00:50,  1.53s/it]33it [00:52,  1.55s/it]34it [00:53,  1.54s/it]35it [00:55,  1.56s/it]36it [00:57,  1.55s/it]37it [00:58,  1.55s/it]38it [01:00,  1.53s/it]39it [01:01,  1.53s/it]40it [01:03,  1.52s/it]41it [01:04,  1.53s/it]42it [01:06,  1.52s/it]43it [01:07,  1.53s/it]44it [01:09,  1.51s/it]45it [01:10,  1.52s/it]46it [01:12,  1.50s/it]47it [01:13,  1.51s/it]48it [01:15,  1.50s/it]49it [01:16,  1.51s/it]50it [01:18,  1.50s/it]51it [01:19,  1.51s/it]52it [01:21,  1.51s/it]53it [01:22,  1.52s/it]54it [01:24,  1.50s/it]55it [01:25,  1.51s/it]56it [01:27,  1.51s/it]57it [01:28,  1.53s/it]58it [01:30,  1.51s/it]59it [01:31,  1.52s/it]60it [01:33,  1.51s/it]61it [01:34,  1.53s/it]62it [01:36,  1.51s/it]63it [01:37,  1.52s/it]64it [01:39,  1.50s/it]65it [01:40,  1.50s/it]66it [01:42,  1.49s/it]67it [01:43,  1.50s/it]68it [01:45,  1.49s/it]69it [01:46,  1.50s/it]70it [01:48,  1.49s/it]71it [01:49,  1.49s/it]72it [01:51,  1.48s/it]73it [01:52,  1.48s/it]73it [01:52,  1.55s/it]
+
+Overall Acc: 0.931900
+Mean Acc: 0.674285
+FreqW Acc: 0.888687
+Mean IoU: 0.545861
+Class IoU:
+	class 0: 0.961779
+	class 1: 0.589065
+	class 2: 0.086740
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.18     97.13     98.05     93.19     54.59     67.43     62.72     1500      12      
+abuth         58.91     96.45     74.14                                                               
+cotton        8.67      8.71      15.96                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 79.36%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.545861 best=0.792763 no_improve=5/10 min_delta=0.010000
+Epoch 12, Itrs 1510/-1, Loss=0.143525
+Epoch 12, Itrs 1520/-1, Loss=0.090355
+Epoch 12, Itrs 1530/-1, Loss=0.419553
+Epoch 13, Itrs 1540/-1, Loss=0.146736
+Epoch 13, Itrs 1550/-1, Loss=0.107642
+Epoch 13, Itrs 1560/-1, Loss=0.309807
+Epoch 13, Itrs 1570/-1, Loss=0.289609
+Epoch 13, Itrs 1580/-1, Loss=0.309626
+Epoch 13, Itrs 1590/-1, Loss=0.092503
+Epoch 13, Itrs 1600/-1, Loss=0.124990
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.65s/it]2it [00:04,  1.98s/it]3it [00:05,  1.81s/it]4it [00:07,  1.69s/it]5it [00:08,  1.67s/it]6it [00:10,  1.62s/it]7it [00:12,  1.61s/it]8it [00:13,  1.61s/it]9it [00:15,  1.62s/it]10it [00:16,  1.59s/it]11it [00:18,  1.59s/it]12it [00:19,  1.56s/it]13it [00:21,  1.57s/it]14it [00:22,  1.55s/it]15it [00:24,  1.57s/it]16it [00:26,  1.55s/it]17it [00:27,  1.56s/it]18it [00:29,  1.54s/it]19it [00:30,  1.57s/it]20it [00:32,  1.55s/it]21it [00:33,  1.58s/it]22it [00:35,  1.58s/it]23it [00:37,  1.59s/it]24it [00:38,  1.57s/it]25it [00:40,  1.58s/it]26it [00:41,  1.56s/it]27it [00:43,  1.56s/it]28it [00:44,  1.54s/it]29it [00:46,  1.56s/it]30it [00:47,  1.54s/it]31it [00:49,  1.55s/it]32it [00:51,  1.54s/it]33it [00:52,  1.57s/it]34it [00:54,  1.56s/it]35it [00:55,  1.57s/it]36it [00:57,  1.56s/it]37it [00:58,  1.57s/it]38it [01:00,  1.59s/it]39it [01:02,  1.62s/it]40it [01:03,  1.61s/it]41it [01:05,  1.63s/it]42it [01:07,  1.60s/it]43it [01:08,  1.60s/it]44it [01:10,  1.58s/it]45it [01:11,  1.60s/it]46it [01:13,  1.59s/it]47it [01:15,  1.60s/it]48it [01:16,  1.58s/it]49it [01:18,  1.60s/it]50it [01:19,  1.59s/it]51it [01:21,  1.59s/it]52it [01:22,  1.57s/it]53it [01:24,  1.58s/it]54it [01:26,  1.57s/it]55it [01:27,  1.59s/it]56it [01:29,  1.57s/it]57it [01:30,  1.59s/it]58it [01:32,  1.57s/it]59it [01:33,  1.57s/it]60it [01:35,  1.55s/it]61it [01:37,  1.58s/it]62it [01:38,  1.57s/it]63it [01:40,  1.58s/it]64it [01:41,  1.58s/it]65it [01:43,  1.61s/it]66it [01:45,  1.60s/it]67it [01:46,  1.62s/it]68it [01:48,  1.61s/it]69it [01:50,  1.64s/it]70it [01:51,  1.61s/it]71it [01:53,  1.63s/it]72it [01:54,  1.64s/it]73it [01:56,  1.66s/it]73it [01:56,  1.60s/it]
+
+Overall Acc: 0.965479
+Mean Acc: 0.818186
+FreqW Acc: 0.937940
+Mean IoU: 0.746774
+Class IoU:
+	class 0: 0.979640
+	class 1: 0.755204
+	class 2: 0.505477
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.96     99.29     98.97     96.55     74.68     81.82     84.06     1600      13      
+abuth         75.52     90.31     86.05                                                               
+cotton        50.55     55.86     67.15                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 32.20%
+  abuth -> cotton confusion: 2.79%
+[EarlyStop] metric=Mean IoU current=0.746774 best=0.792763 no_improve=6/10 min_delta=0.010000
+Epoch 13, Itrs 1610/-1, Loss=0.306368
+Epoch 13, Itrs 1620/-1, Loss=0.186344
+Epoch 13, Itrs 1630/-1, Loss=0.171645
+Epoch 13, Itrs 1640/-1, Loss=0.197124
+Epoch 13, Itrs 1650/-1, Loss=0.221230
+Epoch 13, Itrs 1660/-1, Loss=0.241872
+Epoch 14, Itrs 1670/-1, Loss=0.267428
+Epoch 14, Itrs 1680/-1, Loss=0.104368
+Epoch 14, Itrs 1690/-1, Loss=0.327484
+Epoch 14, Itrs 1700/-1, Loss=0.169292
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.73s/it]2it [00:04,  2.06s/it]3it [00:06,  1.90s/it]4it [00:07,  1.77s/it]5it [00:09,  1.72s/it]6it [00:10,  1.65s/it]7it [00:12,  1.63s/it]8it [00:13,  1.59s/it]9it [00:15,  1.58s/it]10it [00:16,  1.56s/it]11it [00:18,  1.58s/it]12it [00:20,  1.56s/it]13it [00:21,  1.56s/it]14it [00:23,  1.53s/it]15it [00:24,  1.55s/it]16it [00:26,  1.54s/it]17it [00:27,  1.55s/it]18it [00:29,  1.55s/it]19it [00:30,  1.58s/it]20it [00:32,  1.55s/it]21it [00:33,  1.56s/it]22it [00:35,  1.53s/it]23it [00:37,  1.55s/it]24it [00:38,  1.54s/it]25it [00:40,  1.56s/it]26it [00:41,  1.53s/it]27it [00:43,  1.54s/it]28it [00:44,  1.53s/it]29it [00:46,  1.56s/it]30it [00:47,  1.54s/it]31it [00:49,  1.56s/it]32it [00:51,  1.56s/it]33it [00:52,  1.59s/it]34it [00:54,  1.59s/it]35it [00:55,  1.62s/it]36it [00:57,  1.61s/it]37it [00:59,  1.63s/it]38it [01:00,  1.61s/it]39it [01:02,  1.62s/it]40it [01:04,  1.61s/it]41it [01:05,  1.62s/it]42it [01:07,  1.60s/it]43it [01:08,  1.63s/it]44it [01:10,  1.64s/it]45it [01:12,  1.67s/it]46it [01:13,  1.66s/it]47it [01:15,  1.67s/it]48it [01:17,  1.64s/it]49it [01:18,  1.63s/it]50it [01:20,  1.60s/it]51it [01:22,  1.63s/it]52it [01:23,  1.62s/it]53it [01:25,  1.63s/it]54it [01:26,  1.60s/it]55it [01:28,  1.60s/it]56it [01:29,  1.57s/it]57it [01:31,  1.57s/it]58it [01:33,  1.55s/it]59it [01:34,  1.56s/it]60it [01:36,  1.54s/it]61it [01:37,  1.54s/it]62it [01:39,  1.55s/it]63it [01:40,  1.57s/it]64it [01:42,  1.55s/it]65it [01:43,  1.56s/it]66it [01:45,  1.54s/it]67it [01:46,  1.55s/it]68it [01:48,  1.54s/it]69it [01:50,  1.55s/it]70it [01:51,  1.53s/it]71it [01:53,  1.54s/it]72it [01:54,  1.53s/it]73it [01:56,  1.54s/it]73it [01:56,  1.59s/it]
+
+Overall Acc: 0.958990
+Mean Acc: 0.852958
+FreqW Acc: 0.928704
+Mean IoU: 0.753108
+Class IoU:
+	class 0: 0.969587
+	class 1: 0.718047
+	class 2: 0.571689
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.96     97.57     98.46     95.90     75.31     85.30     84.93     1700      14      
+abuth         71.80     96.36     83.59                                                               
+cotton        57.17     61.96     72.75                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 30.16%
+  abuth -> cotton confusion: 1.48%
+[EarlyStop] metric=Mean IoU current=0.753108 best=0.792763 no_improve=7/10 min_delta=0.010000
+Epoch 14, Itrs 1710/-1, Loss=0.175462
+Epoch 14, Itrs 1720/-1, Loss=0.154797
+Epoch 14, Itrs 1730/-1, Loss=0.145286
+Epoch 14, Itrs 1740/-1, Loss=0.134899
+Epoch 14, Itrs 1750/-1, Loss=0.266859
+Epoch 14, Itrs 1760/-1, Loss=0.315420
+Epoch 14, Itrs 1770/-1, Loss=0.219654
+Epoch 14, Itrs 1780/-1, Loss=0.194768
+Epoch 14, Itrs 1790/-1, Loss=0.149424
+Epoch 15, Itrs 1800/-1, Loss=0.191512
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.80s/it]2it [00:04,  2.05s/it]3it [00:05,  1.86s/it]4it [00:07,  1.75s/it]5it [00:09,  1.72s/it]6it [00:10,  1.67s/it]7it [00:12,  1.66s/it]8it [00:14,  1.65s/it]9it [00:15,  1.66s/it]10it [00:17,  1.65s/it]11it [00:19,  1.67s/it]12it [00:20,  1.64s/it]13it [00:22,  1.65s/it]14it [00:23,  1.63s/it]15it [00:25,  1.64s/it]16it [00:27,  1.62s/it]17it [00:28,  1.60s/it]18it [00:30,  1.58s/it]19it [00:31,  1.59s/it]20it [00:33,  1.57s/it]21it [00:34,  1.57s/it]22it [00:36,  1.55s/it]23it [00:38,  1.57s/it]24it [00:39,  1.56s/it]25it [00:41,  1.56s/it]26it [00:42,  1.54s/it]27it [00:44,  1.55s/it]28it [00:45,  1.53s/it]29it [00:47,  1.54s/it]30it [00:48,  1.53s/it]31it [00:50,  1.55s/it]32it [00:51,  1.53s/it]33it [00:53,  1.55s/it]34it [00:54,  1.55s/it]35it [00:56,  1.57s/it]36it [00:58,  1.55s/it]37it [00:59,  1.56s/it]38it [01:01,  1.54s/it]39it [01:02,  1.54s/it]40it [01:04,  1.53s/it]41it [01:05,  1.53s/it]42it [01:07,  1.52s/it]43it [01:08,  1.53s/it]44it [01:10,  1.51s/it]45it [01:11,  1.55s/it]46it [01:13,  1.54s/it]47it [01:15,  1.55s/it]48it [01:16,  1.54s/it]49it [01:18,  1.56s/it]50it [01:19,  1.54s/it]51it [01:21,  1.56s/it]52it [01:22,  1.57s/it]53it [01:24,  1.60s/it]54it [01:26,  1.58s/it]55it [01:27,  1.59s/it]56it [01:29,  1.57s/it]57it [01:30,  1.57s/it]58it [01:32,  1.55s/it]59it [01:33,  1.57s/it]60it [01:35,  1.55s/it]61it [01:36,  1.56s/it]62it [01:38,  1.56s/it]63it [01:40,  1.56s/it]64it [01:41,  1.55s/it]65it [01:43,  1.56s/it]66it [01:44,  1.54s/it]67it [01:46,  1.54s/it]68it [01:47,  1.52s/it]69it [01:49,  1.54s/it]70it [01:50,  1.52s/it]71it [01:52,  1.54s/it]72it [01:53,  1.53s/it]73it [01:55,  1.55s/it]73it [01:55,  1.58s/it]
+
+Overall Acc: 0.967043
+Mean Acc: 0.863187
+FreqW Acc: 0.941320
+Mean IoU: 0.778964
+Class IoU:
+	class 0: 0.977955
+	class 1: 0.765897
+	class 2: 0.593041
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.80     98.48     98.89     96.70     77.90     86.32     86.69     1800      15      
+abuth         76.59     94.97     86.74                                                               
+cotton        59.30     65.51     74.45                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 30.40%
+  abuth -> cotton confusion: 0.51%
+[EarlyStop] metric=Mean IoU current=0.778964 best=0.792763 no_improve=8/10 min_delta=0.010000
+Epoch 15, Itrs 1810/-1, Loss=0.255052
+Epoch 15, Itrs 1820/-1, Loss=0.243257
+Epoch 15, Itrs 1830/-1, Loss=0.246614
+Epoch 15, Itrs 1840/-1, Loss=0.243427
+Epoch 15, Itrs 1850/-1, Loss=0.204512
+Epoch 15, Itrs 1860/-1, Loss=0.218917
+Epoch 15, Itrs 1870/-1, Loss=0.192285
+Epoch 15, Itrs 1880/-1, Loss=0.169964
+Epoch 15, Itrs 1890/-1, Loss=0.190327
+Epoch 15, Itrs 1900/-1, Loss=0.225602
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.64s/it]2it [00:04,  1.96s/it]3it [00:05,  1.79s/it]4it [00:07,  1.67s/it]5it [00:08,  1.63s/it]6it [00:10,  1.59s/it]7it [00:11,  1.58s/it]8it [00:13,  1.55s/it]9it [00:14,  1.57s/it]10it [00:16,  1.56s/it]11it [00:18,  1.57s/it]12it [00:19,  1.54s/it]13it [00:21,  1.56s/it]14it [00:22,  1.55s/it]15it [00:24,  1.59s/it]16it [00:25,  1.60s/it]17it [00:27,  1.61s/it]18it [00:29,  1.58s/it]19it [00:30,  1.58s/it]20it [00:32,  1.56s/it]21it [00:33,  1.56s/it]22it [00:35,  1.54s/it]23it [00:36,  1.55s/it]24it [00:38,  1.53s/it]25it [00:39,  1.56s/it]26it [00:41,  1.54s/it]27it [00:43,  1.55s/it]28it [00:44,  1.54s/it]29it [00:46,  1.55s/it]30it [00:47,  1.55s/it]31it [00:49,  1.57s/it]32it [00:50,  1.56s/it]33it [00:52,  1.56s/it]34it [00:53,  1.54s/it]35it [00:55,  1.55s/it]36it [00:56,  1.54s/it]37it [00:58,  1.55s/it]38it [01:00,  1.53s/it]39it [01:01,  1.55s/it]40it [01:03,  1.54s/it]41it [01:04,  1.55s/it]42it [01:06,  1.53s/it]43it [01:07,  1.55s/it]44it [01:09,  1.54s/it]45it [01:10,  1.56s/it]46it [01:12,  1.54s/it]47it [01:14,  1.55s/it]48it [01:15,  1.54s/it]49it [01:17,  1.55s/it]50it [01:18,  1.53s/it]51it [01:20,  1.54s/it]52it [01:21,  1.52s/it]53it [01:23,  1.54s/it]54it [01:24,  1.54s/it]55it [01:26,  1.55s/it]56it [01:27,  1.54s/it]57it [01:29,  1.58s/it]58it [01:31,  1.58s/it]59it [01:32,  1.61s/it]60it [01:34,  1.62s/it]61it [01:35,  1.61s/it]62it [01:37,  1.59s/it]63it [01:39,  1.60s/it]64it [01:40,  1.59s/it]65it [01:42,  1.59s/it]66it [01:43,  1.57s/it]67it [01:45,  1.58s/it]68it [01:46,  1.57s/it]69it [01:48,  1.59s/it]70it [01:50,  1.59s/it]71it [01:51,  1.61s/it]72it [01:53,  1.59s/it]73it [01:55,  1.61s/it]73it [01:55,  1.58s/it]
+
+Overall Acc: 0.976502
+Mean Acc: 0.902933
+FreqW Acc: 0.956624
+Mean IoU: 0.839192
+Class IoU:
+	class 0: 0.983302
+	class 1: 0.826753
+	class 2: 0.707521
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.33     98.98     99.16     97.65     83.92     90.29     90.85     1900      15      
+abuth         82.68     95.25     90.52                                                               
+cotton        70.75     76.66     82.87                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 17.36%
+  abuth -> cotton confusion: 1.49%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.839192 best=0.839192 no_improve=0/10 min_delta=0.010000
+Epoch 15, Itrs 1910/-1, Loss=0.141889
+Epoch 15, Itrs 1920/-1, Loss=0.110432
+Epoch 16, Itrs 1930/-1, Loss=0.181355
+Epoch 16, Itrs 1940/-1, Loss=0.152166
+Epoch 16, Itrs 1950/-1, Loss=0.089769
+Epoch 16, Itrs 1960/-1, Loss=0.222898
+Epoch 16, Itrs 1970/-1, Loss=0.129651
+Epoch 16, Itrs 1980/-1, Loss=0.220490
+Epoch 16, Itrs 1990/-1, Loss=0.373084
+Epoch 16, Itrs 2000/-1, Loss=0.306117
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.65s/it]2it [00:04,  1.96s/it]3it [00:05,  1.77s/it]4it [00:07,  1.70s/it]5it [00:08,  1.66s/it]6it [00:10,  1.61s/it]7it [00:11,  1.59s/it]8it [00:13,  1.57s/it]9it [00:14,  1.56s/it]10it [00:16,  1.54s/it]11it [00:18,  1.56s/it]12it [00:19,  1.55s/it]13it [00:21,  1.55s/it]14it [00:22,  1.53s/it]15it [00:24,  1.53s/it]16it [00:25,  1.51s/it]17it [00:27,  1.52s/it]18it [00:28,  1.51s/it]19it [00:30,  1.52s/it]20it [00:31,  1.53s/it]21it [00:33,  1.59s/it]22it [00:35,  1.62s/it]23it [00:36,  1.64s/it]24it [00:38,  1.61s/it]25it [00:40,  1.62s/it]26it [00:41,  1.61s/it]27it [00:43,  1.62s/it]28it [00:44,  1.59s/it]29it [00:46,  1.61s/it]30it [00:48,  1.61s/it]31it [00:49,  1.63s/it]32it [00:51,  1.60s/it]33it [00:52,  1.62s/it]34it [00:54,  1.61s/it]35it [00:56,  1.61s/it]36it [00:57,  1.60s/it]37it [00:59,  1.61s/it]38it [01:00,  1.60s/it]39it [01:02,  1.64s/it]40it [01:04,  1.63s/it]41it [01:05,  1.63s/it]42it [01:07,  1.61s/it]43it [01:09,  1.62s/it]44it [01:10,  1.60s/it]45it [01:12,  1.61s/it]46it [01:13,  1.58s/it]47it [01:15,  1.57s/it]48it [01:16,  1.55s/it]49it [01:18,  1.55s/it]50it [01:19,  1.53s/it]51it [01:21,  1.54s/it]52it [01:22,  1.52s/it]53it [01:24,  1.53s/it]54it [01:25,  1.52s/it]55it [01:27,  1.55s/it]56it [01:29,  1.53s/it]57it [01:30,  1.54s/it]58it [01:32,  1.52s/it]59it [01:33,  1.56s/it]60it [01:35,  1.55s/it]61it [01:36,  1.55s/it]62it [01:38,  1.53s/it]63it [01:39,  1.56s/it]64it [01:41,  1.56s/it]65it [01:43,  1.59s/it]66it [01:44,  1.58s/it]67it [01:46,  1.57s/it]68it [01:47,  1.54s/it]69it [01:49,  1.56s/it]70it [01:50,  1.53s/it]71it [01:52,  1.54s/it]72it [01:53,  1.55s/it]73it [01:55,  1.56s/it]73it [01:55,  1.58s/it]
+
+Overall Acc: 0.849401
+Mean Acc: 0.691305
+FreqW Acc: 0.790012
+Mean IoU: 0.500041
+Class IoU:
+	class 0: 0.861955
+	class 1: 0.368610
+	class 2: 0.269559
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    86.20     87.00     92.59     84.94     50.00     69.13     62.97     2000      16      
+abuth         36.86     92.93     53.87                                                               
+cotton        26.96     27.47     42.47                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 69.26%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.500041 best=0.839192 no_improve=1/10 min_delta=0.010000
+Epoch 16, Itrs 2010/-1, Loss=0.289231
+Epoch 16, Itrs 2020/-1, Loss=0.243132
+Epoch 16, Itrs 2030/-1, Loss=0.183871
+Epoch 16, Itrs 2040/-1, Loss=0.285769
+Epoch 17, Itrs 2050/-1, Loss=0.218085
+Epoch 17, Itrs 2060/-1, Loss=0.122611
+Epoch 17, Itrs 2070/-1, Loss=0.103371
+Epoch 17, Itrs 2080/-1, Loss=0.228206
+Epoch 17, Itrs 2090/-1, Loss=0.151693
+Epoch 17, Itrs 2100/-1, Loss=0.539436
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.94s/it]2it [00:04,  2.19s/it]3it [00:06,  1.99s/it]4it [00:07,  1.85s/it]5it [00:09,  1.79s/it]6it [00:11,  1.74s/it]7it [00:13,  1.73s/it]8it [00:14,  1.68s/it]9it [00:16,  1.70s/it]10it [00:17,  1.68s/it]11it [00:19,  1.68s/it]12it [00:21,  1.64s/it]13it [00:22,  1.64s/it]14it [00:24,  1.61s/it]15it [00:26,  1.62s/it]16it [00:27,  1.58s/it]17it [00:29,  1.59s/it]18it [00:30,  1.56s/it]19it [00:32,  1.57s/it]20it [00:33,  1.57s/it]21it [00:35,  1.58s/it]22it [00:36,  1.56s/it]23it [00:38,  1.59s/it]24it [00:40,  1.60s/it]25it [00:41,  1.64s/it]26it [00:43,  1.63s/it]27it [00:45,  1.66s/it]28it [00:46,  1.62s/it]29it [00:48,  1.62s/it]30it [00:49,  1.60s/it]31it [00:51,  1.61s/it]32it [00:53,  1.59s/it]33it [00:54,  1.60s/it]34it [00:56,  1.61s/it]35it [00:58,  1.61s/it]36it [00:59,  1.59s/it]37it [01:01,  1.61s/it]38it [01:02,  1.60s/it]39it [01:04,  1.61s/it]40it [01:05,  1.59s/it]41it [01:07,  1.60s/it]42it [01:09,  1.58s/it]43it [01:10,  1.59s/it]44it [01:12,  1.57s/it]45it [01:13,  1.59s/it]46it [01:15,  1.57s/it]47it [01:17,  1.59s/it]48it [01:18,  1.58s/it]49it [01:20,  1.60s/it]50it [01:21,  1.58s/it]51it [01:23,  1.61s/it]52it [01:25,  1.59s/it]53it [01:26,  1.61s/it]54it [01:28,  1.59s/it]55it [01:29,  1.60s/it]56it [01:31,  1.58s/it]57it [01:33,  1.61s/it]58it [01:34,  1.58s/it]59it [01:36,  1.59s/it]60it [01:37,  1.57s/it]61it [01:39,  1.59s/it]62it [01:40,  1.58s/it]63it [01:42,  1.59s/it]64it [01:44,  1.58s/it]65it [01:45,  1.61s/it]66it [01:47,  1.62s/it]67it [01:49,  1.66s/it]68it [01:50,  1.64s/it]69it [01:52,  1.66s/it]70it [01:53,  1.62s/it]71it [01:55,  1.62s/it]72it [01:57,  1.60s/it]73it [01:58,  1.60s/it]73it [01:58,  1.63s/it]
+
+Overall Acc: 0.970801
+Mean Acc: 0.822004
+FreqW Acc: 0.945660
+Mean IoU: 0.761711
+Class IoU:
+	class 0: 0.983529
+	class 1: 0.807292
+	class 2: 0.494311
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.35     99.46     99.17     97.08     76.17     82.20     84.89     2100      17      
+abuth         80.73     97.18     89.34                                                               
+cotton        49.43     49.96     66.16                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 33.75%
+  abuth -> cotton confusion: 0.03%
+[EarlyStop] metric=Mean IoU current=0.761711 best=0.839192 no_improve=2/10 min_delta=0.010000
+Epoch 17, Itrs 2110/-1, Loss=0.219000
+Epoch 17, Itrs 2120/-1, Loss=0.291863
+Epoch 17, Itrs 2130/-1, Loss=0.244180
+Epoch 17, Itrs 2140/-1, Loss=0.230729
+Epoch 17, Itrs 2150/-1, Loss=0.206020
+Epoch 17, Itrs 2160/-1, Loss=0.560987
+Epoch 17, Itrs 2170/-1, Loss=0.260351
+Epoch 18, Itrs 2180/-1, Loss=0.216697
+Epoch 18, Itrs 2190/-1, Loss=0.217077
+Epoch 18, Itrs 2200/-1, Loss=0.238423
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.79s/it]2it [00:04,  2.10s/it]3it [00:06,  1.89s/it]4it [00:07,  1.75s/it]5it [00:09,  1.70s/it]6it [00:10,  1.67s/it]7it [00:12,  1.66s/it]8it [00:13,  1.61s/it]9it [00:15,  1.61s/it]10it [00:17,  1.59s/it]11it [00:18,  1.61s/it]12it [00:20,  1.60s/it]13it [00:21,  1.61s/it]14it [00:23,  1.58s/it]15it [00:25,  1.59s/it]16it [00:26,  1.58s/it]17it [00:28,  1.58s/it]18it [00:29,  1.56s/it]19it [00:31,  1.57s/it]20it [00:32,  1.55s/it]21it [00:34,  1.56s/it]22it [00:36,  1.57s/it]23it [00:37,  1.59s/it]24it [00:39,  1.57s/it]25it [00:40,  1.62s/it]26it [00:42,  1.63s/it]27it [00:44,  1.66s/it]28it [00:45,  1.65s/it]29it [00:47,  1.64s/it]30it [00:49,  1.62s/it]31it [00:50,  1.62s/it]32it [00:52,  1.61s/it]33it [00:53,  1.61s/it]34it [00:55,  1.59s/it]35it [00:57,  1.60s/it]36it [00:58,  1.59s/it]37it [01:00,  1.60s/it]38it [01:01,  1.59s/it]39it [01:03,  1.61s/it]40it [01:05,  1.59s/it]41it [01:06,  1.61s/it]42it [01:08,  1.61s/it]43it [01:10,  1.64s/it]44it [01:11,  1.63s/it]45it [01:13,  1.64s/it]46it [01:14,  1.63s/it]47it [01:16,  1.65s/it]48it [01:18,  1.64s/it]49it [01:19,  1.67s/it]50it [01:21,  1.66s/it]51it [01:23,  1.67s/it]52it [01:24,  1.66s/it]53it [01:26,  1.67s/it]54it [01:28,  1.65s/it]55it [01:29,  1.68s/it]56it [01:31,  1.66s/it]57it [01:33,  1.68s/it]58it [01:34,  1.65s/it]59it [01:36,  1.67s/it]60it [01:38,  1.65s/it]61it [01:39,  1.66s/it]62it [01:41,  1.64s/it]63it [01:43,  1.64s/it]64it [01:44,  1.61s/it]65it [01:46,  1.61s/it]66it [01:47,  1.60s/it]67it [01:49,  1.63s/it]68it [01:51,  1.64s/it]69it [01:52,  1.67s/it]70it [01:54,  1.63s/it]71it [01:56,  1.63s/it]72it [01:57,  1.60s/it]73it [01:59,  1.61s/it]73it [01:59,  1.63s/it]
+
+Overall Acc: 0.979795
+Mean Acc: 0.904816
+FreqW Acc: 0.961106
+Mean IoU: 0.870039
+Class IoU:
+	class 0: 0.982007
+	class 1: 0.856857
+	class 2: 0.771252
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.20     99.64     99.09     97.98     87.00     90.48     92.82     2200      18      
+abuth         85.69     90.32     92.29                                                               
+cotton        77.13     81.48     87.09                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 8.01%
+  abuth -> cotton confusion: 1.01%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.870039 best=0.870039 no_improve=0/10 min_delta=0.010000
+Epoch 18, Itrs 2210/-1, Loss=0.292495
+Epoch 18, Itrs 2220/-1, Loss=0.211675
+Epoch 18, Itrs 2230/-1, Loss=0.192674
+Epoch 18, Itrs 2240/-1, Loss=0.246655
+Epoch 18, Itrs 2250/-1, Loss=0.126510
+Epoch 18, Itrs 2260/-1, Loss=0.098344
+Epoch 18, Itrs 2270/-1, Loss=0.142700
+Epoch 18, Itrs 2280/-1, Loss=0.260509
+Epoch 18, Itrs 2290/-1, Loss=0.299823
+Epoch 18, Itrs 2300/-1, Loss=0.258500
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.75s/it]2it [00:04,  2.03s/it]3it [00:05,  1.85s/it]4it [00:07,  1.72s/it]5it [00:09,  1.70s/it]6it [00:10,  1.65s/it]7it [00:12,  1.66s/it]8it [00:13,  1.65s/it]9it [00:15,  1.67s/it]10it [00:17,  1.66s/it]11it [00:18,  1.66s/it]12it [00:20,  1.64s/it]13it [00:22,  1.67s/it]14it [00:23,  1.66s/it]15it [00:25,  1.67s/it]16it [00:27,  1.65s/it]17it [00:28,  1.68s/it]18it [00:30,  1.66s/it]19it [00:32,  1.68s/it]20it [00:33,  1.67s/it]21it [00:35,  1.68s/it]22it [00:37,  1.67s/it]23it [00:39,  1.67s/it]24it [00:40,  1.64s/it]25it [00:42,  1.67s/it]26it [00:44,  1.67s/it]27it [00:45,  1.71s/it]28it [00:47,  1.70s/it]29it [00:49,  1.72s/it]30it [00:50,  1.70s/it]31it [00:52,  1.69s/it]32it [00:54,  1.64s/it]33it [00:55,  1.64s/it]34it [00:57,  1.61s/it]35it [00:58,  1.61s/it]36it [01:00,  1.60s/it]37it [01:02,  1.61s/it]38it [01:03,  1.59s/it]39it [01:05,  1.60s/it]40it [01:06,  1.59s/it]41it [01:08,  1.61s/it]42it [01:10,  1.59s/it]43it [01:11,  1.60s/it]44it [01:13,  1.58s/it]45it [01:14,  1.60s/it]46it [01:16,  1.58s/it]47it [01:17,  1.59s/it]48it [01:19,  1.57s/it]49it [01:21,  1.59s/it]50it [01:22,  1.59s/it]51it [01:24,  1.60s/it]52it [01:25,  1.58s/it]53it [01:27,  1.61s/it]54it [01:29,  1.59s/it]55it [01:30,  1.61s/it]56it [01:32,  1.59s/it]57it [01:33,  1.60s/it]58it [01:35,  1.57s/it]59it [01:37,  1.59s/it]60it [01:38,  1.57s/it]61it [01:40,  1.58s/it]62it [01:41,  1.56s/it]63it [01:43,  1.57s/it]64it [01:44,  1.58s/it]65it [01:46,  1.59s/it]66it [01:48,  1.57s/it]67it [01:49,  1.58s/it]68it [01:51,  1.57s/it]69it [01:52,  1.62s/it]70it [01:54,  1.62s/it]71it [01:56,  1.64s/it]72it [01:57,  1.65s/it]73it [01:59,  1.66s/it]73it [01:59,  1.64s/it]
+
+Overall Acc: 0.946762
+Mean Acc: 0.696723
+FreqW Acc: 0.908823
+Mean IoU: 0.597168
+Class IoU:
+	class 0: 0.974843
+	class 1: 0.643508
+	class 2: 0.173151
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.48     98.81     98.73     94.68     59.72     69.67     68.85     2300      18      
+abuth         64.35     92.72     78.31                                                               
+cotton        17.32     17.49     29.52                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 71.24%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.597168 best=0.870039 no_improve=1/10 min_delta=0.010000
+Epoch 19, Itrs 2310/-1, Loss=0.168581
+Epoch 19, Itrs 2320/-1, Loss=0.225710
+Epoch 19, Itrs 2330/-1, Loss=0.128783
+Epoch 19, Itrs 2340/-1, Loss=0.205271
+Epoch 19, Itrs 2350/-1, Loss=0.120333
+Epoch 19, Itrs 2360/-1, Loss=0.139612
+Epoch 19, Itrs 2370/-1, Loss=0.168591
+Epoch 19, Itrs 2380/-1, Loss=0.143017
+Epoch 19, Itrs 2390/-1, Loss=0.171075
+Epoch 19, Itrs 2400/-1, Loss=0.168473
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.81s/it]2it [00:04,  2.07s/it]3it [00:06,  1.88s/it]4it [00:07,  1.75s/it]5it [00:09,  1.70s/it]6it [00:10,  1.66s/it]7it [00:12,  1.65s/it]8it [00:13,  1.61s/it]9it [00:15,  1.61s/it]10it [00:17,  1.58s/it]11it [00:18,  1.59s/it]12it [00:20,  1.57s/it]13it [00:21,  1.59s/it]14it [00:23,  1.57s/it]15it [00:24,  1.58s/it]16it [00:26,  1.57s/it]17it [00:28,  1.58s/it]18it [00:29,  1.57s/it]19it [00:31,  1.58s/it]20it [00:32,  1.58s/it]21it [00:34,  1.59s/it]22it [00:35,  1.57s/it]23it [00:37,  1.59s/it]24it [00:39,  1.58s/it]25it [00:40,  1.60s/it]26it [00:42,  1.58s/it]27it [00:43,  1.59s/it]28it [00:45,  1.58s/it]29it [00:47,  1.60s/it]30it [00:48,  1.62s/it]31it [00:50,  1.66s/it]32it [00:52,  1.66s/it]33it [00:53,  1.68s/it]34it [00:55,  1.64s/it]35it [00:57,  1.64s/it]36it [00:58,  1.62s/it]37it [01:00,  1.62s/it]38it [01:01,  1.60s/it]39it [01:03,  1.61s/it]40it [01:05,  1.60s/it]41it [01:06,  1.61s/it]42it [01:08,  1.59s/it]43it [01:09,  1.63s/it]44it [01:11,  1.61s/it]45it [01:13,  1.62s/it]46it [01:14,  1.62s/it]47it [01:16,  1.64s/it]48it [01:18,  1.62s/it]49it [01:19,  1.62s/it]50it [01:21,  1.59s/it]51it [01:22,  1.60s/it]52it [01:24,  1.57s/it]53it [01:25,  1.58s/it]54it [01:27,  1.56s/it]55it [01:29,  1.57s/it]56it [01:30,  1.56s/it]57it [01:32,  1.59s/it]58it [01:33,  1.57s/it]59it [01:35,  1.59s/it]60it [01:37,  1.59s/it]61it [01:38,  1.62s/it]62it [01:40,  1.63s/it]63it [01:42,  1.64s/it]64it [01:43,  1.63s/it]65it [01:45,  1.65s/it]66it [01:46,  1.65s/it]67it [01:48,  1.67s/it]68it [01:50,  1.66s/it]69it [01:52,  1.66s/it]70it [01:53,  1.64s/it]71it [01:55,  1.69s/it]72it [01:57,  1.69s/it]73it [01:58,  1.72s/it]73it [01:58,  1.63s/it]
+
+Overall Acc: 0.975369
+Mean Acc: 0.879148
+FreqW Acc: 0.954332
+Mean IoU: 0.820456
+Class IoU:
+	class 0: 0.983915
+	class 1: 0.820066
+	class 2: 0.657386
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.39     99.10     99.19     97.54     82.05     87.91     89.54     2400      19      
+abuth         82.01     97.30     90.11                                                               
+cotton        65.74     67.35     79.33                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 24.03%
+  abuth -> cotton confusion: 0.13%
+[EarlyStop] metric=Mean IoU current=0.820456 best=0.870039 no_improve=2/10 min_delta=0.010000
+Epoch 19, Itrs 2410/-1, Loss=0.156843
+Epoch 19, Itrs 2420/-1, Loss=0.277347
+Epoch 19, Itrs 2430/-1, Loss=0.189315
+Epoch 20, Itrs 2440/-1, Loss=0.145859
+Epoch 20, Itrs 2450/-1, Loss=0.111712
+Epoch 20, Itrs 2460/-1, Loss=0.206490
+Epoch 20, Itrs 2470/-1, Loss=0.248493
+Epoch 20, Itrs 2480/-1, Loss=0.097874
+Epoch 20, Itrs 2490/-1, Loss=0.156063
+Epoch 20, Itrs 2500/-1, Loss=0.241235
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.80s/it]2it [00:04,  2.06s/it]3it [00:05,  1.86s/it]4it [00:07,  1.74s/it]5it [00:09,  1.70s/it]6it [00:10,  1.64s/it]7it [00:12,  1.63s/it]8it [00:13,  1.62s/it]9it [00:15,  1.63s/it]10it [00:17,  1.61s/it]11it [00:18,  1.63s/it]12it [00:20,  1.62s/it]13it [00:22,  1.63s/it]14it [00:23,  1.60s/it]15it [00:25,  1.61s/it]16it [00:26,  1.59s/it]17it [00:28,  1.60s/it]18it [00:29,  1.58s/it]19it [00:31,  1.60s/it]20it [00:33,  1.58s/it]21it [00:34,  1.60s/it]22it [00:36,  1.60s/it]23it [00:37,  1.62s/it]24it [00:39,  1.62s/it]25it [00:41,  1.64s/it]26it [00:42,  1.63s/it]27it [00:44,  1.66s/it]28it [00:46,  1.64s/it]29it [00:47,  1.67s/it]30it [00:49,  1.65s/it]31it [00:51,  1.67s/it]32it [00:52,  1.67s/it]33it [00:54,  1.69s/it]34it [00:56,  1.68s/it]35it [00:58,  1.71s/it]36it [00:59,  1.69s/it]37it [01:01,  1.69s/it]38it [01:03,  1.66s/it]39it [01:04,  1.67s/it]40it [01:06,  1.66s/it]41it [01:08,  1.66s/it]42it [01:09,  1.62s/it]43it [01:11,  1.65s/it]44it [01:12,  1.65s/it]45it [01:14,  1.66s/it]46it [01:16,  1.64s/it]47it [01:17,  1.64s/it]48it [01:19,  1.60s/it]49it [01:20,  1.60s/it]50it [01:22,  1.58s/it]51it [01:24,  1.58s/it]52it [01:25,  1.56s/it]53it [01:27,  1.58s/it]54it [01:28,  1.57s/it]55it [01:30,  1.59s/it]56it [01:31,  1.59s/it]57it [01:33,  1.61s/it]58it [01:35,  1.59s/it]59it [01:36,  1.61s/it]60it [01:38,  1.59s/it]61it [01:39,  1.59s/it]62it [01:41,  1.56s/it]63it [01:43,  1.58s/it]64it [01:44,  1.57s/it]65it [01:46,  1.58s/it]66it [01:47,  1.57s/it]67it [01:49,  1.59s/it]68it [01:50,  1.57s/it]69it [01:52,  1.59s/it]70it [01:54,  1.57s/it]71it [01:55,  1.58s/it]72it [01:57,  1.56s/it]73it [01:58,  1.59s/it]73it [01:58,  1.63s/it]
+
+Overall Acc: 0.906067
+Mean Acc: 0.776944
+FreqW Acc: 0.856169
+Mean IoU: 0.614461
+Class IoU:
+	class 0: 0.916044
+	class 1: 0.506469
+	class 2: 0.420869
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    91.60     92.22     95.62     90.61     61.45     77.69     74.03     2500      20      
+abuth         50.65     98.26     67.24                                                               
+cotton        42.09     42.60     59.24                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 47.83%
+  abuth -> cotton confusion: 0.03%
+[EarlyStop] metric=Mean IoU current=0.614461 best=0.870039 no_improve=3/10 min_delta=0.010000
+Epoch 20, Itrs 2510/-1, Loss=0.187791
+Epoch 20, Itrs 2520/-1, Loss=0.324195
+Epoch 20, Itrs 2530/-1, Loss=0.117269
+Epoch 20, Itrs 2540/-1, Loss=0.203255
+Epoch 20, Itrs 2550/-1, Loss=0.374546
+Epoch 20, Itrs 2560/-1, Loss=0.250594
+Epoch 21, Itrs 2570/-1, Loss=0.134613
+Epoch 21, Itrs 2580/-1, Loss=0.169842
+Epoch 21, Itrs 2590/-1, Loss=0.185479
+Epoch 21, Itrs 2600/-1, Loss=0.194674
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.97s/it]2it [00:04,  2.16s/it]3it [00:06,  1.94s/it]4it [00:07,  1.81s/it]5it [00:09,  1.76s/it]6it [00:11,  1.71s/it]7it [00:12,  1.71s/it]8it [00:14,  1.66s/it]9it [00:16,  1.67s/it]10it [00:17,  1.65s/it]11it [00:19,  1.67s/it]12it [00:21,  1.66s/it]13it [00:22,  1.66s/it]14it [00:24,  1.63s/it]15it [00:25,  1.63s/it]16it [00:27,  1.61s/it]17it [00:29,  1.62s/it]18it [00:30,  1.60s/it]19it [00:32,  1.61s/it]20it [00:33,  1.60s/it]21it [00:35,  1.62s/it]22it [00:37,  1.60s/it]23it [00:38,  1.62s/it]24it [00:40,  1.62s/it]25it [00:42,  1.64s/it]26it [00:43,  1.61s/it]27it [00:45,  1.62s/it]28it [00:46,  1.60s/it]29it [00:48,  1.61s/it]30it [00:49,  1.59s/it]31it [00:51,  1.61s/it]32it [00:53,  1.58s/it]33it [00:54,  1.60s/it]34it [00:56,  1.59s/it]35it [00:58,  1.62s/it]36it [00:59,  1.62s/it]37it [01:01,  1.65s/it]38it [01:02,  1.64s/it]39it [01:04,  1.68s/it]40it [01:06,  1.63s/it]41it [01:07,  1.63s/it]42it [01:09,  1.60s/it]43it [01:11,  1.61s/it]44it [01:12,  1.59s/it]45it [01:14,  1.59s/it]46it [01:15,  1.58s/it]47it [01:17,  1.60s/it]48it [01:18,  1.59s/it]49it [01:20,  1.61s/it]50it [01:22,  1.59s/it]51it [01:23,  1.62s/it]52it [01:25,  1.59s/it]53it [01:27,  1.62s/it]54it [01:28,  1.60s/it]55it [01:30,  1.61s/it]56it [01:31,  1.59s/it]57it [01:33,  1.60s/it]58it [01:34,  1.59s/it]59it [01:36,  1.60s/it]60it [01:38,  1.58s/it]61it [01:39,  1.60s/it]62it [01:41,  1.59s/it]63it [01:43,  1.61s/it]64it [01:44,  1.59s/it]65it [01:46,  1.60s/it]66it [01:47,  1.57s/it]67it [01:49,  1.59s/it]68it [01:50,  1.57s/it]69it [01:52,  1.58s/it]70it [01:54,  1.58s/it]71it [01:55,  1.60s/it]72it [01:57,  1.58s/it]73it [01:58,  1.60s/it]73it [01:58,  1.63s/it]
+
+Overall Acc: 0.948901
+Mean Acc: 0.849785
+FreqW Acc: 0.914287
+Mean IoU: 0.733431
+Class IoU:
+	class 0: 0.958655
+	class 1: 0.659804
+	class 2: 0.581835
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    95.87     96.23     97.89     94.89     73.34     84.98     83.65     2600      21      
+abuth         65.98     99.03     79.50                                                               
+cotton        58.18     59.68     73.56                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 34.66%
+  abuth -> cotton confusion: 0.10%
+[EarlyStop] metric=Mean IoU current=0.733431 best=0.870039 no_improve=4/10 min_delta=0.010000
+Epoch 21, Itrs 2610/-1, Loss=0.245420
+Epoch 21, Itrs 2620/-1, Loss=0.164583
+Epoch 21, Itrs 2630/-1, Loss=0.277157
+Epoch 21, Itrs 2640/-1, Loss=0.230990
+Epoch 21, Itrs 2650/-1, Loss=0.151748
+Epoch 21, Itrs 2660/-1, Loss=0.240585
+Epoch 21, Itrs 2670/-1, Loss=0.158773
+Epoch 21, Itrs 2680/-1, Loss=0.145316
+Epoch 22, Itrs 2690/-1, Loss=0.109369
+Epoch 22, Itrs 2700/-1, Loss=0.412424
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.79s/it]2it [00:04,  2.05s/it]3it [00:05,  1.87s/it]4it [00:07,  1.73s/it]5it [00:09,  1.68s/it]6it [00:10,  1.63s/it]7it [00:12,  1.62s/it]8it [00:13,  1.59s/it]9it [00:15,  1.60s/it]10it [00:16,  1.58s/it]11it [00:18,  1.59s/it]12it [00:20,  1.58s/it]13it [00:21,  1.61s/it]14it [00:23,  1.58s/it]15it [00:24,  1.60s/it]16it [00:26,  1.58s/it]17it [00:28,  1.61s/it]18it [00:29,  1.59s/it]19it [00:31,  1.61s/it]20it [00:32,  1.59s/it]21it [00:34,  1.60s/it]22it [00:36,  1.58s/it]23it [00:37,  1.59s/it]24it [00:39,  1.58s/it]25it [00:40,  1.59s/it]26it [00:42,  1.58s/it]27it [00:44,  1.62s/it]28it [00:45,  1.60s/it]29it [00:47,  1.60s/it]30it [00:48,  1.62s/it]31it [00:50,  1.62s/it]32it [00:52,  1.59s/it]33it [00:53,  1.59s/it]34it [00:55,  1.58s/it]35it [00:56,  1.58s/it]36it [00:58,  1.56s/it]37it [00:59,  1.57s/it]38it [01:01,  1.57s/it]39it [01:03,  1.60s/it]40it [01:04,  1.60s/it]41it [01:06,  1.62s/it]42it [01:07,  1.59s/it]43it [01:09,  1.60s/it]44it [01:11,  1.60s/it]45it [01:12,  1.63s/it]46it [01:14,  1.62s/it]47it [01:16,  1.64s/it]48it [01:17,  1.62s/it]49it [01:19,  1.65s/it]50it [01:20,  1.63s/it]51it [01:22,  1.66s/it]52it [01:24,  1.63s/it]53it [01:25,  1.64s/it]54it [01:27,  1.62s/it]55it [01:29,  1.64s/it]56it [01:30,  1.62s/it]57it [01:32,  1.64s/it]58it [01:34,  1.62s/it]59it [01:35,  1.64s/it]60it [01:37,  1.63s/it]61it [01:38,  1.64s/it]62it [01:40,  1.63s/it]63it [01:42,  1.64s/it]64it [01:43,  1.62s/it]65it [01:45,  1.64s/it]66it [01:47,  1.62s/it]67it [01:48,  1.63s/it]68it [01:50,  1.62s/it]69it [01:51,  1.63s/it]70it [01:53,  1.62s/it]71it [01:55,  1.63s/it]72it [01:56,  1.62s/it]73it [01:58,  1.64s/it]73it [01:58,  1.62s/it]
+
+Overall Acc: 0.912223
+Mean Acc: 0.793440
+FreqW Acc: 0.864521
+Mean IoU: 0.635632
+Class IoU:
+	class 0: 0.921953
+	class 1: 0.521204
+	class 2: 0.463739
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    92.20     92.73     95.94     91.22     63.56     79.34     75.94     2700      22      
+abuth         52.12     97.82     68.53                                                               
+cotton        46.37     47.48     63.36                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 45.16%
+  abuth -> cotton confusion: 0.25%
+[EarlyStop] metric=Mean IoU current=0.635632 best=0.870039 no_improve=5/10 min_delta=0.010000
+Epoch 22, Itrs 2710/-1, Loss=0.174578
+Epoch 22, Itrs 2720/-1, Loss=0.244753
+Epoch 22, Itrs 2730/-1, Loss=0.177118
+Epoch 22, Itrs 2740/-1, Loss=0.163905
+Epoch 22, Itrs 2750/-1, Loss=0.314436
+Epoch 22, Itrs 2760/-1, Loss=0.199622
+Epoch 22, Itrs 2770/-1, Loss=0.138831
+Epoch 22, Itrs 2780/-1, Loss=0.226433
+Epoch 22, Itrs 2790/-1, Loss=0.548697
+Epoch 22, Itrs 2800/-1, Loss=0.170568
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.87s/it]2it [00:04,  2.10s/it]3it [00:06,  1.89s/it]4it [00:07,  1.74s/it]5it [00:09,  1.71s/it]6it [00:10,  1.65s/it]7it [00:12,  1.65s/it]8it [00:13,  1.62s/it]9it [00:15,  1.63s/it]10it [00:17,  1.62s/it]11it [00:18,  1.63s/it]12it [00:20,  1.61s/it]13it [00:22,  1.63s/it]14it [00:23,  1.61s/it]15it [00:25,  1.61s/it]16it [00:26,  1.60s/it]17it [00:28,  1.62s/it]18it [00:30,  1.61s/it]19it [00:31,  1.63s/it]20it [00:33,  1.61s/it]21it [00:35,  1.63s/it]22it [00:36,  1.62s/it]23it [00:38,  1.64s/it]24it [00:39,  1.62s/it]25it [00:41,  1.64s/it]26it [00:43,  1.62s/it]27it [00:44,  1.64s/it]28it [00:46,  1.61s/it]29it [00:48,  1.62s/it]30it [00:49,  1.61s/it]31it [00:51,  1.62s/it]32it [00:52,  1.60s/it]33it [00:54,  1.64s/it]34it [00:56,  1.61s/it]35it [00:57,  1.62s/it]36it [00:59,  1.60s/it]37it [01:00,  1.62s/it]38it [01:02,  1.60s/it]39it [01:04,  1.61s/it]40it [01:05,  1.60s/it]41it [01:07,  1.61s/it]42it [01:08,  1.60s/it]43it [01:10,  1.62s/it]44it [01:12,  1.61s/it]45it [01:13,  1.62s/it]46it [01:15,  1.60s/it]47it [01:16,  1.60s/it]48it [01:18,  1.59s/it]49it [01:20,  1.60s/it]50it [01:21,  1.60s/it]51it [01:23,  1.62s/it]52it [01:25,  1.61s/it]53it [01:26,  1.61s/it]54it [01:28,  1.59s/it]55it [01:29,  1.61s/it]56it [01:31,  1.60s/it]57it [01:33,  1.62s/it]58it [01:34,  1.60s/it]59it [01:36,  1.62s/it]60it [01:37,  1.60s/it]61it [01:39,  1.61s/it]62it [01:41,  1.59s/it]63it [01:42,  1.61s/it]64it [01:44,  1.59s/it]65it [01:45,  1.60s/it]66it [01:47,  1.59s/it]67it [01:49,  1.60s/it]68it [01:50,  1.58s/it]69it [01:52,  1.61s/it]70it [01:53,  1.60s/it]71it [01:55,  1.60s/it]72it [01:56,  1.57s/it]73it [01:58,  1.59s/it]73it [01:58,  1.62s/it]
+
+Overall Acc: 0.965381
+Mean Acc: 0.853115
+FreqW Acc: 0.936888
+Mean IoU: 0.788909
+Class IoU:
+	class 0: 0.973025
+	class 1: 0.731408
+	class 2: 0.662293
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.30     98.84     98.63     96.54     78.89     85.31     87.60     2800      22      
+abuth         73.14     88.27     84.49                                                               
+cotton        66.23     68.83     79.68                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 24.34%
+  abuth -> cotton confusion: 0.32%
+[EarlyStop] metric=Mean IoU current=0.788909 best=0.870039 no_improve=6/10 min_delta=0.010000
+Epoch 22, Itrs 2810/-1, Loss=0.139615
+Epoch 23, Itrs 2820/-1, Loss=0.178421
+Epoch 23, Itrs 2830/-1, Loss=0.146090
+Epoch 23, Itrs 2840/-1, Loss=0.101747
+Epoch 23, Itrs 2850/-1, Loss=0.103673
+Epoch 23, Itrs 2860/-1, Loss=0.176376
+Epoch 23, Itrs 2870/-1, Loss=0.118754
+Epoch 23, Itrs 2880/-1, Loss=0.141529
+Epoch 23, Itrs 2890/-1, Loss=0.189930
+Epoch 23, Itrs 2900/-1, Loss=0.296175
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.77s/it]2it [00:04,  2.04s/it]3it [00:05,  1.87s/it]4it [00:07,  1.74s/it]5it [00:09,  1.68s/it]6it [00:10,  1.63s/it]7it [00:12,  1.62s/it]8it [00:13,  1.58s/it]9it [00:15,  1.59s/it]10it [00:16,  1.57s/it]11it [00:18,  1.58s/it]12it [00:19,  1.57s/it]13it [00:21,  1.58s/it]14it [00:23,  1.56s/it]15it [00:24,  1.57s/it]16it [00:26,  1.56s/it]17it [00:27,  1.57s/it]18it [00:29,  1.56s/it]19it [00:30,  1.58s/it]20it [00:32,  1.57s/it]21it [00:34,  1.59s/it]22it [00:35,  1.57s/it]23it [00:37,  1.59s/it]24it [00:38,  1.58s/it]25it [00:40,  1.59s/it]26it [00:42,  1.57s/it]27it [00:43,  1.58s/it]28it [00:45,  1.55s/it]29it [00:46,  1.57s/it]30it [00:48,  1.55s/it]31it [00:49,  1.56s/it]32it [00:51,  1.54s/it]33it [00:52,  1.56s/it]34it [00:54,  1.54s/it]35it [00:55,  1.55s/it]36it [00:57,  1.55s/it]37it [00:59,  1.56s/it]38it [01:00,  1.54s/it]39it [01:02,  1.58s/it]40it [01:03,  1.56s/it]41it [01:05,  1.58s/it]42it [01:06,  1.55s/it]43it [01:08,  1.59s/it]44it [01:10,  1.59s/it]45it [01:11,  1.60s/it]46it [01:13,  1.58s/it]47it [01:14,  1.58s/it]48it [01:16,  1.55s/it]49it [01:17,  1.56s/it]50it [01:19,  1.54s/it]51it [01:21,  1.56s/it]52it [01:22,  1.55s/it]53it [01:24,  1.56s/it]54it [01:25,  1.55s/it]55it [01:27,  1.58s/it]56it [01:28,  1.55s/it]57it [01:30,  1.56s/it]58it [01:31,  1.54s/it]59it [01:33,  1.55s/it]60it [01:35,  1.53s/it]61it [01:36,  1.55s/it]62it [01:38,  1.54s/it]63it [01:39,  1.55s/it]64it [01:41,  1.53s/it]65it [01:42,  1.55s/it]66it [01:44,  1.54s/it]67it [01:45,  1.56s/it]68it [01:47,  1.55s/it]69it [01:49,  1.57s/it]70it [01:50,  1.56s/it]71it [01:52,  1.58s/it]72it [01:53,  1.55s/it]73it [01:55,  1.56s/it]73it [01:55,  1.58s/it]
+
+Overall Acc: 0.937479
+Mean Acc: 0.741128
+FreqW Acc: 0.895002
+Mean IoU: 0.621927
+Class IoU:
+	class 0: 0.955205
+	class 1: 0.623435
+	class 2: 0.287141
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    95.52     96.72     97.71     93.75     62.19     74.11     73.04     2900      23      
+abuth         62.34     96.70     76.80                                                               
+cotton        28.71     28.91     44.62                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 53.26%
+  abuth -> cotton confusion: 0.03%
+[EarlyStop] metric=Mean IoU current=0.621927 best=0.870039 no_improve=7/10 min_delta=0.010000
+Epoch 23, Itrs 2910/-1, Loss=0.211950
+Epoch 23, Itrs 2920/-1, Loss=0.303851
+Epoch 23, Itrs 2930/-1, Loss=0.184082
+Epoch 23, Itrs 2940/-1, Loss=0.178735
+Epoch 24, Itrs 2950/-1, Loss=0.139558
+Epoch 24, Itrs 2960/-1, Loss=0.227092
+Epoch 24, Itrs 2970/-1, Loss=0.145741
+Epoch 24, Itrs 2980/-1, Loss=0.113782
+Epoch 24, Itrs 2990/-1, Loss=0.197056
+Epoch 24, Itrs 3000/-1, Loss=0.220173
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.89s/it]2it [00:04,  2.11s/it]3it [00:06,  1.91s/it]4it [00:07,  1.79s/it]5it [00:09,  1.76s/it]6it [00:11,  1.72s/it]7it [00:12,  1.72s/it]8it [00:14,  1.69s/it]9it [00:16,  1.69s/it]10it [00:17,  1.65s/it]11it [00:19,  1.64s/it]12it [00:20,  1.62s/it]13it [00:22,  1.63s/it]14it [00:24,  1.63s/it]15it [00:25,  1.64s/it]16it [00:27,  1.63s/it]17it [00:29,  1.63s/it]18it [00:30,  1.61s/it]19it [00:32,  1.63s/it]20it [00:33,  1.62s/it]21it [00:35,  1.63s/it]22it [00:37,  1.62s/it]23it [00:38,  1.64s/it]24it [00:40,  1.63s/it]25it [00:42,  1.64s/it]26it [00:43,  1.65s/it]27it [00:45,  1.66s/it]28it [00:47,  1.63s/it]29it [00:48,  1.63s/it]30it [00:50,  1.62s/it]31it [00:51,  1.64s/it]32it [00:53,  1.63s/it]33it [00:55,  1.65s/it]34it [00:56,  1.64s/it]35it [00:58,  1.68s/it]36it [01:00,  1.66s/it]37it [01:01,  1.69s/it]38it [01:03,  1.69s/it]39it [01:05,  1.71s/it]40it [01:07,  1.69s/it]41it [01:08,  1.73s/it]42it [01:10,  1.71s/it]43it [01:12,  1.72s/it]44it [01:13,  1.70s/it]45it [01:15,  1.71s/it]46it [01:17,  1.75s/it]47it [01:19,  1.77s/it]48it [01:21,  1.76s/it]49it [01:22,  1.77s/it]50it [01:24,  1.74s/it]51it [01:26,  1.75s/it]52it [01:28,  1.73s/it]53it [01:29,  1.72s/it]54it [01:31,  1.68s/it]55it [01:33,  1.71s/it]56it [01:34,  1.70s/it]57it [01:36,  1.71s/it]58it [01:38,  1.68s/it]59it [01:39,  1.68s/it]60it [01:41,  1.65s/it]61it [01:43,  1.66s/it]62it [01:44,  1.64s/it]63it [01:46,  1.65s/it]64it [01:47,  1.63s/it]65it [01:49,  1.64s/it]66it [01:51,  1.63s/it]67it [01:52,  1.65s/it]68it [01:54,  1.63s/it]69it [01:56,  1.64s/it]70it [01:57,  1.62s/it]71it [01:59,  1.63s/it]72it [02:00,  1.61s/it]73it [02:02,  1.62s/it]73it [02:02,  1.68s/it]
+
+Overall Acc: 0.904738
+Mean Acc: 0.669492
+FreqW Acc: 0.855624
+Mean IoU: 0.509632
+Class IoU:
+	class 0: 0.933116
+	class 1: 0.491401
+	class 2: 0.104380
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    93.31     93.89     96.54     90.47     50.96     66.95     60.45     3000      24      
+abuth         49.14     96.49     65.90                                                               
+cotton        10.44     10.47     18.90                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 84.83%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.509632 best=0.870039 no_improve=8/10 min_delta=0.010000
+Epoch 24, Itrs 3010/-1, Loss=0.120283
+Epoch 24, Itrs 3020/-1, Loss=0.191128
+Epoch 24, Itrs 3030/-1, Loss=0.121888
+Epoch 24, Itrs 3040/-1, Loss=0.087482
+Epoch 24, Itrs 3050/-1, Loss=0.399015
+Epoch 24, Itrs 3060/-1, Loss=0.173771
+Epoch 24, Itrs 3070/-1, Loss=0.180539
+Epoch 25, Itrs 3080/-1, Loss=0.153943
+Epoch 25, Itrs 3090/-1, Loss=0.121693
+Epoch 25, Itrs 3100/-1, Loss=0.141794
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.81s/it]2it [00:04,  2.09s/it]3it [00:06,  1.90s/it]4it [00:07,  1.80s/it]5it [00:09,  1.78s/it]6it [00:11,  1.75s/it]7it [00:12,  1.78s/it]8it [00:14,  1.74s/it]9it [00:16,  1.74s/it]10it [00:18,  1.73s/it]11it [00:19,  1.73s/it]12it [00:21,  1.70s/it]13it [00:23,  1.71s/it]14it [00:24,  1.69s/it]15it [00:26,  1.70s/it]16it [00:28,  1.68s/it]17it [00:29,  1.70s/it]18it [00:31,  1.69s/it]19it [00:33,  1.70s/it]20it [00:34,  1.68s/it]21it [00:36,  1.68s/it]22it [00:38,  1.67s/it]23it [00:40,  1.69s/it]24it [00:41,  1.67s/it]25it [00:43,  1.67s/it]26it [00:44,  1.64s/it]27it [00:46,  1.64s/it]28it [00:48,  1.63s/it]29it [00:49,  1.64s/it]30it [00:51,  1.61s/it]31it [00:52,  1.62s/it]32it [00:54,  1.61s/it]33it [00:56,  1.63s/it]34it [00:57,  1.61s/it]35it [00:59,  1.62s/it]36it [01:01,  1.61s/it]37it [01:02,  1.62s/it]38it [01:04,  1.62s/it]39it [01:05,  1.62s/it]40it [01:07,  1.60s/it]41it [01:09,  1.61s/it]42it [01:10,  1.59s/it]43it [01:12,  1.61s/it]44it [01:13,  1.59s/it]45it [01:15,  1.61s/it]46it [01:17,  1.60s/it]47it [01:18,  1.61s/it]48it [01:20,  1.61s/it]49it [01:22,  1.64s/it]50it [01:23,  1.66s/it]51it [01:25,  1.68s/it]52it [01:27,  1.66s/it]53it [01:28,  1.66s/it]54it [01:30,  1.62s/it]55it [01:31,  1.63s/it]56it [01:33,  1.60s/it]57it [01:35,  1.61s/it]58it [01:36,  1.60s/it]59it [01:38,  1.62s/it]60it [01:39,  1.60s/it]61it [01:41,  1.61s/it]62it [01:43,  1.61s/it]63it [01:44,  1.63s/it]64it [01:46,  1.61s/it]65it [01:48,  1.64s/it]66it [01:49,  1.62s/it]67it [01:51,  1.63s/it]68it [01:52,  1.61s/it]69it [01:54,  1.62s/it]70it [01:56,  1.60s/it]71it [01:57,  1.62s/it]72it [01:59,  1.59s/it]73it [02:00,  1.60s/it]73it [02:00,  1.66s/it]
+
+Overall Acc: 0.972390
+Mean Acc: 0.853294
+FreqW Acc: 0.949762
+Mean IoU: 0.787706
+Class IoU:
+	class 0: 0.985428
+	class 1: 0.789635
+	class 2: 0.588056
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.54     99.31     99.27     97.24     78.77     85.33     87.19     3100      25      
+abuth         78.96     94.67     88.25                                                               
+cotton        58.81     62.01     74.06                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 33.97%
+  abuth -> cotton confusion: 0.05%
+[EarlyStop] metric=Mean IoU current=0.787706 best=0.870039 no_improve=9/10 min_delta=0.010000
+Epoch 25, Itrs 3110/-1, Loss=0.104189
+Epoch 25, Itrs 3120/-1, Loss=0.294750
+Epoch 25, Itrs 3130/-1, Loss=0.216997
+Epoch 25, Itrs 3140/-1, Loss=0.226419
+Epoch 25, Itrs 3150/-1, Loss=0.311728
+Epoch 25, Itrs 3160/-1, Loss=0.546552
+Epoch 25, Itrs 3170/-1, Loss=0.269320
+Epoch 25, Itrs 3180/-1, Loss=0.278358
+Epoch 25, Itrs 3190/-1, Loss=0.217955
+Epoch 25, Itrs 3200/-1, Loss=0.156973
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.76s/it]2it [00:04,  2.07s/it]3it [00:05,  1.87s/it]4it [00:07,  1.74s/it]5it [00:09,  1.72s/it]6it [00:10,  1.68s/it]7it [00:12,  1.67s/it]8it [00:14,  1.63s/it]9it [00:15,  1.64s/it]10it [00:17,  1.63s/it]11it [00:18,  1.65s/it]12it [00:20,  1.63s/it]13it [00:22,  1.65s/it]14it [00:23,  1.62s/it]15it [00:25,  1.62s/it]16it [00:27,  1.61s/it]17it [00:28,  1.62s/it]18it [00:30,  1.60s/it]19it [00:31,  1.61s/it]20it [00:33,  1.59s/it]21it [00:35,  1.62s/it]22it [00:36,  1.61s/it]23it [00:38,  1.61s/it]24it [00:39,  1.59s/it]25it [00:41,  1.60s/it]26it [00:42,  1.58s/it]27it [00:44,  1.60s/it]28it [00:46,  1.59s/it]29it [00:47,  1.61s/it]30it [00:49,  1.60s/it]31it [00:51,  1.63s/it]32it [00:52,  1.61s/it]33it [00:54,  1.64s/it]34it [00:56,  1.63s/it]35it [00:57,  1.65s/it]36it [00:59,  1.63s/it]37it [01:00,  1.64s/it]38it [01:02,  1.63s/it]39it [01:04,  1.64s/it]40it [01:05,  1.62s/it]41it [01:07,  1.63s/it]42it [01:09,  1.62s/it]43it [01:10,  1.62s/it]44it [01:12,  1.59s/it]45it [01:13,  1.62s/it]46it [01:15,  1.60s/it]47it [01:17,  1.61s/it]48it [01:18,  1.61s/it]49it [01:20,  1.62s/it]50it [01:21,  1.61s/it]51it [01:23,  1.64s/it]52it [01:25,  1.64s/it]53it [01:27,  1.67s/it]54it [01:28,  1.67s/it]55it [01:30,  1.67s/it]56it [01:31,  1.64s/it]57it [01:33,  1.64s/it]58it [01:35,  1.61s/it]59it [01:36,  1.63s/it]60it [01:38,  1.61s/it]61it [01:40,  1.63s/it]62it [01:41,  1.64s/it]63it [01:43,  1.66s/it]64it [01:45,  1.66s/it]65it [01:46,  1.67s/it]66it [01:48,  1.65s/it]67it [01:50,  1.68s/it]68it [01:51,  1.66s/it]69it [01:53,  1.68s/it]70it [01:55,  1.66s/it]71it [01:56,  1.68s/it]72it [01:58,  1.67s/it]73it [02:00,  1.69s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.959442
+Mean Acc: 0.878088
+FreqW Acc: 0.929624
+Mean IoU: 0.780553
+Class IoU:
+	class 0: 0.966826
+	class 1: 0.709395
+	class 2: 0.665437
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.68     97.17     98.31     95.94     78.06     87.81     87.07     3200      25      
+abuth         70.94     97.30     83.00                                                               
+cotton        66.54     68.96     79.91                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 26.88%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.780553 best=0.870039 no_improve=10/10 min_delta=0.010000
+Epoch 26, Itrs 3210/-1, Loss=0.167077
+Epoch 26, Itrs 3220/-1, Loss=0.146264
+Epoch 26, Itrs 3230/-1, Loss=0.114364
+Epoch 26, Itrs 3240/-1, Loss=0.196830
+Epoch 26, Itrs 3250/-1, Loss=0.237737
+Epoch 26, Itrs 3260/-1, Loss=0.160474
+Epoch 26, Itrs 3270/-1, Loss=0.169114
+Epoch 26, Itrs 3280/-1, Loss=0.330686
+Epoch 26, Itrs 3290/-1, Loss=0.154003
+Epoch 26, Itrs 3300/-1, Loss=0.195703
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.84s/it]2it [00:04,  2.10s/it]3it [00:06,  1.90s/it]4it [00:07,  1.76s/it]5it [00:09,  1.71s/it]6it [00:10,  1.66s/it]7it [00:12,  1.65s/it]8it [00:13,  1.61s/it]9it [00:15,  1.62s/it]10it [00:17,  1.62s/it]11it [00:19,  1.68s/it]12it [00:20,  1.66s/it]13it [00:22,  1.69s/it]14it [00:24,  1.67s/it]15it [00:25,  1.69s/it]16it [00:27,  1.67s/it]17it [00:29,  1.67s/it]18it [00:30,  1.64s/it]19it [00:32,  1.65s/it]20it [00:33,  1.63s/it]21it [00:35,  1.65s/it]22it [00:37,  1.62s/it]23it [00:38,  1.63s/it]24it [00:40,  1.61s/it]25it [00:42,  1.63s/it]26it [00:43,  1.61s/it]27it [00:45,  1.63s/it]28it [00:46,  1.63s/it]29it [00:48,  1.66s/it]30it [00:50,  1.65s/it]31it [00:52,  1.68s/it]32it [00:53,  1.67s/it]33it [00:55,  1.70s/it]34it [00:57,  1.68s/it]35it [00:58,  1.71s/it]36it [01:00,  1.70s/it]37it [01:02,  1.72s/it]38it [01:03,  1.70s/it]39it [01:05,  1.71s/it]40it [01:07,  1.70s/it]41it [01:09,  1.72s/it]42it [01:10,  1.72s/it]43it [01:12,  1.73s/it]44it [01:14,  1.70s/it]45it [01:15,  1.72s/it]46it [01:17,  1.70s/it]47it [01:19,  1.73s/it]48it [01:21,  1.71s/it]49it [01:22,  1.71s/it]50it [01:24,  1.68s/it]51it [01:26,  1.71s/it]52it [01:27,  1.70s/it]53it [01:29,  1.71s/it]54it [01:31,  1.67s/it]55it [01:32,  1.66s/it]56it [01:34,  1.63s/it]57it [01:36,  1.64s/it]58it [01:37,  1.61s/it]59it [01:39,  1.63s/it]60it [01:40,  1.62s/it]61it [01:42,  1.64s/it]62it [01:44,  1.62s/it]63it [01:45,  1.63s/it]64it [01:47,  1.61s/it]65it [01:48,  1.63s/it]66it [01:50,  1.61s/it]67it [01:52,  1.62s/it]68it [01:53,  1.61s/it]69it [01:55,  1.63s/it]70it [01:57,  1.61s/it]71it [01:58,  1.64s/it]72it [02:00,  1.62s/it]73it [02:01,  1.62s/it]73it [02:01,  1.67s/it]
+
+Overall Acc: 0.972389
+Mean Acc: 0.919696
+FreqW Acc: 0.949430
+Mean IoU: 0.849214
+Class IoU:
+	class 0: 0.975019
+	class 1: 0.791754
+	class 2: 0.780870
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.50     98.19     98.74     97.24     84.92     91.97     91.60     3300      26      
+abuth         79.18     95.42     88.38                                                               
+cotton        78.09     82.30     87.70                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 13.46%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.849214 best=0.870039 no_improve=11/10 min_delta=0.010000
+Epoch 26, Itrs 3310/-1, Loss=0.120164
+Epoch 26, Itrs 3320/-1, Loss=0.114851
+Epoch 27, Itrs 3330/-1, Loss=0.087157
+Epoch 27, Itrs 3340/-1, Loss=0.140384
+Epoch 27, Itrs 3350/-1, Loss=0.158222
+Epoch 27, Itrs 3360/-1, Loss=0.103116
+Epoch 27, Itrs 3370/-1, Loss=0.172014
+Epoch 27, Itrs 3380/-1, Loss=0.164899
+Epoch 27, Itrs 3390/-1, Loss=0.077066
+Epoch 27, Itrs 3400/-1, Loss=0.195028
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.90s/it]2it [00:04,  2.15s/it]3it [00:06,  1.97s/it]4it [00:07,  1.83s/it]5it [00:09,  1.80s/it]6it [00:11,  1.74s/it]7it [00:13,  1.74s/it]8it [00:14,  1.70s/it]9it [00:16,  1.71s/it]10it [00:18,  1.70s/it]11it [00:19,  1.71s/it]12it [00:21,  1.70s/it]13it [00:23,  1.74s/it]14it [00:24,  1.72s/it]15it [00:26,  1.73s/it]16it [00:28,  1.71s/it]17it [00:30,  1.69s/it]18it [00:31,  1.65s/it]19it [00:33,  1.65s/it]20it [00:34,  1.62s/it]21it [00:36,  1.63s/it]22it [00:38,  1.62s/it]23it [00:39,  1.63s/it]24it [00:41,  1.62s/it]25it [00:42,  1.63s/it]26it [00:44,  1.60s/it]27it [00:46,  1.62s/it]28it [00:47,  1.60s/it]29it [00:49,  1.63s/it]30it [00:50,  1.61s/it]31it [00:52,  1.62s/it]32it [00:54,  1.62s/it]33it [00:55,  1.62s/it]34it [00:57,  1.61s/it]35it [00:59,  1.62s/it]36it [01:00,  1.61s/it]37it [01:02,  1.62s/it]38it [01:03,  1.60s/it]39it [01:05,  1.62s/it]40it [01:07,  1.60s/it]41it [01:08,  1.62s/it]42it [01:10,  1.61s/it]43it [01:12,  1.63s/it]44it [01:13,  1.61s/it]45it [01:15,  1.62s/it]46it [01:16,  1.61s/it]47it [01:18,  1.62s/it]48it [01:20,  1.61s/it]49it [01:21,  1.62s/it]50it [01:23,  1.61s/it]51it [01:24,  1.62s/it]52it [01:26,  1.63s/it]53it [01:28,  1.67s/it]54it [01:29,  1.66s/it]55it [01:31,  1.69s/it]56it [01:33,  1.68s/it]57it [01:35,  1.69s/it]58it [01:36,  1.65s/it]59it [01:38,  1.65s/it]60it [01:39,  1.62s/it]61it [01:41,  1.63s/it]62it [01:43,  1.62s/it]63it [01:44,  1.64s/it]64it [01:46,  1.62s/it]65it [01:48,  1.63s/it]66it [01:49,  1.60s/it]67it [01:51,  1.63s/it]68it [01:52,  1.61s/it]69it [01:54,  1.63s/it]70it [01:56,  1.62s/it]71it [01:57,  1.63s/it]72it [01:59,  1.61s/it]73it [02:00,  1.62s/it]73it [02:00,  1.66s/it]
+
+Overall Acc: 0.971308
+Mean Acc: 0.892179
+FreqW Acc: 0.948461
+Mean IoU: 0.812754
+Class IoU:
+	class 0: 0.980039
+	class 1: 0.785965
+	class 2: 0.672259
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.00     98.37     98.99     97.13     81.28     89.22     89.14     3400      27      
+abuth         78.60     97.72     88.02                                                               
+cotton        67.23     71.57     80.40                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 25.04%
+  abuth -> cotton confusion: 0.46%
+[EarlyStop] metric=Mean IoU current=0.812754 best=0.870039 no_improve=12/10 min_delta=0.010000
+Epoch 27, Itrs 3410/-1, Loss=0.167299
+Epoch 27, Itrs 3420/-1, Loss=0.135712
+Epoch 27, Itrs 3430/-1, Loss=0.104035
+Epoch 27, Itrs 3440/-1, Loss=0.278117
+Epoch 27, Itrs 3450/-1, Loss=0.177019
+Epoch 28, Itrs 3460/-1, Loss=0.242112
+Epoch 28, Itrs 3470/-1, Loss=0.161020
+Epoch 28, Itrs 3480/-1, Loss=0.193031
+Epoch 28, Itrs 3490/-1, Loss=0.169511
+Epoch 28, Itrs 3500/-1, Loss=0.201016
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.84s/it]2it [00:04,  2.11s/it]3it [00:06,  1.90s/it]4it [00:07,  1.78s/it]5it [00:09,  1.75s/it]6it [00:10,  1.69s/it]7it [00:12,  1.69s/it]8it [00:14,  1.67s/it]9it [00:15,  1.68s/it]10it [00:17,  1.65s/it]11it [00:19,  1.66s/it]12it [00:20,  1.66s/it]13it [00:22,  1.69s/it]14it [00:24,  1.68s/it]15it [00:26,  1.69s/it]16it [00:27,  1.65s/it]17it [00:29,  1.64s/it]18it [00:30,  1.62s/it]19it [00:32,  1.64s/it]20it [00:34,  1.61s/it]21it [00:35,  1.62s/it]22it [00:37,  1.61s/it]23it [00:38,  1.63s/it]24it [00:40,  1.62s/it]25it [00:42,  1.63s/it]26it [00:43,  1.62s/it]27it [00:45,  1.64s/it]28it [00:46,  1.61s/it]29it [00:48,  1.63s/it]30it [00:50,  1.62s/it]31it [00:51,  1.63s/it]32it [00:53,  1.61s/it]33it [00:55,  1.63s/it]34it [00:56,  1.62s/it]35it [00:58,  1.63s/it]36it [00:59,  1.61s/it]37it [01:01,  1.63s/it]38it [01:03,  1.63s/it]39it [01:04,  1.64s/it]40it [01:06,  1.61s/it]41it [01:08,  1.63s/it]42it [01:09,  1.61s/it]43it [01:11,  1.62s/it]44it [01:12,  1.61s/it]45it [01:14,  1.62s/it]46it [01:16,  1.61s/it]47it [01:17,  1.63s/it]48it [01:19,  1.64s/it]49it [01:21,  1.66s/it]50it [01:22,  1.64s/it]51it [01:24,  1.68s/it]52it [01:26,  1.68s/it]53it [01:28,  1.72s/it]54it [01:29,  1.72s/it]55it [01:31,  1.75s/it]56it [01:33,  1.74s/it]57it [01:35,  1.74s/it]58it [01:36,  1.72s/it]59it [01:38,  1.73s/it]60it [01:40,  1.71s/it]61it [01:41,  1.74s/it]62it [01:43,  1.71s/it]63it [01:45,  1.72s/it]64it [01:46,  1.70s/it]65it [01:48,  1.71s/it]66it [01:50,  1.69s/it]67it [01:52,  1.69s/it]68it [01:53,  1.66s/it]69it [01:55,  1.68s/it]70it [01:57,  1.67s/it]71it [01:58,  1.68s/it]72it [02:00,  1.64s/it]73it [02:01,  1.64s/it]73it [02:01,  1.67s/it]
+
+Overall Acc: 0.978251
+Mean Acc: 0.919155
+FreqW Acc: 0.959908
+Mean IoU: 0.853850
+Class IoU:
+	class 0: 0.984535
+	class 1: 0.833779
+	class 2: 0.743236
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.45     98.86     99.22     97.83     85.39     91.92     91.81     3500      28      
+abuth         83.38     96.33     90.94                                                               
+cotton        74.32     80.55     85.27                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 16.00%
+  abuth -> cotton confusion: 1.43%
+[EarlyStop] metric=Mean IoU current=0.853850 best=0.870039 no_improve=13/10 min_delta=0.010000
+Epoch 28, Itrs 3510/-1, Loss=0.132347
+Epoch 28, Itrs 3520/-1, Loss=0.100021
+Epoch 28, Itrs 3530/-1, Loss=0.117882
+Epoch 28, Itrs 3540/-1, Loss=0.081699
+Epoch 28, Itrs 3550/-1, Loss=0.142981
+Epoch 28, Itrs 3560/-1, Loss=0.399053
+Epoch 28, Itrs 3570/-1, Loss=0.059574
+Epoch 28, Itrs 3580/-1, Loss=0.157020
+Epoch 29, Itrs 3590/-1, Loss=0.186783
+Epoch 29, Itrs 3600/-1, Loss=0.138091
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.78s/it]2it [00:04,  2.10s/it]3it [00:06,  1.89s/it]4it [00:07,  1.75s/it]5it [00:09,  1.72s/it]6it [00:10,  1.66s/it]7it [00:12,  1.67s/it]8it [00:14,  1.64s/it]9it [00:15,  1.64s/it]10it [00:17,  1.62s/it]11it [00:18,  1.62s/it]12it [00:20,  1.60s/it]13it [00:22,  1.61s/it]14it [00:23,  1.59s/it]15it [00:25,  1.65s/it]16it [00:27,  1.65s/it]17it [00:28,  1.69s/it]18it [00:30,  1.67s/it]19it [00:32,  1.68s/it]20it [00:33,  1.66s/it]21it [00:35,  1.68s/it]22it [00:37,  1.66s/it]23it [00:38,  1.68s/it]24it [00:40,  1.67s/it]25it [00:42,  1.69s/it]26it [00:43,  1.67s/it]27it [00:45,  1.69s/it]28it [00:47,  1.67s/it]29it [00:48,  1.69s/it]30it [00:50,  1.68s/it]31it [00:52,  1.70s/it]32it [00:54,  1.69s/it]33it [00:55,  1.71s/it]34it [00:57,  1.71s/it]35it [00:59,  1.71s/it]36it [01:00,  1.69s/it]37it [01:02,  1.71s/it]38it [01:04,  1.69s/it]39it [01:05,  1.70s/it]40it [01:07,  1.66s/it]41it [01:09,  1.66s/it]42it [01:10,  1.62s/it]43it [01:12,  1.62s/it]44it [01:13,  1.60s/it]45it [01:15,  1.62s/it]46it [01:17,  1.60s/it]47it [01:18,  1.62s/it]48it [01:20,  1.62s/it]49it [01:22,  1.64s/it]50it [01:23,  1.62s/it]51it [01:25,  1.65s/it]52it [01:27,  1.64s/it]53it [01:28,  1.65s/it]54it [01:30,  1.63s/it]55it [01:31,  1.66s/it]56it [01:33,  1.66s/it]57it [01:35,  1.69s/it]58it [01:37,  1.69s/it]59it [01:38,  1.68s/it]60it [01:40,  1.64s/it]61it [01:41,  1.64s/it]62it [01:43,  1.63s/it]63it [01:45,  1.63s/it]64it [01:46,  1.62s/it]65it [01:48,  1.64s/it]66it [01:50,  1.64s/it]67it [01:51,  1.66s/it]68it [01:53,  1.63s/it]69it [01:55,  1.63s/it]70it [01:56,  1.61s/it]71it [01:58,  1.62s/it]72it [01:59,  1.60s/it]73it [02:01,  1.61s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.940406
+Mean Acc: 0.697833
+FreqW Acc: 0.901688
+Mean IoU: 0.584218
+Class IoU:
+	class 0: 0.970559
+	class 1: 0.604548
+	class 2: 0.177546
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.06     97.98     98.51     94.04     58.42     69.78     68.01     3600      29      
+abuth         60.45     93.32     75.35                                                               
+cotton        17.75     18.05     30.16                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 77.16%
+  abuth -> cotton confusion: 0.13%
+[EarlyStop] metric=Mean IoU current=0.584218 best=0.870039 no_improve=14/10 min_delta=0.010000
+Epoch 29, Itrs 3610/-1, Loss=0.195491
+Epoch 29, Itrs 3620/-1, Loss=0.130991
+Epoch 29, Itrs 3630/-1, Loss=0.427606
+Epoch 29, Itrs 3640/-1, Loss=0.210488
+Epoch 29, Itrs 3650/-1, Loss=0.103763
+Epoch 29, Itrs 3660/-1, Loss=0.237392
+Epoch 29, Itrs 3670/-1, Loss=0.145045
+Epoch 29, Itrs 3680/-1, Loss=0.232479
+Epoch 29, Itrs 3690/-1, Loss=0.149984
+Epoch 29, Itrs 3700/-1, Loss=0.129752
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.91s/it]2it [00:04,  2.15s/it]3it [00:06,  1.99s/it]4it [00:07,  1.86s/it]5it [00:09,  1.80s/it]6it [00:11,  1.73s/it]7it [00:12,  1.70s/it]8it [00:14,  1.65s/it]9it [00:16,  1.65s/it]10it [00:17,  1.63s/it]11it [00:19,  1.63s/it]12it [00:20,  1.61s/it]13it [00:22,  1.63s/it]14it [00:24,  1.62s/it]15it [00:25,  1.67s/it]16it [00:27,  1.67s/it]17it [00:29,  1.71s/it]18it [00:31,  1.69s/it]19it [00:32,  1.70s/it]20it [00:34,  1.66s/it]21it [00:35,  1.66s/it]22it [00:37,  1.63s/it]23it [00:39,  1.64s/it]24it [00:40,  1.61s/it]25it [00:42,  1.62s/it]26it [00:43,  1.60s/it]27it [00:45,  1.62s/it]28it [00:47,  1.62s/it]29it [00:48,  1.63s/it]30it [00:50,  1.61s/it]31it [00:52,  1.64s/it]32it [00:53,  1.63s/it]33it [00:55,  1.64s/it]34it [00:57,  1.62s/it]35it [00:58,  1.63s/it]36it [01:00,  1.61s/it]37it [01:01,  1.63s/it]38it [01:03,  1.61s/it]39it [01:05,  1.62s/it]40it [01:06,  1.60s/it]41it [01:08,  1.62s/it]42it [01:09,  1.62s/it]43it [01:11,  1.63s/it]44it [01:13,  1.61s/it]45it [01:14,  1.63s/it]46it [01:16,  1.61s/it]47it [01:18,  1.63s/it]48it [01:19,  1.63s/it]49it [01:21,  1.64s/it]50it [01:22,  1.62s/it]51it [01:24,  1.63s/it]52it [01:26,  1.61s/it]53it [01:27,  1.62s/it]54it [01:29,  1.61s/it]55it [01:31,  1.62s/it]56it [01:32,  1.63s/it]57it [01:34,  1.66s/it]58it [01:36,  1.65s/it]59it [01:37,  1.69s/it]60it [01:39,  1.65s/it]61it [01:41,  1.66s/it]62it [01:42,  1.63s/it]63it [01:44,  1.63s/it]64it [01:45,  1.60s/it]65it [01:47,  1.61s/it]66it [01:48,  1.59s/it]67it [01:50,  1.60s/it]68it [01:52,  1.58s/it]69it [01:53,  1.61s/it]70it [01:55,  1.59s/it]71it [01:57,  1.61s/it]72it [01:58,  1.60s/it]73it [02:00,  1.63s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.965553
+Mean Acc: 0.858068
+FreqW Acc: 0.939258
+Mean IoU: 0.771832
+Class IoU:
+	class 0: 0.977829
+	class 1: 0.745215
+	class 2: 0.592453
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.78     98.21     98.88     96.56     77.18     85.81     86.23     3700      29      
+abuth         74.52     97.71     85.40                                                               
+cotton        59.25     61.50     74.41                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 33.78%
+  abuth -> cotton confusion: 0.45%
+[EarlyStop] metric=Mean IoU current=0.771832 best=0.870039 no_improve=15/10 min_delta=0.010000
+Epoch 29, Itrs 3710/-1, Loss=0.101419
+Epoch 30, Itrs 3720/-1, Loss=0.174851
+Epoch 30, Itrs 3730/-1, Loss=0.214764
+Epoch 30, Itrs 3740/-1, Loss=0.117737
+Epoch 30, Itrs 3750/-1, Loss=0.135388
+Epoch 30, Itrs 3760/-1, Loss=0.138342
+Epoch 30, Itrs 3770/-1, Loss=0.117560
+Epoch 30, Itrs 3780/-1, Loss=0.105569
+Epoch 30, Itrs 3790/-1, Loss=0.039700
+Epoch 30, Itrs 3800/-1, Loss=0.060661
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.79s/it]2it [00:04,  2.05s/it]3it [00:05,  1.86s/it]4it [00:07,  1.75s/it]5it [00:09,  1.71s/it]6it [00:10,  1.65s/it]7it [00:12,  1.64s/it]8it [00:13,  1.61s/it]9it [00:15,  1.62s/it]10it [00:17,  1.61s/it]11it [00:18,  1.62s/it]12it [00:20,  1.61s/it]13it [00:21,  1.62s/it]14it [00:23,  1.62s/it]15it [00:25,  1.63s/it]16it [00:26,  1.61s/it]17it [00:28,  1.65s/it]18it [00:30,  1.65s/it]19it [00:31,  1.68s/it]20it [00:33,  1.65s/it]21it [00:35,  1.65s/it]22it [00:36,  1.62s/it]23it [00:38,  1.62s/it]24it [00:40,  1.62s/it]25it [00:41,  1.63s/it]26it [00:43,  1.61s/it]27it [00:44,  1.64s/it]28it [00:46,  1.63s/it]29it [00:48,  1.65s/it]30it [00:49,  1.62s/it]31it [00:51,  1.62s/it]32it [00:52,  1.61s/it]33it [00:54,  1.63s/it]34it [00:56,  1.61s/it]35it [00:57,  1.62s/it]36it [00:59,  1.60s/it]37it [01:01,  1.61s/it]38it [01:02,  1.61s/it]39it [01:04,  1.62s/it]40it [01:05,  1.61s/it]41it [01:07,  1.65s/it]42it [01:09,  1.65s/it]43it [01:11,  1.67s/it]44it [01:12,  1.65s/it]45it [01:14,  1.68s/it]46it [01:16,  1.67s/it]47it [01:17,  1.71s/it]48it [01:19,  1.69s/it]49it [01:21,  1.72s/it]50it [01:22,  1.71s/it]51it [01:24,  1.72s/it]52it [01:26,  1.71s/it]53it [01:28,  1.72s/it]54it [01:29,  1.71s/it]55it [01:31,  1.73s/it]56it [01:33,  1.70s/it]57it [01:34,  1.70s/it]58it [01:36,  1.70s/it]59it [01:38,  1.73s/it]60it [01:40,  1.71s/it]61it [01:41,  1.72s/it]62it [01:43,  1.67s/it]63it [01:44,  1.66s/it]64it [01:46,  1.63s/it]65it [01:48,  1.63s/it]66it [01:49,  1.61s/it]67it [01:51,  1.62s/it]68it [01:52,  1.60s/it]69it [01:54,  1.61s/it]70it [01:56,  1.61s/it]71it [01:57,  1.62s/it]72it [01:59,  1.61s/it]73it [02:01,  1.63s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.981052
+Mean Acc: 0.905235
+FreqW Acc: 0.963901
+Mean IoU: 0.864234
+Class IoU:
+	class 0: 0.985930
+	class 1: 0.863861
+	class 2: 0.742912
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.59     99.49     99.29     98.11     86.42     90.52     92.41     3800      30      
+abuth         86.39     95.35     92.70                                                               
+cotton        74.29     76.73     85.25                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 14.46%
+  abuth -> cotton confusion: 0.38%
+[EarlyStop] metric=Mean IoU current=0.864234 best=0.870039 no_improve=16/10 min_delta=0.010000
+Epoch 30, Itrs 3810/-1, Loss=0.078552
+Epoch 30, Itrs 3820/-1, Loss=0.258800
+Epoch 30, Itrs 3830/-1, Loss=0.176258
+Epoch 30, Itrs 3840/-1, Loss=0.076275
+Epoch 31, Itrs 3850/-1, Loss=0.244005
+Epoch 31, Itrs 3860/-1, Loss=0.095665
+Epoch 31, Itrs 3870/-1, Loss=0.068738
+Epoch 31, Itrs 3880/-1, Loss=0.077666
+Epoch 31, Itrs 3890/-1, Loss=0.122286
+Epoch 31, Itrs 3900/-1, Loss=0.411290
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.83s/it]2it [00:04,  2.13s/it]3it [00:06,  1.92s/it]4it [00:07,  1.79s/it]5it [00:09,  1.74s/it]6it [00:10,  1.69s/it]7it [00:12,  1.70s/it]8it [00:14,  1.66s/it]9it [00:16,  1.71s/it]10it [00:17,  1.69s/it]11it [00:19,  1.71s/it]12it [00:21,  1.67s/it]13it [00:22,  1.68s/it]14it [00:24,  1.66s/it]15it [00:26,  1.68s/it]16it [00:27,  1.67s/it]17it [00:29,  1.68s/it]18it [00:31,  1.70s/it]19it [00:33,  1.74s/it]20it [00:34,  1.74s/it]21it [00:36,  1.76s/it]22it [00:38,  1.74s/it]23it [00:39,  1.73s/it]24it [00:41,  1.71s/it]25it [00:43,  1.71s/it]26it [00:45,  1.70s/it]27it [00:46,  1.72s/it]28it [00:48,  1.69s/it]29it [00:50,  1.70s/it]30it [00:51,  1.66s/it]31it [00:53,  1.65s/it]32it [00:54,  1.62s/it]33it [00:56,  1.62s/it]34it [00:58,  1.60s/it]35it [00:59,  1.61s/it]36it [01:01,  1.59s/it]37it [01:02,  1.61s/it]38it [01:04,  1.61s/it]39it [01:06,  1.62s/it]40it [01:07,  1.61s/it]41it [01:09,  1.65s/it]42it [01:11,  1.63s/it]43it [01:12,  1.64s/it]44it [01:14,  1.62s/it]45it [01:15,  1.64s/it]46it [01:17,  1.61s/it]47it [01:19,  1.62s/it]48it [01:20,  1.61s/it]49it [01:22,  1.62s/it]50it [01:23,  1.60s/it]51it [01:25,  1.63s/it]52it [01:27,  1.62s/it]53it [01:28,  1.63s/it]54it [01:30,  1.62s/it]55it [01:32,  1.65s/it]56it [01:33,  1.62s/it]57it [01:35,  1.63s/it]58it [01:37,  1.61s/it]59it [01:38,  1.63s/it]60it [01:40,  1.63s/it]61it [01:42,  1.67s/it]62it [01:43,  1.66s/it]63it [01:45,  1.67s/it]64it [01:46,  1.63s/it]65it [01:48,  1.65s/it]66it [01:50,  1.62s/it]67it [01:51,  1.63s/it]68it [01:53,  1.62s/it]69it [01:55,  1.64s/it]70it [01:56,  1.62s/it]71it [01:58,  1.63s/it]72it [01:59,  1.61s/it]73it [02:01,  1.62s/it]73it [02:01,  1.67s/it]
+
+Overall Acc: 0.973626
+Mean Acc: 0.922878
+FreqW Acc: 0.951823
+Mean IoU: 0.846620
+Class IoU:
+	class 0: 0.977447
+	class 1: 0.806862
+	class 2: 0.755550
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.74     98.22     98.86     97.36     84.66     92.29     91.42     3900      31      
+abuth         80.69     96.69     89.31                                                               
+cotton        75.56     81.96     86.08                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 15.49%
+  abuth -> cotton confusion: 0.03%
+[EarlyStop] metric=Mean IoU current=0.846620 best=0.870039 no_improve=17/10 min_delta=0.010000
+Epoch 31, Itrs 3910/-1, Loss=0.268123
+Epoch 31, Itrs 3920/-1, Loss=0.119121
+Epoch 31, Itrs 3930/-1, Loss=0.162457
+Epoch 31, Itrs 3940/-1, Loss=0.208806
+Epoch 31, Itrs 3950/-1, Loss=0.101780
+Epoch 31, Itrs 3960/-1, Loss=0.293721
+Epoch 32, Itrs 3970/-1, Loss=0.109917
+Epoch 32, Itrs 3980/-1, Loss=0.160531
+Epoch 32, Itrs 3990/-1, Loss=0.083820
+Epoch 32, Itrs 4000/-1, Loss=0.263562
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.77s/it]2it [00:04,  2.07s/it]3it [00:06,  1.89s/it]4it [00:07,  1.79s/it]5it [00:09,  1.75s/it]6it [00:10,  1.68s/it]7it [00:12,  1.66s/it]8it [00:14,  1.62s/it]9it [00:15,  1.63s/it]10it [00:17,  1.60s/it]11it [00:18,  1.61s/it]12it [00:20,  1.59s/it]13it [00:22,  1.61s/it]14it [00:23,  1.59s/it]15it [00:25,  1.61s/it]16it [00:26,  1.59s/it]17it [00:28,  1.61s/it]18it [00:30,  1.61s/it]19it [00:31,  1.67s/it]20it [00:33,  1.66s/it]21it [00:35,  1.68s/it]22it [00:36,  1.66s/it]23it [00:38,  1.66s/it]24it [00:40,  1.62s/it]25it [00:41,  1.62s/it]26it [00:43,  1.60s/it]27it [00:44,  1.61s/it]28it [00:46,  1.61s/it]29it [00:48,  1.63s/it]30it [00:49,  1.61s/it]31it [00:51,  1.65s/it]32it [00:53,  1.64s/it]33it [00:54,  1.65s/it]34it [00:56,  1.62s/it]35it [00:57,  1.62s/it]36it [00:59,  1.60s/it]37it [01:01,  1.61s/it]38it [01:02,  1.59s/it]39it [01:04,  1.60s/it]40it [01:05,  1.58s/it]41it [01:07,  1.60s/it]42it [01:08,  1.59s/it]43it [01:10,  1.61s/it]44it [01:12,  1.59s/it]45it [01:13,  1.63s/it]46it [01:15,  1.62s/it]47it [01:17,  1.63s/it]48it [01:18,  1.61s/it]49it [01:20,  1.62s/it]50it [01:21,  1.61s/it]51it [01:23,  1.62s/it]52it [01:25,  1.61s/it]53it [01:26,  1.62s/it]54it [01:28,  1.60s/it]55it [01:30,  1.62s/it]56it [01:31,  1.61s/it]57it [01:33,  1.63s/it]58it [01:34,  1.62s/it]59it [01:36,  1.65s/it]60it [01:38,  1.65s/it]61it [01:40,  1.69s/it]62it [01:41,  1.68s/it]63it [01:43,  1.72s/it]64it [01:45,  1.70s/it]65it [01:46,  1.70s/it]66it [01:48,  1.67s/it]67it [01:50,  1.68s/it]68it [01:51,  1.66s/it]69it [01:53,  1.70s/it]70it [01:55,  1.68s/it]71it [01:56,  1.70s/it]72it [01:58,  1.69s/it]73it [02:00,  1.72s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.984182
+Mean Acc: 0.932937
+FreqW Acc: 0.969615
+Mean IoU: 0.896881
+Class IoU:
+	class 0: 0.986409
+	class 1: 0.884675
+	class 2: 0.819557
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.64     99.38     99.32     98.42     89.69     93.29     94.43     4000      32      
+abuth         88.47     96.04     93.88                                                               
+cotton        81.96     84.46     90.08                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 8.91%
+  abuth -> cotton confusion: 0.10%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.896881 best=0.896881 no_improve=0/10 min_delta=0.010000
+Epoch 32, Itrs 4010/-1, Loss=0.138445
+Epoch 32, Itrs 4020/-1, Loss=0.183120
+Epoch 32, Itrs 4030/-1, Loss=0.265508
+Epoch 32, Itrs 4040/-1, Loss=0.159487
+Epoch 32, Itrs 4050/-1, Loss=0.162556
+Epoch 32, Itrs 4060/-1, Loss=0.113629
+Epoch 32, Itrs 4070/-1, Loss=0.321229
+Epoch 32, Itrs 4080/-1, Loss=0.140620
+Epoch 32, Itrs 4090/-1, Loss=0.299653
+Epoch 33, Itrs 4100/-1, Loss=0.097481
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.82s/it]2it [00:04,  2.09s/it]3it [00:06,  1.89s/it]4it [00:07,  1.77s/it]5it [00:09,  1.74s/it]6it [00:10,  1.68s/it]7it [00:12,  1.68s/it]8it [00:14,  1.66s/it]9it [00:15,  1.68s/it]10it [00:17,  1.65s/it]11it [00:19,  1.65s/it]12it [00:20,  1.62s/it]13it [00:22,  1.63s/it]14it [00:23,  1.62s/it]15it [00:25,  1.63s/it]16it [00:27,  1.61s/it]17it [00:28,  1.63s/it]18it [00:30,  1.64s/it]19it [00:32,  1.66s/it]20it [00:33,  1.65s/it]21it [00:35,  1.69s/it]22it [00:37,  1.70s/it]23it [00:39,  1.73s/it]24it [00:40,  1.72s/it]25it [00:42,  1.73s/it]26it [00:44,  1.71s/it]27it [00:45,  1.71s/it]28it [00:47,  1.68s/it]29it [00:49,  1.69s/it]30it [00:50,  1.67s/it]31it [00:52,  1.69s/it]32it [00:54,  1.68s/it]33it [00:56,  1.70s/it]34it [00:57,  1.69s/it]35it [00:59,  1.70s/it]36it [01:01,  1.68s/it]37it [01:02,  1.68s/it]38it [01:04,  1.67s/it]39it [01:06,  1.70s/it]40it [01:07,  1.68s/it]41it [01:09,  1.69s/it]42it [01:11,  1.65s/it]43it [01:12,  1.65s/it]44it [01:14,  1.62s/it]45it [01:15,  1.63s/it]46it [01:17,  1.61s/it]47it [01:19,  1.62s/it]48it [01:20,  1.61s/it]49it [01:22,  1.63s/it]50it [01:23,  1.61s/it]51it [01:25,  1.62s/it]52it [01:27,  1.61s/it]53it [01:28,  1.63s/it]54it [01:30,  1.61s/it]55it [01:32,  1.62s/it]56it [01:33,  1.61s/it]57it [01:35,  1.61s/it]58it [01:36,  1.59s/it]59it [01:38,  1.60s/it]60it [01:39,  1.58s/it]61it [01:41,  1.61s/it]62it [01:43,  1.61s/it]63it [01:45,  1.65s/it]64it [01:46,  1.64s/it]65it [01:48,  1.66s/it]66it [01:49,  1.65s/it]67it [01:51,  1.64s/it]68it [01:53,  1.61s/it]69it [01:54,  1.61s/it]70it [01:56,  1.58s/it]71it [01:57,  1.60s/it]72it [01:59,  1.57s/it]73it [02:01,  1.58s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.985335
+Mean Acc: 0.940929
+FreqW Acc: 0.971847
+Mean IoU: 0.902366
+Class IoU:
+	class 0: 0.987526
+	class 1: 0.896746
+	class 2: 0.822826
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.75     99.43     99.37     98.53     90.24     94.09     94.74     4100      33      
+abuth         89.67     95.42     94.56                                                               
+cotton        82.28     87.43     90.28                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 7.87%
+  abuth -> cotton confusion: 0.40%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.902366 best=0.896881 no_improve=1/10 min_delta=0.010000
+Epoch 33, Itrs 4110/-1, Loss=0.132713
+Epoch 33, Itrs 4120/-1, Loss=0.151778
+Epoch 33, Itrs 4130/-1, Loss=0.088209
+Epoch 33, Itrs 4140/-1, Loss=0.335173
+Epoch 33, Itrs 4150/-1, Loss=0.180365
+Epoch 33, Itrs 4160/-1, Loss=0.164425
+Epoch 33, Itrs 4170/-1, Loss=0.146915
+Epoch 33, Itrs 4180/-1, Loss=0.162200
+Epoch 33, Itrs 4190/-1, Loss=0.058717
+Epoch 33, Itrs 4200/-1, Loss=0.296486
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:03,  3.06s/it]2it [00:04,  2.23s/it]3it [00:06,  1.98s/it]4it [00:07,  1.81s/it]5it [00:09,  1.75s/it]6it [00:11,  1.67s/it]7it [00:12,  1.66s/it]8it [00:14,  1.63s/it]9it [00:15,  1.63s/it]10it [00:17,  1.60s/it]11it [00:19,  1.63s/it]12it [00:20,  1.61s/it]13it [00:22,  1.63s/it]14it [00:24,  1.63s/it]15it [00:25,  1.65s/it]16it [00:27,  1.62s/it]17it [00:28,  1.62s/it]18it [00:30,  1.60s/it]19it [00:32,  1.62s/it]20it [00:33,  1.60s/it]21it [00:35,  1.62s/it]22it [00:36,  1.59s/it]23it [00:38,  1.62s/it]24it [00:40,  1.63s/it]25it [00:41,  1.65s/it]26it [00:43,  1.65s/it]27it [00:45,  1.65s/it]28it [00:46,  1.64s/it]29it [00:48,  1.64s/it]30it [00:49,  1.61s/it]31it [00:51,  1.62s/it]32it [00:53,  1.61s/it]33it [00:54,  1.62s/it]34it [00:56,  1.60s/it]35it [00:58,  1.62s/it]36it [00:59,  1.60s/it]37it [01:01,  1.61s/it]38it [01:02,  1.60s/it]39it [01:04,  1.61s/it]40it [01:06,  1.59s/it]41it [01:07,  1.63s/it]42it [01:09,  1.62s/it]43it [01:10,  1.62s/it]44it [01:12,  1.59s/it]45it [01:14,  1.61s/it]46it [01:15,  1.59s/it]47it [01:17,  1.61s/it]48it [01:18,  1.59s/it]49it [01:20,  1.61s/it]50it [01:22,  1.60s/it]51it [01:23,  1.63s/it]52it [01:25,  1.61s/it]53it [01:27,  1.63s/it]54it [01:28,  1.62s/it]55it [01:30,  1.63s/it]56it [01:31,  1.61s/it]57it [01:33,  1.63s/it]58it [01:35,  1.61s/it]59it [01:36,  1.63s/it]60it [01:38,  1.62s/it]61it [01:40,  1.64s/it]62it [01:41,  1.62s/it]63it [01:43,  1.63s/it]64it [01:44,  1.63s/it]65it [01:46,  1.68s/it]66it [01:48,  1.69s/it]67it [01:50,  1.71s/it]68it [01:51,  1.70s/it]69it [01:53,  1.69s/it]70it [01:55,  1.68s/it]71it [01:56,  1.70s/it]72it [01:58,  1.67s/it]73it [02:00,  1.69s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.980607
+Mean Acc: 0.923158
+FreqW Acc: 0.963476
+Mean IoU: 0.873982
+Class IoU:
+	class 0: 0.984649
+	class 1: 0.850531
+	class 2: 0.786765
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.46     99.10     99.23     98.06     87.40     92.32     93.07     4200      33      
+abuth         85.05     96.16     91.92                                                               
+cotton        78.68     81.69     88.07                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 13.75%
+  abuth -> cotton confusion: 0.04%
+[EarlyStop] metric=Mean IoU current=0.873982 best=0.896881 no_improve=2/10 min_delta=0.010000
+Epoch 33, Itrs 4210/-1, Loss=0.114118
+Epoch 33, Itrs 4220/-1, Loss=0.163078
+Epoch 34, Itrs 4230/-1, Loss=0.176773
+Epoch 34, Itrs 4240/-1, Loss=0.366576
+Epoch 34, Itrs 4250/-1, Loss=0.205442
+Epoch 34, Itrs 4260/-1, Loss=0.143383
+Epoch 34, Itrs 4270/-1, Loss=0.410237
+Epoch 34, Itrs 4280/-1, Loss=0.169753
+Epoch 34, Itrs 4290/-1, Loss=0.120405
+Epoch 34, Itrs 4300/-1, Loss=0.131555
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.85s/it]2it [00:04,  2.09s/it]3it [00:06,  1.88s/it]4it [00:07,  1.75s/it]5it [00:09,  1.71s/it]6it [00:10,  1.65s/it]7it [00:12,  1.64s/it]8it [00:13,  1.61s/it]9it [00:15,  1.62s/it]10it [00:17,  1.59s/it]11it [00:18,  1.62s/it]12it [00:20,  1.59s/it]13it [00:21,  1.60s/it]14it [00:23,  1.59s/it]15it [00:25,  1.61s/it]16it [00:26,  1.59s/it]17it [00:28,  1.61s/it]18it [00:29,  1.59s/it]19it [00:31,  1.61s/it]20it [00:33,  1.59s/it]21it [00:34,  1.61s/it]22it [00:36,  1.60s/it]23it [00:37,  1.61s/it]24it [00:39,  1.63s/it]25it [00:41,  1.68s/it]26it [00:43,  1.67s/it]27it [00:44,  1.70s/it]28it [00:46,  1.68s/it]29it [00:48,  1.71s/it]30it [00:49,  1.69s/it]31it [00:51,  1.71s/it]32it [00:53,  1.68s/it]33it [00:54,  1.69s/it]34it [00:56,  1.67s/it]35it [00:58,  1.69s/it]36it [00:59,  1.66s/it]37it [01:01,  1.68s/it]38it [01:03,  1.65s/it]39it [01:04,  1.66s/it]40it [01:06,  1.64s/it]41it [01:08,  1.66s/it]42it [01:09,  1.64s/it]43it [01:11,  1.65s/it]44it [01:13,  1.64s/it]45it [01:14,  1.65s/it]46it [01:16,  1.63s/it]47it [01:18,  1.64s/it]48it [01:19,  1.61s/it]49it [01:21,  1.61s/it]50it [01:22,  1.60s/it]51it [01:24,  1.60s/it]52it [01:25,  1.58s/it]53it [01:27,  1.59s/it]54it [01:29,  1.58s/it]55it [01:30,  1.59s/it]56it [01:32,  1.58s/it]57it [01:33,  1.59s/it]58it [01:35,  1.58s/it]59it [01:37,  1.61s/it]60it [01:38,  1.59s/it]61it [01:40,  1.62s/it]62it [01:41,  1.60s/it]63it [01:43,  1.61s/it]64it [01:45,  1.60s/it]65it [01:46,  1.62s/it]66it [01:48,  1.62s/it]67it [01:50,  1.65s/it]68it [01:51,  1.64s/it]69it [01:53,  1.64s/it]70it [01:54,  1.61s/it]71it [01:56,  1.62s/it]72it [01:58,  1.60s/it]73it [01:59,  1.62s/it]73it [01:59,  1.64s/it]
+
+Overall Acc: 0.960391
+Mean Acc: 0.833054
+FreqW Acc: 0.930565
+Mean IoU: 0.738896
+Class IoU:
+	class 0: 0.973201
+	class 1: 0.733649
+	class 2: 0.509837
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.32     98.00     98.64     96.04     73.89     83.31     83.60     4300      34      
+abuth         73.36     97.38     84.64                                                               
+cotton        50.98     54.54     67.54                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 37.22%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.738896 best=0.896881 no_improve=3/10 min_delta=0.010000
+Epoch 34, Itrs 4310/-1, Loss=0.134725
+Epoch 34, Itrs 4320/-1, Loss=0.156779
+Epoch 34, Itrs 4330/-1, Loss=0.173360
+Epoch 34, Itrs 4340/-1, Loss=0.105561
+Epoch 34, Itrs 4350/-1, Loss=0.077780
+Epoch 35, Itrs 4360/-1, Loss=0.114183
+Epoch 35, Itrs 4370/-1, Loss=0.051898
+Epoch 35, Itrs 4380/-1, Loss=0.182462
+Epoch 35, Itrs 4390/-1, Loss=0.272105
+Epoch 35, Itrs 4400/-1, Loss=0.094285
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.93s/it]2it [00:04,  2.18s/it]3it [00:06,  1.98s/it]4it [00:07,  1.82s/it]5it [00:09,  1.79s/it]6it [00:11,  1.75s/it]7it [00:13,  1.75s/it]8it [00:14,  1.72s/it]9it [00:16,  1.69s/it]10it [00:17,  1.65s/it]11it [00:19,  1.65s/it]12it [00:21,  1.61s/it]13it [00:22,  1.62s/it]14it [00:24,  1.59s/it]15it [00:25,  1.61s/it]16it [00:27,  1.61s/it]17it [00:29,  1.62s/it]18it [00:30,  1.59s/it]19it [00:32,  1.62s/it]20it [00:33,  1.60s/it]21it [00:35,  1.61s/it]22it [00:37,  1.60s/it]23it [00:38,  1.61s/it]24it [00:40,  1.59s/it]25it [00:42,  1.63s/it]26it [00:43,  1.63s/it]27it [00:45,  1.67s/it]28it [00:47,  1.66s/it]29it [00:48,  1.67s/it]30it [00:50,  1.64s/it]31it [00:51,  1.63s/it]32it [00:53,  1.62s/it]33it [00:55,  1.64s/it]34it [00:56,  1.61s/it]35it [00:58,  1.61s/it]36it [00:59,  1.60s/it]37it [01:01,  1.61s/it]38it [01:03,  1.59s/it]39it [01:04,  1.60s/it]40it [01:06,  1.58s/it]41it [01:07,  1.59s/it]42it [01:09,  1.58s/it]43it [01:11,  1.60s/it]44it [01:12,  1.58s/it]45it [01:14,  1.60s/it]46it [01:15,  1.61s/it]47it [01:17,  1.62s/it]48it [01:19,  1.59s/it]49it [01:20,  1.61s/it]50it [01:22,  1.59s/it]51it [01:23,  1.61s/it]52it [01:25,  1.58s/it]53it [01:27,  1.60s/it]54it [01:28,  1.58s/it]55it [01:30,  1.59s/it]56it [01:31,  1.59s/it]57it [01:33,  1.60s/it]58it [01:34,  1.58s/it]59it [01:36,  1.62s/it]60it [01:38,  1.61s/it]61it [01:39,  1.61s/it]62it [01:41,  1.59s/it]63it [01:43,  1.60s/it]64it [01:44,  1.58s/it]65it [01:46,  1.60s/it]66it [01:47,  1.61s/it]67it [01:49,  1.66s/it]68it [01:51,  1.65s/it]69it [01:53,  1.70s/it]70it [01:54,  1.68s/it]71it [01:56,  1.69s/it]72it [01:58,  1.68s/it]73it [01:59,  1.70s/it]73it [01:59,  1.64s/it]
+
+Overall Acc: 0.971267
+Mean Acc: 0.911055
+FreqW Acc: 0.947800
+Mean IoU: 0.832910
+Class IoU:
+	class 0: 0.975473
+	class 1: 0.794650
+	class 2: 0.728607
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.55     98.06     98.76     97.13     83.29     91.11     90.54     4400      35      
+abuth         79.46     97.66     88.56                                                               
+cotton        72.86     77.59     84.30                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 16.71%
+  abuth -> cotton confusion: 0.14%
+[EarlyStop] metric=Mean IoU current=0.832910 best=0.896881 no_improve=4/10 min_delta=0.010000
+Epoch 35, Itrs 4410/-1, Loss=0.131763
+Epoch 35, Itrs 4420/-1, Loss=0.172241
+Epoch 35, Itrs 4430/-1, Loss=0.162859
+Epoch 35, Itrs 4440/-1, Loss=0.106981
+Epoch 35, Itrs 4450/-1, Loss=0.054470
+Epoch 35, Itrs 4460/-1, Loss=0.119353
+Epoch 35, Itrs 4470/-1, Loss=0.237737
+Epoch 35, Itrs 4480/-1, Loss=0.115706
+Epoch 36, Itrs 4490/-1, Loss=0.077463
+Epoch 36, Itrs 4500/-1, Loss=0.187283
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.80s/it]2it [00:04,  2.06s/it]3it [00:05,  1.87s/it]4it [00:07,  1.77s/it]5it [00:09,  1.74s/it]6it [00:10,  1.70s/it]7it [00:12,  1.68s/it]8it [00:14,  1.65s/it]9it [00:15,  1.67s/it]10it [00:17,  1.66s/it]11it [00:19,  1.65s/it]12it [00:20,  1.62s/it]13it [00:22,  1.63s/it]14it [00:23,  1.60s/it]15it [00:25,  1.61s/it]16it [00:27,  1.61s/it]17it [00:28,  1.62s/it]18it [00:30,  1.60s/it]19it [00:31,  1.62s/it]20it [00:33,  1.61s/it]21it [00:35,  1.62s/it]22it [00:36,  1.62s/it]23it [00:38,  1.64s/it]24it [00:40,  1.61s/it]25it [00:41,  1.62s/it]26it [00:43,  1.61s/it]27it [00:44,  1.62s/it]28it [00:46,  1.61s/it]29it [00:48,  1.64s/it]30it [00:49,  1.64s/it]31it [00:51,  1.68s/it]32it [00:53,  1.66s/it]33it [00:54,  1.68s/it]34it [00:56,  1.65s/it]35it [00:58,  1.68s/it]36it [00:59,  1.66s/it]37it [01:01,  1.68s/it]38it [01:03,  1.68s/it]39it [01:05,  1.70s/it]40it [01:06,  1.68s/it]41it [01:08,  1.70s/it]42it [01:10,  1.69s/it]43it [01:11,  1.71s/it]44it [01:13,  1.69s/it]45it [01:15,  1.70s/it]46it [01:16,  1.69s/it]47it [01:18,  1.71s/it]48it [01:20,  1.69s/it]49it [01:22,  1.69s/it]50it [01:23,  1.66s/it]51it [01:25,  1.66s/it]52it [01:26,  1.65s/it]53it [01:28,  1.69s/it]54it [01:30,  1.66s/it]55it [01:31,  1.66s/it]56it [01:33,  1.62s/it]57it [01:35,  1.62s/it]58it [01:36,  1.60s/it]59it [01:38,  1.61s/it]60it [01:39,  1.58s/it]61it [01:41,  1.60s/it]62it [01:42,  1.58s/it]63it [01:44,  1.60s/it]64it [01:46,  1.58s/it]65it [01:47,  1.60s/it]66it [01:49,  1.60s/it]67it [01:51,  1.62s/it]68it [01:52,  1.60s/it]69it [01:54,  1.64s/it]70it [01:55,  1.65s/it]71it [01:57,  1.68s/it]72it [01:59,  1.67s/it]73it [02:01,  1.66s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.969399
+Mean Acc: 0.940783
+FreqW Acc: 0.944741
+Mean IoU: 0.857450
+Class IoU:
+	class 0: 0.969062
+	class 1: 0.773673
+	class 2: 0.829616
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.91     97.39     98.43     96.94     85.75     94.08     92.12     4500      36      
+abuth         77.37     97.09     87.24                                                               
+cotton        82.96     87.75     90.69                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 8.44%
+  abuth -> cotton confusion: 0.07%
+[EarlyStop] metric=Mean IoU current=0.857450 best=0.896881 no_improve=5/10 min_delta=0.010000
+Epoch 36, Itrs 4510/-1, Loss=0.089013
+Epoch 36, Itrs 4520/-1, Loss=0.305456
+Epoch 36, Itrs 4530/-1, Loss=0.140680
+Epoch 36, Itrs 4540/-1, Loss=0.168886
+Epoch 36, Itrs 4550/-1, Loss=0.167362
+Epoch 36, Itrs 4560/-1, Loss=0.082467
+Epoch 36, Itrs 4570/-1, Loss=0.235383
+Epoch 36, Itrs 4580/-1, Loss=0.098590
+Epoch 36, Itrs 4590/-1, Loss=0.126822
+Epoch 36, Itrs 4600/-1, Loss=0.094639
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.99s/it]2it [00:04,  2.19s/it]3it [00:06,  1.99s/it]4it [00:08,  1.88s/it]5it [00:09,  1.82s/it]6it [00:11,  1.76s/it]7it [00:13,  1.75s/it]8it [00:14,  1.71s/it]9it [00:16,  1.71s/it]10it [00:18,  1.69s/it]11it [00:19,  1.70s/it]12it [00:21,  1.66s/it]13it [00:23,  1.70s/it]14it [00:24,  1.69s/it]15it [00:26,  1.69s/it]16it [00:28,  1.67s/it]17it [00:29,  1.66s/it]18it [00:31,  1.62s/it]19it [00:32,  1.62s/it]20it [00:34,  1.59s/it]21it [00:36,  1.60s/it]22it [00:37,  1.58s/it]23it [00:39,  1.59s/it]24it [00:40,  1.57s/it]25it [00:42,  1.61s/it]26it [00:44,  1.60s/it]27it [00:45,  1.62s/it]28it [00:47,  1.62s/it]29it [00:49,  1.65s/it]30it [00:50,  1.64s/it]31it [00:52,  1.66s/it]32it [00:54,  1.67s/it]33it [00:55,  1.67s/it]34it [00:57,  1.62s/it]35it [00:58,  1.62s/it]36it [01:00,  1.60s/it]37it [01:02,  1.61s/it]38it [01:03,  1.61s/it]39it [01:05,  1.63s/it]40it [01:06,  1.63s/it]41it [01:08,  1.65s/it]42it [01:10,  1.63s/it]43it [01:11,  1.65s/it]44it [01:13,  1.62s/it]45it [01:15,  1.62s/it]46it [01:16,  1.60s/it]47it [01:18,  1.60s/it]48it [01:19,  1.60s/it]49it [01:21,  1.60s/it]50it [01:23,  1.58s/it]51it [01:24,  1.61s/it]52it [01:26,  1.59s/it]53it [01:27,  1.60s/it]54it [01:29,  1.60s/it]55it [01:31,  1.61s/it]56it [01:32,  1.59s/it]57it [01:34,  1.60s/it]58it [01:35,  1.57s/it]59it [01:37,  1.59s/it]60it [01:38,  1.57s/it]61it [01:40,  1.59s/it]62it [01:42,  1.57s/it]63it [01:43,  1.60s/it]64it [01:45,  1.60s/it]65it [01:47,  1.61s/it]66it [01:48,  1.59s/it]67it [01:50,  1.62s/it]68it [01:51,  1.60s/it]69it [01:53,  1.61s/it]70it [01:54,  1.59s/it]71it [01:56,  1.62s/it]72it [01:58,  1.62s/it]73it [01:59,  1.65s/it]73it [02:00,  1.64s/it]
+
+Overall Acc: 0.976632
+Mean Acc: 0.972235
+FreqW Acc: 0.956520
+Mean IoU: 0.886893
+Class IoU:
+	class 0: 0.973977
+	class 1: 0.852317
+	class 2: 0.834387
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.40     97.68     98.68     97.66     88.69     97.22     93.89     4600      36      
+abuth         85.23     98.50     92.03                                                               
+cotton        83.44     95.49     90.97                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 1.48%
+  abuth -> cotton confusion: 0.21%
+[EarlyStop] metric=Mean IoU current=0.886893 best=0.896881 no_improve=6/10 min_delta=0.010000
+Epoch 37, Itrs 4610/-1, Loss=0.116608
+Epoch 37, Itrs 4620/-1, Loss=0.291009
+Epoch 37, Itrs 4630/-1, Loss=0.113171
+Epoch 37, Itrs 4640/-1, Loss=0.078340
+Epoch 37, Itrs 4650/-1, Loss=0.106638
+Epoch 37, Itrs 4660/-1, Loss=0.290358
+Epoch 37, Itrs 4670/-1, Loss=0.144583
+Epoch 37, Itrs 4680/-1, Loss=0.101551
+Epoch 37, Itrs 4690/-1, Loss=0.124170
+Epoch 37, Itrs 4700/-1, Loss=0.194407
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.81s/it]2it [00:04,  2.09s/it]3it [00:06,  1.90s/it]4it [00:07,  1.76s/it]5it [00:09,  1.71s/it]6it [00:10,  1.66s/it]7it [00:12,  1.65s/it]8it [00:13,  1.61s/it]9it [00:15,  1.62s/it]10it [00:17,  1.61s/it]11it [00:18,  1.61s/it]12it [00:20,  1.60s/it]13it [00:21,  1.61s/it]14it [00:23,  1.59s/it]15it [00:25,  1.62s/it]16it [00:26,  1.64s/it]17it [00:28,  1.65s/it]18it [00:30,  1.62s/it]19it [00:31,  1.63s/it]20it [00:33,  1.61s/it]21it [00:35,  1.62s/it]22it [00:36,  1.60s/it]23it [00:38,  1.62s/it]24it [00:39,  1.60s/it]25it [00:41,  1.62s/it]26it [00:43,  1.61s/it]27it [00:44,  1.63s/it]28it [00:46,  1.62s/it]29it [00:47,  1.63s/it]30it [00:49,  1.61s/it]31it [00:51,  1.65s/it]32it [00:52,  1.66s/it]33it [00:54,  1.69s/it]34it [00:56,  1.68s/it]35it [00:58,  1.67s/it]36it [00:59,  1.63s/it]37it [01:01,  1.63s/it]38it [01:02,  1.62s/it]39it [01:04,  1.63s/it]40it [01:06,  1.62s/it]41it [01:07,  1.64s/it]42it [01:09,  1.64s/it]43it [01:11,  1.69s/it]44it [01:12,  1.67s/it]45it [01:14,  1.69s/it]46it [01:16,  1.68s/it]47it [01:17,  1.69s/it]48it [01:19,  1.67s/it]49it [01:21,  1.69s/it]50it [01:22,  1.68s/it]51it [01:24,  1.69s/it]52it [01:26,  1.67s/it]53it [01:27,  1.69s/it]54it [01:29,  1.68s/it]55it [01:31,  1.70s/it]56it [01:33,  1.69s/it]57it [01:34,  1.70s/it]58it [01:36,  1.68s/it]59it [01:38,  1.69s/it]60it [01:39,  1.68s/it]61it [01:41,  1.70s/it]62it [01:43,  1.65s/it]63it [01:44,  1.65s/it]64it [01:46,  1.62s/it]65it [01:47,  1.63s/it]66it [01:49,  1.60s/it]67it [01:51,  1.62s/it]68it [01:52,  1.60s/it]69it [01:54,  1.61s/it]70it [01:55,  1.60s/it]71it [01:57,  1.62s/it]72it [01:59,  1.64s/it]73it [02:00,  1.69s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.970412
+Mean Acc: 0.872364
+FreqW Acc: 0.947034
+Mean IoU: 0.792103
+Class IoU:
+	class 0: 0.981647
+	class 1: 0.785393
+	class 2: 0.609268
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.16     98.57     99.07     97.04     79.21     87.24     87.59     4700      37      
+abuth         78.54     97.76     87.98                                                               
+cotton        60.93     65.38     75.72                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 31.18%
+  abuth -> cotton confusion: 0.02%
+[EarlyStop] metric=Mean IoU current=0.792103 best=0.896881 no_improve=7/10 min_delta=0.010000
+Epoch 37, Itrs 4710/-1, Loss=0.261076
+Epoch 37, Itrs 4720/-1, Loss=0.235373
+Epoch 37, Itrs 4730/-1, Loss=0.130746
+Epoch 38, Itrs 4740/-1, Loss=0.177720
+Epoch 38, Itrs 4750/-1, Loss=0.096106
+Epoch 38, Itrs 4760/-1, Loss=0.168414
+Epoch 38, Itrs 4770/-1, Loss=0.045008
+Epoch 38, Itrs 4780/-1, Loss=0.161212
+Epoch 38, Itrs 4790/-1, Loss=0.208116
+Epoch 38, Itrs 4800/-1, Loss=0.058952
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.85s/it]2it [00:04,  2.11s/it]3it [00:06,  1.92s/it]4it [00:07,  1.81s/it]5it [00:09,  1.79s/it]6it [00:11,  1.74s/it]7it [00:12,  1.74s/it]8it [00:14,  1.70s/it]9it [00:16,  1.72s/it]10it [00:17,  1.70s/it]11it [00:19,  1.72s/it]12it [00:21,  1.70s/it]13it [00:23,  1.71s/it]14it [00:24,  1.69s/it]15it [00:26,  1.72s/it]16it [00:28,  1.71s/it]17it [00:29,  1.72s/it]18it [00:31,  1.69s/it]19it [00:33,  1.70s/it]20it [00:34,  1.68s/it]21it [00:36,  1.72s/it]22it [00:38,  1.70s/it]23it [00:40,  1.70s/it]24it [00:41,  1.66s/it]25it [00:43,  1.66s/it]26it [00:44,  1.63s/it]27it [00:46,  1.63s/it]28it [00:48,  1.61s/it]29it [00:49,  1.62s/it]30it [00:51,  1.61s/it]31it [00:53,  1.63s/it]32it [00:54,  1.66s/it]33it [00:56,  1.69s/it]34it [00:58,  1.69s/it]35it [01:00,  1.72s/it]36it [01:01,  1.68s/it]37it [01:03,  1.68s/it]38it [01:04,  1.65s/it]39it [01:06,  1.65s/it]40it [01:08,  1.62s/it]41it [01:09,  1.63s/it]42it [01:11,  1.61s/it]43it [01:12,  1.63s/it]44it [01:14,  1.63s/it]45it [01:16,  1.64s/it]46it [01:17,  1.62s/it]47it [01:19,  1.63s/it]48it [01:21,  1.62s/it]49it [01:22,  1.63s/it]50it [01:24,  1.60s/it]51it [01:25,  1.61s/it]52it [01:27,  1.60s/it]53it [01:29,  1.61s/it]54it [01:30,  1.59s/it]55it [01:32,  1.61s/it]56it [01:33,  1.59s/it]57it [01:35,  1.62s/it]58it [01:37,  1.60s/it]59it [01:38,  1.62s/it]60it [01:40,  1.60s/it]61it [01:42,  1.64s/it]62it [01:43,  1.63s/it]63it [01:45,  1.63s/it]64it [01:46,  1.61s/it]65it [01:48,  1.62s/it]66it [01:50,  1.60s/it]67it [01:51,  1.62s/it]68it [01:53,  1.60s/it]69it [01:54,  1.61s/it]70it [01:56,  1.59s/it]71it [01:58,  1.60s/it]72it [01:59,  1.59s/it]73it [02:01,  1.62s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.968615
+Mean Acc: 0.937869
+FreqW Acc: 0.943804
+Mean IoU: 0.850715
+Class IoU:
+	class 0: 0.969356
+	class 1: 0.767756
+	class 2: 0.815032
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.94     97.27     98.44     96.86     85.07     93.79     91.71     4800      38      
+abuth         76.78     98.23     86.86                                                               
+cotton        81.50     85.86     89.81                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 10.89%
+  abuth -> cotton confusion: 0.08%
+[EarlyStop] metric=Mean IoU current=0.850715 best=0.896881 no_improve=8/10 min_delta=0.010000
+Epoch 38, Itrs 4810/-1, Loss=0.190837
+Epoch 38, Itrs 4820/-1, Loss=0.048878
+Epoch 38, Itrs 4830/-1, Loss=0.237327
+Epoch 38, Itrs 4840/-1, Loss=0.165462
+Epoch 38, Itrs 4850/-1, Loss=0.270456
+Epoch 38, Itrs 4860/-1, Loss=0.096084
+Epoch 39, Itrs 4870/-1, Loss=0.116377
+Epoch 39, Itrs 4880/-1, Loss=0.093621
+Epoch 39, Itrs 4890/-1, Loss=0.067379
+Epoch 39, Itrs 4900/-1, Loss=0.105703
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.80s/it]2it [00:04,  2.06s/it]3it [00:05,  1.87s/it]4it [00:07,  1.74s/it]5it [00:09,  1.73s/it]6it [00:10,  1.67s/it]7it [00:12,  1.65s/it]8it [00:13,  1.63s/it]9it [00:15,  1.65s/it]10it [00:17,  1.62s/it]11it [00:18,  1.63s/it]12it [00:20,  1.60s/it]13it [00:22,  1.61s/it]14it [00:23,  1.59s/it]15it [00:25,  1.61s/it]16it [00:26,  1.59s/it]17it [00:28,  1.61s/it]18it [00:30,  1.60s/it]19it [00:31,  1.62s/it]20it [00:33,  1.60s/it]21it [00:34,  1.61s/it]22it [00:36,  1.61s/it]23it [00:38,  1.63s/it]24it [00:39,  1.60s/it]25it [00:41,  1.61s/it]26it [00:42,  1.59s/it]27it [00:44,  1.60s/it]28it [00:46,  1.59s/it]29it [00:47,  1.61s/it]30it [00:49,  1.59s/it]31it [00:50,  1.60s/it]32it [00:52,  1.61s/it]33it [00:54,  1.62s/it]34it [00:55,  1.62s/it]35it [00:57,  1.68s/it]36it [00:59,  1.69s/it]37it [01:01,  1.70s/it]38it [01:02,  1.65s/it]39it [01:04,  1.65s/it]40it [01:05,  1.62s/it]41it [01:07,  1.62s/it]42it [01:08,  1.60s/it]43it [01:10,  1.61s/it]44it [01:12,  1.59s/it]45it [01:13,  1.61s/it]46it [01:15,  1.60s/it]47it [01:17,  1.63s/it]48it [01:18,  1.65s/it]49it [01:20,  1.67s/it]50it [01:22,  1.66s/it]51it [01:23,  1.68s/it]52it [01:25,  1.67s/it]53it [01:27,  1.70s/it]54it [01:28,  1.69s/it]55it [01:30,  1.71s/it]56it [01:32,  1.69s/it]57it [01:34,  1.72s/it]58it [01:35,  1.71s/it]59it [01:37,  1.72s/it]60it [01:39,  1.70s/it]61it [01:40,  1.72s/it]62it [01:42,  1.71s/it]63it [01:44,  1.71s/it]64it [01:46,  1.70s/it]65it [01:47,  1.72s/it]66it [01:49,  1.71s/it]67it [01:51,  1.71s/it]68it [01:52,  1.67s/it]69it [01:54,  1.66s/it]70it [01:55,  1.63s/it]71it [01:57,  1.62s/it]72it [01:59,  1.61s/it]73it [02:00,  1.61s/it]73it [02:00,  1.66s/it]
+
+Overall Acc: 0.976321
+Mean Acc: 0.901025
+FreqW Acc: 0.956615
+Mean IoU: 0.835393
+Class IoU:
+	class 0: 0.984400
+	class 1: 0.818478
+	class 2: 0.703302
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.44     98.82     99.21     97.63     83.54     90.10     90.60     4900      39      
+abuth         81.85     97.97     90.02                                                               
+cotton        70.33     73.51     82.58                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 23.19%
+  abuth -> cotton confusion: 0.00%
+[EarlyStop] metric=Mean IoU current=0.835393 best=0.896881 no_improve=9/10 min_delta=0.010000
+Epoch 39, Itrs 4910/-1, Loss=0.151552
+Epoch 39, Itrs 4920/-1, Loss=0.214370
+Epoch 39, Itrs 4930/-1, Loss=0.500085
+Epoch 39, Itrs 4940/-1, Loss=0.262226
+Epoch 39, Itrs 4950/-1, Loss=0.077363
+Epoch 39, Itrs 4960/-1, Loss=0.268012
+Epoch 39, Itrs 4970/-1, Loss=0.168739
+Epoch 39, Itrs 4980/-1, Loss=0.215874
+Epoch 39, Itrs 4990/-1, Loss=0.189756
+Epoch 40, Itrs 5000/-1, Loss=0.081716
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.82s/it]2it [00:04,  2.07s/it]3it [00:06,  1.88s/it]4it [00:07,  1.75s/it]5it [00:09,  1.73s/it]6it [00:10,  1.68s/it]7it [00:12,  1.67s/it]8it [00:14,  1.65s/it]9it [00:15,  1.67s/it]10it [00:17,  1.65s/it]11it [00:19,  1.67s/it]12it [00:20,  1.66s/it]13it [00:22,  1.68s/it]14it [00:24,  1.66s/it]15it [00:25,  1.68s/it]16it [00:27,  1.67s/it]17it [00:29,  1.70s/it]18it [00:30,  1.69s/it]19it [00:32,  1.71s/it]20it [00:34,  1.69s/it]21it [00:36,  1.69s/it]22it [00:37,  1.68s/it]23it [00:39,  1.70s/it]24it [00:40,  1.66s/it]25it [00:42,  1.68s/it]26it [00:44,  1.67s/it]27it [00:46,  1.68s/it]28it [00:47,  1.66s/it]29it [00:49,  1.65s/it]30it [00:50,  1.62s/it]31it [00:52,  1.61s/it]32it [00:53,  1.59s/it]33it [00:55,  1.60s/it]34it [00:57,  1.59s/it]35it [00:58,  1.65s/it]36it [01:00,  1.67s/it]37it [01:02,  1.70s/it]38it [01:04,  1.67s/it]39it [01:05,  1.67s/it]40it [01:07,  1.66s/it]41it [01:08,  1.65s/it]42it [01:10,  1.61s/it]43it [01:12,  1.62s/it]44it [01:13,  1.60s/it]45it [01:15,  1.61s/it]46it [01:16,  1.59s/it]47it [01:18,  1.61s/it]48it [01:20,  1.60s/it]49it [01:21,  1.62s/it]50it [01:23,  1.60s/it]51it [01:25,  1.62s/it]52it [01:26,  1.61s/it]53it [01:28,  1.64s/it]54it [01:29,  1.62s/it]55it [01:31,  1.63s/it]56it [01:33,  1.60s/it]57it [01:34,  1.61s/it]58it [01:36,  1.59s/it]59it [01:37,  1.60s/it]60it [01:39,  1.58s/it]61it [01:40,  1.59s/it]62it [01:42,  1.57s/it]63it [01:44,  1.60s/it]64it [01:45,  1.59s/it]65it [01:47,  1.62s/it]66it [01:49,  1.62s/it]67it [01:50,  1.62s/it]68it [01:52,  1.61s/it]69it [01:53,  1.61s/it]70it [01:55,  1.59s/it]71it [01:57,  1.60s/it]72it [01:58,  1.59s/it]73it [02:00,  1.59s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.979282
+Mean Acc: 0.894431
+FreqW Acc: 0.960884
+Mean IoU: 0.849247
+Class IoU:
+	class 0: 0.986004
+	class 1: 0.841424
+	class 2: 0.720312
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.60     99.50     99.30     97.93     84.92     89.44     91.48     5000      40      
+abuth         84.14     94.46     91.39                                                               
+cotton        72.03     74.37     83.74                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 19.13%
+  abuth -> cotton confusion: 0.16%
+[EarlyStop] metric=Mean IoU current=0.849247 best=0.896881 no_improve=10/10 min_delta=0.010000
+Epoch 40, Itrs 5010/-1, Loss=0.095893
+Epoch 40, Itrs 5020/-1, Loss=0.068227
+Epoch 40, Itrs 5030/-1, Loss=0.229682
+Epoch 40, Itrs 5040/-1, Loss=0.172867
+Epoch 40, Itrs 5050/-1, Loss=0.142185
+Epoch 40, Itrs 5060/-1, Loss=0.072838
+Epoch 40, Itrs 5070/-1, Loss=0.077305
+Epoch 40, Itrs 5080/-1, Loss=0.092751
+Epoch 40, Itrs 5090/-1, Loss=0.097520
+Epoch 40, Itrs 5100/-1, Loss=0.130927
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.87s/it]2it [00:04,  2.08s/it]3it [00:06,  1.87s/it]4it [00:07,  1.74s/it]5it [00:09,  1.70s/it]6it [00:10,  1.64s/it]7it [00:12,  1.64s/it]8it [00:13,  1.61s/it]9it [00:15,  1.62s/it]10it [00:17,  1.62s/it]11it [00:18,  1.64s/it]12it [00:20,  1.63s/it]13it [00:22,  1.64s/it]14it [00:23,  1.63s/it]15it [00:25,  1.64s/it]16it [00:26,  1.61s/it]17it [00:28,  1.62s/it]18it [00:30,  1.60s/it]19it [00:31,  1.61s/it]20it [00:33,  1.59s/it]21it [00:34,  1.60s/it]22it [00:36,  1.58s/it]23it [00:38,  1.61s/it]24it [00:39,  1.60s/it]25it [00:41,  1.61s/it]26it [00:42,  1.59s/it]27it [00:44,  1.64s/it]28it [00:46,  1.61s/it]29it [00:47,  1.61s/it]30it [00:49,  1.59s/it]31it [00:50,  1.61s/it]32it [00:52,  1.59s/it]33it [00:54,  1.60s/it]34it [00:55,  1.58s/it]35it [00:57,  1.60s/it]36it [00:58,  1.60s/it]37it [01:00,  1.65s/it]38it [01:02,  1.64s/it]39it [01:04,  1.68s/it]40it [01:05,  1.66s/it]41it [01:07,  1.66s/it]42it [01:08,  1.63s/it]43it [01:10,  1.63s/it]44it [01:12,  1.60s/it]45it [01:13,  1.61s/it]46it [01:15,  1.59s/it]47it [01:16,  1.60s/it]48it [01:18,  1.58s/it]49it [01:20,  1.61s/it]50it [01:21,  1.62s/it]51it [01:23,  1.63s/it]52it [01:25,  1.62s/it]53it [01:26,  1.64s/it]54it [01:28,  1.64s/it]55it [01:30,  1.66s/it]56it [01:31,  1.66s/it]57it [01:33,  1.68s/it]58it [01:35,  1.66s/it]59it [01:36,  1.68s/it]60it [01:38,  1.67s/it]61it [01:40,  1.68s/it]62it [01:41,  1.67s/it]63it [01:43,  1.68s/it]64it [01:45,  1.66s/it]65it [01:46,  1.68s/it]66it [01:48,  1.67s/it]67it [01:50,  1.69s/it]68it [01:51,  1.66s/it]69it [01:53,  1.67s/it]70it [01:55,  1.66s/it]71it [01:56,  1.70s/it]72it [01:58,  1.68s/it]73it [02:00,  1.69s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.978755
+Mean Acc: 0.915178
+FreqW Acc: 0.960532
+Mean IoU: 0.856878
+Class IoU:
+	class 0: 0.984635
+	class 1: 0.836669
+	class 2: 0.749330
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.46     98.96     99.23     97.88     85.69     91.52     92.00     5100      40      
+abuth         83.67     96.77     91.11                                                               
+cotton        74.93     78.82     85.67                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 17.74%
+  abuth -> cotton confusion: 0.15%
+[EarlyStop] metric=Mean IoU current=0.856878 best=0.896881 no_improve=11/10 min_delta=0.010000
+Epoch 40, Itrs 5110/-1, Loss=0.274873
+Epoch 40, Itrs 5120/-1, Loss=0.057550
+Epoch 41, Itrs 5130/-1, Loss=0.067025
+Epoch 41, Itrs 5140/-1, Loss=0.124062
+Epoch 41, Itrs 5150/-1, Loss=0.058793
+Epoch 41, Itrs 5160/-1, Loss=0.105679
+Epoch 41, Itrs 5170/-1, Loss=0.100572
+Epoch 41, Itrs 5180/-1, Loss=0.139080
+Epoch 41, Itrs 5190/-1, Loss=0.085802
+Epoch 41, Itrs 5200/-1, Loss=0.182710
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.87s/it]2it [00:04,  2.09s/it]3it [00:06,  1.88s/it]4it [00:07,  1.74s/it]5it [00:09,  1.70s/it]6it [00:10,  1.65s/it]7it [00:12,  1.64s/it]8it [00:13,  1.62s/it]9it [00:15,  1.64s/it]10it [00:17,  1.62s/it]11it [00:18,  1.64s/it]12it [00:20,  1.63s/it]13it [00:22,  1.66s/it]14it [00:23,  1.67s/it]15it [00:25,  1.70s/it]16it [00:27,  1.68s/it]17it [00:29,  1.70s/it]18it [00:30,  1.68s/it]19it [00:32,  1.69s/it]20it [00:34,  1.67s/it]21it [00:35,  1.68s/it]22it [00:37,  1.68s/it]23it [00:39,  1.70s/it]24it [00:40,  1.69s/it]25it [00:42,  1.71s/it]26it [00:44,  1.68s/it]27it [00:45,  1.69s/it]28it [00:47,  1.66s/it]29it [00:49,  1.68s/it]30it [00:50,  1.69s/it]31it [00:52,  1.70s/it]32it [00:54,  1.68s/it]33it [00:55,  1.67s/it]34it [00:57,  1.63s/it]35it [00:59,  1.63s/it]36it [01:00,  1.61s/it]37it [01:02,  1.63s/it]38it [01:03,  1.63s/it]39it [01:05,  1.67s/it]40it [01:07,  1.68s/it]41it [01:09,  1.68s/it]42it [01:10,  1.64s/it]43it [01:12,  1.65s/it]44it [01:13,  1.63s/it]45it [01:15,  1.63s/it]46it [01:17,  1.60s/it]47it [01:18,  1.61s/it]48it [01:20,  1.60s/it]49it [01:21,  1.60s/it]50it [01:23,  1.59s/it]51it [01:25,  1.60s/it]52it [01:26,  1.59s/it]53it [01:28,  1.61s/it]54it [01:29,  1.59s/it]55it [01:31,  1.60s/it]56it [01:33,  1.59s/it]57it [01:34,  1.62s/it]58it [01:36,  1.60s/it]59it [01:37,  1.61s/it]60it [01:39,  1.59s/it]61it [01:41,  1.61s/it]62it [01:42,  1.59s/it]63it [01:44,  1.60s/it]64it [01:45,  1.59s/it]65it [01:47,  1.62s/it]66it [01:49,  1.60s/it]67it [01:50,  1.61s/it]68it [01:52,  1.61s/it]69it [01:53,  1.62s/it]70it [01:55,  1.60s/it]71it [01:57,  1.62s/it]72it [01:58,  1.60s/it]73it [02:00,  1.61s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.970647
+Mean Acc: 0.931315
+FreqW Acc: 0.947071
+Mean IoU: 0.848742
+Class IoU:
+	class 0: 0.972738
+	class 1: 0.783086
+	class 2: 0.790401
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.27     97.61     98.62     97.06     84.87     93.13     91.58     5200      41      
+abuth         78.31     98.43     87.83                                                               
+cotton        79.04     83.35     88.29                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 12.72%
+  abuth -> cotton confusion: 0.18%
+[EarlyStop] metric=Mean IoU current=0.848742 best=0.896881 no_improve=12/10 min_delta=0.010000
+Epoch 41, Itrs 5210/-1, Loss=0.138169
+Epoch 41, Itrs 5220/-1, Loss=0.173575
+Epoch 41, Itrs 5230/-1, Loss=0.029117
+Epoch 41, Itrs 5240/-1, Loss=0.149225
+Epoch 42, Itrs 5250/-1, Loss=0.238960
+Epoch 42, Itrs 5260/-1, Loss=0.119284
+Epoch 42, Itrs 5270/-1, Loss=0.141264
+Epoch 42, Itrs 5280/-1, Loss=0.164497
+Epoch 42, Itrs 5290/-1, Loss=0.101575
+Epoch 42, Itrs 5300/-1, Loss=0.060659
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:03,  3.11s/it]2it [00:04,  2.27s/it]3it [00:06,  2.01s/it]4it [00:08,  1.85s/it]5it [00:09,  1.78s/it]6it [00:11,  1.70s/it]7it [00:12,  1.68s/it]8it [00:14,  1.65s/it]9it [00:16,  1.65s/it]10it [00:17,  1.62s/it]11it [00:19,  1.63s/it]12it [00:20,  1.62s/it]13it [00:22,  1.64s/it]14it [00:24,  1.61s/it]15it [00:25,  1.63s/it]16it [00:27,  1.61s/it]17it [00:29,  1.62s/it]18it [00:30,  1.59s/it]19it [00:32,  1.60s/it]20it [00:33,  1.58s/it]21it [00:35,  1.59s/it]22it [00:36,  1.58s/it]23it [00:38,  1.59s/it]24it [00:40,  1.57s/it]25it [00:41,  1.61s/it]26it [00:43,  1.59s/it]27it [00:44,  1.60s/it]28it [00:46,  1.61s/it]29it [00:48,  1.64s/it]30it [00:49,  1.62s/it]31it [00:51,  1.63s/it]32it [00:53,  1.61s/it]33it [00:54,  1.63s/it]34it [00:56,  1.61s/it]35it [00:57,  1.62s/it]36it [00:59,  1.60s/it]37it [01:01,  1.62s/it]38it [01:02,  1.60s/it]39it [01:04,  1.61s/it]40it [01:05,  1.60s/it]41it [01:07,  1.64s/it]42it [01:09,  1.63s/it]43it [01:10,  1.66s/it]44it [01:12,  1.64s/it]45it [01:14,  1.64s/it]46it [01:15,  1.61s/it]47it [01:17,  1.62s/it]48it [01:18,  1.60s/it]49it [01:20,  1.61s/it]50it [01:22,  1.61s/it]51it [01:23,  1.63s/it]52it [01:25,  1.61s/it]53it [01:27,  1.64s/it]54it [01:28,  1.62s/it]55it [01:30,  1.66s/it]56it [01:32,  1.66s/it]57it [01:33,  1.68s/it]58it [01:35,  1.68s/it]59it [01:37,  1.71s/it]60it [01:39,  1.70s/it]61it [01:40,  1.72s/it]62it [01:42,  1.70s/it]63it [01:44,  1.72s/it]64it [01:45,  1.71s/it]65it [01:47,  1.72s/it]66it [01:49,  1.69s/it]67it [01:51,  1.71s/it]68it [01:52,  1.68s/it]69it [01:54,  1.70s/it]70it [01:56,  1.67s/it]71it [01:57,  1.68s/it]72it [01:59,  1.67s/it]73it [02:01,  1.67s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.975617
+Mean Acc: 0.891029
+FreqW Acc: 0.954779
+Mean IoU: 0.829932
+Class IoU:
+	class 0: 0.981926
+	class 1: 0.836898
+	class 2: 0.670971
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.19     99.14     99.09     97.56     82.99     89.10     90.17     5300      42      
+abuth         83.69     93.95     91.12                                                               
+cotton        67.10     74.22     80.31                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 11.58%
+  abuth -> cotton confusion: 3.82%
+[EarlyStop] metric=Mean IoU current=0.829932 best=0.896881 no_improve=13/10 min_delta=0.010000
+Epoch 42, Itrs 5310/-1, Loss=0.080049
+Epoch 42, Itrs 5320/-1, Loss=0.155759
+Epoch 42, Itrs 5330/-1, Loss=0.161074
+Epoch 42, Itrs 5340/-1, Loss=0.182313
+Epoch 42, Itrs 5350/-1, Loss=0.176693
+Epoch 42, Itrs 5360/-1, Loss=0.433558
+Epoch 42, Itrs 5370/-1, Loss=0.112424
+Epoch 43, Itrs 5380/-1, Loss=0.129830
+Epoch 43, Itrs 5390/-1, Loss=0.136338
+Epoch 43, Itrs 5400/-1, Loss=0.367037
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.92s/it]2it [00:04,  2.15s/it]3it [00:06,  1.93s/it]4it [00:07,  1.77s/it]5it [00:09,  1.72s/it]6it [00:10,  1.66s/it]7it [00:12,  1.66s/it]8it [00:14,  1.63s/it]9it [00:15,  1.63s/it]10it [00:17,  1.62s/it]11it [00:19,  1.66s/it]12it [00:20,  1.66s/it]13it [00:22,  1.68s/it]14it [00:24,  1.67s/it]15it [00:25,  1.68s/it]16it [00:27,  1.67s/it]17it [00:29,  1.68s/it]18it [00:30,  1.67s/it]19it [00:32,  1.70s/it]20it [00:34,  1.69s/it]21it [00:36,  1.70s/it]22it [00:37,  1.68s/it]23it [00:39,  1.71s/it]24it [00:41,  1.69s/it]25it [00:42,  1.71s/it]26it [00:44,  1.68s/it]27it [00:46,  1.69s/it]28it [00:47,  1.68s/it]29it [00:49,  1.69s/it]30it [00:51,  1.66s/it]31it [00:52,  1.66s/it]32it [00:54,  1.63s/it]33it [00:55,  1.63s/it]34it [00:57,  1.61s/it]35it [00:59,  1.62s/it]36it [01:00,  1.60s/it]37it [01:02,  1.61s/it]38it [01:03,  1.60s/it]39it [01:05,  1.62s/it]40it [01:07,  1.63s/it]41it [01:09,  1.67s/it]42it [01:10,  1.68s/it]43it [01:12,  1.70s/it]44it [01:14,  1.66s/it]45it [01:15,  1.65s/it]46it [01:17,  1.62s/it]47it [01:18,  1.62s/it]48it [01:20,  1.59s/it]49it [01:21,  1.60s/it]50it [01:23,  1.59s/it]51it [01:25,  1.61s/it]52it [01:26,  1.59s/it]53it [01:28,  1.60s/it]54it [01:29,  1.59s/it]55it [01:31,  1.61s/it]56it [01:33,  1.59s/it]57it [01:34,  1.60s/it]58it [01:36,  1.58s/it]59it [01:37,  1.60s/it]60it [01:39,  1.58s/it]61it [01:41,  1.59s/it]62it [01:42,  1.57s/it]63it [01:44,  1.60s/it]64it [01:45,  1.58s/it]65it [01:47,  1.59s/it]66it [01:48,  1.58s/it]67it [01:50,  1.63s/it]68it [01:52,  1.60s/it]69it [01:53,  1.61s/it]70it [01:55,  1.59s/it]71it [01:57,  1.59s/it]72it [01:58,  1.58s/it]73it [02:00,  1.59s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.974636
+Mean Acc: 0.939310
+FreqW Acc: 0.953605
+Mean IoU: 0.858255
+Class IoU:
+	class 0: 0.977038
+	class 1: 0.818757
+	class 2: 0.778970
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.70     98.03     98.84     97.46     85.83     93.93     92.15     5400      43      
+abuth         81.88     97.55     90.03                                                               
+cotton        77.90     86.22     87.58                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 10.55%
+  abuth -> cotton confusion: 0.92%
+[EarlyStop] metric=Mean IoU current=0.858255 best=0.896881 no_improve=14/10 min_delta=0.010000
+Epoch 43, Itrs 5410/-1, Loss=0.166340
+Epoch 43, Itrs 5420/-1, Loss=0.090667
+Epoch 43, Itrs 5430/-1, Loss=0.112672
+Epoch 43, Itrs 5440/-1, Loss=0.176072
+Epoch 43, Itrs 5450/-1, Loss=0.064724
+Epoch 43, Itrs 5460/-1, Loss=0.114350
+Epoch 43, Itrs 5470/-1, Loss=0.157223
+Epoch 43, Itrs 5480/-1, Loss=0.191910
+Epoch 43, Itrs 5490/-1, Loss=0.170316
+Epoch 43, Itrs 5500/-1, Loss=0.279390
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.98s/it]2it [00:04,  2.15s/it]3it [00:06,  1.92s/it]4it [00:07,  1.77s/it]5it [00:09,  1.72s/it]6it [00:10,  1.66s/it]7it [00:12,  1.65s/it]8it [00:14,  1.63s/it]9it [00:15,  1.64s/it]10it [00:17,  1.62s/it]11it [00:19,  1.64s/it]12it [00:20,  1.62s/it]13it [00:22,  1.62s/it]14it [00:23,  1.60s/it]15it [00:25,  1.61s/it]16it [00:26,  1.59s/it]17it [00:28,  1.61s/it]18it [00:30,  1.59s/it]19it [00:31,  1.60s/it]20it [00:33,  1.59s/it]21it [00:35,  1.62s/it]22it [00:36,  1.60s/it]23it [00:38,  1.61s/it]24it [00:39,  1.62s/it]25it [00:41,  1.62s/it]26it [00:43,  1.60s/it]27it [00:44,  1.62s/it]28it [00:46,  1.60s/it]29it [00:47,  1.61s/it]30it [00:49,  1.59s/it]31it [00:51,  1.60s/it]32it [00:52,  1.59s/it]33it [00:54,  1.61s/it]34it [00:55,  1.59s/it]35it [00:57,  1.61s/it]36it [00:59,  1.60s/it]37it [01:00,  1.63s/it]38it [01:02,  1.60s/it]39it [01:03,  1.61s/it]40it [01:05,  1.62s/it]41it [01:07,  1.66s/it]42it [01:08,  1.65s/it]43it [01:10,  1.66s/it]44it [01:12,  1.63s/it]45it [01:13,  1.65s/it]46it [01:15,  1.62s/it]47it [01:17,  1.64s/it]48it [01:18,  1.63s/it]49it [01:20,  1.67s/it]50it [01:22,  1.66s/it]51it [01:23,  1.68s/it]52it [01:25,  1.67s/it]53it [01:27,  1.69s/it]54it [01:28,  1.67s/it]55it [01:30,  1.69s/it]56it [01:32,  1.68s/it]57it [01:34,  1.69s/it]58it [01:35,  1.67s/it]59it [01:37,  1.68s/it]60it [01:38,  1.66s/it]61it [01:40,  1.68s/it]62it [01:42,  1.67s/it]63it [01:44,  1.69s/it]64it [01:45,  1.65s/it]65it [01:47,  1.67s/it]66it [01:48,  1.66s/it]67it [01:50,  1.69s/it]68it [01:52,  1.67s/it]69it [01:54,  1.67s/it]70it [01:55,  1.63s/it]71it [01:57,  1.63s/it]72it [01:58,  1.60s/it]73it [02:00,  1.61s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.973414
+Mean Acc: 0.927277
+FreqW Acc: 0.952977
+Mean IoU: 0.824264
+Class IoU:
+	class 0: 0.983690
+	class 1: 0.786194
+	class 2: 0.702907
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.37     98.82     99.18     97.34     82.43     92.73     89.92     5500      43      
+abuth         78.62     85.09     88.03                                                               
+cotton        70.29     94.27     82.55                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 1.06%
+  abuth -> cotton confusion: 12.86%
+[EarlyStop] metric=Mean IoU current=0.824264 best=0.896881 no_improve=15/10 min_delta=0.010000
+Epoch 44, Itrs 5510/-1, Loss=0.143968
+Epoch 44, Itrs 5520/-1, Loss=0.120820
+Epoch 44, Itrs 5530/-1, Loss=0.165270
+Epoch 44, Itrs 5540/-1, Loss=0.289967
+Epoch 44, Itrs 5550/-1, Loss=0.137980
+Epoch 44, Itrs 5560/-1, Loss=0.091800
+Epoch 44, Itrs 5570/-1, Loss=0.226381
+Epoch 44, Itrs 5580/-1, Loss=0.111690
+Epoch 44, Itrs 5590/-1, Loss=0.221320
+Epoch 44, Itrs 5600/-1, Loss=0.202011
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.94s/it]2it [00:04,  2.17s/it]3it [00:06,  1.93s/it]4it [00:07,  1.79s/it]5it [00:09,  1.73s/it]6it [00:10,  1.67s/it]7it [00:12,  1.69s/it]8it [00:14,  1.67s/it]9it [00:15,  1.67s/it]10it [00:17,  1.66s/it]11it [00:19,  1.67s/it]12it [00:20,  1.65s/it]13it [00:22,  1.66s/it]14it [00:24,  1.65s/it]15it [00:25,  1.65s/it]16it [00:27,  1.63s/it]17it [00:29,  1.65s/it]18it [00:30,  1.65s/it]19it [00:32,  1.67s/it]20it [00:34,  1.67s/it]21it [00:35,  1.70s/it]22it [00:37,  1.67s/it]23it [00:39,  1.67s/it]24it [00:40,  1.65s/it]25it [00:42,  1.68s/it]26it [00:44,  1.66s/it]27it [00:45,  1.65s/it]28it [00:47,  1.62s/it]29it [00:49,  1.63s/it]30it [00:50,  1.60s/it]31it [00:52,  1.61s/it]32it [00:53,  1.59s/it]33it [00:55,  1.61s/it]34it [00:56,  1.59s/it]35it [00:58,  1.62s/it]36it [01:00,  1.60s/it]37it [01:01,  1.62s/it]38it [01:03,  1.61s/it]39it [01:05,  1.64s/it]40it [01:06,  1.64s/it]41it [01:08,  1.66s/it]42it [01:10,  1.65s/it]43it [01:11,  1.67s/it]44it [01:13,  1.63s/it]45it [01:15,  1.63s/it]46it [01:16,  1.60s/it]47it [01:18,  1.62s/it]48it [01:19,  1.61s/it]49it [01:21,  1.62s/it]50it [01:22,  1.60s/it]51it [01:24,  1.63s/it]52it [01:26,  1.61s/it]53it [01:27,  1.62s/it]54it [01:29,  1.59s/it]55it [01:31,  1.61s/it]56it [01:32,  1.59s/it]57it [01:34,  1.60s/it]58it [01:35,  1.59s/it]59it [01:37,  1.60s/it]60it [01:39,  1.62s/it]61it [01:40,  1.62s/it]62it [01:42,  1.60s/it]63it [01:44,  1.64s/it]64it [01:45,  1.63s/it]65it [01:47,  1.63s/it]66it [01:48,  1.61s/it]67it [01:50,  1.62s/it]68it [01:52,  1.60s/it]69it [01:53,  1.61s/it]70it [01:55,  1.59s/it]71it [01:56,  1.60s/it]72it [01:58,  1.59s/it]73it [02:00,  1.60s/it]73it [02:00,  1.64s/it]
+
+Overall Acc: 0.921082
+Mean Acc: 0.925952
+FreqW Acc: 0.874550
+Mean IoU: 0.745304
+Class IoU:
+	class 0: 0.913969
+	class 1: 0.564681
+	class 2: 0.757262
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    91.40     91.61     95.51     92.11     74.53     92.60     84.62     5600      44      
+abuth         56.47     99.09     72.18                                                               
+cotton        75.73     87.09     86.19                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 10.06%
+  abuth -> cotton confusion: 0.10%
+[EarlyStop] metric=Mean IoU current=0.745304 best=0.896881 no_improve=16/10 min_delta=0.010000
+Epoch 44, Itrs 5610/-1, Loss=0.156433
+Epoch 44, Itrs 5620/-1, Loss=0.058593
+Epoch 44, Itrs 5630/-1, Loss=0.182104
+Epoch 45, Itrs 5640/-1, Loss=0.308766
+Epoch 45, Itrs 5650/-1, Loss=0.118231
+Epoch 45, Itrs 5660/-1, Loss=0.129583
+Epoch 45, Itrs 5670/-1, Loss=0.109766
+Epoch 45, Itrs 5680/-1, Loss=0.179885
+Epoch 45, Itrs 5690/-1, Loss=0.062226
+Epoch 45, Itrs 5700/-1, Loss=0.099800
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.96s/it]2it [00:04,  2.15s/it]3it [00:06,  1.92s/it]4it [00:07,  1.77s/it]5it [00:09,  1.73s/it]6it [00:10,  1.67s/it]7it [00:12,  1.66s/it]8it [00:14,  1.65s/it]9it [00:15,  1.64s/it]10it [00:17,  1.61s/it]11it [00:19,  1.62s/it]12it [00:20,  1.59s/it]13it [00:22,  1.61s/it]14it [00:23,  1.58s/it]15it [00:25,  1.60s/it]16it [00:26,  1.60s/it]17it [00:28,  1.64s/it]18it [00:30,  1.61s/it]19it [00:31,  1.61s/it]20it [00:33,  1.61s/it]21it [00:35,  1.64s/it]22it [00:36,  1.61s/it]23it [00:38,  1.62s/it]24it [00:39,  1.61s/it]25it [00:41,  1.61s/it]26it [00:43,  1.59s/it]27it [00:44,  1.61s/it]28it [00:46,  1.59s/it]29it [00:47,  1.61s/it]30it [00:49,  1.60s/it]31it [00:51,  1.62s/it]32it [00:52,  1.61s/it]33it [00:54,  1.65s/it]34it [00:56,  1.62s/it]35it [00:57,  1.63s/it]36it [00:59,  1.61s/it]37it [01:00,  1.62s/it]38it [01:02,  1.61s/it]39it [01:04,  1.62s/it]40it [01:05,  1.62s/it]41it [01:07,  1.65s/it]42it [01:09,  1.66s/it]43it [01:10,  1.69s/it]44it [01:12,  1.65s/it]45it [01:14,  1.67s/it]46it [01:15,  1.65s/it]47it [01:17,  1.67s/it]48it [01:19,  1.67s/it]49it [01:20,  1.70s/it]50it [01:22,  1.68s/it]51it [01:24,  1.71s/it]52it [01:26,  1.70s/it]53it [01:27,  1.72s/it]54it [01:29,  1.71s/it]55it [01:31,  1.72s/it]56it [01:32,  1.70s/it]57it [01:34,  1.72s/it]58it [01:36,  1.70s/it]59it [01:38,  1.72s/it]60it [01:39,  1.69s/it]61it [01:41,  1.69s/it]62it [01:43,  1.68s/it]63it [01:44,  1.71s/it]64it [01:46,  1.68s/it]65it [01:48,  1.67s/it]66it [01:49,  1.62s/it]67it [01:51,  1.63s/it]68it [01:52,  1.60s/it]69it [01:54,  1.61s/it]70it [01:55,  1.59s/it]71it [01:57,  1.60s/it]72it [01:59,  1.57s/it]73it [02:00,  1.61s/it]73it [02:00,  1.66s/it]
+
+Overall Acc: 0.968598
+Mean Acc: 0.936740
+FreqW Acc: 0.943615
+Mean IoU: 0.843222
+Class IoU:
+	class 0: 0.969830
+	class 1: 0.776020
+	class 2: 0.783817
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.98     97.32     98.47     96.86     84.32     93.67     91.25     5700      45      
+abuth         77.60     97.70     87.39                                                               
+cotton        78.38     86.00     87.88                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 11.48%
+  abuth -> cotton confusion: 0.26%
+[EarlyStop] metric=Mean IoU current=0.843222 best=0.896881 no_improve=17/10 min_delta=0.010000
+Epoch 45, Itrs 5710/-1, Loss=0.103160
+Epoch 45, Itrs 5720/-1, Loss=0.115038
+Epoch 45, Itrs 5730/-1, Loss=0.102018
+Epoch 45, Itrs 5740/-1, Loss=0.391202
+Epoch 45, Itrs 5750/-1, Loss=0.125316
+Epoch 45, Itrs 5760/-1, Loss=0.082124
+Epoch 46, Itrs 5770/-1, Loss=0.094636
+Epoch 46, Itrs 5780/-1, Loss=0.459097
+Epoch 46, Itrs 5790/-1, Loss=0.244603
+Epoch 46, Itrs 5800/-1, Loss=0.104946
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:03,  3.01s/it]2it [00:04,  2.26s/it]3it [00:06,  2.05s/it]4it [00:08,  1.89s/it]5it [00:09,  1.85s/it]6it [00:11,  1.79s/it]7it [00:13,  1.78s/it]8it [00:15,  1.75s/it]9it [00:16,  1.75s/it]10it [00:18,  1.73s/it]11it [00:20,  1.72s/it]12it [00:21,  1.69s/it]13it [00:23,  1.72s/it]14it [00:25,  1.70s/it]15it [00:27,  1.71s/it]16it [00:28,  1.68s/it]17it [00:30,  1.71s/it]18it [00:32,  1.70s/it]19it [00:33,  1.70s/it]20it [00:35,  1.67s/it]21it [00:37,  1.70s/it]22it [00:38,  1.69s/it]23it [00:40,  1.70s/it]24it [00:42,  1.65s/it]25it [00:43,  1.66s/it]26it [00:45,  1.62s/it]27it [00:46,  1.63s/it]28it [00:48,  1.61s/it]29it [00:50,  1.62s/it]30it [00:51,  1.60s/it]31it [00:53,  1.62s/it]32it [00:54,  1.61s/it]33it [00:56,  1.62s/it]34it [00:58,  1.61s/it]35it [00:59,  1.64s/it]36it [01:01,  1.62s/it]37it [01:03,  1.62s/it]38it [01:04,  1.60s/it]39it [01:06,  1.62s/it]40it [01:07,  1.61s/it]41it [01:09,  1.66s/it]42it [01:11,  1.66s/it]43it [01:13,  1.68s/it]44it [01:14,  1.66s/it]45it [01:16,  1.65s/it]46it [01:17,  1.63s/it]47it [01:19,  1.66s/it]48it [01:21,  1.63s/it]49it [01:22,  1.64s/it]50it [01:24,  1.62s/it]51it [01:26,  1.63s/it]52it [01:27,  1.61s/it]53it [01:29,  1.63s/it]54it [01:30,  1.61s/it]55it [01:32,  1.62s/it]56it [01:34,  1.61s/it]57it [01:35,  1.63s/it]58it [01:37,  1.61s/it]59it [01:39,  1.63s/it]60it [01:40,  1.63s/it]61it [01:42,  1.63s/it]62it [01:43,  1.61s/it]63it [01:45,  1.62s/it]64it [01:47,  1.61s/it]65it [01:48,  1.62s/it]66it [01:50,  1.60s/it]67it [01:51,  1.62s/it]68it [01:53,  1.61s/it]69it [01:55,  1.62s/it]70it [01:56,  1.60s/it]71it [01:58,  1.62s/it]72it [01:59,  1.62s/it]73it [02:01,  1.64s/it]73it [02:01,  1.67s/it]
+
+Overall Acc: 0.981213
+Mean Acc: 0.959728
+FreqW Acc: 0.964851
+Mean IoU: 0.889008
+Class IoU:
+	class 0: 0.981135
+	class 1: 0.896675
+	class 2: 0.789215
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.11     98.49     99.05     98.12     88.90     95.97     93.94     5800      46      
+abuth         89.67     97.67     94.55                                                               
+cotton        78.92     91.75     88.22                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 5.34%
+  abuth -> cotton confusion: 0.11%
+[EarlyStop] metric=Mean IoU current=0.889008 best=0.896881 no_improve=18/10 min_delta=0.010000
+Epoch 46, Itrs 5810/-1, Loss=0.091214
+Epoch 46, Itrs 5820/-1, Loss=0.066878
+Epoch 46, Itrs 5830/-1, Loss=0.107027
+Epoch 46, Itrs 5840/-1, Loss=0.107198
+Epoch 46, Itrs 5850/-1, Loss=0.059326
+Epoch 46, Itrs 5860/-1, Loss=0.172114
+Epoch 46, Itrs 5870/-1, Loss=0.130889
+Epoch 46, Itrs 5880/-1, Loss=0.241385
+Epoch 47, Itrs 5890/-1, Loss=0.133517
+Epoch 47, Itrs 5900/-1, Loss=0.238317
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:03,  3.04s/it]2it [00:04,  2.22s/it]3it [00:06,  2.00s/it]4it [00:08,  1.88s/it]5it [00:09,  1.81s/it]6it [00:11,  1.73s/it]7it [00:13,  1.72s/it]8it [00:14,  1.68s/it]9it [00:16,  1.67s/it]10it [00:17,  1.63s/it]11it [00:19,  1.63s/it]12it [00:21,  1.61s/it]13it [00:22,  1.61s/it]14it [00:24,  1.60s/it]15it [00:25,  1.61s/it]16it [00:27,  1.62s/it]17it [00:29,  1.62s/it]18it [00:30,  1.60s/it]19it [00:32,  1.63s/it]20it [00:33,  1.62s/it]21it [00:35,  1.63s/it]22it [00:37,  1.61s/it]23it [00:38,  1.62s/it]24it [00:40,  1.60s/it]25it [00:42,  1.61s/it]26it [00:43,  1.59s/it]27it [00:45,  1.60s/it]28it [00:46,  1.59s/it]29it [00:48,  1.61s/it]30it [00:49,  1.59s/it]31it [00:51,  1.61s/it]32it [00:53,  1.61s/it]33it [00:54,  1.64s/it]34it [00:56,  1.61s/it]35it [00:58,  1.62s/it]36it [00:59,  1.60s/it]37it [01:01,  1.61s/it]38it [01:02,  1.59s/it]39it [01:04,  1.61s/it]40it [01:06,  1.59s/it]41it [01:07,  1.62s/it]42it [01:09,  1.60s/it]43it [01:11,  1.64s/it]44it [01:12,  1.66s/it]45it [01:14,  1.69s/it]46it [01:16,  1.69s/it]47it [01:17,  1.71s/it]48it [01:19,  1.69s/it]49it [01:21,  1.69s/it]50it [01:22,  1.68s/it]51it [01:24,  1.70s/it]52it [01:26,  1.68s/it]53it [01:28,  1.70s/it]54it [01:29,  1.69s/it]55it [01:31,  1.71s/it]56it [01:33,  1.68s/it]57it [01:34,  1.68s/it]58it [01:36,  1.67s/it]59it [01:38,  1.67s/it]60it [01:39,  1.64s/it]61it [01:41,  1.67s/it]62it [01:43,  1.66s/it]63it [01:44,  1.67s/it]64it [01:46,  1.66s/it]65it [01:48,  1.66s/it]66it [01:49,  1.62s/it]67it [01:51,  1.62s/it]68it [01:52,  1.60s/it]69it [01:54,  1.61s/it]70it [01:55,  1.59s/it]71it [01:57,  1.59s/it]72it [01:59,  1.58s/it]73it [02:00,  1.61s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.943331
+Mean Acc: 0.822991
+FreqW Acc: 0.915061
+Mean IoU: 0.647521
+Class IoU:
+	class 0: 0.982839
+	class 1: 0.503016
+	class 2: 0.456707
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.28     98.75     99.13     94.33     64.75     82.30     76.26     5900      47      
+abuth         50.30     53.11     66.93                                                               
+cotton        45.67     95.04     62.70                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.70%
+  abuth -> cotton confusion: 44.51%
+[EarlyStop] metric=Mean IoU current=0.647521 best=0.896881 no_improve=19/10 min_delta=0.010000
+Epoch 47, Itrs 5910/-1, Loss=0.118403
+Epoch 47, Itrs 5920/-1, Loss=0.123415
+Epoch 47, Itrs 5930/-1, Loss=0.043778
+Epoch 47, Itrs 5940/-1, Loss=0.082945
+Epoch 47, Itrs 5950/-1, Loss=0.104787
+Epoch 47, Itrs 5960/-1, Loss=0.112564
+Epoch 47, Itrs 5970/-1, Loss=0.110260
+Epoch 47, Itrs 5980/-1, Loss=0.079145
+Epoch 47, Itrs 5990/-1, Loss=0.041486
+Epoch 47, Itrs 6000/-1, Loss=0.153383
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015323/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.82s/it]2it [00:04,  2.09s/it]3it [00:06,  1.93s/it]4it [00:07,  1.85s/it]5it [00:09,  1.84s/it]6it [00:11,  1.79s/it]7it [00:13,  1.80s/it]8it [00:14,  1.75s/it]9it [00:16,  1.76s/it]10it [00:18,  1.73s/it]11it [00:20,  1.73s/it]12it [00:21,  1.70s/it]13it [00:23,  1.70s/it]14it [00:25,  1.69s/it]15it [00:26,  1.71s/it]16it [00:28,  1.69s/it]17it [00:30,  1.70s/it]18it [00:31,  1.70s/it]19it [00:33,  1.71s/it]20it [00:35,  1.67s/it]21it [00:36,  1.70s/it]22it [00:38,  1.72s/it]23it [00:40,  1.73s/it]24it [00:42,  1.69s/it]25it [00:43,  1.68s/it]26it [00:45,  1.64s/it]27it [00:46,  1.64s/it]28it [00:48,  1.61s/it]29it [00:50,  1.62s/it]30it [00:51,  1.60s/it]31it [00:53,  1.61s/it]32it [00:54,  1.60s/it]33it [00:56,  1.63s/it]34it [00:58,  1.61s/it]35it [00:59,  1.62s/it]36it [01:01,  1.62s/it]37it [01:03,  1.63s/it]38it [01:04,  1.60s/it]39it [01:06,  1.61s/it]40it [01:07,  1.59s/it]41it [01:09,  1.61s/it]42it [01:10,  1.59s/it]43it [01:12,  1.61s/it]44it [01:14,  1.59s/it]45it [01:15,  1.64s/it]46it [01:17,  1.65s/it]47it [01:19,  1.68s/it]48it [01:21,  1.69s/it]49it [01:22,  1.68s/it]50it [01:24,  1.65s/it]51it [01:25,  1.65s/it]52it [01:27,  1.62s/it]53it [01:29,  1.63s/it]54it [01:30,  1.62s/it]55it [01:32,  1.62s/it]56it [01:33,  1.60s/it]57it [01:35,  1.63s/it]58it [01:37,  1.61s/it]59it [01:38,  1.61s/it]60it [01:40,  1.61s/it]61it [01:42,  1.65s/it]62it [01:43,  1.62s/it]63it [01:45,  1.62s/it]64it [01:46,  1.60s/it]65it [01:48,  1.61s/it]66it [01:50,  1.60s/it]67it [01:51,  1.61s/it]68it [01:53,  1.59s/it]69it [01:54,  1.61s/it]70it [01:56,  1.61s/it]71it [01:58,  1.62s/it]72it [01:59,  1.60s/it]73it [02:01,  1.63s/it]73it [02:01,  1.66s/it]
+
+Overall Acc: 0.983300
+Mean Acc: 0.915001
+FreqW Acc: 0.968072
+Mean IoU: 0.877109
+Class IoU:
+	class 0: 0.987233
+	class 1: 0.892442
+	class 2: 0.751651
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.72     99.71     99.36     98.33     87.71     91.50     93.17     6000      47      
+abuth         89.24     93.58     94.32                                                               
+cotton        75.17     81.21     85.82                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 6.67%
+  abuth -> cotton confusion: 2.84%
+[EarlyStop] metric=Mean IoU current=0.877109 best=0.896881 no_improve=20/10 min_delta=0.010000
+[EarlyStop] Triggered at iter 6000, epoch 47. Stop training.

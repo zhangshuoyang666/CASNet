@@ -1,0 +1,8 @@
+exp_name=bestcfg_nonbaseline_bs8_lr0p005000_es5_md0p0001_20260419_120030
+run_dir=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/bestcfg_nonbaseline_bs8_lr0p005000_es5_md0p0001_20260419_120030
+pid=4231
+batch_size=8
+lr=0.005000
+source_best_metrics=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/metrics.tsv
+source_best_miou=0.947726
+started=2026-04-19 12:00:30

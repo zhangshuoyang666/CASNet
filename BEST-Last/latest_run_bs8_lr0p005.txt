@@ -1,0 +1,4 @@
+exp_name=bs8_lr0p005_es8_md0p0003_20260419_114917
+run_dir=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/bs8_lr0p005_es8_md0p0003_20260419_114917
+pid=10548
+started=2026-04-19 11:49:44

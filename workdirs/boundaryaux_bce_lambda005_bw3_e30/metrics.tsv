@@ -1,0 +1,4 @@
+class	IoU	Acc	F1	aAcc	mIoU	mAcc	mF1	Iter	epoch
+background	0.986208	0.993797	0.993056	0.986716	0.920015	0.948742	0.957537	1920	30
+abuth	0.918310	0.970382	0.957416						
+cotton	0.855526	0.882048	0.922138						

@@ -1,0 +1,68 @@
+Run directory: ./workdirs/cottonweed_quick_baseline_boundarycmp_20260412_185022
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False
+[!] Retrain
+Epoch 1, Itrs 20/80, total_loss=0.640767, seg_loss=0.640767, edge_loss=0.000000
+Epoch 1, Itrs 40/80, total_loss=0.317252, seg_loss=0.317252, edge_loss=0.000000
+Model saved as ./workdirs/cottonweed_quick_baseline_boundarycmp_20260412_185022/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]0it [00:07, ?it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 729, in <module>
+    main()
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 663, in main
+    val_score, ret_samples = validate(
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 383, in validate
+    outputs = model(images)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 191, in forward
+    return self.module(*inputs[0], **module_kwargs[0])
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/utils.py", line 15, in forward
+    features = self.backbone(x)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/utils.py", line 86, in forward
+    x = module(x)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/backbone/mobilenetv2.py", line 82, in forward
+    return self.conv(x_pad)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+RuntimeError: Expected canUse32BitIndexMath(input) && canUse32BitIndexMath(output) to be true, but got false.  (Could this error message be improved?  If so, please report an enhancement request to PyTorch.)

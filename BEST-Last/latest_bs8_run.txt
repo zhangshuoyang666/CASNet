@@ -1,0 +1,6 @@
+exp_name=mainlineA_bs8_lr0p005000_es8_md0p0003_20260419_115439
+run_dir=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/mainlineA_bs8_lr0p005000_es8_md0p0003_20260419_115439
+pid=2389
+batch_size=8
+lr=0.005000
+started=2026-04-19 11:54:39

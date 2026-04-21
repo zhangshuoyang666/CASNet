@@ -1,0 +1,9 @@
+[Queue] waiting keyword cottonweedv4_deeplabv3plus_mobilenet_bs16_lr0.01_20260420_111834 ...
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'WAIT_KEYWORD'
+[Queue] wait keyword cleared at 2026-04-20 17:38:21
+[Queue] start ablation_A_spatial_cbam_20260420_173820 at 2026-04-20 17:38:21
+[Queue] args: 

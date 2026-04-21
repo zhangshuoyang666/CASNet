@@ -1,0 +1,9 @@
+[2026-04-11 01:23:53] Fine-grained ablation starts
+Project=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master
+DataRoot=/root/autodl-tmp/dataset/cottonweed
+Model=deeplabv3plus_mobilenet, TotalItrs=200, ValInterval=50
+[2026-04-11 01:23:53] START baseline
+[2026-04-11 01:23:53] EXP=cottonweed_deeplabv3plus_mobilenet_baseline_itr200_20260411_012353
+[2026-04-11 01:23:53] LOG=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/train_cottonweed_deeplabv3plus_mobilenet_baseline_itr200_20260411_012353.log
+[2026-04-11 01:23:53] ARGS=--aspp_variant standard
+[2026-04-11 01:23:53] PID=14160

@@ -1,0 +1,71 @@
+'[Errno 99] Cannot assign requested address' thrown while requesting HEAD https://huggingface.co/timm/convnext_tiny.in12k_ft_in1k/resolve/main/model.safetensors
+Retrying in 1s [Retry 1/5].
+Traceback (most recent call last):
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/backbone/timm_backbone.py", line 22, in __init__
+    self.model = timm.create_model(model_name, **create_kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/_factory.py", line 138, in create_model
+    model = create_fn(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/convnext.py", line 1254, in convnext_tiny
+    model = _create_convnext('convnext_tiny', pretrained=pretrained, **dict(model_args, **kwargs))
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/convnext.py", line 700, in _create_convnext
+    model = build_model_with_cfg(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/_builder.py", line 445, in build_model_with_cfg
+    model = model_cls(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'output_fmt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 534, in <module>
+    main()
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 391, in main
+    model = network.modeling.__dict__[opts.model](
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/modeling.py", line 259, in deeplabv3plus_convnext_tiny
+    return _load_model('deeplabv3plus', 'convnext_tiny', num_classes, output_stride=output_stride, pretrained_backbone=pretrained_backbone, attention_type=attention_type)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/modeling.py", line 154, in _load_model
+    model = _segm_timm(arch_type, backbone, num_classes, output_stride=output_stride, pretrained_backbone=pretrained_backbone, attention_type=attention_type)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/modeling.py", line 125, in _segm_timm
+    backbone = timm_backbone.TimmBackbone(
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/backbone/timm_backbone.py", line 25, in __init__
+    self.model = timm.create_model(model_name, **create_kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/_factory.py", line 138, in create_model
+    model = create_fn(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/convnext.py", line 1254, in convnext_tiny
+    model = _create_convnext('convnext_tiny', pretrained=pretrained, **dict(model_args, **kwargs))
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/convnext.py", line 700, in _create_convnext
+    model = build_model_with_cfg(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/_builder.py", line 457, in build_model_with_cfg
+    load_pretrained(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/_builder.py", line 226, in load_pretrained
+    state_dict = load_state_dict_from_hf(pretrained_loc, weights_only=True, cache_dir=cache_dir)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/timm/models/_hub.py", line 227, in load_state_dict_from_hf
+    cached_safe_file = hf_hub_download(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 986, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1119, in _hf_hub_download_to_cache_dir
+    _get_metadata_or_catch_error(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1653, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1576, in get_hf_file_metadata
+    response = _httpx_follow_relative_redirects_with_backoff(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 685, in _httpx_follow_relative_redirects_with_backoff
+    response = http_backoff(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 559, in http_backoff
+    return next(
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/huggingface_hub/utils/_http.py", line 467, in _http_backoff_base
+    response = client.request(method=method, url=url, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/httpx/_client.py", line 901, in send
+    raise RuntimeError("Cannot send a request, as the client has been closed.")
+RuntimeError: Cannot send a request, as the client has been closed.
+
+ERROR conda.cli.main_run:execute(47): `conda run python /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py --dataset cottonweed --data_root /root/autodl-tmp/dataset/cottonweed --model deeplabv3plus_convnext_tiny --total_itrs 10000 --val_interval 100 --batch_size 4 --val_batch_size 2 --gpu_id 0 --work_dir /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs --exp_name cottonweed_deeplabv3plus_convnext_tiny_itr10000_20260411_003947` failed. (See above for error)
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_convnext_tiny_itr10000_20260411_003947
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+

@@ -1,0 +1,10 @@
+started: 2026-04-19 12:00:30
+pid: 4231
+run_dir: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/bestcfg_nonbaseline_bs8_lr0p005000_es5_md0p0001_20260419_120030
+data_root: /root/autodl-tmp/dataset/cottonweed
+gpu_id: 0
+batch_size: 8
+lr: 0.005000
+source_best_metrics: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/exp_spatial_cbam_saff_boundaryaux_continue50_es5_step/metrics.tsv
+source_best_miou: 0.947726
+command: nohup /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/bestcfg_nonbaseline_bs8_lr0p005000_es5_md0p0001_20260419_120030/train_and_post.sh > /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/bestcfg_nonbaseline_bs8_lr0p005000_es5_md0p0001_20260419_120030/nohup.out 2>&1 &

@@ -1,0 +1,30 @@
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_fg_fusion_itr40_20260411_013332
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] fg_fusion=True, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False
+[!] Retrain
+Epoch 1, Itrs 10/40, Loss=0.581328
+Epoch 1, Itrs 20/40, Loss=0.520906
+Epoch 1, Itrs 30/40, Loss=0.649514
+Epoch 1, Itrs 40/40, Loss=0.515000
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_fg_fusion_itr40_20260411_013332/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.79s/it]2it [00:04,  2.07s/it]3it [00:06,  1.90s/it]4it [00:07,  1.80s/it]5it [00:09,  1.74s/it]6it [00:10,  1.68s/it]7it [00:12,  1.70s/it]8it [00:14,  1.66s/it]9it [00:15,  1.65s/it]10it [00:17,  1.62s/it]11it [00:19,  1.64s/it]12it [00:20,  1.64s/it]13it [00:22,  1.63s/it]14it [00:23,  1.60s/it]15it [00:25,  1.61s/it]16it [00:27,  1.59s/it]17it [00:28,  1.62s/it]18it [00:30,  1.61s/it]19it [00:31,  1.62s/it]20it [00:33,  1.59s/it]21it [00:35,  1.62s/it]22it [00:36,  1.59s/it]23it [00:38,  1.62s/it]24it [00:40,  1.63s/it]25it [00:41,  1.65s/it]26it [00:43,  1.64s/it]27it [00:45,  1.65s/it]28it [00:46,  1.62s/it]29it [00:48,  1.65s/it]30it [00:49,  1.62s/it]31it [00:51,  1.61s/it]32it [00:52,  1.59s/it]33it [00:54,  1.58s/it]34it [00:56,  1.60s/it]35it [00:57,  1.64s/it]36it [00:59,  1.62s/it]37it [01:01,  1.63s/it]38it [01:02,  1.62s/it]39it [01:04,  1.64s/it]40it [01:06,  1.63s/it]41it [01:07,  1.64s/it]42it [01:09,  1.61s/it]43it [01:10,  1.61s/it]44it [01:12,  1.57s/it]45it [01:13,  1.59s/it]46it [01:15,  1.58s/it]47it [01:17,  1.60s/it]48it [01:18,  1.58s/it]49it [01:20,  1.59s/it]50it [01:21,  1.59s/it]51it [01:23,  1.61s/it]52it [01:25,  1.61s/it]53it [01:26,  1.63s/it]54it [01:28,  1.61s/it]55it [01:30,  1.64s/it]56it [01:31,  1.64s/it]57it [01:33,  1.65s/it]58it [01:34,  1.62s/it]59it [01:36,  1.63s/it]60it [01:38,  1.60s/it]61it [01:39,  1.61s/it]62it [01:41,  1.61s/it]63it [01:43,  1.63s/it]64it [01:44,  1.62s/it]65it [01:46,  1.65s/it]66it [01:47,  1.63s/it]67it [01:49,  1.70s/it]68it [01:51,  1.71s/it]69it [01:53,  1.71s/it]70it [01:54,  1.70s/it]71it [01:56,  1.72s/it]72it [01:58,  1.70s/it]73it [02:00,  1.71s/it]73it [02:00,  1.65s/it]
+
+Overall Acc: 0.881101
+Mean Acc: 0.417405
+FreqW Acc: 0.782628
+Mean IoU: 0.374051
+Class IoU:
+	class 0: 0.886671
+	class 1: 0.144504
+	class 2: 0.090979
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    88.67     99.97     93.99     88.11     37.41     41.74     45.31     40        1       
+abuth         14.45     14.88     25.25                                                               
+cotton        9.10      10.37     16.68                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 6.00%
+  abuth -> cotton confusion: 6.44%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_fg_fusion_itr40_20260411_013332/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth

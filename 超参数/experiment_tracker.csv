@@ -1,0 +1,14 @@
+1,01_lr_0p001_bs32,baseline,lr,0.01,0.001,400,,74.95,800,52.61,74.37,-15.05,reject,,01_lr_0p001_bs32
+1,01_lr_0p005_bs32,baseline,lr,0.01,0.005,400,,90.68,800,82.52,90.75,0.68,reject,,01_lr_0p005_bs32
+1,01_lr_0p01_bs32,baseline,lr,0.01,0.01,400,,92.4,600,85.64,92.67,2.40,reject,,01_lr_0p01_bs32
+1,01_lr_0p02_bs32,baseline,lr,0.01,0.02,400,,93.05,500,86.79,93.42,3.05,promote_to_confirm,,01_lr_0p02_bs32
+1c,confirm_lr_0p02,baseline,lr,0.01,0.02,400,800,93.69,450,87.93,94.15,3.69,update_best,,01_confirm_lr_0p02_bs32
+2,warmup_300,step1_best,warmup_iters,0,300,400,,90.26,400,80.72,91.27,-3.43,reject,,02_warmup_300
+3.1,aug_vflip,step2_best,aug_vflip,false,true,400,,92.03,300,86.47,90.91,-1.66,reject,,03_aug_vflip
+3.2,aug_rot30,step3.1_best,aug_rotation,0,30,400,,90.54,400,82.37,90.47,-3.15,reject,,04_aug_rot30
+4,lambda_0p2,prev_best,lambda_edge,0.1,0.2,400,,92.01,250,84.72,92.46,-1.68,reject,,05_lambda_0p2
+4,lambda_0p3,prev_best,lambda_edge,0.1,0.3,400,,91.7,250,84.08,92.15,-1.99,reject,,05_lambda_0p3
+4,lambda_0p4,prev_best,lambda_edge,0.1,0.4,400,,91.73,250,84.15,92.18,-1.96,reject,,05_lambda_0p4
+5,wd_5e4,prev_best,weight_decay,1e-4,5e-4,400,,92.52,250,85.73,92.96,-1.17,reject,,06_wd_5e4
+6,aspp_1_6_12_18_24,prev_best,aspp_rates,1,3,6,12,18,1,6,12,18,24,400,,93.69,400,88.36,93.84,0.00,reject,,07_aspp_1_6_12_18_24
+6,aspp_1_2_4_8_16,prev_best,aspp_rates,1,3,6,12,18,1,2,4,8,16,400,,93.83,400,88.71,93.87,0.14,update_best,,07_aspp_1_2_4_8_16

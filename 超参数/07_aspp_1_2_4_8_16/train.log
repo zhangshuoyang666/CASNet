@@ -1,0 +1,211 @@
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] attention_type=spatial_cbam, fg_fusion=False, texture_enhance=False, aspp_variant=dense, dense_rates=(1, 2, 4, 8, 16), decoder_detail=False, use_saff=True, saff_f1_source=mid, saff_f2_source=aspp
+[!] Retrain
+Epoch 1, Itrs 10/400, total_loss=0.793290, seg_loss=0.688806, edge_loss=1.044837, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 20/400, total_loss=0.350193, seg_loss=0.289674, edge_loss=0.605189, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 30/400, total_loss=0.333616, seg_loss=0.301675, edge_loss=0.319407, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 3, Itrs 40/400, total_loss=0.273939, seg_loss=0.253878, edge_loss=0.200607, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 4, Itrs 50/400, total_loss=0.276340, seg_loss=0.260703, edge_loss=0.156365, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.40s/it]2it [00:14,  6.58s/it]3it [00:18,  5.83s/it]4it [00:23,  5.34s/it]5it [00:28,  5.05s/it]6it [00:32,  4.87s/it]7it [00:37,  4.82s/it]8it [00:41,  4.75s/it]9it [00:46,  4.68s/it]10it [00:50,  4.61s/it]11it [00:55,  4.64s/it]12it [01:00,  4.59s/it]13it [01:04,  4.65s/it]14it [01:09,  4.62s/it]15it [01:14,  4.63s/it]16it [01:18,  4.62s/it]17it [01:23,  4.58s/it]18it [01:27,  4.51s/it]19it [01:32,  4.59s/it]20it [01:36,  4.61s/it]21it [01:41,  4.61s/it]22it [01:46,  4.66s/it]23it [01:51,  4.69s/it]24it [01:55,  4.58s/it]25it [01:59,  4.57s/it]26it [02:04,  4.64s/it]27it [02:09,  4.66s/it]28it [02:14,  4.64s/it]29it [02:18,  4.64s/it]30it [02:23,  4.67s/it]31it [02:28,  4.70s/it]32it [02:32,  4.60s/it]33it [02:37,  4.58s/it]34it [02:41,  4.63s/it]35it [02:46,  4.63s/it]36it [02:50,  4.48s/it]37it [02:53,  3.89s/it]37it [02:53,  4.68s/it]
+
+Overall Acc: 0.944269
+Mean Acc: 0.660374
+FreqW Acc: 0.902465
+Mean IoU: 0.582643
+Class IoU:
+	class 0: 0.969826
+	class 1: 0.141445
+	class 2: 0.636658
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    96.98     99.66     98.47     94.43     58.26     66.04     67.02     50        4       
+abuth         14.14     15.19     24.78                                                               
+cotton        63.67     83.26     77.80                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 3.20%
+  abuth -> cotton confusion: 59.29%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 4, Itrs 60/400, total_loss=0.226203, seg_loss=0.213212, edge_loss=0.129909, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 5, Itrs 70/400, total_loss=0.191402, seg_loss=0.180187, edge_loss=0.112147, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 5, Itrs 80/400, total_loss=0.204602, seg_loss=0.194188, edge_loss=0.104147, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 6, Itrs 90/400, total_loss=0.178776, seg_loss=0.169062, edge_loss=0.097139, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 7, Itrs 100/400, total_loss=0.142444, seg_loss=0.133769, edge_loss=0.086745, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.53s/it]2it [00:14,  6.93s/it]3it [00:19,  5.84s/it]4it [00:23,  5.23s/it]5it [00:27,  4.97s/it]6it [00:32,  4.77s/it]7it [00:36,  4.70s/it]8it [00:41,  4.63s/it]9it [00:46,  4.74s/it]10it [00:50,  4.70s/it]11it [00:55,  4.74s/it]12it [01:00,  4.69s/it]13it [01:05,  4.70s/it]14it [01:09,  4.65s/it]15it [01:14,  4.65s/it]16it [01:18,  4.59s/it]17it [01:23,  4.63s/it]18it [01:28,  4.60s/it]19it [01:32,  4.59s/it]20it [01:36,  4.50s/it]21it [01:41,  4.54s/it]22it [01:45,  4.48s/it]23it [01:50,  4.50s/it]24it [01:54,  4.50s/it]25it [01:59,  4.55s/it]26it [02:03,  4.47s/it]27it [02:08,  4.53s/it]28it [02:12,  4.44s/it]29it [02:17,  4.54s/it]30it [02:21,  4.46s/it]31it [02:26,  4.49s/it]32it [02:30,  4.47s/it]33it [02:35,  4.54s/it]34it [02:39,  4.44s/it]35it [02:44,  4.44s/it]36it [02:48,  4.39s/it]37it [02:50,  3.80s/it]37it [02:50,  4.62s/it]
+
+Overall Acc: 0.954474
+Mean Acc: 0.700995
+FreqW Acc: 0.919712
+Mean IoU: 0.615118
+Class IoU:
+	class 0: 0.982452
+	class 1: 0.172863
+	class 2: 0.690039
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.25     99.66     99.11     95.45     61.51     70.10     70.08     100       7       
+abuth         17.29     17.50     29.48                                                               
+cotton        69.00     93.15     81.66                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.18%
+  abuth -> cotton confusion: 68.43%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 7, Itrs 110/400, total_loss=0.154000, seg_loss=0.145250, edge_loss=0.087497, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 8, Itrs 120/400, total_loss=0.169047, seg_loss=0.161022, edge_loss=0.080253, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 9, Itrs 130/400, total_loss=0.234543, seg_loss=0.226545, edge_loss=0.079982, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 9, Itrs 140/400, total_loss=0.165985, seg_loss=0.158453, edge_loss=0.075322, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 10, Itrs 150/400, total_loss=0.168124, seg_loss=0.160981, edge_loss=0.071435, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.67s/it]2it [00:14,  6.72s/it]3it [00:19,  5.82s/it]4it [00:23,  5.35s/it]5it [00:28,  5.13s/it]6it [00:33,  4.96s/it]7it [00:37,  4.87s/it]8it [00:42,  4.81s/it]9it [00:47,  4.88s/it]10it [00:52,  4.84s/it]11it [00:57,  4.93s/it]12it [01:01,  4.77s/it]13it [01:06,  4.84s/it]14it [01:11,  4.69s/it]15it [01:16,  4.79s/it]16it [01:20,  4.65s/it]17it [01:25,  4.83s/it]18it [01:30,  4.68s/it]19it [01:35,  4.78s/it]20it [01:39,  4.72s/it]21it [01:44,  4.80s/it]22it [01:48,  4.62s/it]23it [01:53,  4.70s/it]24it [01:58,  4.62s/it]25it [02:02,  4.64s/it]26it [02:07,  4.58s/it]27it [02:12,  4.68s/it]28it [02:16,  4.57s/it]29it [02:21,  4.70s/it]30it [02:25,  4.58s/it]31it [02:30,  4.70s/it]32it [02:35,  4.61s/it]33it [02:40,  4.78s/it]34it [02:45,  4.75s/it]35it [02:50,  4.87s/it]36it [02:54,  4.72s/it]37it [02:57,  4.09s/it]37it [02:57,  4.79s/it]
+
+Overall Acc: 0.975215
+Mean Acc: 0.861965
+FreqW Acc: 0.953826
+Mean IoU: 0.807655
+Class IoU:
+	class 0: 0.985238
+	class 1: 0.615757
+	class 2: 0.821972
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.52     99.49     99.26     97.52     80.77     86.20     88.57     150       10      
+abuth         61.58     64.06     76.22                                                               
+cotton        82.20     95.04     90.23                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.81%
+  abuth -> cotton confusion: 25.47%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 10, Itrs 160/400, total_loss=0.139423, seg_loss=0.132345, edge_loss=0.070781, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 11, Itrs 170/400, total_loss=0.132945, seg_loss=0.126200, edge_loss=0.067447, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 12, Itrs 180/400, total_loss=0.119699, seg_loss=0.113014, edge_loss=0.066845, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 12, Itrs 190/400, total_loss=0.126629, seg_loss=0.119902, edge_loss=0.067265, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 13, Itrs 200/400, total_loss=0.144799, seg_loss=0.137797, edge_loss=0.070021, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.88s/it]2it [00:14,  6.83s/it]3it [00:19,  5.90s/it]4it [00:23,  5.38s/it]5it [00:28,  5.09s/it]6it [00:33,  4.92s/it]7it [00:37,  4.87s/it]8it [00:42,  4.75s/it]9it [00:46,  4.69s/it]10it [00:51,  4.58s/it]11it [00:55,  4.53s/it]12it [01:00,  4.54s/it]13it [01:04,  4.52s/it]14it [01:09,  4.45s/it]15it [01:13,  4.54s/it]16it [01:18,  4.47s/it]17it [01:22,  4.56s/it]18it [01:27,  4.50s/it]19it [01:31,  4.51s/it]20it [01:36,  4.49s/it]21it [01:40,  4.57s/it]22it [01:45,  4.55s/it]23it [01:50,  4.58s/it]24it [01:54,  4.50s/it]25it [01:58,  4.52s/it]26it [02:03,  4.46s/it]27it [02:08,  4.61s/it]28it [02:12,  4.54s/it]29it [02:17,  4.55s/it]30it [02:21,  4.49s/it]31it [02:26,  4.57s/it]32it [02:30,  4.49s/it]33it [02:35,  4.58s/it]34it [02:39,  4.49s/it]35it [02:44,  4.49s/it]36it [02:48,  4.42s/it]37it [02:50,  3.82s/it]37it [02:50,  4.62s/it]
+
+Overall Acc: 0.982220
+Mean Acc: 0.906858
+FreqW Acc: 0.965924
+Mean IoU: 0.868655
+Class IoU:
+	class 0: 0.986579
+	class 1: 0.737086
+	class 2: 0.882300
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.66     99.52     99.32     98.22     86.87     90.69     92.65     200       13      
+abuth         73.71     75.73     84.86                                                               
+cotton        88.23     96.81     93.75                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.18%
+  abuth -> cotton confusion: 13.52%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 14, Itrs 210/400, total_loss=0.119108, seg_loss=0.112540, edge_loss=0.065671, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 14, Itrs 220/400, total_loss=0.139446, seg_loss=0.133022, edge_loss=0.064246, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 15, Itrs 230/400, total_loss=0.130177, seg_loss=0.123834, edge_loss=0.063434, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 15, Itrs 240/400, total_loss=0.092983, seg_loss=0.086836, edge_loss=0.061467, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 16, Itrs 250/400, total_loss=0.095770, seg_loss=0.090263, edge_loss=0.055072, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.66s/it]2it [00:14,  6.59s/it]3it [00:18,  5.69s/it]4it [00:23,  5.19s/it]5it [00:27,  5.05s/it]6it [00:32,  4.89s/it]7it [00:37,  4.82s/it]8it [00:41,  4.62s/it]9it [00:46,  4.66s/it]10it [00:50,  4.53s/it]11it [00:55,  4.59s/it]12it [00:59,  4.49s/it]13it [01:04,  4.63s/it]14it [01:08,  4.54s/it]15it [01:13,  4.62s/it]16it [01:17,  4.54s/it]17it [01:22,  4.58s/it]18it [01:26,  4.50s/it]19it [01:31,  4.50s/it]20it [01:35,  4.39s/it]21it [01:40,  4.48s/it]22it [01:44,  4.39s/it]23it [01:48,  4.44s/it]24it [01:53,  4.40s/it]25it [01:57,  4.47s/it]26it [02:02,  4.46s/it]27it [02:06,  4.54s/it]28it [02:11,  4.43s/it]29it [02:15,  4.49s/it]30it [02:19,  4.40s/it]31it [02:24,  4.48s/it]32it [02:28,  4.39s/it]33it [02:33,  4.41s/it]34it [02:37,  4.37s/it]35it [02:42,  4.49s/it]36it [02:46,  4.49s/it]37it [02:49,  3.90s/it]37it [02:49,  4.58s/it]
+
+Overall Acc: 0.982042
+Mean Acc: 0.903494
+FreqW Acc: 0.965524
+Mean IoU: 0.867607
+Class IoU:
+	class 0: 0.986583
+	class 1: 0.739305
+	class 2: 0.876933
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.66     99.63     99.32     98.20     86.76     90.35     92.59     250       16      
+abuth         73.93     75.88     85.01                                                               
+cotton        87.69     95.54     93.44                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.16%
+  abuth -> cotton confusion: 13.96%
+Epoch 17, Itrs 260/400, total_loss=0.091097, seg_loss=0.085360, edge_loss=0.057372, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 17, Itrs 270/400, total_loss=0.155734, seg_loss=0.148432, edge_loss=0.073017, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 18, Itrs 280/400, total_loss=0.109609, seg_loss=0.103417, edge_loss=0.061918, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 19, Itrs 290/400, total_loss=0.105342, seg_loss=0.099336, edge_loss=0.060059, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 19, Itrs 300/400, total_loss=0.098747, seg_loss=0.092919, edge_loss=0.058287, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.53s/it]2it [00:13,  6.51s/it]3it [00:18,  5.74s/it]4it [00:23,  5.31s/it]5it [00:28,  5.10s/it]6it [00:32,  4.91s/it]7it [00:37,  4.83s/it]8it [00:41,  4.76s/it]9it [00:46,  4.70s/it]10it [00:50,  4.59s/it]11it [00:55,  4.64s/it]12it [01:00,  4.57s/it]13it [01:04,  4.56s/it]14it [01:08,  4.47s/it]15it [01:13,  4.55s/it]16it [01:17,  4.47s/it]17it [01:22,  4.50s/it]18it [01:26,  4.42s/it]19it [01:31,  4.49s/it]20it [01:35,  4.39s/it]21it [01:39,  4.42s/it]22it [01:44,  4.40s/it]23it [01:48,  4.44s/it]24it [01:53,  4.38s/it]25it [01:57,  4.41s/it]26it [02:01,  4.35s/it]27it [02:06,  4.38s/it]28it [02:10,  4.42s/it]29it [02:15,  4.54s/it]30it [02:19,  4.49s/it]31it [02:24,  4.56s/it]32it [02:28,  4.49s/it]33it [02:33,  4.51s/it]34it [02:37,  4.46s/it]35it [02:42,  4.63s/it]36it [02:47,  4.51s/it]37it [02:49,  3.94s/it]37it [02:49,  4.59s/it]
+
+Overall Acc: 0.988239
+Mean Acc: 0.953403
+FreqW Acc: 0.977121
+Mean IoU: 0.924995
+Class IoU:
+	class 0: 0.988721
+	class 1: 0.862762
+	class 2: 0.923503
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.87     99.54     99.43     98.82     92.50     95.34     96.03     300       19      
+abuth         86.28     90.18     92.63                                                               
+cotton        92.35     96.30     96.02                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.15%
+  abuth -> cotton confusion: 4.15%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 20, Itrs 310/400, total_loss=0.112208, seg_loss=0.106008, edge_loss=0.061993, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 20, Itrs 320/400, total_loss=0.092891, seg_loss=0.087635, edge_loss=0.052562, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 21, Itrs 330/400, total_loss=0.091687, seg_loss=0.085458, edge_loss=0.062285, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 22, Itrs 340/400, total_loss=0.116434, seg_loss=0.110373, edge_loss=0.060602, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 22, Itrs 350/400, total_loss=0.097146, seg_loss=0.090556, edge_loss=0.065908, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.49s/it]2it [00:14,  6.59s/it]3it [00:18,  5.74s/it]4it [00:23,  5.20s/it]5it [00:27,  5.02s/it]6it [00:32,  4.73s/it]7it [00:36,  4.70s/it]8it [00:41,  4.64s/it]9it [00:45,  4.63s/it]10it [00:50,  4.56s/it]11it [00:55,  4.74s/it]12it [00:59,  4.66s/it]13it [01:04,  4.79s/it]14it [01:09,  4.72s/it]15it [01:14,  4.74s/it]16it [01:18,  4.62s/it]17it [01:23,  4.71s/it]18it [01:28,  4.70s/it]19it [01:33,  4.83s/it]20it [01:37,  4.78s/it]21it [01:42,  4.81s/it]22it [01:47,  4.69s/it]23it [01:52,  4.73s/it]24it [01:56,  4.70s/it]25it [02:01,  4.69s/it]26it [02:06,  4.69s/it]27it [02:10,  4.71s/it]28it [02:15,  4.59s/it]29it [02:20,  4.72s/it]30it [02:24,  4.64s/it]31it [02:29,  4.64s/it]32it [02:33,  4.57s/it]33it [02:38,  4.68s/it]34it [02:42,  4.58s/it]35it [02:47,  4.57s/it]36it [02:51,  4.54s/it]37it [02:54,  3.92s/it]37it [02:54,  4.72s/it]
+
+Overall Acc: 0.985573
+Mean Acc: 0.935202
+FreqW Acc: 0.972347
+Mean IoU: 0.896854
+Class IoU:
+	class 0: 0.988801
+	class 1: 0.801344
+	class 2: 0.900416
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.88     99.42     99.44     98.56     89.69     93.52     94.39     350       22      
+abuth         80.13     83.46     88.97                                                               
+cotton        90.04     97.68     94.76                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.05%
+  abuth -> cotton confusion: 10.64%
+Epoch 23, Itrs 360/400, total_loss=0.111280, seg_loss=0.105083, edge_loss=0.061967, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 24, Itrs 370/400, total_loss=0.125175, seg_loss=0.119219, edge_loss=0.059556, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 24, Itrs 380/400, total_loss=0.087906, seg_loss=0.081840, edge_loss=0.060665, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 25, Itrs 390/400, total_loss=0.113387, seg_loss=0.107089, edge_loss=0.062975, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 25, Itrs 400/400, total_loss=0.088866, seg_loss=0.082627, edge_loss=0.062395, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.44s/it]2it [00:13,  6.44s/it]3it [00:18,  5.56s/it]4it [00:22,  5.08s/it]5it [00:27,  4.93s/it]6it [00:31,  4.73s/it]7it [00:36,  4.74s/it]8it [00:40,  4.61s/it]9it [00:45,  4.60s/it]10it [00:49,  4.51s/it]11it [00:54,  4.50s/it]12it [00:58,  4.45s/it]13it [01:02,  4.48s/it]14it [01:07,  4.43s/it]15it [01:11,  4.50s/it]16it [01:16,  4.41s/it]17it [01:20,  4.42s/it]18it [01:24,  4.35s/it]19it [01:29,  4.38s/it]20it [01:33,  4.35s/it]21it [01:38,  4.44s/it]22it [01:42,  4.44s/it]23it [01:47,  4.54s/it]24it [01:51,  4.53s/it]25it [01:56,  4.52s/it]26it [02:00,  4.44s/it]27it [02:05,  4.47s/it]28it [02:09,  4.42s/it]29it [02:14,  4.49s/it]30it [02:18,  4.49s/it]31it [02:23,  4.56s/it]32it [02:27,  4.48s/it]33it [02:32,  4.52s/it]34it [02:36,  4.42s/it]35it [02:41,  4.51s/it]36it [02:45,  4.43s/it]37it [02:47,  3.85s/it]37it [02:47,  4.54s/it]
+
+Overall Acc: 0.989748
+Mean Acc: 0.962262
+FreqW Acc: 0.979936
+Mean IoU: 0.938287
+Class IoU:
+	class 0: 0.989109
+	class 1: 0.887081
+	class 2: 0.938673
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.91     99.57     99.45     98.97     93.83     96.23     96.77     400       25      
+abuth         88.71     92.72     94.02                                                               
+cotton        93.87     96.39     96.84                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.11%
+  abuth -> cotton confusion: 1.58%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/超参数/07_aspp_1_2_4_8_16/run/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth

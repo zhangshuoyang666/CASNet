@@ -1,0 +1,22 @@
+{
+  "source_config": "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/bestcfg_nonbaseline_bs8_lr0p005000_es5_md0p0001_20260419_120030/config_snapshot.json",
+  "dataset": "cottonweedV4_train1k",
+  "data_root": "/root/autodl-tmp/dataset/cottonweedV4_train1k",
+  "cottonweed_mask_dir": "masks",
+  "class_names_file": "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_154556/class_names.txt",
+  "num_classes": 8,
+  "batch_size": 16,
+  "base_batch_for_scaling": 8,
+  "base_lr_from_config": 0.005,
+  "scaled_lr": 0.010000,
+  "weight_decay": "0.0001",
+  "lambda_edge": 0.1,
+  "boundary_width": 5,
+  "precheck_itrs": 874,
+  "total_itrs": 10925,
+  "val_interval": 218,
+  "early_stop_patience": 8,
+  "early_stop_min_delta": 0.0001,
+  "min_itrs_before_early_stop": 2622,
+  "adaptive_rule_on_precheck_fail": "lr=lr*0.5, warmup+=200"
+}

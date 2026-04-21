@@ -1,0 +1,8 @@
+{
+  "parameters": 6715624,
+  "parameters_million": 6.7156,
+  "flops": 23573444160,
+  "gflops": 23.5734,
+  "fps_bs1_513": 275.5216,
+  "device": "cuda"
+}

@@ -1,0 +1,57 @@
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/best-model-超参/01_lr_0p02_bs32/run
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] attention_type=spatial_cbam, fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False, use_saff=True, saff_f1_source=mid, saff_f2_source=aspp
+[!] Retrain
+Traceback (most recent call last):
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 777, in <module>
+    main()
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/main.py", line 651, in main
+    outputs = model(images)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 191, in forward
+    return self.module(*inputs[0], **module_kwargs[0])
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/utils.py", line 15, in forward
+    features = self.backbone(x)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/modeling.py", line 21, in forward
+    low_level_feat, mid_level_feat, high_level_feat = self.backbone.forward_features(x, return_multi=True)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/backbone/mobilenetv2.py", line 187, in forward_features
+    x = layer(x)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/network/backbone/mobilenetv2.py", line 82, in forward
+    return self.conv(x_pad)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/modules/activation.py", line 269, in forward
+    return F.hardtanh(input, self.min_val, self.max_val, self.inplace)
+  File "/root/miniconda3/envs/Depplab/lib/python3.9/site-packages/torch/nn/functional.py", line 1764, in hardtanh
+    result = torch._C._nn.hardtanh_(input, min_val, max_val)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 298.00 MiB. GPU 0 has a total capacity of 31.47 GiB of which 49.31 MiB is free. Process 620434 has 23.71 GiB memory in use. Including non-PyTorch memory, this process has 7.70 GiB memory in use. Of the allocated memory 7.33 GiB is allocated by PyTorch, and 88.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

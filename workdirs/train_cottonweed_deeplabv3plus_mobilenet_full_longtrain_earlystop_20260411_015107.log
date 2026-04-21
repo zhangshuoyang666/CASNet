@@ -1,0 +1,15 @@
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/cottonweed_deeplabv3plus_mobilenet_full_longtrain_earlystop_20260411_015107
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] fg_fusion=True, texture_enhance=True, aspp_variant=deform, dense_rates=(1, 3, 6, 12, 18), decoder_detail=True
+[!] Retrain
+Epoch 1, Itrs 10/-1, Loss=0.938705
+Epoch 1, Itrs 20/-1, Loss=0.346541
+Epoch 1, Itrs 30/-1, Loss=0.687131
+Epoch 1, Itrs 40/-1, Loss=0.843197
+Epoch 1, Itrs 50/-1, Loss=0.599158
+Epoch 1, Itrs 60/-1, Loss=0.377484
+Epoch 1, Itrs 70/-1, Loss=0.982866
+Epoch 1, Itrs 80/-1, Loss=0.410430
+Epoch 1, Itrs 90/-1, Loss=0.496505
+Terminated

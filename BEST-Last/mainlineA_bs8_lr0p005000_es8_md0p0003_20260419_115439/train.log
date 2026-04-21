@@ -1,0 +1,17 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/mainlineA_bs8_lr0p005000_es8_md0p0003_20260419_115439
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] attention_type=spatial_cbam, fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 2, 4, 8, 16), decoder_detail=False, use_saff=True, saff_f1_source=mid, saff_f2_source=aspp
+[!] Retrain
+Epoch 1, Itrs 10/-1, total_loss=0.908582, seg_loss=0.875163, edge_loss=0.334188, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 20/-1, total_loss=0.490211, seg_loss=0.459129, edge_loss=0.310814, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 30/-1, total_loss=0.491541, seg_loss=0.463337, edge_loss=0.282043, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 40/-1, total_loss=0.389542, seg_loss=0.363782, edge_loss=0.257606, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 50/-1, total_loss=0.533277, seg_loss=0.509726, edge_loss=0.235510, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/mainlineA_bs8_lr0p005000_es8_md0p0003_20260419_115439/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:06,  6.69s/it]2it [00:10,  5.01s/it]3it [00:14,  4.36s/it]4it [00:17,  3.96s/it]5it [00:21,  3.85s/it]6it [00:24,  3.70s/it]7it [00:28,  3.66s/it]8it [00:31,  3.56s/it]9it [00:34,  3.54s/it]10it [00:38,  3.45s/it]11it [00:41,  3.47s/it]12it [00:45,  3.48s/it]13it [00:48,  3.52s/it]14it [00:52,  3.50s/it]

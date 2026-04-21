@@ -1,0 +1,13 @@
+{
+  "step": "final",
+  "exp_name": "final",
+  "best_miou": 93.83,
+  "batch_size": 32,
+  "lr": 0.02,
+  "weight_decay": "1e-4",
+  "lambda_edge": 0.1,
+  "warmup_iters": 0,
+  "aug_vflip": false,
+  "aug_rotation": 0,
+  "dense_aspp_rates": "1,2,4,8,16"
+}

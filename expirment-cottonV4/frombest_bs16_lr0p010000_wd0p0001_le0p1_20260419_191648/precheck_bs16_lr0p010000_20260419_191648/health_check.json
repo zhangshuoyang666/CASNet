@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "iter": 872,
+  "epoch": 2,
+  "aAcc": 0.965896,
+  "mIoU": 0.571283,
+  "mAcc": 0.66771,
+  "bad_metrics": []
+}

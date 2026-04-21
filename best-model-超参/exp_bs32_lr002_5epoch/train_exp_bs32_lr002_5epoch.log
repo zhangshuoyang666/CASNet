@@ -1,0 +1,117 @@
+Run directory: ./best-model-超参/exp_bs32_lr002_5epoch
+Device: cuda
+Dataset: cottonweed, Train set: 513, Val set: 146
+[Ablation-Config] attention_type=spatial_cbam, fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False, use_saff=True, saff_f1_source=mid, saff_f2_source=aspp
+[!] Retrain
+Epoch 1, Itrs 10/85, total_loss=0.656100, seg_loss=0.623947, edge_loss=0.321534, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:10, 10.64s/it]2it [00:14,  6.85s/it]3it [00:19,  6.08s/it]4it [00:24,  5.36s/it]5it [00:28,  5.13s/it]6it [00:33,  4.83s/it]7it [00:38,  4.85s/it]8it [00:42,  4.63s/it]9it [00:47,  4.73s/it]10it [00:51,  4.66s/it]11it [00:56,  4.74s/it]12it [01:01,  4.68s/it]13it [01:06,  4.75s/it]14it [01:10,  4.67s/it]15it [01:15,  4.86s/it]16it [01:20,  4.70s/it]17it [01:25,  4.82s/it]18it [01:29,  4.69s/it]19it [01:34,  4.76s/it]20it [01:39,  4.71s/it]21it [01:43,  4.72s/it]22it [01:48,  4.56s/it]23it [01:53,  4.72s/it]24it [01:57,  4.62s/it]25it [02:02,  4.68s/it]26it [02:06,  4.61s/it]27it [02:11,  4.61s/it]28it [02:15,  4.49s/it]29it [02:20,  4.54s/it]30it [02:24,  4.44s/it]31it [02:29,  4.54s/it]32it [02:33,  4.43s/it]33it [02:38,  4.52s/it]34it [02:42,  4.40s/it]35it [02:47,  4.49s/it]36it [02:51,  4.43s/it]37it [02:53,  3.89s/it]37it [02:54,  4.70s/it]
+
+Overall Acc: 0.927838
+Mean Acc: 0.651107
+FreqW Acc: 0.880816
+Mean IoU: 0.566575
+Class IoU:
+	class 0: 0.956637
+	class 1: 0.283352
+	class 2: 0.459737
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    95.66     99.71     97.78     92.78     56.66     65.11     68.31     17        2       
+abuth         28.34     43.98     44.16                                                               
+cotton        45.97     51.65     62.99                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 24.55%
+  abuth -> cotton confusion: 23.46%
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 2, Itrs 20/85, total_loss=0.389741, seg_loss=0.364220, edge_loss=0.255214, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 30/85, total_loss=0.275548, seg_loss=0.255460, edge_loss=0.200883, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.21s/it]2it [00:13,  6.50s/it]3it [00:18,  5.67s/it]4it [00:22,  5.06s/it]5it [00:26,  4.80s/it]6it [00:31,  4.55s/it]7it [00:35,  4.58s/it]8it [00:39,  4.45s/it]9it [00:44,  4.53s/it]10it [00:48,  4.42s/it]11it [00:53,  4.48s/it]12it [00:57,  4.39s/it]13it [01:01,  4.37s/it]14it [01:05,  4.28s/it]15it [01:10,  4.29s/it]16it [01:14,  4.23s/it]17it [01:18,  4.33s/it]18it [01:22,  4.26s/it]19it [01:27,  4.37s/it]20it [01:31,  4.30s/it]21it [01:35,  4.29s/it]22it [01:40,  4.22s/it]23it [01:44,  4.24s/it]24it [01:48,  4.18s/it]25it [01:52,  4.20s/it]26it [01:56,  4.14s/it]27it [02:00,  4.21s/it]28it [02:05,  4.16s/it]29it [02:09,  4.21s/it]30it [02:13,  4.17s/it]31it [02:18,  4.30s/it]32it [02:22,  4.27s/it]33it [02:26,  4.34s/it]34it [02:31,  4.32s/it]35it [02:35,  4.39s/it]36it [02:39,  4.35s/it]37it [02:42,  3.76s/it]37it [02:42,  4.39s/it]
+
+Overall Acc: 0.951228
+Mean Acc: 0.775922
+FreqW Acc: 0.918685
+Mean IoU: 0.676301
+Class IoU:
+	class 0: 0.975912
+	class 1: 0.438244
+	class 2: 0.614747
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.59     99.60     98.78     95.12     67.63     77.59     78.62     34        3       
+abuth         43.82     65.61     60.94                                                               
+cotton        61.47     67.57     76.14                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 21.64%
+  abuth -> cotton confusion: 16.87%
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 3, Itrs 40/85, total_loss=0.236257, seg_loss=0.219922, edge_loss=0.163348, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 4, Itrs 50/85, total_loss=0.194458, seg_loss=0.179971, edge_loss=0.144865, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.72s/it]2it [00:13,  6.48s/it]3it [00:18,  5.79s/it]4it [00:23,  5.15s/it]5it [00:27,  5.01s/it]6it [00:32,  4.82s/it]7it [00:37,  4.93s/it]8it [00:41,  4.81s/it]9it [00:47,  4.87s/it]10it [00:51,  4.66s/it]11it [00:55,  4.62s/it]12it [01:00,  4.69s/it]13it [01:05,  4.67s/it]14it [01:09,  4.65s/it]15it [01:14,  4.73s/it]16it [01:19,  4.71s/it]17it [01:24,  4.74s/it]18it [01:28,  4.70s/it]19it [01:33,  4.79s/it]20it [01:38,  4.65s/it]21it [01:42,  4.67s/it]22it [01:47,  4.68s/it]23it [01:52,  4.66s/it]24it [01:56,  4.57s/it]25it [02:01,  4.63s/it]26it [02:05,  4.59s/it]27it [02:10,  4.60s/it]28it [02:15,  4.62s/it]29it [02:19,  4.71s/it]30it [02:24,  4.63s/it]31it [02:29,  4.66s/it]32it [02:33,  4.62s/it]33it [02:38,  4.71s/it]34it [02:42,  4.60s/it]35it [02:47,  4.57s/it]36it [02:51,  4.51s/it]37it [02:54,  3.93s/it]37it [02:54,  4.72s/it]
+
+Overall Acc: 0.954418
+Mean Acc: 0.776606
+FreqW Acc: 0.920433
+Mean IoU: 0.697442
+Class IoU:
+	class 0: 0.971299
+	class 1: 0.450631
+	class 2: 0.670395
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.13     99.71     98.54     95.44     69.74     77.66     80.31     51        4       
+abuth         45.06     61.33     62.13                                                               
+cotton        67.04     71.94     80.27                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 15.78%
+  abuth -> cotton confusion: 12.42%
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+Epoch 4, Itrs 60/85, total_loss=0.160368, seg_loss=0.147230, edge_loss=0.131379, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.58s/it]2it [00:14,  6.66s/it]3it [00:18,  5.63s/it]4it [00:22,  5.13s/it]5it [00:27,  4.95s/it]6it [00:32,  4.77s/it]7it [00:36,  4.74s/it]8it [00:41,  4.66s/it]9it [00:45,  4.64s/it]10it [00:50,  4.53s/it]11it [00:54,  4.46s/it]12it [00:58,  4.35s/it]13it [01:03,  4.42s/it]14it [01:07,  4.34s/it]15it [01:11,  4.43s/it]16it [01:15,  4.31s/it]17it [01:20,  4.42s/it]18it [01:24,  4.36s/it]19it [01:29,  4.42s/it]20it [01:33,  4.40s/it]21it [01:38,  4.48s/it]22it [01:42,  4.36s/it]23it [01:46,  4.42s/it]24it [01:51,  4.38s/it]25it [01:56,  4.50s/it]26it [02:00,  4.49s/it]27it [02:04,  4.45s/it]28it [02:09,  4.45s/it]29it [02:13,  4.43s/it]30it [02:17,  4.36s/it]31it [02:22,  4.38s/it]32it [02:26,  4.33s/it]33it [02:31,  4.38s/it]34it [02:35,  4.29s/it]35it [02:39,  4.34s/it]36it [02:43,  4.25s/it]37it [02:45,  3.66s/it]37it [02:45,  4.49s/it]
+
+Overall Acc: 0.955685
+Mean Acc: 0.725511
+FreqW Acc: 0.919783
+Mean IoU: 0.656735
+Class IoU:
+	class 0: 0.974095
+	class 1: 0.276832
+	class 2: 0.719278
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.41     99.68     98.69     95.57     65.67     72.55     75.24     68        5       
+abuth         27.68     29.23     43.36                                                               
+cotton        71.93     88.74     83.67                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 2.11%
+  abuth -> cotton confusion: 44.43%
+Epoch 5, Itrs 70/85, total_loss=0.144054, seg_loss=0.131258, edge_loss=0.127962, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 5, Itrs 80/85, total_loss=0.175820, seg_loss=0.163367, edge_loss=0.124529, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:09,  9.43s/it]2it [00:13,  6.38s/it]3it [00:18,  5.62s/it]4it [00:22,  5.07s/it]5it [00:27,  5.03s/it]6it [00:32,  4.82s/it]7it [00:36,  4.68s/it]8it [00:40,  4.51s/it]9it [00:44,  4.49s/it]10it [00:49,  4.38s/it]11it [00:53,  4.43s/it]12it [00:58,  4.51s/it]13it [01:02,  4.52s/it]14it [01:07,  4.41s/it]15it [01:11,  4.44s/it]16it [01:15,  4.37s/it]17it [01:20,  4.45s/it]18it [01:24,  4.34s/it]19it [01:29,  4.48s/it]20it [01:33,  4.43s/it]21it [01:38,  4.52s/it]22it [01:42,  4.48s/it]23it [01:47,  4.52s/it]24it [01:51,  4.45s/it]25it [01:56,  4.45s/it]26it [02:00,  4.35s/it]27it [02:04,  4.40s/it]28it [02:09,  4.40s/it]29it [02:13,  4.47s/it]30it [02:17,  4.35s/it]31it [02:22,  4.42s/it]32it [02:26,  4.37s/it]33it [02:30,  4.35s/it]34it [02:35,  4.28s/it]35it [02:39,  4.38s/it]36it [02:43,  4.30s/it]37it [02:46,  3.70s/it]37it [02:46,  4.49s/it]
+
+Overall Acc: 0.962336
+Mean Acc: 0.777523
+FreqW Acc: 0.931412
+Mean IoU: 0.714048
+Class IoU:
+	class 0: 0.977070
+	class 1: 0.412260
+	class 2: 0.752815
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.71     99.64     98.84     96.23     71.40     77.75     81.04     85        6       
+abuth         41.23     44.72     58.38                                                               
+cotton        75.28     88.90     85.90                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 3.17%
+  abuth -> cotton confusion: 33.14%
+Model saved as ./best-model-超参/exp_bs32_lr002_5epoch/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth

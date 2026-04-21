@@ -1,0 +1,223 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+Run directory: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648
+Device: cuda
+Dataset: cottonweed, Train set: 7000, Val set: 140
+[Ablation-Config] attention_type=spatial_cbam, fg_fusion=False, texture_enhance=False, aspp_variant=standard, dense_rates=(1, 3, 6, 12, 18), decoder_detail=False, use_saff=True, saff_f1_source=mid, saff_f2_source=aspp
+[!] Retrain
+Epoch 1, Itrs 10/874, total_loss=1.358492, seg_loss=1.310436, edge_loss=0.480560, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 20/874, total_loss=0.649533, seg_loss=0.609894, edge_loss=0.396390, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 30/874, total_loss=0.374547, seg_loss=0.343024, edge_loss=0.315229, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 40/874, total_loss=0.486248, seg_loss=0.460299, edge_loss=0.259492, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 50/874, total_loss=0.392474, seg_loss=0.370568, edge_loss=0.219059, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 60/874, total_loss=0.303805, seg_loss=0.285310, edge_loss=0.184950, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 70/874, total_loss=0.396761, seg_loss=0.379213, edge_loss=0.175487, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 80/874, total_loss=0.332138, seg_loss=0.316433, edge_loss=0.157049, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 90/874, total_loss=0.295578, seg_loss=0.281968, edge_loss=0.136098, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 100/874, total_loss=0.343425, seg_loss=0.329847, edge_loss=0.135779, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 110/874, total_loss=0.351867, seg_loss=0.339330, edge_loss=0.125368, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 120/874, total_loss=0.314718, seg_loss=0.303121, edge_loss=0.115966, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 130/874, total_loss=0.326586, seg_loss=0.315158, edge_loss=0.114284, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 140/874, total_loss=0.347102, seg_loss=0.335585, edge_loss=0.115165, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 150/874, total_loss=0.334810, seg_loss=0.324106, edge_loss=0.107039, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 160/874, total_loss=0.291092, seg_loss=0.281225, edge_loss=0.098676, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 170/874, total_loss=0.342994, seg_loss=0.333386, edge_loss=0.096082, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 180/874, total_loss=0.339795, seg_loss=0.329818, edge_loss=0.099779, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 190/874, total_loss=0.312550, seg_loss=0.302765, edge_loss=0.097850, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 200/874, total_loss=0.232671, seg_loss=0.224002, edge_loss=0.086696, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 210/874, total_loss=0.312451, seg_loss=0.303206, edge_loss=0.092449, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.15s/it]2it [00:03,  1.43s/it]3it [00:04,  1.23s/it]4it [00:05,  1.16s/it]5it [00:06,  1.11s/it]6it [00:07,  1.04s/it]7it [00:08,  1.04s/it]8it [00:09,  1.02s/it]9it [00:10,  1.01s/it]10it [00:10,  1.03it/s]11it [00:11,  1.02it/s]12it [00:12,  1.05it/s]13it [00:13,  1.04it/s]14it [00:14,  1.05it/s]15it [00:15,  1.05it/s]16it [00:16,  1.06it/s]17it [00:17,  1.04it/s]18it [00:18,  1.07it/s]19it [00:19,  1.03it/s]20it [00:20,  1.02it/s]21it [00:21,  1.00s/it]22it [00:22,  1.00it/s]23it [00:23,  1.02s/it]24it [00:24,  1.01it/s]25it [00:25,  1.02it/s]26it [00:26,  1.04it/s]27it [00:27,  1.02it/s]28it [00:28,  1.02it/s]29it [00:29,  1.02it/s]30it [00:30,  1.04it/s]31it [00:31,  1.05it/s]32it [00:32,  1.06it/s]33it [00:33,  1.03it/s]34it [00:34,  1.04it/s]35it [00:35,  1.03it/s]36it [00:36,  1.03it/s]37it [00:37,  1.03it/s]38it [00:38,  1.05it/s]39it [00:39,  1.00s/it]40it [00:40,  1.00s/it]41it [00:41,  1.04s/it]42it [00:42,  1.08s/it]43it [00:43,  1.08s/it]44it [00:44,  1.07s/it]45it [00:45,  1.08s/it]46it [00:46,  1.09s/it]47it [00:48,  1.14s/it]48it [00:49,  1.10s/it]49it [00:50,  1.11s/it]50it [00:51,  1.13s/it]51it [00:52,  1.12s/it]52it [00:53,  1.12s/it]53it [00:54,  1.12s/it]54it [00:55,  1.08s/it]55it [00:56,  1.08s/it]56it [00:57,  1.05s/it]57it [00:58,  1.06s/it]58it [00:59,  1.05s/it]59it [01:00,  1.06s/it]60it [01:02,  1.07s/it]61it [01:03,  1.08s/it]62it [01:04,  1.08s/it]63it [01:05,  1.07s/it]64it [01:06,  1.05s/it]65it [01:07,  1.04s/it]66it [01:08,  1.02s/it]67it [01:09,  1.03s/it]68it [01:10,  1.02s/it]69it [01:11,  1.06s/it]70it [01:12,  1.09s/it]71it [01:13,  1.09s/it]72it [01:14,  1.05s/it]73it [01:15,  1.04s/it]74it [01:16,  1.01s/it]75it [01:17,  1.05s/it]76it [01:18,  1.05s/it]77it [01:19,  1.08s/it]78it [01:21,  1.10s/it]79it [01:22,  1.10s/it]80it [01:23,  1.09s/it]81it [01:24,  1.08s/it]82it [01:25,  1.08s/it]83it [01:26,  1.10s/it]84it [01:27,  1.11s/it]85it [01:28,  1.10s/it]86it [01:29,  1.11s/it]87it [01:31,  1.10s/it]88it [01:32,  1.08s/it]89it [01:33,  1.11s/it]90it [01:34,  1.12s/it]91it [01:35,  1.09s/it]92it [01:36,  1.10s/it]93it [01:37,  1.08s/it]94it [01:38,  1.04s/it]95it [01:39,  1.06s/it]96it [01:40,  1.07s/it]97it [01:41,  1.11s/it]98it [01:43,  1.14s/it]99it [01:44,  1.13s/it]100it [01:45,  1.10s/it]101it [01:46,  1.08s/it]102it [01:47,  1.09s/it]103it [01:48,  1.09s/it]104it [01:49,  1.07s/it]105it [01:50,  1.08s/it]106it [01:51,  1.08s/it]107it [01:52,  1.11s/it]108it [01:53,  1.12s/it]109it [01:55,  1.10s/it]110it [01:56,  1.08s/it]111it [01:57,  1.08s/it]112it [01:58,  1.09s/it]113it [01:59,  1.13s/it]114it [02:00,  1.12s/it]115it [02:01,  1.11s/it]116it [02:02,  1.09s/it]117it [02:03,  1.09s/it]118it [02:04,  1.08s/it]119it [02:06,  1.10s/it]120it [02:07,  1.09s/it]121it [02:08,  1.08s/it]122it [02:09,  1.07s/it]123it [02:10,  1.06s/it]124it [02:11,  1.05s/it]125it [02:12,  1.06s/it]126it [02:13,  1.08s/it]127it [02:14,  1.08s/it]128it [02:15,  1.07s/it]129it [02:16,  1.10s/it]130it [02:17,  1.12s/it]131it [02:19,  1.12s/it]132it [02:20,  1.09s/it]133it [02:21,  1.09s/it]134it [02:22,  1.06s/it]135it [02:23,  1.07s/it]136it [02:24,  1.06s/it]137it [02:25,  1.07s/it]138it [02:26,  1.06s/it]139it [02:27,  1.05s/it]140it [02:28,  1.04s/it]140it [02:28,  1.06s/it]
+
+Overall Acc: 0.948248
+Mean Acc: 0.476884
+FreqW Acc: 0.915328
+Mean IoU: 0.388099
+Class IoU:
+	class 0: 0.975374
+	class 1: 0.745318
+	class 2: 0.227207
+	class 3: 0.335297
+	class 4: 0.233400
+	class 5: 0.305598
+	class 6: 0.191418
+	class 7: 0.091177
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.54     99.64     98.75     94.82     38.81     47.69     50.61     218       1       
+cotton        74.53     88.68     85.41                                                               
+abuth         22.72     23.59     37.03                                                               
+canger        33.53     50.00     50.22                                                               
+machixian     23.34     25.54     37.85                                                               
+longkui       30.56     45.64     46.81                                                               
+tianxuanhua   19.14     38.96     32.13                                                               
+niujincao     9.12      9.46      16.71                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.55%
+  abuth -> cotton confusion: 35.18%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.388099 best=0.388099 no_improve=0/3 min_delta=0.000100
+Epoch 1, Itrs 220/874, total_loss=0.300760, seg_loss=0.291591, edge_loss=0.091690, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 230/874, total_loss=0.298572, seg_loss=0.289126, edge_loss=0.094459, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 240/874, total_loss=0.297097, seg_loss=0.288909, edge_loss=0.081876, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 250/874, total_loss=0.346093, seg_loss=0.337020, edge_loss=0.090727, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 260/874, total_loss=0.237586, seg_loss=0.229390, edge_loss=0.081964, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 270/874, total_loss=0.280775, seg_loss=0.272715, edge_loss=0.080601, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 280/874, total_loss=0.226217, seg_loss=0.218317, edge_loss=0.079000, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 290/874, total_loss=0.345182, seg_loss=0.336374, edge_loss=0.088074, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 300/874, total_loss=0.282438, seg_loss=0.274060, edge_loss=0.083784, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 310/874, total_loss=0.345647, seg_loss=0.336584, edge_loss=0.090629, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 320/874, total_loss=0.201893, seg_loss=0.194821, edge_loss=0.070713, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 330/874, total_loss=0.294523, seg_loss=0.286707, edge_loss=0.078163, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 340/874, total_loss=0.209939, seg_loss=0.201210, edge_loss=0.087290, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 350/874, total_loss=0.274257, seg_loss=0.267224, edge_loss=0.070331, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 360/874, total_loss=0.317852, seg_loss=0.310799, edge_loss=0.070535, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 370/874, total_loss=0.193696, seg_loss=0.186424, edge_loss=0.072726, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 380/874, total_loss=0.211896, seg_loss=0.204402, edge_loss=0.074946, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 390/874, total_loss=0.220957, seg_loss=0.213898, edge_loss=0.070582, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 400/874, total_loss=0.279733, seg_loss=0.271852, edge_loss=0.078809, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 410/874, total_loss=0.217685, seg_loss=0.210112, edge_loss=0.075726, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 420/874, total_loss=0.217557, seg_loss=0.210508, edge_loss=0.070492, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 1, Itrs 430/874, total_loss=0.210740, seg_loss=0.203078, edge_loss=0.076616, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.40s/it]2it [00:03,  1.59s/it]3it [00:04,  1.38s/it]4it [00:05,  1.26s/it]5it [00:06,  1.20s/it]6it [00:07,  1.14s/it]7it [00:08,  1.11s/it]8it [00:09,  1.09s/it]9it [00:10,  1.08s/it]10it [00:12,  1.11s/it]11it [00:13,  1.11s/it]12it [00:14,  1.10s/it]13it [00:15,  1.11s/it]14it [00:16,  1.09s/it]15it [00:17,  1.11s/it]16it [00:18,  1.07s/it]17it [00:19,  1.08s/it]18it [00:20,  1.05s/it]19it [00:21,  1.09s/it]20it [00:22,  1.08s/it]21it [00:23,  1.08s/it]22it [00:24,  1.06s/it]23it [00:26,  1.06s/it]24it [00:27,  1.06s/it]25it [00:28,  1.06s/it]26it [00:29,  1.08s/it]27it [00:30,  1.09s/it]28it [00:31,  1.11s/it]29it [00:32,  1.14s/it]30it [00:33,  1.10s/it]31it [00:34,  1.11s/it]32it [00:35,  1.10s/it]33it [00:37,  1.10s/it]34it [00:38,  1.09s/it]35it [00:39,  1.11s/it]36it [00:40,  1.10s/it]37it [00:41,  1.11s/it]38it [00:42,  1.11s/it]39it [00:43,  1.12s/it]40it [00:44,  1.09s/it]41it [00:45,  1.09s/it]42it [00:46,  1.07s/it]43it [00:47,  1.06s/it]44it [00:48,  1.06s/it]45it [00:50,  1.08s/it]46it [00:51,  1.08s/it]47it [00:52,  1.09s/it]48it [00:53,  1.08s/it]49it [00:54,  1.07s/it]50it [00:55,  1.09s/it]51it [00:56,  1.11s/it]52it [00:57,  1.13s/it]53it [00:58,  1.11s/it]54it [00:59,  1.08s/it]55it [01:01,  1.10s/it]56it [01:02,  1.12s/it]57it [01:03,  1.12s/it]58it [01:04,  1.09s/it]59it [01:05,  1.08s/it]60it [01:06,  1.10s/it]61it [01:07,  1.10s/it]62it [01:08,  1.10s/it]63it [01:09,  1.11s/it]64it [01:11,  1.10s/it]65it [01:12,  1.10s/it]66it [01:13,  1.09s/it]67it [01:14,  1.10s/it]68it [01:15,  1.10s/it]69it [01:16,  1.10s/it]70it [01:17,  1.09s/it]71it [01:18,  1.09s/it]72it [01:19,  1.08s/it]73it [01:20,  1.08s/it]74it [01:21,  1.08s/it]75it [01:22,  1.08s/it]76it [01:23,  1.06s/it]77it [01:25,  1.08s/it]78it [01:26,  1.09s/it]79it [01:27,  1.08s/it]80it [01:28,  1.07s/it]81it [01:29,  1.07s/it]82it [01:30,  1.08s/it]83it [01:31,  1.08s/it]84it [01:32,  1.07s/it]85it [01:33,  1.10s/it]86it [01:34,  1.09s/it]87it [01:35,  1.10s/it]88it [01:37,  1.07s/it]89it [01:38,  1.07s/it]90it [01:39,  1.05s/it]91it [01:40,  1.08s/it]92it [01:41,  1.09s/it]93it [01:42,  1.09s/it]94it [01:43,  1.08s/it]95it [01:44,  1.09s/it]96it [01:45,  1.07s/it]97it [01:46,  1.09s/it]98it [01:47,  1.08s/it]99it [01:49,  1.13s/it]100it [01:50,  1.12s/it]101it [01:51,  1.13s/it]102it [01:52,  1.12s/it]103it [01:53,  1.12s/it]104it [01:54,  1.10s/it]105it [01:55,  1.12s/it]106it [01:56,  1.10s/it]107it [01:57,  1.11s/it]108it [01:58,  1.07s/it]109it [01:59,  1.07s/it]110it [02:01,  1.06s/it]111it [02:02,  1.09s/it]112it [02:03,  1.08s/it]113it [02:04,  1.07s/it]114it [02:05,  1.05s/it]115it [02:06,  1.07s/it]116it [02:07,  1.08s/it]117it [02:08,  1.10s/it]118it [02:09,  1.09s/it]119it [02:10,  1.10s/it]120it [02:11,  1.09s/it]121it [02:13,  1.11s/it]122it [02:14,  1.08s/it]123it [02:15,  1.10s/it]124it [02:16,  1.08s/it]125it [02:17,  1.08s/it]126it [02:18,  1.07s/it]127it [02:19,  1.08s/it]128it [02:20,  1.07s/it]129it [02:21,  1.10s/it]130it [02:22,  1.08s/it]131it [02:23,  1.08s/it]132it [02:24,  1.08s/it]133it [02:25,  1.09s/it]134it [02:26,  1.06s/it]135it [02:28,  1.08s/it]136it [02:29,  1.07s/it]137it [02:30,  1.09s/it]138it [02:31,  1.10s/it]139it [02:32,  1.10s/it]140it [02:33,  1.10s/it]140it [02:33,  1.10s/it]
+
+Overall Acc: 0.960650
+Mean Acc: 0.661202
+FreqW Acc: 0.933244
+Mean IoU: 0.563214
+Class IoU:
+	class 0: 0.979587
+	class 1: 0.773136
+	class 2: 0.519448
+	class 3: 0.300474
+	class 4: 0.704942
+	class 5: 0.363431
+	class 6: 0.370433
+	class 7: 0.494263
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    97.96     99.73     98.97     96.07     56.32     66.12     69.62     436       1       
+cotton        77.31     84.47     87.21                                                               
+abuth         51.94     63.75     68.37                                                               
+canger        30.05     35.31     46.21                                                               
+machixian     70.49     79.64     82.69                                                               
+longkui       36.34     56.67     53.31                                                               
+tianxuanhua   37.04     54.09     54.06                                                               
+niujincao     49.43     55.31     66.15                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 3.00%
+  abuth -> cotton confusion: 15.20%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.563214 best=0.563214 no_improve=0/3 min_delta=0.000100
+Epoch 2, Itrs 440/874, total_loss=0.339540, seg_loss=0.330914, edge_loss=0.086264, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 450/874, total_loss=0.247951, seg_loss=0.240524, edge_loss=0.074265, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 460/874, total_loss=0.178898, seg_loss=0.172405, edge_loss=0.064930, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 470/874, total_loss=0.180744, seg_loss=0.173804, edge_loss=0.069395, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 480/874, total_loss=0.273864, seg_loss=0.266198, edge_loss=0.076664, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 490/874, total_loss=0.211548, seg_loss=0.204243, edge_loss=0.073051, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 500/874, total_loss=0.280139, seg_loss=0.272617, edge_loss=0.075225, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 510/874, total_loss=0.253068, seg_loss=0.245800, edge_loss=0.072680, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 520/874, total_loss=0.228149, seg_loss=0.221042, edge_loss=0.071069, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 530/874, total_loss=0.269564, seg_loss=0.261047, edge_loss=0.085169, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 540/874, total_loss=0.211985, seg_loss=0.205022, edge_loss=0.069632, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 550/874, total_loss=0.234977, seg_loss=0.227825, edge_loss=0.071524, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 560/874, total_loss=0.198660, seg_loss=0.191484, edge_loss=0.071755, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 570/874, total_loss=0.236561, seg_loss=0.229398, edge_loss=0.071631, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 580/874, total_loss=0.171930, seg_loss=0.165637, edge_loss=0.062927, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 590/874, total_loss=0.255812, seg_loss=0.248902, edge_loss=0.069102, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 600/874, total_loss=0.208467, seg_loss=0.201765, edge_loss=0.067026, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 610/874, total_loss=0.172974, seg_loss=0.165752, edge_loss=0.072218, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 620/874, total_loss=0.283973, seg_loss=0.277098, edge_loss=0.068749, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 630/874, total_loss=0.145170, seg_loss=0.139226, edge_loss=0.059434, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 640/874, total_loss=0.230018, seg_loss=0.221735, edge_loss=0.082827, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 650/874, total_loss=0.211137, seg_loss=0.203579, edge_loss=0.075585, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:01,  1.99s/it]2it [00:02,  1.35s/it]3it [00:03,  1.19s/it]4it [00:04,  1.08s/it]5it [00:05,  1.04s/it]6it [00:06,  1.00s/it]7it [00:07,  1.01it/s]8it [00:08,  1.03it/s]9it [00:09,  1.02it/s]10it [00:10,  1.05it/s]11it [00:11,  1.03it/s]12it [00:12,  1.05it/s]13it [00:13,  1.03it/s]14it [00:14,  1.04it/s]15it [00:15,  1.01it/s]16it [00:16,  1.05it/s]17it [00:17,  1.03it/s]18it [00:18,  1.06it/s]19it [00:19,  1.04it/s]20it [00:20,  1.06it/s]21it [00:21,  1.04it/s]22it [00:21,  1.07it/s]23it [00:23,  1.03it/s]24it [00:23,  1.05it/s]25it [00:24,  1.05it/s]26it [00:25,  1.07it/s]27it [00:26,  1.05it/s]28it [00:27,  1.06it/s]29it [00:28,  1.04it/s]30it [00:29,  1.06it/s]31it [00:30,  1.04it/s]32it [00:31,  1.06it/s]33it [00:32,  1.05it/s]34it [00:33,  1.07it/s]35it [00:34,  1.07it/s]36it [00:35,  1.08it/s]37it [00:36,  1.06it/s]38it [00:37,  1.07it/s]39it [00:38,  1.07it/s]40it [00:38,  1.08it/s]41it [00:39,  1.06it/s]42it [00:40,  1.07it/s]43it [00:41,  1.06it/s]44it [00:42,  1.08it/s]45it [00:43,  1.05it/s]46it [00:44,  1.06it/s]47it [00:45,  1.05it/s]48it [00:46,  1.07it/s]49it [00:47,  1.07it/s]50it [00:48,  1.07it/s]51it [00:49,  1.06it/s]52it [00:50,  1.06it/s]53it [00:51,  1.06it/s]54it [00:52,  1.10it/s]55it [00:52,  1.09it/s]56it [00:53,  1.10it/s]57it [00:54,  1.11it/s]58it [00:55,  1.11it/s]59it [00:56,  1.07it/s]60it [00:57,  1.09it/s]61it [00:58,  1.10it/s]62it [00:59,  1.10it/s]63it [01:00,  1.10it/s]64it [01:01,  1.11it/s]65it [01:02,  1.11it/s]66it [01:02,  1.10it/s]67it [01:03,  1.12it/s]68it [01:04,  1.10it/s]69it [01:05,  1.11it/s]70it [01:06,  1.11it/s]71it [01:07,  1.10it/s]72it [01:08,  1.11it/s]73it [01:09,  1.10it/s]74it [01:10,  1.11it/s]75it [01:11,  1.08it/s]76it [01:12,  1.06it/s]77it [01:13,  1.06it/s]78it [01:13,  1.08it/s]79it [01:14,  1.07it/s]80it [01:15,  1.10it/s]81it [01:16,  1.06it/s]82it [01:17,  1.08it/s]83it [01:18,  1.07it/s]84it [01:19,  1.07it/s]85it [01:20,  1.05it/s]86it [01:21,  1.07it/s]87it [01:22,  1.07it/s]88it [01:23,  1.10it/s]89it [01:24,  1.10it/s]90it [01:25,  1.11it/s]91it [01:25,  1.11it/s]92it [01:26,  1.10it/s]93it [01:27,  1.11it/s]94it [01:28,  1.11it/s]95it [01:29,  1.11it/s]96it [01:30,  1.10it/s]97it [01:31,  1.07it/s]98it [01:32,  1.08it/s]99it [01:33,  1.06it/s]100it [01:34,  1.07it/s]101it [01:35,  1.05it/s]102it [01:36,  1.08it/s]103it [01:37,  1.08it/s]104it [01:37,  1.08it/s]105it [01:38,  1.06it/s]106it [01:39,  1.06it/s]107it [01:40,  1.06it/s]108it [01:41,  1.06it/s]109it [01:42,  1.05it/s]110it [01:43,  1.07it/s]111it [01:44,  1.05it/s]112it [01:45,  1.08it/s]113it [01:46,  1.08it/s]114it [01:47,  1.08it/s]115it [01:48,  1.06it/s]116it [01:49,  1.07it/s]117it [01:50,  1.06it/s]118it [01:51,  1.07it/s]119it [01:52,  1.08it/s]120it [01:53,  1.08it/s]121it [01:53,  1.08it/s]122it [01:54,  1.07it/s]123it [01:55,  1.05it/s]124it [01:56,  1.07it/s]125it [01:57,  1.08it/s]126it [01:58,  1.10it/s]127it [01:59,  1.10it/s]128it [02:00,  1.10it/s]129it [02:01,  1.11it/s]130it [02:02,  1.10it/s]131it [02:03,  1.10it/s]132it [02:03,  1.10it/s]133it [02:04,  1.09it/s]134it [02:05,  1.08it/s]135it [02:06,  1.09it/s]136it [02:07,  1.10it/s]137it [02:08,  1.10it/s]138it [02:09,  1.11it/s]139it [02:10,  1.11it/s]140it [02:11,  1.10it/s]140it [02:11,  1.07it/s]
+
+Overall Acc: 0.965498
+Mean Acc: 0.658224
+FreqW Acc: 0.941426
+Mean IoU: 0.559012
+Class IoU:
+	class 0: 0.985791
+	class 1: 0.812782
+	class 2: 0.537678
+	class 3: 0.456805
+	class 4: 0.661158
+	class 5: 0.297958
+	class 6: 0.178019
+	class 7: 0.541909
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.58     99.54     99.28     96.55     55.90     65.82     68.45     654       2       
+cotton        81.28     94.70     89.67                                                               
+abuth         53.77     65.89     69.93                                                               
+canger        45.68     69.61     62.71                                                               
+machixian     66.12     70.23     79.60                                                               
+longkui       29.80     34.43     45.91                                                               
+tianxuanhua   17.80     19.25     30.22                                                               
+niujincao     54.19     72.94     70.29                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 1.13%
+  abuth -> cotton confusion: 22.84%
+[EarlyStop] metric=Mean IoU current=0.559012 best=0.563214 no_improve=1/3 min_delta=0.000100
+Epoch 2, Itrs 660/874, total_loss=0.186585, seg_loss=0.180130, edge_loss=0.064544, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 670/874, total_loss=0.199584, seg_loss=0.192665, edge_loss=0.069185, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 680/874, total_loss=0.228207, seg_loss=0.220744, edge_loss=0.074629, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 690/874, total_loss=0.195473, seg_loss=0.188395, edge_loss=0.070781, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 700/874, total_loss=0.194962, seg_loss=0.187401, edge_loss=0.075601, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 710/874, total_loss=0.227449, seg_loss=0.221211, edge_loss=0.062378, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 720/874, total_loss=0.232181, seg_loss=0.225553, edge_loss=0.066274, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 730/874, total_loss=0.173058, seg_loss=0.166729, edge_loss=0.063286, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 740/874, total_loss=0.203262, seg_loss=0.195677, edge_loss=0.075847, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 750/874, total_loss=0.193150, seg_loss=0.186421, edge_loss=0.067288, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 760/874, total_loss=0.189488, seg_loss=0.182750, edge_loss=0.067384, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 770/874, total_loss=0.162090, seg_loss=0.155381, edge_loss=0.067091, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 780/874, total_loss=0.192204, seg_loss=0.185280, edge_loss=0.069241, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 790/874, total_loss=0.183599, seg_loss=0.177168, edge_loss=0.064310, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 800/874, total_loss=0.190453, seg_loss=0.183760, edge_loss=0.066933, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 810/874, total_loss=0.168347, seg_loss=0.161521, edge_loss=0.068262, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 820/874, total_loss=0.227681, seg_loss=0.220365, edge_loss=0.073157, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 830/874, total_loss=0.215725, seg_loss=0.209053, edge_loss=0.066724, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 840/874, total_loss=0.219150, seg_loss=0.212645, edge_loss=0.065057, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 850/874, total_loss=0.260285, seg_loss=0.252681, edge_loss=0.076038, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 860/874, total_loss=0.168608, seg_loss=0.161788, edge_loss=0.068202, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Epoch 2, Itrs 870/874, total_loss=0.247818, seg_loss=0.240650, edge_loss=0.071673, lambda_edge=0.1, boundary_width=5, edge_loss_type=bce
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.03s/it]2it [00:02,  1.34s/it]3it [00:03,  1.15s/it]4it [00:04,  1.06s/it]5it [00:05,  1.02s/it]6it [00:06,  1.01it/s]7it [00:07,  1.02it/s]8it [00:08,  1.04it/s]9it [00:09,  1.03it/s]10it [00:10,  1.04it/s]11it [00:11,  1.02it/s]12it [00:12,  1.06it/s]13it [00:13,  1.04it/s]14it [00:14,  1.06it/s]15it [00:15,  1.05it/s]16it [00:16,  1.07it/s]17it [00:16,  1.08it/s]18it [00:17,  1.08it/s]19it [00:18,  1.06it/s]20it [00:19,  1.08it/s]21it [00:20,  1.09it/s]22it [00:21,  1.10it/s]23it [00:22,  1.10it/s]24it [00:23,  1.10it/s]25it [00:24,  1.10it/s]26it [00:25,  1.12it/s]27it [00:26,  1.12it/s]28it [00:26,  1.11it/s]29it [00:27,  1.11it/s]30it [00:28,  1.11it/s]31it [00:29,  1.12it/s]32it [00:30,  1.14it/s]33it [00:31,  1.14it/s]34it [00:32,  1.12it/s]35it [00:33,  1.07it/s]36it [00:34,  1.10it/s]37it [00:35,  1.11it/s]38it [00:35,  1.11it/s]39it [00:36,  1.09it/s]40it [00:37,  1.10it/s]41it [00:38,  1.07it/s]42it [00:39,  1.09it/s]43it [00:40,  1.10it/s]44it [00:41,  1.10it/s]45it [00:42,  1.09it/s]46it [00:43,  1.09it/s]47it [00:44,  1.09it/s]48it [00:45,  1.08it/s]49it [00:46,  1.09it/s]50it [00:46,  1.11it/s]51it [00:47,  1.10it/s]52it [00:48,  1.10it/s]53it [00:49,  1.10it/s]54it [00:50,  1.10it/s]55it [00:51,  1.07it/s]56it [00:52,  1.09it/s]57it [00:53,  1.09it/s]58it [00:54,  1.10it/s]59it [00:55,  1.10it/s]60it [00:56,  1.09it/s]61it [00:57,  1.06it/s]62it [00:58,  1.08it/s]63it [00:59,  1.05it/s]64it [00:59,  1.08it/s]65it [01:00,  1.09it/s]66it [01:01,  1.10it/s]67it [01:02,  1.11it/s]68it [01:03,  1.09it/s]69it [01:04,  1.07it/s]70it [01:05,  1.08it/s]71it [01:06,  1.05it/s]72it [01:07,  1.07it/s]73it [01:08,  1.07it/s]74it [01:09,  1.10it/s]75it [01:10,  1.09it/s]76it [01:10,  1.10it/s]77it [01:11,  1.06it/s]78it [01:12,  1.08it/s]79it [01:13,  1.05it/s]80it [01:14,  1.07it/s]81it [01:15,  1.06it/s]82it [01:16,  1.06it/s]83it [01:17,  1.05it/s]84it [01:18,  1.06it/s]85it [01:19,  1.04it/s]86it [01:20,  1.06it/s]87it [01:21,  1.05it/s]88it [01:22,  1.07it/s]89it [01:23,  1.05it/s]90it [01:24,  1.06it/s]91it [01:25,  1.04it/s]92it [01:26,  1.03it/s]93it [01:27,  1.02it/s]94it [01:28,  1.04it/s]95it [01:29,  1.04it/s]96it [01:30,  1.05it/s]97it [01:31,  1.03it/s]98it [01:31,  1.06it/s]99it [01:32,  1.04it/s]100it [01:33,  1.05it/s]101it [01:34,  1.05it/s]102it [01:35,  1.06it/s]103it [01:36,  1.04it/s]104it [01:37,  1.06it/s]105it [01:38,  1.04it/s]106it [01:39,  1.06it/s]107it [01:40,  1.06it/s]108it [01:41,  1.06it/s]109it [01:42,  1.04it/s]110it [01:43,  1.07it/s]111it [01:44,  1.04it/s]112it [01:45,  1.05it/s]113it [01:46,  1.05it/s]114it [01:47,  1.05it/s]115it [01:48,  1.05it/s]116it [01:49,  1.06it/s]117it [01:50,  1.04it/s]118it [01:50,  1.06it/s]119it [01:51,  1.04it/s]120it [01:52,  1.04it/s]121it [01:53,  1.06it/s]122it [01:54,  1.07it/s]123it [01:55,  1.06it/s]124it [01:56,  1.06it/s]125it [01:57,  1.05it/s]126it [01:58,  1.06it/s]127it [01:59,  1.05it/s]128it [02:00,  1.05it/s]129it [02:01,  1.04it/s]130it [02:02,  1.04it/s]131it [02:03,  1.01it/s]132it [02:04,  1.01it/s]133it [02:05,  1.01it/s]134it [02:06,  1.03it/s]135it [02:07,  1.04it/s]136it [02:08,  1.05it/s]137it [02:09,  1.04it/s]138it [02:10,  1.06it/s]139it [02:11,  1.07it/s]140it [02:11,  1.10it/s]140it [02:11,  1.06it/s]
+
+Overall Acc: 0.965896
+Mean Acc: 0.667710
+FreqW Acc: 0.942340
+Mean IoU: 0.571283
+Class IoU:
+	class 0: 0.985271
+	class 1: 0.824124
+	class 2: 0.565737
+	class 3: 0.442015
+	class 4: 0.667125
+	class 5: 0.271635
+	class 6: 0.248701
+	class 7: 0.565659
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    98.53     99.66     99.26     96.59     57.13     66.77     69.75     872       2       
+cotton        82.41     90.50     90.36                                                               
+abuth         56.57     79.46     72.26                                                               
+canger        44.20     62.29     61.31                                                               
+machixian     66.71     70.62     80.03                                                               
+longkui       27.16     32.39     42.72                                                               
+tianxuanhua   24.87     27.62     39.83                                                               
+niujincao     56.57     71.63     72.26                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 3.63%
+  abuth -> cotton confusion: 9.19%
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/expirment-cottonV4/frombest_bs16_lr0p010000_wd0p0001_le0p1_20260419_191648/precheck_bs16_lr0p010000_20260419_191648/checkpoints/best_deeplabv3plus_mobilenet_cottonweed_os16.pth
+[EarlyStop] metric=Mean IoU current=0.571283 best=0.571283 no_improve=0/3 min_delta=0.000100

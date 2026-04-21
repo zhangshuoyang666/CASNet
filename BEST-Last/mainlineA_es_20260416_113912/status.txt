@@ -1,0 +1,6 @@
+started: 2026-04-16 11:39:12
+pid: 5359
+run_dir: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/mainlineA_es_20260416_113912
+data_root: /root/autodl-tmp/dataset/cottonweedV2
+gpu_id: 0
+command: nohup /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/mainlineA_es_20260416_113912/train_and_post.sh > /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/BEST-Last/mainlineA_es_20260416_113912/nohup.out 2>&1 &

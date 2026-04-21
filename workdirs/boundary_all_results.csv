@@ -1,0 +1,9 @@
+stage,experiment,edge_loss_type,lambda_edge,boundary_width,epochs,aAcc,mIoU,bg_IoU,abuth_IoU,cotton_IoU,abuth_Acc,cotton_Acc,cotton_to_abuth,abuth_to_cotton,notes
+quick,baseline_quick,none,0.0,0,1,0.875778,0.340187,0.879340,0.130180,0.011041,0.138800,0.011100,0.128000,0.003000,fast sanity run
+quick,boundaryaux_old_quick,bce_dice,0.3,3,1,0.919800,0.530610,0.931238,0.516071,0.144522,0.627800,0.163700,0.333800,0.026800,old boundary setup
+5ep,baseline_5ep,none,0.0,0,5,0.977239,0.847813,0.981360,0.842186,0.719893,0.888474,0.802407,0.068584,0.036847,baseline reference
+5ep,boundaryaux_old_5ep,bce_dice,0.3,3,5,0.971019,0.783909,0.982562,0.793861,0.575304,0.922464,0.631146,0.246583,0.031716,old boundary setup
+30ep,boundaryaux_bce_lambda005_bw3_e30,bce,0.05,3,30,0.986716,0.920015,0.986208,0.918310,0.855526,0.970382,0.882048,0.029237,0.000092,new bce setup
+30ep,boundaryaux_bce_lambda01_bw3_e30,bce,0.1,3,30,0.988113,0.926227,0.987569,0.931976,0.859135,0.968461,0.886854,0.023541,0.000457,new bce setup
+30ep,boundaryaux_bce_lambda01_bw1_e30,bce,0.1,1,30,0.988151,0.927755,0.987477,0.931122,0.864667,0.969003,0.893189,0.020202,0.000789,boundary-width ablation
+30ep,boundaryaux_bce_lambda01_bw5_e30_rerun,bce,0.1,5,30,0.988692,0.932283,0.987519,0.938931,0.870398,0.971474,0.900020,0.008601,0.000837,best overall
