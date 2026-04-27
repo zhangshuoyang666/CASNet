@@ -2,3 +2,13 @@
 [Queue] wait keyword cleared at 2026-04-20 23:53:36
 [Queue] start ablation_A_spatial_cbam_20260420_174227 (attempt=1/3) at 2026-04-20 23:53:36
 [Queue] args: 
+[Queue] done  ablation_A_spatial_cbam_20260420_174227 at 2026-04-21 14:04:33
+[Queue] start ablation_AB_spatial_cbam_fusion_20260420_174227 (attempt=1/3) at 2026-04-21 14:04:33
+[Queue] args: --enable_fg_fusion
+[Queue] done  ablation_AB_spatial_cbam_fusion_20260420_174227 at 2026-04-22 04:37:25
+[Queue] start ablation_ABC_spatial_cbam_fusion_boundary_20260420_174227 (attempt=1/3) at 2026-04-22 04:37:25
+[Queue] args: --enable_fg_fusion --enable_boundary_aux --edge_loss_type bce --lambda_edge 0.1 --boundary_width 5
+[Queue] done  ablation_ABC_spatial_cbam_fusion_boundary_20260420_174227 at 2026-04-22 19:20:47
+[Queue] all ablation runs finished at 2026-04-22 19:20:47
+[Queue] report csv: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_abc_20260420_174227.csv
+[Queue] report md : /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_abc_20260420_174227.md

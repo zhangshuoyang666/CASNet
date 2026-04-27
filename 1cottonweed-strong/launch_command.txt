@@ -1,0 +1,25 @@
+python -u main.py \
+  --dataset cottonweed \
+  --data_root /root/autodl-tmp/dataset/cottonweed_strong \
+  --cottonweed_mask_dir masks \
+  --model deeplabv3plus_mobilenet \
+  --attention_type spatial_cbam \
+  --enable_boundary_aux \
+  --use_saff \
+  --edge_loss_type bce \
+  --lambda_edge 0.1 \
+  --boundary_width 5 \
+  --gpu_id 0 \
+  --output_stride 16 \
+  --total_itrs 10000 \
+  --val_interval 32 \
+  --batch_size 8 \
+  --val_batch_size 2 \
+  --lr 0.01 \
+  --lr_policy step \
+  --step_size 1000 \
+  --weight_decay 0.0005 \
+  --random_seed 1 \
+  --print_interval 10 \
+  --work_dir /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-masterPLUS/1cottonweed-strong/workdirs \
+  --exp_name exp_spatial_cbam_saff_boundaryaux_cottonweed_strong_itr10000

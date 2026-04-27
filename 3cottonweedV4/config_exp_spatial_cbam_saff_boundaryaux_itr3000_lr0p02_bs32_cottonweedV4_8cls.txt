@@ -1,0 +1,28 @@
+python main.py \
+  --dataset cottonweed \
+  --data_root /root/autodl-tmp/dataset/cottonweedV4_train1k \
+  --cottonweed_mask_dir masks \
+  --num_classes 8 \
+  --class_names /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-masterPLUS/3cottonweedV4/class_names_8.txt \
+  --model deeplabv3plus_mobilenet \
+  --output_stride 16 \
+  --attention_type spatial_cbam \
+  --use_saff \
+  --enable_boundary_aux \
+  --edge_loss_type bce \
+  --boundary_width 5 \
+  --lambda_edge 0.1 \
+  --abuth_class_id 1 \
+  --cotton_class_id 3 \
+  --lr 0.02 \
+  --lr_policy step \
+  --step_size 1000 \
+  --batch_size 32 \
+  --val_batch_size 4 \
+  --crop_size 513 \
+  --total_itrs 3000 \
+  --val_interval 32 \
+  --print_interval 10 \
+  --gpu_id 0 \
+  --work_dir /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-masterPLUS/3cottonweedV4/workdirs \
+  --exp_name exp_spatial_cbam_saff_boundaryaux_cottonweedV4_8cls_itr3000_lr0p02_bs32

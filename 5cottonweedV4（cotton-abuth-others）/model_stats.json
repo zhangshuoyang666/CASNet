@@ -1,0 +1,19 @@
+{
+  "model": "deeplabv3plus_mobilenet",
+  "num_classes": 4,
+  "output_stride": 16,
+  "attention_type": "spatial_cbam",
+  "use_saff": true,
+  "enable_boundary_aux": true,
+  "params": 7996881,
+  "trainable_params": 7996881,
+  "GFLOPs": 47.155276928,
+  "FPS": 200.99583325679262,
+  "input_size": [
+    1,
+    3,
+    513,
+    513
+  ],
+  "device": "cuda"
+}

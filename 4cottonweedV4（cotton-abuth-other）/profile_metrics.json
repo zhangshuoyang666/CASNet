@@ -1,0 +1,16 @@
+{
+  "device": "cuda",
+  "input_shape": [
+    1,
+    3,
+    513,
+    513
+  ],
+  "parameters_total": 7996881,
+  "parameters_trainable": 7996881,
+  "parameters_total_million": 7.996881,
+  "GFLOPs": 47.155276928,
+  "GFLOPs_backend": "thop(MACs*2)",
+  "FPS": 268.01178297347553,
+  "latency_ms": 3.7311792373657227
+}

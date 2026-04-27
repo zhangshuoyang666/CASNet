@@ -1,0 +1,33 @@
+python main.py \
+  --dataset cottonweed \
+  --data_root /root/autodl-tmp/dataset/cottonweed_strong \
+  --cottonweed_mask_dir masks \
+  --num_classes 3 \
+  --model deeplabv3plus_mobilenet \
+  --output_stride 16 \
+  --attention_type spatial_cbam \
+  --use_saff \
+  --saff_f1_source mid \
+  --saff_f2_source aspp \
+  --enable_boundary_aux \
+  --edge_loss_type bce \
+  --boundary_width 5 \
+  --lambda_edge 0.1 \
+  --lr 0.01 \
+  --lr_policy step \
+  --step_size 1000 \
+  --batch_size 8 \
+  --val_batch_size 4 \
+  --crop_size 513 \
+  --aug_vflip \
+  --aug_rotation 10 \
+  --total_itrs 10000 \
+  --val_interval 100 \
+  --print_interval 10 \
+  --enable_early_stop \
+  --early_stop_patience 5 \
+  --early_stop_metric 'Mean IoU' \
+  --min_itrs_before_early_stop 3000 \
+  --gpu_id 0 \
+  --work_dir ${OUT_ROOT}/workdirs \
+  --exp_name ${EXP_NAME}

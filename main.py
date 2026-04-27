@@ -506,6 +506,10 @@ def main():
     # Setup dataloader
     if opts.dataset == 'voc' and not opts.crop_val:
         opts.val_batch_size = 1
+    if opts.dataset == 'cottonweed' and not opts.crop_val:
+        # cottonweed validation images may have different spatial sizes;
+        # use batch_size=1 to avoid tensor stack size mismatch in DataLoader.
+        opts.val_batch_size = 1
 
     train_dst, val_dst = get_dataset(opts)
     train_loader = data.DataLoader(

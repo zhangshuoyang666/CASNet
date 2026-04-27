@@ -1,0 +1,10 @@
+[dataset]
+name=cottonweedV4_train1k_4class
+root=/root/autodl-tmp/dataset/cottonweedV4_train1k_4class
+mask_dir=masks_4class
+num_classes=4
+class_names_file=/root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-masterPLUS/5cottonweedV4（cotton-abuth-others）/class_names_4class.txt
+class_0=background
+class_1=cotton
+class_2=abuth
+class_3=others

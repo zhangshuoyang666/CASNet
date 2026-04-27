@@ -1,1 +1,4 @@
 exp_name,best_miou,best_iter,best_epoch
+ablation_A_spatial_cbam_20260420_174227,0.839909,10000,43
+ablation_AB_spatial_cbam_fusion_20260420_174227,0.839196,9800,42
+ablation_ABC_spatial_cbam_fusion_boundary_20260420_174227,0.830584,9800,42

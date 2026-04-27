@@ -2596,4 +2596,431 @@ Epoch 44, Itrs 10390/12000, total_loss=0.083739, seg_loss=0.083739, edge_loss=0.
 Epoch 44, Itrs 10400/12000, total_loss=0.090711, seg_loss=0.090711, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
 Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
 validation...
-0it [00:00, ?it/s]1it [00:01,  1.94s/it]2it [00:02,  1.30s/it]3it [00:03,  1.13s/it]4it [00:04,  1.04s/it]5it [00:05,  1.02s/it]6it [00:06,  1.03it/s]7it [00:07,  1.04it/s]8it [00:08,  1.07it/s]9it [00:09,  1.04it/s]10it [00:10,  1.06it/s]11it [00:11,  1.04it/s]12it [00:12,  1.07it/s]13it [00:13,  1.05it/s]14it [00:14,  1.06it/s]15it [00:15,  1.04it/s]16it [00:15,  1.05it/s]17it [00:16,  1.05it/s]18it [00:17,  1.06it/s]19it [00:18,  1.04it/s]20it [00:19,  1.08it/s]21it [00:20,  1.06it/s]22it [00:21,  1.08it/s]23it [00:22,  1.05it/s]24it [00:23,  1.07it/s]25it [00:24,  1.06it/s]26it [00:25,  1.07it/s]
+0it [00:00, ?it/s]1it [00:01,  1.94s/it]2it [00:02,  1.30s/it]3it [00:03,  1.13s/it]4it [00:04,  1.04s/it]5it [00:05,  1.02s/it]6it [00:06,  1.03it/s]7it [00:07,  1.04it/s]8it [00:08,  1.07it/s]9it [00:09,  1.04it/s]10it [00:10,  1.06it/s]11it [00:11,  1.04it/s]12it [00:12,  1.07it/s]13it [00:13,  1.05it/s]14it [00:14,  1.06it/s]15it [00:15,  1.04it/s]16it [00:15,  1.05it/s]17it [00:16,  1.05it/s]18it [00:17,  1.06it/s]19it [00:18,  1.04it/s]20it [00:19,  1.08it/s]21it [00:20,  1.06it/s]22it [00:21,  1.08it/s]23it [00:22,  1.05it/s]24it [00:23,  1.07it/s]25it [00:24,  1.06it/s]26it [00:25,  1.07it/s]27it [00:26,  1.05it/s]28it [00:27,  1.06it/s]29it [00:28,  1.03it/s]30it [00:29,  1.03it/s]31it [00:30,  1.03it/s]32it [00:31,  1.04it/s]33it [00:32,  1.04it/s]34it [00:32,  1.07it/s]35it [00:34,  1.04it/s]36it [00:34,  1.07it/s]37it [00:35,  1.04it/s]38it [00:36,  1.05it/s]39it [00:37,  1.05it/s]40it [00:38,  1.07it/s]41it [00:39,  1.07it/s]42it [00:40,  1.08it/s]43it [00:41,  1.06it/s]44it [00:42,  1.08it/s]45it [00:43,  1.05it/s]46it [00:44,  1.06it/s]47it [00:45,  1.05it/s]48it [00:46,  1.06it/s]49it [00:47,  1.05it/s]50it [00:48,  1.05it/s]51it [00:49,  1.05it/s]52it [00:50,  1.07it/s]53it [00:51,  1.05it/s]54it [00:51,  1.05it/s]55it [00:52,  1.04it/s]56it [00:53,  1.05it/s]57it [00:54,  1.06it/s]58it [00:55,  1.08it/s]59it [00:56,  1.08it/s]60it [00:57,  1.09it/s]61it [00:58,  1.10it/s]62it [00:59,  1.11it/s]63it [01:00,  1.09it/s]64it [01:01,  1.09it/s]65it [01:02,  1.07it/s]66it [01:03,  1.08it/s]67it [01:03,  1.06it/s]68it [01:04,  1.09it/s]69it [01:05,  1.09it/s]70it [01:06,  1.10it/s]71it [01:07,  1.10it/s]72it [01:08,  1.10it/s]73it [01:09,  1.11it/s]74it [01:10,  1.11it/s]75it [01:11,  1.10it/s]76it [01:12,  1.07it/s]77it [01:13,  1.09it/s]78it [01:13,  1.09it/s]79it [01:14,  1.09it/s]80it [01:15,  1.09it/s]81it [01:16,  1.07it/s]82it [01:17,  1.07it/s]83it [01:18,  1.06it/s]84it [01:19,  1.09it/s]85it [01:20,  1.09it/s]86it [01:21,  1.10it/s]87it [01:22,  1.09it/s]88it [01:23,  1.11it/s]89it [01:24,  1.11it/s]90it [01:24,  1.10it/s]91it [01:25,  1.11it/s]92it [01:26,  1.11it/s]93it [01:27,  1.11it/s]94it [01:28,  1.10it/s]95it [01:29,  1.10it/s]96it [01:30,  1.11it/s]97it [01:31,  1.11it/s]98it [01:32,  1.11it/s]99it [01:33,  1.11it/s]100it [01:34,  1.08it/s]101it [01:35,  1.08it/s]102it [01:35,  1.07it/s]103it [01:36,  1.03it/s]104it [01:37,  1.04it/s]105it [01:38,  1.02it/s]106it [01:39,  1.03it/s]107it [01:40,  1.03it/s]108it [01:41,  1.05it/s]109it [01:42,  1.07it/s]110it [01:43,  1.08it/s]111it [01:44,  1.09it/s]112it [01:45,  1.11it/s]113it [01:46,  1.11it/s]114it [01:47,  1.12it/s]115it [01:48,  1.08it/s]116it [01:48,  1.11it/s]117it [01:49,  1.10it/s]118it [01:50,  1.10it/s]119it [01:51,  1.09it/s]120it [01:52,  1.08it/s]121it [01:53,  1.08it/s]122it [01:54,  1.11it/s]123it [01:55,  1.09it/s]124it [01:56,  1.11it/s]125it [01:57,  1.11it/s]126it [01:58,  1.11it/s]127it [01:58,  1.11it/s]128it [01:59,  1.11it/s]129it [02:00,  1.11it/s]130it [02:01,  1.10it/s]131it [02:02,  1.07it/s]132it [02:03,  1.07it/s]133it [02:04,  1.07it/s]134it [02:05,  1.07it/s]135it [02:06,  1.05it/s]136it [02:07,  1.07it/s]137it [02:08,  1.08it/s]138it [02:09,  1.09it/s]139it [02:10,  1.11it/s]140it [02:10,  1.11it/s]140it [02:10,  1.07it/s]
+
+Overall Acc: 0.988283
+Mean Acc: 0.878028
+FreqW Acc: 0.977645
+Mean IoU: 0.827520
+Class IoU:
+	class 0: 0.991345
+	class 1: 0.951868
+	class 2: 0.867515
+	class 3: 0.800488
+	class 4: 0.846721
+	class 5: 0.931300
+	class 6: 0.483738
+	class 7: 0.747188
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.13     99.69     99.57     98.83     82.75     87.80     89.73     10400     44      
+cotton        95.19     97.99     97.53                                                               
+abuth         86.75     91.15     92.91                                                               
+canger        80.05     94.36     88.92                                                               
+machixian     84.67     90.52     91.70                                                               
+longkui       93.13     95.40     96.44                                                               
+tianxuanhua   48.37     49.98     65.21                                                               
+niujincao     74.72     83.34     85.53                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 3.42%
+Epoch 44, Itrs 10410/12000, total_loss=0.041001, seg_loss=0.041001, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 44, Itrs 10420/12000, total_loss=0.052763, seg_loss=0.052763, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 44, Itrs 10430/12000, total_loss=0.067552, seg_loss=0.067552, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 44, Itrs 10440/12000, total_loss=0.062683, seg_loss=0.062683, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 44, Itrs 10450/12000, total_loss=0.047310, seg_loss=0.047310, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 44, Itrs 10460/12000, total_loss=0.081068, seg_loss=0.081068, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 44, Itrs 10470/12000, total_loss=0.066755, seg_loss=0.066755, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10480/12000, total_loss=0.083384, seg_loss=0.083384, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10490/12000, total_loss=0.050058, seg_loss=0.050058, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10500/12000, total_loss=0.054941, seg_loss=0.054941, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10510/12000, total_loss=0.063008, seg_loss=0.063008, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10520/12000, total_loss=0.053043, seg_loss=0.053043, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10530/12000, total_loss=0.062602, seg_loss=0.062602, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10540/12000, total_loss=0.058019, seg_loss=0.058019, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10550/12000, total_loss=0.046384, seg_loss=0.046384, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10560/12000, total_loss=0.078743, seg_loss=0.078743, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10570/12000, total_loss=0.064889, seg_loss=0.064889, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10580/12000, total_loss=0.057244, seg_loss=0.057244, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10590/12000, total_loss=0.045704, seg_loss=0.045704, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10600/12000, total_loss=0.046366, seg_loss=0.046366, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.21s/it]2it [00:03,  1.43s/it]3it [00:04,  1.21s/it]4it [00:05,  1.13s/it]5it [00:05,  1.06s/it]6it [00:06,  1.00it/s]7it [00:07,  1.03it/s]8it [00:08,  1.06it/s]9it [00:09,  1.07it/s]10it [00:10,  1.10it/s]11it [00:11,  1.09it/s]12it [00:12,  1.10it/s]13it [00:13,  1.11it/s]14it [00:13,  1.13it/s]15it [00:14,  1.14it/s]16it [00:15,  1.12it/s]17it [00:16,  1.12it/s]18it [00:17,  1.13it/s]19it [00:18,  1.10it/s]20it [00:19,  1.10it/s]21it [00:20,  1.06it/s]22it [00:21,  1.06it/s]23it [00:22,  1.06it/s]24it [00:23,  1.07it/s]25it [00:24,  1.04it/s]26it [00:25,  1.04it/s]27it [00:26,  1.03it/s]28it [00:27,  1.06it/s]29it [00:28,  1.03it/s]30it [00:29,  1.05it/s]31it [00:30,  1.04it/s]32it [00:30,  1.04it/s]33it [00:32,  1.02it/s]34it [00:32,  1.04it/s]35it [00:33,  1.02it/s]36it [00:34,  1.02it/s]37it [00:35,  1.03it/s]38it [00:36,  1.05it/s]39it [00:37,  1.03it/s]40it [00:38,  1.05it/s]41it [00:39,  1.03it/s]42it [00:40,  1.06it/s]43it [00:41,  1.03it/s]44it [00:42,  1.02it/s]45it [00:43,  1.01it/s]46it [00:44,  1.01it/s]47it [00:45,  1.02it/s]48it [00:46,  1.04it/s]49it [00:47,  1.03it/s]50it [00:48,  1.06it/s]51it [00:49,  1.04it/s]52it [00:50,  1.05it/s]53it [00:51,  1.04it/s]54it [00:52,  1.06it/s]55it [00:53,  1.04it/s]56it [00:54,  1.06it/s]57it [00:55,  1.04it/s]58it [00:56,  1.06it/s]59it [00:56,  1.04it/s]60it [00:57,  1.04it/s]61it [00:58,  1.03it/s]62it [00:59,  1.05it/s]63it [01:00,  1.03it/s]64it [01:01,  1.06it/s]65it [01:02,  1.07it/s]66it [01:03,  1.09it/s]67it [01:04,  1.08it/s]68it [01:05,  1.09it/s]69it [01:06,  1.06it/s]70it [01:07,  1.08it/s]71it [01:08,  1.05it/s]72it [01:09,  1.07it/s]73it [01:10,  1.05it/s]74it [01:11,  1.06it/s]75it [01:12,  1.05it/s]76it [01:13,  1.06it/s]77it [01:13,  1.05it/s]78it [01:14,  1.07it/s]79it [01:15,  1.05it/s]80it [01:16,  1.07it/s]81it [01:17,  1.06it/s]82it [01:18,  1.06it/s]83it [01:19,  1.06it/s]84it [01:20,  1.07it/s]85it [01:21,  1.07it/s]86it [01:22,  1.08it/s]87it [01:23,  1.05it/s]88it [01:24,  1.07it/s]89it [01:25,  1.06it/s]90it [01:26,  1.08it/s]91it [01:27,  1.06it/s]92it [01:28,  1.08it/s]93it [01:28,  1.06it/s]94it [01:29,  1.08it/s]95it [01:30,  1.08it/s]96it [01:31,  1.11it/s]97it [01:32,  1.11it/s]98it [01:33,  1.11it/s]99it [01:34,  1.09it/s]100it [01:35,  1.10it/s]101it [01:36,  1.07it/s]102it [01:37,  1.09it/s]103it [01:38,  1.08it/s]104it [01:38,  1.10it/s]105it [01:39,  1.09it/s]106it [01:40,  1.07it/s]107it [01:41,  1.04it/s]108it [01:42,  1.07it/s]109it [01:43,  1.04it/s]110it [01:44,  1.06it/s]111it [01:45,  1.04it/s]112it [01:46,  1.07it/s]113it [01:47,  1.05it/s]114it [01:48,  1.06it/s]115it [01:49,  1.06it/s]116it [01:50,  1.05it/s]117it [01:51,  1.06it/s]118it [01:52,  1.12it/s]119it [01:53,  1.11it/s]120it [01:53,  1.12it/s]121it [01:54,  1.11it/s]122it [01:55,  1.14it/s]123it [01:56,  1.14it/s]124it [01:57,  1.13it/s]125it [01:58,  1.11it/s]126it [01:59,  1.11it/s]127it [02:00,  1.11it/s]128it [02:01,  1.12it/s]129it [02:01,  1.11it/s]130it [02:02,  1.13it/s]131it [02:03,  1.10it/s]132it [02:04,  1.11it/s]133it [02:05,  1.11it/s]134it [02:06,  1.12it/s]135it [02:07,  1.11it/s]136it [02:08,  1.11it/s]137it [02:09,  1.10it/s]138it [02:10,  1.10it/s]139it [02:11,  1.08it/s]140it [02:11,  1.09it/s]140it [02:11,  1.06it/s]
+
+Overall Acc: 0.988179
+Mean Acc: 0.871598
+FreqW Acc: 0.977511
+Mean IoU: 0.820374
+Class IoU:
+	class 0: 0.991180
+	class 1: 0.957283
+	class 2: 0.881577
+	class 3: 0.785704
+	class 4: 0.842962
+	class 5: 0.934949
+	class 6: 0.424340
+	class 7: 0.744997
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.12     99.71     99.56     98.82     82.04     87.16     89.02     10600     45      
+cotton        95.73     97.49     97.82                                                               
+abuth         88.16     93.95     93.71                                                               
+canger        78.57     94.45     88.00                                                               
+machixian     84.30     90.02     91.48                                                               
+longkui       93.49     95.52     96.64                                                               
+tianxuanhua   42.43     43.56     59.58                                                               
+niujincao     74.50     82.58     85.39                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 1.24%
+Epoch 45, Itrs 10610/12000, total_loss=0.060473, seg_loss=0.060473, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10620/12000, total_loss=0.047395, seg_loss=0.047395, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10630/12000, total_loss=0.044425, seg_loss=0.044425, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10640/12000, total_loss=0.045228, seg_loss=0.045228, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10650/12000, total_loss=0.041141, seg_loss=0.041141, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10660/12000, total_loss=0.165610, seg_loss=0.165610, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10670/12000, total_loss=0.088612, seg_loss=0.088612, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10680/12000, total_loss=0.082424, seg_loss=0.082424, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10690/12000, total_loss=0.075481, seg_loss=0.075481, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10700/12000, total_loss=0.044396, seg_loss=0.044396, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 45, Itrs 10710/12000, total_loss=0.058112, seg_loss=0.058112, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10720/12000, total_loss=0.045915, seg_loss=0.045915, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10730/12000, total_loss=0.047792, seg_loss=0.047792, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10740/12000, total_loss=0.093629, seg_loss=0.093629, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10750/12000, total_loss=0.052085, seg_loss=0.052085, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10760/12000, total_loss=0.045704, seg_loss=0.045704, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10770/12000, total_loss=0.071570, seg_loss=0.071570, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10780/12000, total_loss=0.044884, seg_loss=0.044884, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10790/12000, total_loss=0.085318, seg_loss=0.085318, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10800/12000, total_loss=0.051021, seg_loss=0.051021, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:01,  2.00s/it]2it [00:02,  1.33s/it]3it [00:03,  1.14s/it]4it [00:04,  1.04s/it]5it [00:05,  1.00it/s]6it [00:06,  1.03it/s]7it [00:07,  1.03it/s]8it [00:08,  1.01it/s]9it [00:09,  1.01it/s]10it [00:10,  1.02it/s]11it [00:11,  1.01it/s]12it [00:12,  1.00it/s]13it [00:13,  1.03it/s]14it [00:14,  1.06it/s]15it [00:15,  1.05it/s]16it [00:16,  1.06it/s]17it [00:17,  1.07it/s]18it [00:17,  1.08it/s]19it [00:18,  1.10it/s]20it [00:19,  1.09it/s]21it [00:20,  1.11it/s]22it [00:21,  1.10it/s]23it [00:22,  1.11it/s]24it [00:23,  1.11it/s]25it [00:24,  1.10it/s]26it [00:25,  1.11it/s]27it [00:26,  1.12it/s]28it [00:26,  1.11it/s]29it [00:27,  1.10it/s]30it [00:28,  1.09it/s]31it [00:29,  1.10it/s]32it [00:30,  1.11it/s]33it [00:31,  1.13it/s]34it [00:32,  1.07it/s]35it [00:33,  1.05it/s]36it [00:34,  1.07it/s]37it [00:35,  1.07it/s]38it [00:36,  1.09it/s]39it [00:37,  1.05it/s]40it [00:38,  1.08it/s]41it [00:39,  1.05it/s]42it [00:39,  1.07it/s]43it [00:40,  1.06it/s]44it [00:41,  1.06it/s]45it [00:42,  1.05it/s]46it [00:43,  1.06it/s]47it [00:44,  1.05it/s]48it [00:45,  1.07it/s]49it [00:46,  1.09it/s]50it [00:47,  1.10it/s]51it [00:48,  1.09it/s]52it [00:49,  1.10it/s]53it [00:50,  1.10it/s]54it [00:51,  1.11it/s]55it [00:52,  1.08it/s]56it [00:52,  1.09it/s]57it [00:53,  1.09it/s]58it [00:54,  1.08it/s]59it [00:55,  1.05it/s]60it [00:56,  1.07it/s]61it [00:57,  1.06it/s]62it [00:58,  1.07it/s]63it [00:59,  1.05it/s]64it [01:00,  1.07it/s]65it [01:01,  1.07it/s]66it [01:02,  1.09it/s]67it [01:03,  1.06it/s]68it [01:04,  1.06it/s]69it [01:05,  1.05it/s]70it [01:06,  1.08it/s]71it [01:07,  1.06it/s]72it [01:07,  1.08it/s]73it [01:08,  1.08it/s]74it [01:09,  1.07it/s]75it [01:10,  1.04it/s]76it [01:11,  1.06it/s]77it [01:12,  1.05it/s]78it [01:13,  1.04it/s]79it [01:14,  1.03it/s]80it [01:15,  1.05it/s]81it [01:16,  1.03it/s]82it [01:17,  1.06it/s]83it [01:18,  1.04it/s]84it [01:19,  1.07it/s]85it [01:20,  1.04it/s]86it [01:21,  1.06it/s]87it [01:22,  1.04it/s]88it [01:23,  1.04it/s]89it [01:24,  1.03it/s]90it [01:25,  1.05it/s]91it [01:26,  1.07it/s]92it [01:26,  1.08it/s]93it [01:27,  1.05it/s]94it [01:28,  1.07it/s]95it [01:29,  1.07it/s]96it [01:30,  1.09it/s]97it [01:31,  1.04it/s]98it [01:32,  1.06it/s]99it [01:33,  1.06it/s]100it [01:34,  1.05it/s]101it [01:35,  1.06it/s]102it [01:36,  1.08it/s]103it [01:37,  1.06it/s]104it [01:38,  1.06it/s]105it [01:39,  1.04it/s]106it [01:40,  1.07it/s]107it [01:41,  1.03it/s]108it [01:42,  1.02it/s]109it [01:43,  1.02it/s]110it [01:44,  1.05it/s]111it [01:45,  1.04it/s]112it [01:46,  1.04it/s]113it [01:46,  1.05it/s]114it [01:47,  1.05it/s]115it [01:48,  1.05it/s]116it [01:49,  1.07it/s]117it [01:50,  1.04it/s]118it [01:51,  1.06it/s]119it [01:52,  1.04it/s]120it [01:53,  1.04it/s]121it [01:54,  1.05it/s]122it [01:55,  1.08it/s]123it [01:56,  1.07it/s]124it [01:57,  1.06it/s]125it [01:58,  1.05it/s]126it [01:59,  1.07it/s]127it [02:00,  1.07it/s]128it [02:01,  1.09it/s]129it [02:01,  1.11it/s]130it [02:02,  1.14it/s]131it [02:03,  1.10it/s]132it [02:04,  1.12it/s]133it [02:05,  1.08it/s]134it [02:06,  1.10it/s]135it [02:07,  1.09it/s]136it [02:08,  1.11it/s]137it [02:09,  1.12it/s]138it [02:10,  1.11it/s]139it [02:10,  1.12it/s]140it [02:11,  1.12it/s]140it [02:11,  1.06it/s]
+
+Overall Acc: 0.988728
+Mean Acc: 0.879782
+FreqW Acc: 0.978475
+Mean IoU: 0.832136
+Class IoU:
+	class 0: 0.991327
+	class 1: 0.958091
+	class 2: 0.883977
+	class 3: 0.800575
+	class 4: 0.845689
+	class 5: 0.948986
+	class 6: 0.470148
+	class 7: 0.758294
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.13     99.69     99.56     98.87     83.21     87.98     89.93     10800     46      
+cotton        95.81     97.81     97.86                                                               
+abuth         88.40     94.34     93.84                                                               
+canger        80.06     93.57     88.92                                                               
+machixian     84.57     90.85     91.64                                                               
+longkui       94.90     96.91     97.38                                                               
+tianxuanhua   47.01     48.63     63.96                                                               
+niujincao     75.83     82.03     86.25                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 1.40%
+Epoch 46, Itrs 10810/12000, total_loss=0.040985, seg_loss=0.040985, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10820/12000, total_loss=0.038618, seg_loss=0.038618, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10830/12000, total_loss=0.068174, seg_loss=0.068174, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10840/12000, total_loss=0.042697, seg_loss=0.042697, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10850/12000, total_loss=0.073902, seg_loss=0.073902, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10860/12000, total_loss=0.082020, seg_loss=0.082020, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10870/12000, total_loss=0.045568, seg_loss=0.045568, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10880/12000, total_loss=0.068625, seg_loss=0.068625, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10890/12000, total_loss=0.078078, seg_loss=0.078078, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10900/12000, total_loss=0.070323, seg_loss=0.070323, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10910/12000, total_loss=0.066250, seg_loss=0.066250, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10920/12000, total_loss=0.058143, seg_loss=0.058143, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10930/12000, total_loss=0.067188, seg_loss=0.067188, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 46, Itrs 10940/12000, total_loss=0.062778, seg_loss=0.062778, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 10950/12000, total_loss=0.067930, seg_loss=0.067930, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 10960/12000, total_loss=0.099284, seg_loss=0.099284, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 10970/12000, total_loss=0.047311, seg_loss=0.047311, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 10980/12000, total_loss=0.051410, seg_loss=0.051410, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 10990/12000, total_loss=0.067051, seg_loss=0.067051, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11000/12000, total_loss=0.057622, seg_loss=0.057622, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.05s/it]2it [00:03,  1.43s/it]3it [00:03,  1.21s/it]4it [00:04,  1.10s/it]5it [00:05,  1.08s/it]6it [00:06,  1.04s/it]7it [00:07,  1.02s/it]8it [00:08,  1.02it/s]9it [00:09,  1.01it/s]10it [00:10,  1.05it/s]11it [00:11,  1.04it/s]12it [00:12,  1.03it/s]13it [00:13,  1.03it/s]14it [00:14,  1.05it/s]15it [00:15,  1.03it/s]16it [00:16,  1.04it/s]17it [00:17,  1.07it/s]18it [00:18,  1.08it/s]19it [00:19,  1.09it/s]20it [00:20,  1.08it/s]21it [00:21,  1.08it/s]22it [00:21,  1.09it/s]23it [00:22,  1.09it/s]24it [00:23,  1.11it/s]25it [00:24,  1.08it/s]26it [00:25,  1.08it/s]27it [00:26,  1.07it/s]28it [00:27,  1.08it/s]29it [00:28,  1.07it/s]30it [00:29,  1.10it/s]31it [00:30,  1.10it/s]32it [00:31,  1.10it/s]33it [00:32,  1.07it/s]34it [00:32,  1.08it/s]35it [00:33,  1.07it/s]36it [00:34,  1.08it/s]37it [00:35,  1.07it/s]38it [00:36,  1.09it/s]39it [00:37,  1.07it/s]40it [00:38,  1.09it/s]41it [00:39,  1.10it/s]42it [00:40,  1.11it/s]43it [00:41,  1.10it/s]44it [00:42,  1.10it/s]45it [00:43,  1.11it/s]46it [00:43,  1.12it/s]47it [00:44,  1.12it/s]48it [00:45,  1.11it/s]49it [00:46,  1.11it/s]50it [00:47,  1.11it/s]51it [00:48,  1.11it/s]52it [00:49,  1.11it/s]53it [00:50,  1.10it/s]54it [00:51,  1.10it/s]55it [00:52,  1.11it/s]56it [00:52,  1.11it/s]57it [00:53,  1.12it/s]58it [00:54,  1.11it/s]59it [00:55,  1.10it/s]60it [00:56,  1.12it/s]61it [00:57,  1.10it/s]62it [00:58,  1.11it/s]63it [00:59,  1.08it/s]64it [01:00,  1.09it/s]65it [01:01,  1.10it/s]66it [01:02,  1.09it/s]67it [01:03,  1.07it/s]68it [01:03,  1.09it/s]69it [01:04,  1.07it/s]70it [01:05,  1.08it/s]71it [01:06,  1.08it/s]72it [01:07,  1.07it/s]73it [01:08,  1.08it/s]74it [01:09,  1.10it/s]75it [01:10,  1.08it/s]76it [01:11,  1.09it/s]77it [01:12,  1.10it/s]78it [01:13,  1.10it/s]79it [01:14,  1.11it/s]80it [01:14,  1.09it/s]81it [01:16,  1.04it/s]82it [01:17,  1.02it/s]83it [01:18,  1.02it/s]84it [01:19,  1.03it/s]85it [01:19,  1.03it/s]86it [01:20,  1.06it/s]87it [01:21,  1.07it/s]88it [01:22,  1.08it/s]89it [01:23,  1.02it/s]90it [01:24,  1.05it/s]91it [01:25,  1.04it/s]92it [01:26,  1.04it/s]93it [01:27,  1.04it/s]94it [01:28,  1.06it/s]95it [01:29,  1.08it/s]96it [01:30,  1.10it/s]97it [01:31,  1.10it/s]98it [01:32,  1.10it/s]99it [01:32,  1.12it/s]100it [01:33,  1.13it/s]101it [01:34,  1.12it/s]102it [01:35,  1.13it/s]103it [01:36,  1.12it/s]104it [01:37,  1.12it/s]105it [01:38,  1.12it/s]106it [01:39,  1.12it/s]107it [01:40,  1.12it/s]108it [01:40,  1.11it/s]109it [01:41,  1.10it/s]110it [01:42,  1.11it/s]111it [01:43,  1.08it/s]112it [01:44,  1.07it/s]113it [01:45,  1.05it/s]114it [01:46,  1.06it/s]115it [01:47,  1.05it/s]116it [01:48,  1.06it/s]117it [01:49,  1.05it/s]118it [01:50,  1.07it/s]119it [01:51,  1.04it/s]120it [01:52,  1.07it/s]121it [01:53,  1.08it/s]122it [01:54,  1.09it/s]123it [01:55,  1.08it/s]124it [01:55,  1.07it/s]125it [01:56,  1.06it/s]126it [01:57,  1.09it/s]127it [01:58,  1.06it/s]128it [01:59,  1.07it/s]129it [02:00,  1.04it/s]130it [02:01,  1.07it/s]131it [02:02,  1.05it/s]132it [02:03,  1.06it/s]133it [02:04,  1.05it/s]134it [02:05,  1.06it/s]135it [02:06,  1.05it/s]136it [02:07,  1.06it/s]137it [02:08,  1.05it/s]138it [02:09,  1.07it/s]139it [02:10,  1.06it/s]140it [02:11,  1.06it/s]140it [02:11,  1.07it/s]
+
+Overall Acc: 0.988557
+Mean Acc: 0.879396
+FreqW Acc: 0.978185
+Mean IoU: 0.829236
+Class IoU:
+	class 0: 0.991367
+	class 1: 0.957174
+	class 2: 0.880440
+	class 3: 0.798826
+	class 4: 0.842562
+	class 5: 0.929020
+	class 6: 0.485330
+	class 7: 0.749165
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.14     99.69     99.57     98.86     82.92     87.94     89.83     11000     47      
+cotton        95.72     97.95     97.81                                                               
+abuth         88.04     93.23     93.64                                                               
+canger        79.88     94.25     88.82                                                               
+machixian     84.26     89.50     91.46                                                               
+longkui       92.90     94.89     96.32                                                               
+tianxuanhua   48.53     50.31     65.35                                                               
+niujincao     74.92     83.70     85.66                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 1.89%
+Epoch 47, Itrs 11010/12000, total_loss=0.054352, seg_loss=0.054352, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11020/12000, total_loss=0.072782, seg_loss=0.072782, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11030/12000, total_loss=0.127584, seg_loss=0.127584, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11040/12000, total_loss=0.044152, seg_loss=0.044152, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11050/12000, total_loss=0.053613, seg_loss=0.053613, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11060/12000, total_loss=0.058945, seg_loss=0.058945, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11070/12000, total_loss=0.054515, seg_loss=0.054515, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11080/12000, total_loss=0.056740, seg_loss=0.056740, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11090/12000, total_loss=0.049598, seg_loss=0.049598, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11100/12000, total_loss=0.065229, seg_loss=0.065229, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11110/12000, total_loss=0.070219, seg_loss=0.070219, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11120/12000, total_loss=0.057609, seg_loss=0.057609, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11130/12000, total_loss=0.077337, seg_loss=0.077337, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11140/12000, total_loss=0.069272, seg_loss=0.069272, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11150/12000, total_loss=0.063540, seg_loss=0.063540, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11160/12000, total_loss=0.066540, seg_loss=0.066540, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11170/12000, total_loss=0.054547, seg_loss=0.054547, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 47, Itrs 11180/12000, total_loss=0.061135, seg_loss=0.061135, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11190/12000, total_loss=0.080744, seg_loss=0.080744, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11200/12000, total_loss=0.056138, seg_loss=0.056138, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.14s/it]2it [00:03,  1.40s/it]3it [00:04,  1.24s/it]4it [00:05,  1.13s/it]5it [00:06,  1.08s/it]6it [00:07,  1.05s/it]7it [00:08,  1.06s/it]8it [00:09,  1.04s/it]9it [00:10,  1.05s/it]10it [00:11,  1.04s/it]11it [00:12,  1.04s/it]12it [00:13,  1.01it/s]13it [00:14,  1.01it/s]14it [00:14,  1.04it/s]15it [00:15,  1.03it/s]16it [00:16,  1.05it/s]17it [00:17,  1.05it/s]18it [00:18,  1.09it/s]19it [00:19,  1.09it/s]20it [00:20,  1.10it/s]21it [00:21,  1.06it/s]22it [00:22,  1.07it/s]23it [00:23,  1.06it/s]24it [00:24,  1.06it/s]25it [00:25,  1.04it/s]26it [00:26,  1.04it/s]27it [00:27,  1.02it/s]28it [00:28,  1.05it/s]29it [00:29,  1.03it/s]30it [00:30,  1.07it/s]31it [00:30,  1.08it/s]32it [00:31,  1.10it/s]33it [00:32,  1.09it/s]34it [00:33,  1.10it/s]35it [00:34,  1.03it/s]36it [00:35,  1.04it/s]37it [00:36,  1.02it/s]38it [00:37,  1.03it/s]39it [00:38,  1.02it/s]40it [00:39,  1.05it/s]41it [00:40,  1.04it/s]42it [00:41,  1.05it/s]43it [00:42,  1.07it/s]44it [00:43,  1.07it/s]45it [00:44,  1.07it/s]46it [00:45,  1.06it/s]47it [00:46,  1.03it/s]48it [00:47,  1.04it/s]49it [00:48,  1.03it/s]50it [00:49,  1.03it/s]51it [00:50,  1.06it/s]52it [00:51,  1.06it/s]53it [00:51,  1.05it/s]54it [00:52,  1.06it/s]55it [00:53,  1.05it/s]56it [00:54,  1.05it/s]57it [00:55,  1.05it/s]58it [00:56,  1.07it/s]59it [00:57,  1.07it/s]60it [00:58,  1.10it/s]61it [00:59,  1.10it/s]62it [01:00,  1.10it/s]63it [01:01,  1.10it/s]64it [01:02,  1.11it/s]65it [01:02,  1.11it/s]66it [01:03,  1.11it/s]67it [01:04,  1.11it/s]68it [01:05,  1.12it/s]69it [01:06,  1.10it/s]70it [01:07,  1.09it/s]71it [01:08,  1.07it/s]72it [01:09,  1.07it/s]73it [01:10,  1.07it/s]74it [01:11,  1.06it/s]75it [01:12,  1.05it/s]76it [01:13,  1.07it/s]77it [01:14,  1.04it/s]78it [01:15,  1.05it/s]79it [01:16,  1.04it/s]80it [01:17,  1.03it/s]81it [01:18,  1.04it/s]82it [01:18,  1.06it/s]83it [01:19,  1.04it/s]84it [01:20,  1.06it/s]85it [01:21,  1.08it/s]86it [01:22,  1.09it/s]87it [01:23,  1.09it/s]88it [01:24,  1.10it/s]89it [01:25,  1.10it/s]90it [01:26,  1.11it/s]91it [01:27,  1.10it/s]92it [01:28,  1.10it/s]93it [01:28,  1.11it/s]94it [01:29,  1.11it/s]95it [01:30,  1.10it/s]96it [01:31,  1.12it/s]97it [01:32,  1.10it/s]98it [01:33,  1.12it/s]99it [01:34,  1.11it/s]100it [01:35,  1.10it/s]101it [01:36,  1.06it/s]102it [01:37,  1.05it/s]103it [01:38,  1.04it/s]104it [01:39,  1.04it/s]105it [01:40,  1.04it/s]106it [01:41,  1.06it/s]107it [01:42,  1.03it/s]108it [01:43,  1.05it/s]109it [01:43,  1.06it/s]110it [01:44,  1.05it/s]111it [01:45,  1.04it/s]112it [01:46,  1.08it/s]113it [01:47,  1.10it/s]114it [01:48,  1.12it/s]115it [01:49,  1.13it/s]116it [01:50,  1.14it/s]117it [01:51,  1.12it/s]118it [01:52,  1.10it/s]119it [01:52,  1.12it/s]120it [01:53,  1.12it/s]121it [01:54,  1.11it/s]122it [01:55,  1.12it/s]123it [01:56,  1.10it/s]124it [01:57,  1.12it/s]125it [01:58,  1.09it/s]126it [01:59,  1.09it/s]127it [02:00,  1.05it/s]128it [02:01,  1.04it/s]129it [02:02,  1.03it/s]130it [02:03,  1.06it/s]131it [02:04,  1.05it/s]132it [02:05,  1.06it/s]133it [02:06,  1.05it/s]134it [02:06,  1.07it/s]135it [02:07,  1.08it/s]136it [02:08,  1.10it/s]137it [02:09,  1.11it/s]138it [02:10,  1.14it/s]139it [02:11,  1.13it/s]140it [02:12,  1.12it/s]140it [02:12,  1.06it/s]
+
+Overall Acc: 0.987756
+Mean Acc: 0.866327
+FreqW Acc: 0.976750
+Mean IoU: 0.814639
+Class IoU:
+	class 0: 0.991328
+	class 1: 0.952051
+	class 2: 0.868610
+	class 3: 0.774226
+	class 4: 0.845250
+	class 5: 0.924991
+	class 6: 0.416866
+	class 7: 0.743793
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.13     99.69     99.56     98.78     81.46     86.63     88.65     11200     48      
+cotton        95.21     97.94     97.54                                                               
+abuth         86.86     93.02     92.97                                                               
+canger        77.42     92.95     87.27                                                               
+machixian     84.52     90.23     91.61                                                               
+longkui       92.50     94.28     96.10                                                               
+tianxuanhua   41.69     42.76     58.84                                                               
+niujincao     74.38     82.18     85.31                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 2.67%
+Epoch 48, Itrs 11210/12000, total_loss=0.053299, seg_loss=0.053299, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11220/12000, total_loss=0.074688, seg_loss=0.074688, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11230/12000, total_loss=0.072579, seg_loss=0.072579, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11240/12000, total_loss=0.060069, seg_loss=0.060069, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11250/12000, total_loss=0.048237, seg_loss=0.048237, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11260/12000, total_loss=0.076864, seg_loss=0.076864, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11270/12000, total_loss=0.045355, seg_loss=0.045355, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11280/12000, total_loss=0.077058, seg_loss=0.077058, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11290/12000, total_loss=0.058355, seg_loss=0.058355, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11300/12000, total_loss=0.112428, seg_loss=0.112428, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11310/12000, total_loss=0.055953, seg_loss=0.055953, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11320/12000, total_loss=0.075129, seg_loss=0.075129, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11330/12000, total_loss=0.057110, seg_loss=0.057110, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11340/12000, total_loss=0.032245, seg_loss=0.032245, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11350/12000, total_loss=0.060936, seg_loss=0.060936, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11360/12000, total_loss=0.049352, seg_loss=0.049352, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11370/12000, total_loss=0.087226, seg_loss=0.087226, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11380/12000, total_loss=0.045058, seg_loss=0.045058, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11390/12000, total_loss=0.048624, seg_loss=0.048624, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11400/12000, total_loss=0.085445, seg_loss=0.085445, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.20s/it]2it [00:03,  1.45s/it]3it [00:04,  1.27s/it]4it [00:05,  1.16s/it]5it [00:06,  1.09s/it]6it [00:07,  1.03s/it]7it [00:08,  1.02s/it]8it [00:08,  1.01it/s]9it [00:09,  1.03it/s]10it [00:10,  1.04it/s]11it [00:11,  1.02it/s]12it [00:12,  1.02it/s]13it [00:13,  1.01it/s]14it [00:14,  1.01it/s]15it [00:15,  1.01it/s]16it [00:16,  1.00it/s]17it [00:17,  1.01it/s]18it [00:18,  1.02it/s]19it [00:19,  1.03it/s]20it [00:20,  1.04it/s]21it [00:21,  1.05it/s]22it [00:22,  1.03it/s]23it [00:23,  1.02it/s]24it [00:24,  1.04it/s]25it [00:25,  1.02it/s]26it [00:26,  1.02it/s]27it [00:27,  1.00it/s]28it [00:28,  1.00it/s]29it [00:29,  1.01it/s]30it [00:30,  1.03it/s]31it [00:31,  1.03it/s]32it [00:32,  1.05it/s]33it [00:33,  1.06it/s]34it [00:34,  1.06it/s]35it [00:35,  1.04it/s]36it [00:36,  1.06it/s]37it [00:37,  1.07it/s]38it [00:37,  1.09it/s]39it [00:38,  1.10it/s]40it [00:39,  1.10it/s]41it [00:40,  1.06it/s]42it [00:41,  1.08it/s]43it [00:42,  1.09it/s]44it [00:43,  1.10it/s]45it [00:44,  1.08it/s]46it [00:45,  1.07it/s]47it [00:46,  1.04it/s]48it [00:47,  1.05it/s]49it [00:48,  1.06it/s]50it [00:49,  1.07it/s]51it [00:50,  1.08it/s]52it [00:50,  1.09it/s]53it [00:51,  1.05it/s]54it [00:52,  1.04it/s]55it [00:53,  1.03it/s]56it [00:54,  1.04it/s]57it [00:55,  1.04it/s]58it [00:56,  1.06it/s]59it [00:57,  1.03it/s]60it [00:58,  1.04it/s]61it [00:59,  1.01it/s]62it [01:00,  1.02it/s]63it [01:01,  1.03it/s]64it [01:02,  1.05it/s]65it [01:03,  1.05it/s]66it [01:04,  1.08it/s]67it [01:05,  1.09it/s]68it [01:06,  1.08it/s]69it [01:07,  1.06it/s]70it [01:08,  1.08it/s]71it [01:09,  1.06it/s]72it [01:09,  1.09it/s]73it [01:10,  1.08it/s]74it [01:11,  1.10it/s]75it [01:12,  1.09it/s]76it [01:13,  1.07it/s]77it [01:14,  1.05it/s]78it [01:15,  1.06it/s]79it [01:16,  1.06it/s]80it [01:17,  1.06it/s]81it [01:18,  1.06it/s]82it [01:19,  1.06it/s]83it [01:20,  1.07it/s]84it [01:21,  1.08it/s]85it [01:22,  1.07it/s]86it [01:22,  1.10it/s]87it [01:24,  1.06it/s]88it [01:24,  1.09it/s]89it [01:25,  1.09it/s]90it [01:26,  1.10it/s]91it [01:27,  1.09it/s]92it [01:28,  1.10it/s]93it [01:29,  1.08it/s]94it [01:30,  1.07it/s]95it [01:31,  1.04it/s]96it [01:32,  1.07it/s]97it [01:33,  1.04it/s]98it [01:34,  1.07it/s]99it [01:35,  1.05it/s]100it [01:36,  1.08it/s]101it [01:36,  1.08it/s]102it [01:37,  1.07it/s]103it [01:38,  1.06it/s]104it [01:39,  1.08it/s]105it [01:40,  1.05it/s]106it [01:41,  1.07it/s]107it [01:42,  1.05it/s]108it [01:43,  1.06it/s]109it [01:44,  1.05it/s]110it [01:45,  1.07it/s]111it [01:46,  1.07it/s]112it [01:47,  1.10it/s]113it [01:48,  1.09it/s]114it [01:49,  1.10it/s]115it [01:49,  1.12it/s]116it [01:50,  1.11it/s]117it [01:51,  1.11it/s]118it [01:52,  1.08it/s]119it [01:53,  1.07it/s]120it [01:54,  1.09it/s]121it [01:55,  1.09it/s]122it [01:56,  1.11it/s]123it [01:57,  1.11it/s]124it [01:58,  1.08it/s]125it [01:59,  1.06it/s]126it [02:00,  1.06it/s]127it [02:01,  1.03it/s]128it [02:02,  1.06it/s]129it [02:03,  1.05it/s]130it [02:04,  1.05it/s]131it [02:05,  1.04it/s]132it [02:05,  1.06it/s]133it [02:06,  1.05it/s]134it [02:07,  1.05it/s]135it [02:08,  1.04it/s]136it [02:09,  1.07it/s]137it [02:10,  1.06it/s]138it [02:11,  1.07it/s]139it [02:12,  1.06it/s]140it [02:13,  1.10it/s]140it [02:13,  1.05it/s]
+
+Overall Acc: 0.987952
+Mean Acc: 0.874438
+FreqW Acc: 0.977033
+Mean IoU: 0.825234
+Class IoU:
+	class 0: 0.991307
+	class 1: 0.947378
+	class 2: 0.864139
+	class 3: 0.788955
+	class 4: 0.846914
+	class 5: 0.922618
+	class 6: 0.482160
+	class 7: 0.758403
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.13     99.70     99.56     98.80     82.52     87.44     89.60     11400     48      
+cotton        94.74     97.83     97.30                                                               
+abuth         86.41     91.33     92.71                                                               
+canger        78.90     92.86     88.20                                                               
+machixian     84.69     90.49     91.71                                                               
+longkui       92.26     94.28     95.98                                                               
+tianxuanhua   48.22     49.87     65.06                                                               
+niujincao     75.84     83.18     86.26                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 3.76%
+Epoch 48, Itrs 11410/12000, total_loss=0.089393, seg_loss=0.089393, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 48, Itrs 11420/12000, total_loss=0.052670, seg_loss=0.052670, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11430/12000, total_loss=0.037784, seg_loss=0.037784, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11440/12000, total_loss=0.075188, seg_loss=0.075188, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11450/12000, total_loss=0.068364, seg_loss=0.068364, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11460/12000, total_loss=0.047442, seg_loss=0.047442, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11470/12000, total_loss=0.084757, seg_loss=0.084757, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11480/12000, total_loss=0.048487, seg_loss=0.048487, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11490/12000, total_loss=0.046517, seg_loss=0.046517, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11500/12000, total_loss=0.083074, seg_loss=0.083074, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11510/12000, total_loss=0.093547, seg_loss=0.093547, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11520/12000, total_loss=0.060956, seg_loss=0.060956, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11530/12000, total_loss=0.049147, seg_loss=0.049147, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11540/12000, total_loss=0.060529, seg_loss=0.060529, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11550/12000, total_loss=0.060747, seg_loss=0.060747, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11560/12000, total_loss=0.045126, seg_loss=0.045126, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11570/12000, total_loss=0.058539, seg_loss=0.058539, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11580/12000, total_loss=0.027755, seg_loss=0.027755, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11590/12000, total_loss=0.083334, seg_loss=0.083334, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11600/12000, total_loss=0.045305, seg_loss=0.045305, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.16s/it]2it [00:03,  1.44s/it]3it [00:04,  1.25s/it]4it [00:05,  1.10s/it]5it [00:06,  1.08s/it]6it [00:06,  1.04s/it]7it [00:08,  1.03s/it]8it [00:08,  1.00it/s]9it [00:09,  1.02it/s]10it [00:10,  1.02it/s]11it [00:11,  1.01it/s]12it [00:12,  1.01it/s]13it [00:13,  1.02it/s]14it [00:14,  1.01it/s]15it [00:15,  1.01it/s]16it [00:16,  1.00it/s]17it [00:17,  1.01it/s]18it [00:18,  1.03it/s]19it [00:19,  1.02it/s]20it [00:20,  1.04it/s]21it [00:21,  1.04it/s]22it [00:22,  1.05it/s]23it [00:23,  1.05it/s]24it [00:24,  1.05it/s]25it [00:25,  1.01it/s]26it [00:26,  1.00it/s]27it [00:27,  1.02it/s]28it [00:28,  1.04it/s]29it [00:29,  1.03it/s]30it [00:30,  1.03it/s]31it [00:31,  1.03it/s]32it [00:32,  1.04it/s]33it [00:33,  1.03it/s]34it [00:34,  1.04it/s]35it [00:35,  1.03it/s]36it [00:36,  1.04it/s]37it [00:37,  1.03it/s]38it [00:38,  1.04it/s]39it [00:39,  1.02it/s]40it [00:40,  1.01it/s]41it [00:41,  1.01it/s]42it [00:42,  1.04it/s]43it [00:42,  1.04it/s]44it [00:43,  1.06it/s]45it [00:44,  1.07it/s]46it [00:45,  1.09it/s]47it [00:46,  1.06it/s]48it [00:47,  1.07it/s]49it [00:48,  1.05it/s]50it [00:49,  1.07it/s]51it [00:50,  1.06it/s]52it [00:51,  1.07it/s]53it [00:52,  1.07it/s]54it [00:53,  1.10it/s]55it [00:54,  1.09it/s]56it [00:54,  1.09it/s]57it [00:56,  1.05it/s]58it [00:56,  1.08it/s]59it [00:57,  1.06it/s]60it [00:58,  1.06it/s]61it [00:59,  1.05it/s]62it [01:00,  1.08it/s]63it [01:01,  1.08it/s]64it [01:02,  1.09it/s]65it [01:03,  1.07it/s]66it [01:04,  1.09it/s]67it [01:05,  1.08it/s]68it [01:06,  1.09it/s]69it [01:07,  1.09it/s]70it [01:07,  1.11it/s]71it [01:08,  1.12it/s]72it [01:09,  1.14it/s]73it [01:10,  1.14it/s]74it [01:11,  1.13it/s]75it [01:12,  1.10it/s]76it [01:13,  1.12it/s]77it [01:14,  1.14it/s]78it [01:14,  1.17it/s]79it [01:15,  1.14it/s]80it [01:16,  1.13it/s]81it [01:17,  1.13it/s]82it [01:18,  1.15it/s]83it [01:19,  1.12it/s]84it [01:20,  1.12it/s]85it [01:21,  1.09it/s]86it [01:22,  1.08it/s]87it [01:23,  1.06it/s]88it [01:24,  1.06it/s]89it [01:25,  1.06it/s]90it [01:26,  1.04it/s]91it [01:27,  1.02it/s]92it [01:27,  1.06it/s]93it [01:29,  1.03it/s]94it [01:29,  1.05it/s]95it [01:30,  1.05it/s]96it [01:31,  1.06it/s]97it [01:32,  1.05it/s]98it [01:33,  1.07it/s]99it [01:34,  1.08it/s]100it [01:35,  1.09it/s]101it [01:36,  1.10it/s]102it [01:37,  1.10it/s]103it [01:38,  1.11it/s]104it [01:39,  1.10it/s]105it [01:39,  1.11it/s]106it [01:40,  1.11it/s]107it [01:41,  1.10it/s]108it [01:42,  1.09it/s]109it [01:43,  1.08it/s]110it [01:44,  1.07it/s]111it [01:45,  1.08it/s]112it [01:46,  1.07it/s]113it [01:47,  1.07it/s]114it [01:48,  1.07it/s]115it [01:49,  1.07it/s]116it [01:50,  1.09it/s]117it [01:51,  1.09it/s]118it [01:52,  1.09it/s]119it [01:53,  1.06it/s]120it [01:53,  1.07it/s]121it [01:54,  1.06it/s]122it [01:55,  1.08it/s]123it [01:56,  1.08it/s]124it [01:57,  1.09it/s]125it [01:58,  1.09it/s]126it [01:59,  1.10it/s]127it [02:00,  1.09it/s]128it [02:01,  1.11it/s]129it [02:02,  1.11it/s]130it [02:02,  1.13it/s]131it [02:03,  1.12it/s]132it [02:04,  1.10it/s]133it [02:05,  1.07it/s]134it [02:06,  1.09it/s]135it [02:07,  1.06it/s]136it [02:08,  1.07it/s]137it [02:09,  1.06it/s]138it [02:10,  1.07it/s]139it [02:11,  1.04it/s]140it [02:12,  1.02it/s]140it [02:12,  1.06it/s]
+
+Overall Acc: 0.988197
+Mean Acc: 0.876754
+FreqW Acc: 0.977546
+Mean IoU: 0.826888
+Class IoU:
+	class 0: 0.991425
+	class 1: 0.951476
+	class 2: 0.873764
+	class 3: 0.785553
+	class 4: 0.846546
+	class 5: 0.923692
+	class 6: 0.480735
+	class 7: 0.761911
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.14     99.69     99.57     98.82     82.69     87.68     89.68     11600     49      
+cotton        95.15     97.83     97.51                                                               
+abuth         87.38     92.18     93.26                                                               
+canger        78.56     93.81     87.99                                                               
+machixian     84.65     90.29     91.69                                                               
+longkui       92.37     94.82     96.03                                                               
+tianxuanhua   48.07     49.84     64.93                                                               
+niujincao     76.19     82.94     86.49                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 2.92%
+Epoch 49, Itrs 11610/12000, total_loss=0.053985, seg_loss=0.053985, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11620/12000, total_loss=0.059191, seg_loss=0.059191, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11630/12000, total_loss=0.051452, seg_loss=0.051452, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11640/12000, total_loss=0.078710, seg_loss=0.078710, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11650/12000, total_loss=0.089545, seg_loss=0.089545, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 49, Itrs 11660/12000, total_loss=0.046841, seg_loss=0.046841, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11670/12000, total_loss=0.061120, seg_loss=0.061120, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11680/12000, total_loss=0.092244, seg_loss=0.092244, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11690/12000, total_loss=0.046108, seg_loss=0.046108, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11700/12000, total_loss=0.066276, seg_loss=0.066276, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11710/12000, total_loss=0.074550, seg_loss=0.074550, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11720/12000, total_loss=0.072804, seg_loss=0.072804, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11730/12000, total_loss=0.047508, seg_loss=0.047508, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11740/12000, total_loss=0.066484, seg_loss=0.066484, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11750/12000, total_loss=0.042834, seg_loss=0.042834, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11760/12000, total_loss=0.051816, seg_loss=0.051816, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11770/12000, total_loss=0.077231, seg_loss=0.077231, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11780/12000, total_loss=0.058008, seg_loss=0.058008, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11790/12000, total_loss=0.073331, seg_loss=0.073331, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11800/12000, total_loss=0.044340, seg_loss=0.044340, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.05s/it]2it [00:02,  1.39s/it]3it [00:03,  1.19s/it]4it [00:04,  1.09s/it]5it [00:05,  1.05s/it]6it [00:06,  1.00it/s]7it [00:07,  1.01s/it]8it [00:08,  1.03it/s]9it [00:09,  1.01it/s]10it [00:10,  1.00it/s]11it [00:11,  1.01it/s]12it [00:12,  1.03it/s]13it [00:13,  1.03it/s]14it [00:14,  1.06it/s]15it [00:15,  1.06it/s]16it [00:16,  1.05it/s]17it [00:17,  1.04it/s]18it [00:18,  1.05it/s]19it [00:19,  1.05it/s]20it [00:20,  1.05it/s]21it [00:21,  1.02it/s]22it [00:22,  1.05it/s]23it [00:23,  1.06it/s]24it [00:23,  1.07it/s]25it [00:24,  1.05it/s]26it [00:25,  1.04it/s]27it [00:26,  1.05it/s]28it [00:27,  1.07it/s]29it [00:28,  1.04it/s]30it [00:29,  1.07it/s]31it [00:30,  1.05it/s]32it [00:31,  1.06it/s]33it [00:32,  1.06it/s]34it [00:33,  1.07it/s]35it [00:34,  1.04it/s]36it [00:35,  1.06it/s]37it [00:36,  1.05it/s]38it [00:37,  1.08it/s]39it [00:38,  1.06it/s]40it [00:39,  1.05it/s]41it [00:40,  1.04it/s]42it [00:41,  1.06it/s]43it [00:42,  1.05it/s]44it [00:42,  1.06it/s]45it [00:43,  1.05it/s]46it [00:44,  1.07it/s]47it [00:45,  1.08it/s]48it [00:46,  1.08it/s]49it [00:47,  1.05it/s]50it [00:48,  1.07it/s]51it [00:49,  1.06it/s]52it [00:50,  1.08it/s]53it [00:51,  1.09it/s]54it [00:52,  1.10it/s]55it [00:53,  1.07it/s]56it [00:54,  1.05it/s]57it [00:55,  1.05it/s]58it [00:56,  1.05it/s]59it [00:57,  1.04it/s]60it [00:57,  1.07it/s]61it [00:58,  1.04it/s]62it [00:59,  1.08it/s]63it [01:00,  1.08it/s]64it [01:01,  1.11it/s]65it [01:02,  1.12it/s]66it [01:03,  1.14it/s]67it [01:04,  1.13it/s]68it [01:05,  1.10it/s]69it [01:06,  1.06it/s]70it [01:07,  1.06it/s]71it [01:08,  1.09it/s]72it [01:08,  1.08it/s]73it [01:09,  1.07it/s]74it [01:10,  1.07it/s]75it [01:11,  1.06it/s]76it [01:12,  1.06it/s]77it [01:13,  1.01it/s]78it [01:14,  1.02it/s]79it [01:15,  1.02it/s]80it [01:16,  1.02it/s]81it [01:17,  1.01it/s]82it [01:18,  1.04it/s]83it [01:19,  1.03it/s]84it [01:20,  1.06it/s]85it [01:21,  1.04it/s]86it [01:22,  1.05it/s]87it [01:23,  1.03it/s]88it [01:24,  1.04it/s]89it [01:25,  1.05it/s]90it [01:26,  1.05it/s]91it [01:27,  1.06it/s]92it [01:28,  1.09it/s]93it [01:29,  1.08it/s]94it [01:29,  1.10it/s]95it [01:30,  1.10it/s]96it [01:31,  1.10it/s]97it [01:32,  1.11it/s]98it [01:33,  1.09it/s]99it [01:34,  1.08it/s]100it [01:35,  1.07it/s]101it [01:36,  1.06it/s]102it [01:37,  1.07it/s]103it [01:38,  1.04it/s]104it [01:39,  1.06it/s]105it [01:40,  1.03it/s]106it [01:41,  1.03it/s]107it [01:42,  1.00s/it]108it [01:43,  1.02it/s]109it [01:44,  1.01it/s]110it [01:45,  1.05it/s]111it [01:46,  1.06it/s]112it [01:46,  1.07it/s]113it [01:47,  1.06it/s]114it [01:48,  1.06it/s]115it [01:49,  1.03it/s]116it [01:50,  1.05it/s]117it [01:51,  1.05it/s]118it [01:52,  1.05it/s]119it [01:53,  1.07it/s]120it [01:54,  1.07it/s]121it [01:55,  1.06it/s]122it [01:56,  1.08it/s]123it [01:57,  1.09it/s]124it [01:58,  1.09it/s]125it [01:59,  1.09it/s]126it [02:00,  1.10it/s]127it [02:00,  1.10it/s]128it [02:01,  1.11it/s]129it [02:02,  1.10it/s]130it [02:03,  1.12it/s]131it [02:04,  1.11it/s]132it [02:05,  1.11it/s]133it [02:06,  1.09it/s]134it [02:07,  1.12it/s]135it [02:08,  1.08it/s]136it [02:09,  1.07it/s]137it [02:10,  1.08it/s]138it [02:10,  1.10it/s]139it [02:11,  1.07it/s]140it [02:12,  1.06it/s]140it [02:12,  1.05it/s]
+
+Overall Acc: 0.988153
+Mean Acc: 0.875567
+FreqW Acc: 0.977506
+Mean IoU: 0.822217
+Class IoU:
+	class 0: 0.991431
+	class 1: 0.954250
+	class 2: 0.876120
+	class 3: 0.782208
+	class 4: 0.850637
+	class 5: 0.922198
+	class 6: 0.451615
+	class 7: 0.749276
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.14     99.69     99.57     98.82     82.22     87.56     89.27     11800     50      
+cotton        95.42     97.70     97.66                                                               
+abuth         87.61     92.97     93.40                                                               
+canger        78.22     94.13     87.78                                                               
+machixian     85.06     91.16     91.93                                                               
+longkui       92.22     94.43     95.95                                                               
+tianxuanhua   45.16     46.57     62.22                                                               
+niujincao     74.93     83.80     85.67                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 2.30%
+Epoch 50, Itrs 11810/12000, total_loss=0.076686, seg_loss=0.076686, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11820/12000, total_loss=0.039743, seg_loss=0.039743, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11830/12000, total_loss=0.077140, seg_loss=0.077140, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11840/12000, total_loss=0.072486, seg_loss=0.072486, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11850/12000, total_loss=0.081770, seg_loss=0.081770, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11860/12000, total_loss=0.074653, seg_loss=0.074653, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11870/12000, total_loss=0.057359, seg_loss=0.057359, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11880/12000, total_loss=0.075866, seg_loss=0.075866, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11890/12000, total_loss=0.062792, seg_loss=0.062792, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 50, Itrs 11900/12000, total_loss=0.045957, seg_loss=0.045957, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11910/12000, total_loss=0.049204, seg_loss=0.049204, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11920/12000, total_loss=0.043955, seg_loss=0.043955, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11930/12000, total_loss=0.043792, seg_loss=0.043792, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11940/12000, total_loss=0.047150, seg_loss=0.047150, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11950/12000, total_loss=0.059873, seg_loss=0.059873, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11960/12000, total_loss=0.080033, seg_loss=0.080033, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11970/12000, total_loss=0.079918, seg_loss=0.079918, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11980/12000, total_loss=0.045197, seg_loss=0.045197, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 11990/12000, total_loss=0.075089, seg_loss=0.075089, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Epoch 51, Itrs 12000/12000, total_loss=0.056970, seg_loss=0.056970, edge_loss=0.000000, lambda_edge=0.3, boundary_width=3, edge_loss_type=bce_dice
+Model saved as /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-master/workdirs/ablation_A_spatial_cbam_20260420_174227/checkpoints/latest_deeplabv3plus_mobilenet_cottonweed_os16.pth
+validation...
+0it [00:00, ?it/s]1it [00:02,  2.14s/it]2it [00:03,  1.41s/it]3it [00:04,  1.21s/it]4it [00:04,  1.08s/it]5it [00:05,  1.02s/it]6it [00:06,  1.01it/s]7it [00:07,  1.01it/s]8it [00:08,  1.03it/s]9it [00:09,  1.04it/s]10it [00:10,  1.07it/s]11it [00:11,  1.07it/s]12it [00:12,  1.09it/s]13it [00:13,  1.10it/s]14it [00:14,  1.10it/s]15it [00:15,  1.10it/s]16it [00:15,  1.11it/s]17it [00:16,  1.12it/s]18it [00:17,  1.14it/s]19it [00:18,  1.13it/s]20it [00:19,  1.13it/s]21it [00:20,  1.12it/s]22it [00:21,  1.13it/s]23it [00:22,  1.12it/s]24it [00:23,  1.10it/s]25it [00:24,  1.07it/s]26it [00:24,  1.07it/s]27it [00:25,  1.06it/s]28it [00:26,  1.07it/s]29it [00:27,  1.03it/s]30it [00:28,  1.03it/s]31it [00:29,  1.03it/s]32it [00:30,  1.06it/s]33it [00:31,  1.03it/s]34it [00:32,  1.06it/s]35it [00:33,  1.04it/s]36it [00:34,  1.07it/s]37it [00:35,  1.05it/s]38it [00:36,  1.05it/s]39it [00:37,  1.04it/s]40it [00:38,  1.06it/s]41it [00:39,  1.04it/s]42it [00:40,  1.06it/s]43it [00:41,  1.03it/s]44it [00:42,  1.05it/s]45it [00:43,  1.04it/s]46it [00:44,  1.07it/s]47it [00:44,  1.09it/s]48it [00:45,  1.06it/s]49it [00:46,  1.05it/s]50it [00:47,  1.07it/s]51it [00:48,  1.05it/s]52it [00:49,  1.06it/s]53it [00:50,  1.04it/s]54it [00:51,  1.02it/s]55it [00:52,  1.03it/s]56it [00:53,  1.05it/s]57it [00:54,  1.04it/s]58it [00:55,  1.06it/s]59it [00:56,  1.04it/s]60it [00:57,  1.06it/s]61it [00:58,  1.05it/s]62it [00:59,  1.07it/s]63it [01:00,  1.06it/s]64it [01:01,  1.05it/s]65it [01:02,  1.04it/s]66it [01:03,  1.05it/s]67it [01:04,  1.04it/s]68it [01:04,  1.05it/s]69it [01:05,  1.05it/s]70it [01:06,  1.07it/s]71it [01:07,  1.06it/s]72it [01:08,  1.06it/s]73it [01:09,  1.06it/s]74it [01:10,  1.07it/s]75it [01:11,  1.09it/s]76it [01:12,  1.12it/s]77it [01:13,  1.10it/s]78it [01:14,  1.11it/s]79it [01:15,  1.10it/s]80it [01:15,  1.11it/s]81it [01:16,  1.11it/s]82it [01:17,  1.11it/s]83it [01:18,  1.08it/s]84it [01:19,  1.08it/s]85it [01:20,  1.06it/s]86it [01:21,  1.06it/s]87it [01:22,  1.04it/s]88it [01:23,  1.08it/s]89it [01:24,  1.08it/s]90it [01:25,  1.09it/s]91it [01:26,  1.06it/s]92it [01:27,  1.08it/s]93it [01:28,  1.06it/s]94it [01:28,  1.08it/s]95it [01:29,  1.10it/s]96it [01:30,  1.12it/s]97it [01:31,  1.11it/s]98it [01:32,  1.12it/s]99it [01:33,  1.12it/s]100it [01:34,  1.13it/s]101it [01:35,  1.12it/s]102it [01:36,  1.12it/s]103it [01:36,  1.11it/s]104it [01:37,  1.10it/s]105it [01:38,  1.11it/s]106it [01:39,  1.11it/s]107it [01:40,  1.11it/s]108it [01:41,  1.10it/s]109it [01:42,  1.11it/s]110it [01:43,  1.11it/s]111it [01:44,  1.11it/s]112it [01:45,  1.11it/s]113it [01:46,  1.10it/s]114it [01:46,  1.11it/s]115it [01:47,  1.06it/s]116it [01:48,  1.10it/s]117it [01:49,  1.11it/s]118it [01:50,  1.10it/s]119it [01:51,  1.11it/s]120it [01:52,  1.13it/s]121it [01:53,  1.12it/s]122it [01:54,  1.14it/s]123it [01:54,  1.12it/s]124it [01:55,  1.13it/s]125it [01:56,  1.13it/s]126it [01:57,  1.15it/s]127it [01:58,  1.11it/s]128it [01:59,  1.13it/s]129it [02:00,  1.13it/s]130it [02:01,  1.12it/s]131it [02:02,  1.12it/s]132it [02:02,  1.13it/s]133it [02:03,  1.11it/s]134it [02:04,  1.11it/s]135it [02:05,  1.11it/s]136it [02:06,  1.11it/s]137it [02:07,  1.12it/s]138it [02:08,  1.10it/s]139it [02:09,  1.10it/s]140it [02:10,  1.10it/s]140it [02:10,  1.07it/s]
+
+Overall Acc: 0.988493
+Mean Acc: 0.881982
+FreqW Acc: 0.978083
+Mean IoU: 0.830334
+Class IoU:
+	class 0: 0.991545
+	class 1: 0.953125
+	class 2: 0.872439
+	class 3: 0.796329
+	class 4: 0.849642
+	class 5: 0.934546
+	class 6: 0.494307
+	class 7: 0.750740
+
+class         IoU       Acc       F1        aAcc      mIoU      mAcc      mF1       Iter      epoch   
+background    99.15     99.68     99.58     98.85     83.03     88.20     89.93     12000     51      
+cotton        95.31     97.93     97.60                                                               
+abuth         87.24     92.69     93.19                                                               
+canger        79.63     93.36     88.66                                                               
+machixian     84.96     90.73     91.87                                                               
+longkui       93.45     95.84     96.62                                                               
+tianxuanhua   49.43     51.30     66.16                                                               
+niujincao     75.07     84.06     85.76                                                               
+[Similarity-Focus]
+  cotton -> abuth confusion: 0.00%
+  abuth -> cotton confusion: 2.82%

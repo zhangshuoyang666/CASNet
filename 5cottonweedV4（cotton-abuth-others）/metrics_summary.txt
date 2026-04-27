@@ -1,0 +1,11 @@
+Training Summary (auto-generated)
+Log: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-masterPLUS/5cottonweedV4（cotton-abuth-others）/train.log
+Run dir: /root/autodl-tmp/CODE/DeepLabV3Plus-Pytorch-master/DeepLabV3Plus-Pytorch-masterPLUS/5cottonweedV4（cotton-abuth-others）/workdirs/exp_spatial_cbam_saff_boundaryaux_cottonweedV4_4class_itr3000_lr0p02_bs32
+
+Latest Overall Acc: 0.905437
+Latest Mean Acc: 0.450964
+Latest Mean IoU: 0.34362
+
+Params: 7996881
+GFLOPs: 47.155276928
+FPS: 200.99583325679262
